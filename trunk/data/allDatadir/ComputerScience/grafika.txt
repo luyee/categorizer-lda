@@ -1,0 +1,64 @@
+Grafika komputerowa – dyscyplina informatyki zajmująca się wykorzystaniem technik komputerowych do celów wizualizacji artystycznej oraz wizualizacji rzeczywistości. Grafika komputerowa jest obecnie narzędziem powszechnie stosowanym w nauce, technice oraz rozrywce.
+Chociaż grafika komputerowa koncentruje się głównie na specjalistycznych algorytmach i strukturach danych, to jednak siłą rzeczy musi czerpać wiedzę z rzeczywistości. Na przykład aby uzyskać obrazy fotorealistyczne, należy wiedzieć jak w rzeczywistym świecie światło oddziałuje z przedmiotami. Podobnie, aby symulacja jazdy samochodem była jak najwierniejsza, należy wiedzieć, jak obiekty fizyczne ze sobą oddziałują.
+Od kilkunastu lat grafika komputerowa jest też kolejną dyscypliną artystyczną - dzieła powstałe przy jej zastosowaniu nazywa się grafiką cyfrową, infografiką lub digitalprintem.
+Spis treści  [ukryj] 
+1 Przykładowe zastosowania
+2 Rys historyczny
+3 Klasyfikacja
+4 Popularne programy graficzne
+5 Popularne formaty graficzne
+6 Popularne biblioteki graficzne
+7 Zobacz też
+8 Linki zewnętrzne
+Przykładowe zastosowania[edytuj]
+
+kartografia,
+wizualizacja danych pomiarowych (np. w formie wykresów dwu- i trójwymiarowych),
+wizualizacja symulacji komputerowych,
+diagnostyka medyczna,
+kreślenie i projektowanie wspomagane komputerowo (CAD),
+przygotowanie publikacji (DTP),
+efekty specjalne w filmach,
+gry komputerowe.
+Rys historyczny[edytuj]
+
+
+Tę sekcję należy dopracować zgodnie z zaleceniami edycyjnymi:
+Sekcja wymaga poszerzenia.
+Dokładniejsze informacje o tym, co należy poprawić, być może znajdują się na stronie dyskusji tego artykułu.
+Po wyeliminowaniu niedoskonałości prosimy usunąć szablon {{Dopracować}} z kodu tego artykułu.
+Początki grafiki komputerowej sięgają lat 50 XX wieku, jednak ze względu na duże koszty komputerów i urządzeń graficznych, aż do lat 80. grafika komputerowa była wąską specjalizacją, a na jej zastosowania praktyczne mogły pozwolić sobie ośrodki badawcze, duże firmy oraz instytucje rządowe. Dopiero gdy w latach osiemdziesiątych rozpowszechniły się komputery osobiste, grafika komputerowa stała się czymś powszechnym.
+Klasyfikacja[edytuj]
+
+
+Tę sekcję należy dopracować zgodnie z zaleceniami edycyjnymi:
+Sekcja wymaga poszerzenia.
+Dokładniejsze informacje o tym, co należy poprawić, być może znajdują się na stronie dyskusji tego artykułu.
+Po wyeliminowaniu niedoskonałości prosimy usunąć szablon {{Dopracować}} z kodu tego artykułu.
+	
+	
+	
+Obrazek wektorowy	Obrazek rastrowy
+Porównanie jakości obrazków wektorowych i rastrowych podczas skalowania.
+Ponieważ celem grafiki jest generowanie obrazów, dlatego jednym z głównych kryteriów klasyfikacji jest technika ich tworzenia:
+Grafika wektorowa 
+obraz jest rysowany za pomocą kresek lub łuków. Niegdyś powstawał tak obraz na ploterach kreślących, ale jeszcze do lat 80. XX wieku były wykorzystywane monitory CRT, które kreśliły obraz w analogiczny sposób jak oscyloskopy.
+Grafika rastrowa 
+obraz jest budowany z prostokątnej siatki leżących blisko siebie punktów (tzw. pikseli). Głównym parametrem w przypadku grafiki rastrowej jest wielkość bitmapy, czyli liczba pikseli, podawana na ogół jako wymiary prostokąta.
+Identyczny podział istnieje, jeśli weźmie się pod uwagę reprezentację danych w programach komputerowych:
+Grafika wektorowa – w tym przypadku nazwa może być nieco myląca, ponieważ obrazy mogą składać się nie tylko z wektorów (odcinków), ale również z innych figur geometrycznych. Cechą grafiki wektorowej jest to, że zapamiętywane są charakterystyczne dla danych figur dane (parametry), np. dla okręgu będzie to środek i promień, dla odcinka współrzędne punktów końcowych, a dla krzywych parametrycznych współrzędne punktów kontrolnych. Program, jeśli musi narysować obraz na urządzeniu (bądź to rastrowym, bądź wektorowym), na podstawie posiadanych danych wygeneruje obraz tych figur – bardzo ważną zaletą tej reprezentacji jest możliwość dowolnego powiększania obrazów, bez straty jakości.
+Grafika rastrowa – do zapamiętania obrazu rastrowego potrzebna jest dwuwymiarowa tablica pikseli nazywana powszechnie bitmapą. Nazwa wzięła się stąd, że początkowo były rozpowszechnione systemy wyświetlające obrazy czarno-białe, więc w takim przypadku pojedynczy piksel mógł być opisany przez jeden bit. Jednak gdy powszechniejsza stała się grafika kolorowa, piksele zaczęły być opisywane więcej niż jednym bitem – wówczas pojawiła się nazwa pixmapy, która jednak nie przyjęła się (chociaż jest stosowana np. w X Window).
+Przewagą reprezentacji wektorowej nad rastrową jest to, że zawsze istnieje dokładna informacja o tym, z jakich obiektów składa się obraz. W przypadku obrazów bitmapowych tego rodzaju informacja jest tracona, a jedyne, czego można bezpośrednio się dowiedzieć, to kolor piksela. Istnieją jednak metody, które pozwalają wydobyć z obrazów bitmapowych np. tekst, czy krzywe.
+W chwili obecnej dominują wyświetlacze rastrowe, więc programy wykorzystujące grafikę wektorową są zmuszone przedstawiać idealne figury geometryczne w skończonej rozdzielczości.
+Kolejnym kryterium, wg którego klasyfikuje się zastosowania grafiki, jest charakter danych:
+Grafika dwuwymiarowa (grafika 2D) 
+wszystkie obiekty są płaskie (w szczególności każdy obraz rastrowy wpada do tej kategorii).
+Grafika trójwymiarowa (grafika 3D) 
+obiekty są umieszczone w przestrzeni trójwymiarowej i celem programu komputerowego jest przede wszystkim przedstawienie trójwymiarowego świata na dwuwymiarowym obrazie.
+Jeszcze jednym kryterium jest cykl generacji obrazu:
+Grafika nieinterakcyjna 
+program wczytuje uprzednio przygotowane dane i na ich podstawie tworzy wynikowy obraz. Tak działa np. POV-Ray, który wczytuje z pliku definicję sceny trójwymiarowej i na jej podstawie generuje obraz sceny.
+Grafika interakcyjna 
+program na bieżąco uaktualnia obraz w zależności od działań użytkownika, dzięki temu użytkownik może od razu ocenić skutki. Bardzo ważne w tym przypadku jest, że czas odświeżenia obrazu nie może być zbyt długi. Dlatego w przypadku grafiki interakcyjnej akceptuje się i stosuje uproszczone metody rysowania obiektów, aby zminimalizować czas oczekiwania.
+Grafika czasu rzeczywistego 
+program musi bardzo szybko (kilkadziesiąt razy na sekundę) regenerować obraz, aby wszelkie zmiany były natychmiast uwidocznione. Grafika czasu rzeczywistego ma szczególnie znaczenie w różnego rodzaju symulatorach, jest również powszechna w grach komputerowych.

@@ -1,0 +1,54 @@
+Baza danych – kolekcja danych zapisanych zgodnie z określonymi regułami. W węższym znaczeniu obejmuje dane cyfrowe gromadzone zgodnie z zasadami przyjętymi dla danego programu komputerowego specjalizowanego do gromadzenia i przetwarzania tych danych. Program taki (często pakiet programów) nazywany jest "Systemem zarządzania bazą danych" (ang. DataBase Management System, DBMS).
+Programy do obsługi bazy danych operują głównie na danych tekstowych i liczbowych, lecz większość współczesnych systemów umożliwia przechowywanie danych cyfrowych różnego typu: dane o nieokreślonej strukturze, grafika, muzyka, obiekty itp.
+Spis treści  [ukryj] 
+1 Historia
+2 Budowa bazy danych
+3 Rodzaje baz danych
+4 Zobacz też
+5 Przypisy
+6 Linki zewnętrzne
+Historia[edytuj]
+
+Najwcześniejsze znane użycie terminu baza danych miało miejsce w listopadzie 1963, kiedy odbyło się sympozjum pod nazwą "Development and Management of a Computer-centered Data Base"[1], sponsorowane przez System Development Corporation. Termin ten stał się powszechnie używany w Europie we wczesnych latach siedemdziesiątych XX wieku.
+Pierwszy system zarządzania bazami danych został opracowany w latach sześćdziesiątych XX wieku. Pionierem był Charles Bachman. Wczesne opracowania Bachmana pokazywały, że jego celem było bardziej efektywne użycie nowych urządzeń bezpośredniego dostępu do składowanych danych, które wtedy zaczynały być dostępne. Jak dotąd, przetwarzanie danych było oparte na kartach dziurkowanych i taśmach magnetycznych. Oznaczało to szeregowy dostęp do danych, co pociągało za sobą użycie innych algorytmów niż dla dostępu swobodnego.
+Powstały wtedy dwa kluczowe modele danych: sieciowy, opracowany przez CODASYL na bazie idei Bachmana i (być może niezależnie) hierarchiczny, użyty w systemie opracowanym przez North American Rockwell i później adoptowany przez IBM jako kamień milowy dla IMS. W tym czasie, oprócz CODASYL IDMS i IMS, powstały także inne bazy danych. Dwie warte wzmianki to: PICK i MUMPS, które były opracowane wcześniej jako systemy operacyjne z wbudowanymi bazami danych, a potem językami programowania i bazami danych do stosowania w systemach opieki zdrowotnej.
+W 1970 E. F. Codd zaproponował relacyjny model danych. Krytykował on istniejące modele danych za mieszanie abstrakcyjnego opisu struktury informacyjnej z opisami mechanizmów fizycznego dostępu. Jednak przez dłuższy czas model relacyjny pozostawał tylko w sferze rozważań akademickich. Podczas gdy produkty CODASYL (IDMS) i IBM (IMS) były uważane za praktyczne rozwiązania wymagające tylko dostępnych wówczas technologii, to model relacyjny musiał poczekać na odpowiedni poziom rozwoju oprogramowania i sprzętu. Jednym z pierwszych implementacji modelu relacyjnego były: Ingres Michaela Stonebrakera z Berkeley i System R z IBM. Oba były prototypami badawczymi, ogłoszonymi w roku 1976. Pierwsze komercyjne rozwiązania, Oracle i DB2 nie były dostępne aż do roku około 1980. Natomiast pierwszym udanym produktem tego typu dla mikrokomputerów był dBASE dla systemów operacyjnych CP/M i PC-DOS/MS-DOS.
+W latach osiemdziesiątych XX wieku aktywność badaczy skupiała się na rozproszonych bazach danych i maszynach bazodanowych (ang. database machines), ale te wysiłki nie miały większego odzwierciedlenia w ofertach rynkowych. Inną ważną ideą był funkcyjny model danych, ale oprócz specjalnych zastosowań w genetyce, biologii molekularnej i wykrywaniu nadużyć finansowych, także nie miały szerszych zastosowań.
+W latach dziewięćdziesiątych uwaga badaczy przesunęła się w kierunku obiektowych baz danych. Stosowano je z powodzeniem tam gdzie konieczna była obsługa bardziej skomplikowanych danych niż dane, którym mogły podołać relacyjne bazy danych. Przykładem były: przestrzenne bazy danych (ang. spatial databases), dane inżynieryjne i dane multimedialne. Część z tych idei została zaadaptowana przez producentów relacyjnych baz danych. Lata 90. były też okresem rozprzestrzeniania się baz danych Open Source, takich jak PostgreSQL i MySQL.
+Pierwsze lata XXI wieku są okresem dużego zainteresowania bazami danych XML. W tym czasie, podobnie jak to było w przypadku obiektowych baz danych, powstało sporo nowych firm-producentów tych baz, ale kluczowe ich elementy są wbudowywane także w istniejące relacyjne bazy danych. Celem baz danych XML jest usunięcie tradycyjnego podziału na dokumenty i dane, pozwalając na trzymanie wszystkich zasobów informacyjnych organizacji w jednym miejscu, obojętnie czy te dane są wysoce ustrukturalizowane czy nie.
+Budowa bazy danych[edytuj]
+
+Baza danych jest złożona z różnych elementów. Najważniejszymi z nich jest rekord podzielony na kilka pól, w których są przechowywane informacje poszczególnych kategorii. Na przykład w książce adresowej każdy rekord to zbiór informacji na temat jednej osoby. Składa się on z kilku pól przechowujących takie informacje, jak: imię, nazwisko, adres, numer telefonu itp. W każdym polu zapisywane są dane oddzielonej kategorii. Dzięki temu komputerowe bazy danych umożliwiają szybkie sortowanie rekordów według poszczególnych kategorii lub wyszukiwanie informacji w obrębie tylko wybranych pól. Wiele systemów zarządzania bazami danych oferuje możliwość tworzenia masek wprowadzania danych, które służą do bardziej wygodnego wprowadzenia nowych informacji. Naturalnie można z nich zrezygnować i wpisywać dane do bazy wyświetlanej w postaci tabelarycznej.
+Rodzaje baz danych[edytuj]
+
+Bazy danych można podzielić według struktur organizacji danych, których używają:
+Bazy proste :
+bazy kartotekowe
+hierarchiczne bazy danych
+Bazy złożone :
+bazy relacyjne
+bazy obiektowe
+bazy relacyjno-obiektowe
+strumieniowe bazy danych
+temporalne bazy danych
+Bazy kartotekowe 
+W bazach kartotekowych każda tablica danych jest samodzielnym dokumentem i nie może współpracować z innymi tablicami. Z baz tego typu korzystają liczne programy typu: książka telefoniczna, książka kucharska, spisy książek, kaset i inne. Wspólną cechą tych baz jest ich zastosowanie w jednym wybranym celu.
+Sieciowe bazy danych 
+Model historyczny, pozwalał tylko na związki binarne; wiele do jeden.
+Hierarchiczne bazy danych 
+Przykładem hierarchicznej bazy danych jest opracowana przez IBM baza IMS (ang. Information Management System).
+Bazy relacyjne 
+W bazach relacyjnych wiele tablic danych może współpracować ze sobą (są między sobą powiązane). Bazy relacyjne posiadają wewnętrzne języki programowania, wykorzystujące zwykle SQL do operowania na danych, za pomocą których tworzone są zaawansowane funkcje obsługi danych. Relacyjne bazy danych (jak również przeznaczony dla nich standard SQL) oparte są na kilku prostych zasadach:
+Wszystkie wartości danych oparte są na prostych typach danych.
+Wszystkie dane w bazie relacyjnej przedstawiane są w formie dwuwymiarowych tabel (w matematycznym żargonie noszących nazwę "relacji"). Każda tabela zawiera zero lub więcej wierszy (w tymże żargonie – "krotki") i jedną lub więcej kolumn ("atrybutów"). Na każdy wiersz składają się jednakowo ułożone kolumny wypełnione wartościami, które z kolei w każdym wierszu mogą być inne.
+Po wprowadzeniu danych do bazy, możliwe jest porównywanie wartości z różnych kolumn, zazwyczaj również z różnych tabel, i scalanie wierszy, gdy pochodzące z nich wartości są zgodne. Umożliwia to wiązanie danych i wykonywanie stosunkowo złożonych operacji w granicach całej bazy danych.
+Wszystkie operacje wykonywane są w oparciu o algebrę relacji, bez względu na położenie wiersza tabeli. Nie można więc zapytać o wiersze, gdzie (x=3) bez wiersza pierwszego, trzeciego i piątego. Wiersze w relacyjnej bazie danych przechowywane są w porządku zupełnie dowolnym – nie musi on odzwierciedlać ani kolejności ich wprowadzania, ani kolejności ich przechowywania.
+Z braku możliwości identyfikacji wiersza przez jego pozycję pojawia się potrzeba obecności jednej lub więcej kolumn niepowtarzalnych w granicach całej tabeli, pozwalających odnaleźć konkretny wiersz. Kolumny te określa się jako "klucz podstawowy" (ang. primary key) tabeli.
+Bazy obiektowe 
+W bazach obiektowych dane przechowywane są w strukturach obiektowych (zdefiniowanych jako klasy). Koncepcje akademickie dotyczące baz obiektowych były najbardziej popularne w latach 90. Współcześnie popularność tego tematu zmalała, choć prace badawcze nad nimi nadal trwają, a na rynku pojawiły się obiektowe SZBD (np. Versant, db4o, LoXiM). Prace nad obiektowymi bazami danych ponowiło międzynarodowe konsorcjum OMG.
+Bazy relacyjno-obiektowe 
+Bazy relacyjno-obiektowe pozwalają na manipulowanie danymi jako zestawem obiektów, posiadają jednak bazę relacyjną jako wewnętrzny mechanizm przechowywania danych.
+Strumieniowe bazy danych 
+Zobacz: strumieniowa baza danych
+Temporalna baza danych 
+Temporalna baza danych jest odmianą bazy relacyjnej, w której każdy rekord posiada stempel czasowy, określający czas w jakim wartość jest prawdziwa. Posiada także operatory algebry relacyjnej, które pozwalają operować na danych temporalnych (wyciągać historię).

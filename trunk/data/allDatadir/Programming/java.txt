@@ -1,0 +1,116 @@
+Java to obiektowy język programowania stworzony przez grupę roboczą pod kierunkiem Jamesa Goslinga z firmy Sun Microsystems. Java jest językiem tworzenia programów źródłowych kompilowanych do kodu bajtowego, czyli postaci wykonywanej przez maszynę wirtualną. Język cechuje się silnym typowaniem. Jego podstawowe koncepcje zostały przejęte z języka Smalltalk (maszyna wirtualna, zarządzanie pamięcią) oraz z języka C++ (duża część składni i słów kluczowych).
+Javy nie należy mylić ze skryptowym językiem JavaScript, z którym wspólną ma jedynie składnię podstawowych instrukcji.
+Obecnym właścicielem tej technologii jest Oracle Corporation.
+Spis treści  [ukryj] 
+1 Główne koncepcje
+1.1 Obiektowość
+1.1.1 Dziedziczenie
+1.2 Niezależność od architektury
+1.3 Sieciowość i obsługa programowania rozproszonego
+1.4 Niezawodność i bezpieczeństwo
+2 Krytyka i kontrowersje
+3 Dystrybucje języka Java
+3.1 Pakiety
+3.2 JRE a JDK
+4 Implementacje Javy
+5 JavaFX
+6 Przypisy
+7 Zobacz też
+8 Linki zewnętrzne
+Główne koncepcje[edytuj]
+
+Autorzy języka Java określili kilkanaście kluczowych koncepcji swojego języka. Najważniejsze z nich to:
+Obiektowość[edytuj]
+W przeciwieństwie do proceduralno-obiektowego języka C++, Java jest silnie ukierunkowana na obiektowość. Wszelkie dane i akcje na nich podejmowane są pogrupowane w klasy obiektów. O obiekcie można myśleć jako o samoistnej części programu, która może przyjmować określone stany i ma określone zachowania, które mogą zmieniać te stany bądź przesyłać dane do innych obiektów. Wyjątkiem od całkowitej obiektowości (jak np. w Smalltalku) są typy proste (int, float itp.).
+// oznacza komentarz
+// w tej postaci to obiekt reprezentujący kolorowy punkt
+public class Figura {
+ 
+    // właściwości (atrybuty/pola)
+    private float środekX;
+    private float środekY;
+    private int kolor; //tak naprawdę do przechowywania(tworzenia)
+                       //koloru używa się zazwyczaj obiektu java.awt.Color
+ 
+    // operacje (metody)
+    public float obliczPole() {
+        return 0;
+    }
+    public float obliczObwód() {
+        return 0;
+    }
+    public void wyświetl() {...}
+    ...
+}
+Jak widać z powyższego, silne typowanie oznacza, że każda wprowadzana zmienna czy pole musi mieć przypisany typ przechowywanych w niej danych (float oznacza typ zmiennoprzecinkowy), a każda metoda musi deklarować, jakiego typu dane zwraca (lub void, jeśli nic nie zwraca). Z przykładu widać też, że w nazwach zmiennych i metod można używać polskich liter – to zasługa wbudowanej obsługi kodowania Unicode. Pokazany w nazwach zmiennych i metod standard kodowania (polegający na pisaniu słów bez spacji, a z kapitalizowaniem drugiego i następnych słów składowych) jest nieobowiązkowy, ale jest jedną z uznanych za dobre praktyk programowania w Javie
+Dziedziczenie[edytuj]
+W Javie wszystkie obiekty są pochodną obiektu nadrzędnego (jego klasa nazywa się po prostu Object), z którego dziedziczą podstawowe zachowania i właściwości. Dzięki temu wszystkie mają wspólny podzbiór podstawowych możliwości, takich jak ich: identyfikacja, porównywanie, kopiowanie, niszczenie czy wsparcie dla programowania współbieżnego.
+// "extends" oznacza dziedziczenie po klasie Figura pól: środekX, środekY i kolor 
+// oraz metod: obliczPole, obliczObwód i wyświetl
+public class Kwadrat extends Figura {
+    // dodatkowe atrybuty
+    private float wierzchołekX;
+    private float wierzchołekY;
+    private float długośćBoku;
+ 
+    // "przesłaniamy" operacje rodzica, dzięki czemu dla każdej zdefiniowanej Figury
+    // można policzyć pole czy obwód
+    @Override
+    public float obliczPole() {
+        return długośćBoku*długośćBoku;
+    }
+    ...
+}
+Choć C++ udostępniał dziedziczenie wielobazowe, projektanci Javy odeszli od tego pomysłu. Java umożliwia jedynie dziedziczenie jednobazowe, a więc wyłącznie jedna klasa może przekazać swoje właściwości i operacje jako podstawę do rozszerzania ich o dodatkowe możliwości. Dzięki temu wyeliminowano możliwość konfliktów między właściwościami przekazywanymi przez klasy nadrzędne.
+By zrekompensować spadek elastyczności wynikający z pojedynczego dziedziczenia wprowadzono interfejsy oraz podklasy umożliwiające wielokrotne dziedziczenie implementacji. Pozwalają one nazwać pewien określony zbiór operacji, dzięki czemu można określić, że dany obiekt, któremu przypisano dany interfejs (implementujący go), umożliwia wykonanie owego zestawu operacji.
+Niezależność od architektury[edytuj]
+Tę właściwość Java ma dzięki temu, że kod źródłowy programów pisanych w Javie kompiluje się do kodu pośredniego. Powstały kod jest niezależny od systemu operacyjnego i procesora, a wykonuje go tzw. wirtualna maszyna Javy, która (między innymi) tłumaczy kod uniwersalny na kod dostosowany do specyfiki konkretnego systemu operacyjnego i procesora. W tej chwili wirtualna maszyna Javy jest już dostępna dla większości systemów operacyjnych i procesorów.
+Jednak z uwagi na to, że kod pośredni jest interpretowany, taki program jest wolniejszy niż kompilowany do kodu maszynowego. Z tego względu maszynę wirtualną często uzupełnia się o kompilator JIT. Istnieją również niezależne od Suna kompilatory Javy – przykładem podprojekt GCC o nazwie GCJ. W rezultacie powstaje szybszy kod, ale można go uruchamiać na jednej tylko platformie, a więc nie jest przenośny.
+Sieciowość i obsługa programowania rozproszonego[edytuj]
+Dzięki wykorzystaniu reguł obiektowości, Java nie widzi różnicy między danymi płynącymi z pliku lokalnego a danymi z pliku dostępnego przez HTTP czy FTP.
+Biblioteki Javy udostępniają wyspecjalizowane funkcje umożliwiające programowanie rozproszone – zarówno między aplikacjami Javy (RMI) jak i między aplikacją Javy a aplikacjami napisanymi w innych językach (CORBA, usługi sieciowe). Inne biblioteki udostępniają możliwość pisania aplikacji uruchamianych w przeglądarkach internetowych (aplety Javy) oraz aplikacji działających ciągle po stronie serwera (serwlety).
+Niezawodność i bezpieczeństwo[edytuj]
+W zamierzeniu Java miała zastąpić C++ – obiektowego następcę języka C. Jej projektanci zaczęli od rozpoznania cech języka C++, które są przyczyną największej liczby błędów programistycznych, by stworzyć język prosty w użyciu, bezpieczny i niezawodny.
+O ile po pięciu odsłonach Javy jej prostota jest dyskusyjna, o tyle język faktycznie robi dużo, by utrudnić programiście popełnienie błędu. Przede wszystkim Java ma system wyjątków czyli sytuacji, gdy kod programu natrafia na nieprzewidywane trudności, takie jak np.:
+operacje na elemencie poza zadeklarowaną granicą tablicy lub elemencie pustym
+czytanie z niedostępnego pliku lub nieprawidłowego adresu URL
+podanie nieprawidłowych danych przez użytkownika
+W innych językach programowania programista oczywiście może wprowadzić wewnętrzne testy sprawdzające poprawność danych, pozycję indeksu tablicy, inicjalizację zmiennych itd., ale jest to jego dobra wola i nie jest to jakoś szczególnie wspierane przez dany język. W Javie jest inaczej – obsługa wyjątków jest obowiązkowa, bez tego program się nie skompiluje. Przy tym obiekty wchodzące w skład pakietu standardowego Javy (i gros obiektów z pakietów pochodzących od poważnych programistów niezależnych) implementują wyjątki w każdym miejscu kodu, którego wykonanie jest niepewne ze względu na okoliczności zewnętrzne.
+Sama obsługa wyjątków polega na napisaniu kodu, który wykona się w odpowiedzi na taką sytuację nadzwyczajną. Może to być np. podstawienie wartości domyślnej przy natrafieniu na nieprawidłową wartość parametru, zaniechanie danej akcji i powrót do stanu stabilnego czy choćby zapisanie pracy przed wyjściem. W sytuacji wyjątkowej program przerywa normalne wykonanie i tworzy specjalny obiekt wyjątku odpowiedniej klasy, który "wyrzuca" z normalnego biegu programu. Następnie zdefiniowany przez użytkownika kod "łapie" ten obiekt wyjątku i podejmuje odpowiednie działanie. Działanie może być dwojakiego typu: wspomniane wyżej środki zaradcze lub odrzucenie takiego "śmierdzącego jaja" dalej, do bloku programu, który nakazał wykonanie wadliwej operacji. Takie podawanie sobie wyjątku może być wieloetapowe i jeśli skończy się w bloku głównym programu powoduje jego przerwanie i ogłoszenie błędu krytycznego.
+Oprócz systemu wyjątków Java od wersji 1.4 ma dwa inne systemy wspomagające pisanie niezawodnych programów: logowanie i asercje. Pierwsze pozwalają na zapisanie w plikach dziennika przebiegu działania programu, z dodatkową możliwością filtrowania zawartości, określenia poziomu logowanych błędów itp. Drugie rozwiązanie pozwala na upewnienie się, że pewne założenia co do określonych wyrażeń (np. że liczba, z której wyciągamy pierwiastek jest nieujemna) są prawdziwe. Asercje są o tyle ciekawe, że działają tylko z odpowiednią opcją wykonania programu, dzięki czemu programista może sprawdzić działanie programu, a później bez wysiłku spowodować pominięcie testowej części kodu po prostu przez ominięcie tej opcji.
+Krytyka i kontrowersje[edytuj]
+
+Język Java pomimo swoich wielu zalet, ma wiele wad w tym takie, które wzbudzają liczne kontrowersje:
+Najczęściej wymienianą wadą języka Java jest to, że programy pisane w Javie wykonują się wolniej niż programy pisane w językach natywnie kompilowanych (np. C++). Zarzut ten odnosi się szczególnie do starych wersji Javy, kiedy zaawansowane mechanizmy takie jak JIT albo współbieżny odśmiecacz nie były dostępne. Obecnie zdania są mocno podzielone. Można podać przykłady programów zarówno takich, które w Javie będą wykonywały się wolniej niż w C++, jak i takich, które będą wykonywały się szybciej.
+Javie zarzuca się, że niezbyt dobrze nadaje się do zastosowań czasu rzeczywistego. Głównym problemem jest brak przewidywalności wydajności oraz nieoczekiwane przestoje powodowane działaniem odśmiecacza. W nowych wersjach Javy ten drugi problem został radykalnie ograniczony, jednak nadal do zastosowań czasu rzeczywistego lepiej stosować języki natywnie kompilowane.
+Często Javie zarzucane jest to, że ma mniejszą funkcjonalność niż np. C++, co ogranicza programistę. Jako przykład przywołuje się czasami fakt, że aby uruchomić niewielki program trzeba napisać dłuższy kod programu. Niektórzy jednak zwracają uwagę, że również język C++ nie ma wielu elementów, które można znaleźć w Javie jak np. klasy anonimowe, odśmiecacz pamięci, system pakietów, dynamiczne ładowanie klas czy reflection API.
+Java wymusza konwersję typów prostych (np. int) na odpowiadający typ referencyjny (np. java.lang.Integer) przy pracy z kolekcjami, co może mieć negatywny wpływ na wydajność w specyficznych sytuacjach i zmniejsza czytelność programu. Typy generyczne, wprowadzone w wersji 5 oraz tzw. autoboxing, czyli automatyczna konwersja pomiędzy typami prostymi i ich obiektowymi odpowiednikami usunęły problem czytelności. Programista może już także wybrać, jakim algorytmem zostanie zaimplementowana dana kolekcja (np. lista może być zaimplementowana jako tablica o zmiennym rozmiarze, drzewo, albo lista jednokierunkowa), co pozwala na poprawienie wydajności.
+Dystrybucje języka Java[edytuj]
+
+Pakiety[edytuj]
+Java nie jest monolitem, lecz składa się z szeregu klas definiujących obiekty różnego typu. Dla przejrzystości klasy te pogrupowane są w hierarchicznie ułożone pakiety. Każdy pakiet grupuje klasy związane z pewnym szerokim zakresem zastosowań języka np. java.io (klasy wejścia-wyjścia), java.util.prefs (klasy użytkowe do obsługi preferencji) czy java.awt (system obsługi trybu graficznego). Hierarchię klas oddają nazwy pakietów, które skonstruowane są podobnie jak ścieżki dostępu do plików. Na przykład klasa Preferences znajdująca się w pakiecie java.util.prefs ma pełną nazwę: java.util.prefs.Preferences, co oznacza:
+java – pakiet należy do zestawu standardowych pakietów Javy,
+util – to różnego typu klasy użytkowe (pomocnicze) głównie organizujące obsługę różnego typu struktur danych,
+prefs – system obsługi preferencji w sposób niezależny od platformy, w którym preferencje systemowe i użytkownika są składowane w postaci hierarchicznego rejestru,
+Preferences – konkretna nazwa klasy.
+Dzięki takiemu systemowi nazwy klas są niepowtarzalne, co pozwala uniknąć niejednoznaczności (np. czy chodzi o klasę List implementującą strukturę listy danych czy o List implementującą graficzną listę wyświetlaną w okienku).
+Wszystkie klasy pisane przez programistów niezależnych powinny być umieszczane w innych hierarchiach. Firma Sun często zaleca, by w nazewnictwie klas niestandardowych przed właściwą nazwą pakietu stosować odwróconą nazwę domeny internetowej autora pakietu. Na przykład narzędzie Ant znajduje się w pakiecie org.apache.ant, co zapobiega konfliktom nazw z pakietami innych autorów, którzy również chcieliby nazwać swój pakiet Ant.
+Domyślnie klasy pakietu nie są możliwe do użycia poza nim. Stąd nie występują konflikty nazw klas przy imporcie różnych pakietów. Klasa pakietu staje się publiczną przy deklaracji public class Foo.
+JRE a JDK[edytuj]
+Pakiety z hierarchii java i javax (dodatki wprowadzone w późniejszych wersjach) należą do podstawowego zestawu klas rozprowadzanych jako Java. Zestaw ten jest dostępny w dwóch wersjach: JRE (Java Runtime Environment) – udostępnia kod bajtowy wszystkich klas standardowych i wirtualną maszynę do ich uruchamiania, zaś JDK (Java Development Kit) dodatkowo udostępnia źródła tych klas oraz dodatkowe narzędzia takie jak kompilator, paker czy debuger. Podział ten wprowadzono dlatego, że użytkownik Javy do uruchamiania programów potrzebuje tylko JRE, natomiast do programowania działających aplikacji potrzeba już JDK.
+Implementacje Javy[edytuj]
+
+Potocznie pod nazwą Java rozumie się nie tylko język programowania, ale także całe środowisko (JDK) tworzone przez firmę Sun. Z tego uogólnienia wynikają pewne nieścisłości, jak np. to, że Java jest niezależna od architektury – nie jest to jednak cecha samego języka, a mechanizmu wirtualnej maszyny, wykorzystywanego w standardowej implementacji Suna.
+Swoją własną implementację JDK, certyfikowaną w ramach Java Community Process, tworzy na przykład IBM, a na bazie kodu oryginalnej implementacji powstaje przeznaczona dla Linuksa Blackdown Java.
+Istnieją też projekty odtworzenia poszczególnych elementów środowiska. Wśród nich są wirtualne maszyny Javy tworzone przez społeczność FLOSS SableVM i Kaffe, doświadczalny IBM-owski kompilator Jikes, czy optymalizowany pod względem szybkości dla architektur Intela JRockit, autorstwa firmy BEA. Najczęściej wykorzystują one bibliotekę standardowych klas rozwijaną w ramach projektu GNU Classpath.
+Inne podejście prezentuje projekt GCJ, który pozwala kompilować programy w Javie bezpośrednio do kodu maszynowego.
+JavaFX[edytuj]
+
+W 2007 roku firma Sun ogłosiła swe plany wprowadzenia nowego języka skryptowego o nazwie JavaFX Script. Cele przyświecające temu językowi są podobne do tych, które zawsze towarzyszyły Javie:
+prostota tworzenia aplikacji
+niezależność od architektury
+platformą uruchomieniową mają być komputery PC oraz urządzenia przenośne (np. telefony komórkowe)
+Język JavaFX Script nie jest zupełnie nowym produktem, lecz rozszerzeniem wcześniejszej Javy. Nowe aplikacje będą funkcjonować bez żadnych modyfikacji na każdej maszynie wirtualnej Javy.
+Tym posunięciem firma Sun stara się dorównać konkurencji, która promuje takie rozwiązania jak:
+technologia Flex (Adobe)
+Silverlight (Microsoft)

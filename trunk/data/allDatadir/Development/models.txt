@@ -1,0 +1,15 @@
+Model wzrostu Solowa (także model Solowa-Swana) – to prosty makroekonomiczny egzogeniczny model wzrostu, posługujący się funkcją produkcji uzależniającą wielkość produkcji od ilości zużywanych czynników produkcji (pracy, kapitału i stanu technologii). Wykorzystywaną funkcją może być np. funkcja Cobba-Douglasa lub funkcja produkcji CES.
+Według założeń modelu Roberta Solowa i Trevora Swana coraz większa ilość kapitału, jaka przypada na pojedynczego pracownika, wywołuje coraz mniejszy przyrost przypadającej na niego porcji produkcji. Funkcję tę możemy zapisać następująco:
+y = A * f(k),
+gdzie:
+y-wielkość produkcji na zatrudnionego pracownika,
+A-stała wartość, która oznacza wzrost produkcyjności pracy jaki został spowodowany zmianami technologii,
+k-kapitał rzeczowy przypadający na pojedynczego zatrudnionego.
+Funkcja f, opisująca wielkość produkcji, powinna mieć dodatnią pierwszą pochodną i ujemną drugą pochodną, by odzwierciedlić dodatni produkt krańcowy kapitału i malejące przychody z kapitału. Z powyższego wzoru wynika, że na zmianę wielkości produkcji mają wpływ kapitał i postęp techniczny. Przy założeniu stałości nakładów kapitałowych, wzrost produkcji następuje w wyniku zmian technologicznych. Ponieważ funkcja f rośnie wraz ze wzrostem k, mamy dodatnią zależność pomiędzy produktem a kapitałem na jednego zatrudnionego.
+Solow poszukuje takiej ilości kapitału przypadającego na jednego zatrudnionego, w której gospodarka osiąga stan równowagi. Praca i kapitał będą rosły w tym samym stopniu, co spowoduje stabilny wzrost gospodarczy i ograniczy efekty prawa malejących przychodów.
+Uogólnienie[edytuj]
+
+Powyższy wzór zakłada stałość funkcji produkcji w czasie. Możemy go zmodyfikować poprzez uzależnienie zmian technologicznych od czasu. Przyjmijmy:
+y = A(t) * f(k),
+gdzie A jest funkcją rosnącą.
+Wprowadzenie tej zależności spowoduje, że zwiększenie kapitału na jednego zatrudnionego będzie w większym stopniu wpływało na wzrost produkcji w przyszłości. Zakładając postęp w technologii, możemy się spodziewać, że kolejne stany zrównoważonego wzrostu będą się charakteryzować coraz większym k, co spowoduje wzrost wydajności.

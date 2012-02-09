@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cesAna SYSTEM "xcesAnaIPI.dtd">
+<cesAna version="1.0" type="lex disamb">
+<chunkList>
+<chunk type="p">
+<chunk type="s">
+<tok>
+<orth>Kot</orth>
+<!-- autoselected: subst:sg:nom:m2 -->
+<lex><base>Kot</base><ctag>subst:sg:nom:m1</ctag></lex>
+<lex><base>kot</base><ctag>subst:sg:nom:m1</ctag></lex>
+<lex disamb="1"><base>kot</base><ctag>subst:sg:nom:m2</ctag></lex>
+<lex><base>kota</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>ma</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>mieć</base><ctag>fin:sg:ter:imperf</ctag></lex>
+<lex><base>mój</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+<lex><base>mój</base><ctag>adj:sg:voc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>psa</orth>
+<!-- autoselected: subst:sg:acc:m2 -->
+<lex><base>pies</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pies</base><ctag>subst:sg:gen:m2</ctag></lex>
+<lex><base>pies</base><ctag>subst:sg:acc:m1</ctag></lex>
+<lex disamb="1"><base>pies</base><ctag>subst:sg:acc:m2</ctag></lex>
+</tok>
+<tok>
+<orth>i</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+<lex><base>i</base><ctag>interj</ctag></lex>
+<lex><base>i</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>kota</orth>
+<!-- autoselected: subst:sg:acc:m2 -->
+<lex><base>Kot</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>Kot</base><ctag>subst:sg:acc:m1</ctag></lex>
+<lex><base>kot</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>kot</base><ctag>subst:sg:gen:m2</ctag></lex>
+<lex><base>kot</base><ctag>subst:sg:acc:m1</ctag></lex>
+<lex disamb="1"><base>kot</base><ctag>subst:sg:acc:m2</ctag></lex>
+<lex><base>kota</base><ctag>subst:sg:nom:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+</chunk>
+</chunkList>
+</cesAna>

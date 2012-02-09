@@ -1,0 +1,73 @@
+Symulacja komputerowa - symulacja z wykorzystaniem modelu matematycznego, zapisanego w postaci programu komputerowego. Techniki symulacyjne są szczególnie przydatne tam, gdzie analityczne wyznaczenie rozwiązania byłoby zbyt pracochłonne, a niekiedy nawet niemożliwe - co często ma miejsce w systemach złożonych.
+
+
+Smog wokół Karl Marx Stadt (Chemnitz), Niemcy: symulacja komputerowa z 1990
+Spis treści  [ukryj] 
+1 Rodzaje symulacji komputerowych
+2 Narzędzia stosowane do symulacji
+3 Wybrane zastosowania symulacji
+4 Przykład zastosowania
+4.1 Problemy
+5 Zobacz też
+Rodzaje symulacji komputerowych[edytuj]
+
+Symulacje komputerowe można podzielić ze względu na:
+przewidywalność zdarzeń
+stochastyczne - korzystają z generatora liczb pseudolosowych lub (bardzo rzadko) losowych (szczególnie popularna jest Metoda Monte Carlo).
+deterministyczne - wynik jest powtarzalny i zależy tylko od danych wejściowych i ewentualnych interakcji ze światem zewnętrznym.
+sposób upływu czasu
+z czasem ciągłym1 - czas zwiększa się stałymi przyrostami, jak w symulacji z czasem dyskretnym, lecz wartości próbek sygnałów są interpolowane dla chwil pośrednich pomiędzy momentami odczytu.
+z czasem dyskretnym - czas zwiększa się stałymi przyrostami, a krok czasowy dobiera się optymalnie ze względu na zasobożerność systemu, jego wydajność i charakter symulowanego obiektu i/lub zjawiska (mikrosekundy w obwodach elektrycznych i miliony lat przy symulacji ewolucji gwiazd).
+symulacja zdarzeń dyskretnych - czas zwiększa się skokowo, ale jego przyrosty są zmienne (ważniejsza jest tu sekwencja zdarzeń niż rzeczywisty lub wirtualny upływ czasu).
+1 Rzeczywisty czas ciągły możliwy jest do uzyskania jedynie w symulatorach analogowych, zob. komputer analogowy.
+formę danych wyjściowych
+statyczne - wynikiem jest zbiór danych, statyczny obraz, itp.
+dynamiczne - wynikiem jest proces przebiegający w czasie np. animacja.
+interaktywne - reagują na sygnały ze świata zewnętrznego np. operatora.
+nieinteraktywne
+liczba użytych komputerów
+lokalne - przetwarzanie odbywa się na pojedynczym komputerze.
+rozproszone - przetwarzanie odbywa się w wielu komputerach połączonych w sieci lokalnej (LAN) lub zewnętrznej np. Internet.
+Narzędzia stosowane do symulacji[edytuj]
+
+Obecnie stosowanych jest wiele narzędzi do przeprowadzania symulacji komputerowych np.:
+język programowania GPSS
+Crystal Ball
+@Risk
+Arena
+Matlab Simulink
+Jednym z nietypowych dostępnych języków programowania jest ModSim oparty o Microsoft Visual C++ w wersji 1.5, choć programuje się w nim w języku podobnym do Pascala (za pomocą translatora jest zamieniany na C++). Posiada on mechanizmy do przeprowadzania zaawansowanych symulacji m.in. monitory i generatory liczb losowych. Możliwe jest też wizualizowanie w czasie rzeczywistym zachodzących procesów za pomocą np. wektorowych funkcji rysujących.
+Wybrane zastosowania symulacji[edytuj]
+
+symulatory statków powietrznych, okrętów podwodnych, czołgów itp.
+w ekonomii i biznesie
+systemy kolejkowe
+zarządzanie zapasami
+wycena instrumentów pochodnych (np. opcji)
+ocena projektów inwestycyjnych (m.in VaR)
+w naukach społecznych
+Dynamiczna teoria wpływu społecznego Nowaka-Latane
+prognozowanie podziału miejsc w parlamencie
+dynamika populacji
+nauki przyrodnicze
+meteorologia - prognozy pogody
+analiza rozprzestrzeniania się zanieczyszczeń
+w naukach inżynieryjnych
+budownictwo - wytrzymałość konstrukcji
+lotnictwo - wytrzymałość konstrukcji
+elektronika - analiza obwodów elektrycznych
+matematyka
+numeryczne wyznaczanie rozwiązań równań różniczkowych
+symulacyjne wyznaczanie dystrybuant funkcji, które nie dają się całkować (np. rozkładu normalnego)
+komputerowe gry symulacyjne
+Przykład zastosowania[edytuj]
+
+Obiektem symulacji jest sklep, którego dochody (zmienna wyjściowa) są uzależnione od wielu czynników (zmiennych wejściowych), np. liczba klientów odwiedzających sklep, cena podobnych towarów sprzedawanych u konkurencji, poziom sprzedaży w danym miesiącu. Przyjmuje się, że każdy z tych czynników jest zmienną losową o pewnym rozkładzie, np. normalnym.
+Celem symulacji komputerowej jest przeprowadzenie kilkuset (albo kilku tysięcy albo kilkuset tysięcy) eksperymentów polegających na wylosowaniu konkretnych wartości poszczególnych zmiennych (czyli np. w jednej symulacji wylosowano następujące wartości: liczba klientów = 125, cena u konkurencji = 43 zł, poziom sprzedaży = 27 sztuk) i sprawdzeniu jaki dochód zostanie osiągnięty przy takich założeniach.
+Po wielokrotnym przeprowadzeniu symulacji (czyli losując różne wartości zmiennych) możemy stwierdzić, jak wygląda rozkład dochodu sklepu. Na tej podstawie można np. wyznaczyć wartość oczekiwaną zysku, prawdopodobieństwo straty i inne interesujące z biznesowego punktu widzenia wielkości.
+Problemy[edytuj]
+Ten przykład ukazuje najistotniejsze problemy symulacji:
+złożoność zaprojektowanej symulacji (ile i jakie czynniki będą uwzględnione oraz w jaki sposób)
+adekwatność osiągniętych wyników
+Złożoność zwykle jest związana ze stopniem skomplikowania projektu, co przekłada się w prostej linii na koszty oraz jakość wyników.
+Natomiast adekwatność wyników do np. danych zarejestrowanych w rzeczywistych eksperymentach, jest powodem wielu dyskusji np. naukowych. Jeśli osiągnięte wyniki dalece odbiegają od zaobserwowanych faktów, kwestionowana jest zasadność tego typu symulacji.

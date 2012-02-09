@@ -1,0 +1,7 @@
+Szyfry przestawieniowe (transposition cipher) – jedna z klasycznych metod szyfrowania. Szyfry te charakteryzują się tym, że w zaszyfrowanym tekście występują wszystkie znaki z tekstu jawnego, ale w innej kolejności. Szyfry należące do tej grupy zmieniają kolejność liter w szyfrowanym tekście według określonego schematu. Najczęściej przestawienia liter dokonuje się za pomocą figury geometrycznej.
+Najprostszym przykładem szyfru przestawieniowego jest pisanie wspak.
+Szyfry przestawieniowe są łatwe do złamania i nie zapewniają żadnego bezpieczeństwa.
+Łamie się je metodą słów prawdopodobnych. Dopasowanie fragmentu znanego (lub odszyfrowanego) tekstu do szyfru pozwala na znalezienie zasady przestawiania.
+Innym sposobem jest wykorzystanie znajomości zasad tworzenia wiadomości - jednakowe szablony dokumentów szyfrowanych, często spotykane zwroty, nagłówki, podpisy czy stopki wiadomości.
+Wykorzystuje się też błędy i przyzwyczajenia osób posługujących się tą metodą szyfrowania.
+Metoda statystyczna jest raczej nieprzydatna ponieważ rozkład statystyczny liter wiadomości nie zmienia się po przestawieniu liter w innej kolejności.

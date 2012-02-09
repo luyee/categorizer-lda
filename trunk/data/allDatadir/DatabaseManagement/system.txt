@@ -1,0 +1,47 @@
+System zarządzania bazą danych, SZBD (ang. Database Management System, DBMS) – oprogramowanie bądź system informatyczny służący do zarządzania bazą danych. System zarządzania bazą danych może być również serwerem bazy danych (SBD) lub też może udostępniać bazę danych lokalnie – na określonym komputerze.
+Spis treści  [ukryj] 
+1 Niezbędne mechanizmy
+2 Dodatkowe mechanizmy
+3 SZBD działające w architekturze klient-serwer
+4 SZBD bez podziału na klienta i serwer
+5 Zobacz też
+Niezbędne mechanizmy[edytuj]
+
+środki do administrowania zapisanymi na nośnikach zbiorami danych,
+środki zapewniające integralność i bezpieczeństwo danych,
+środki pozwalające na odtworzenie zawartości bazy danych po awarii,
+narzędzia programistyczne wykorzystujące język programowania i API,
+dostęp do danych poprzez język zapytań bazy danych np. SQL,
+wielodostępność danych, np. poprzez transakcje,
+środki pozwalające na autoryzację dostępu do danych,
+środki do zarządzania metadanymi,
+środki optymalizujące wykorzystanie pamięci operacyjnej,
+środki optymalizujące czas dostępu do danych, np. indeksy,
+środki do pracy w środowisku rozproszonej bazy danych.
+Dodatkowe mechanizmy[edytuj]
+
+zarządzanie wersjami i danymi nietrwałymi,
+przechowywanie i udostępnianie danych multimedialnych,
+graficzne środowiska do tworzenia aplikacji dla użytkownika,
+pomosty do współpracy z innymi systemami baz danych, np. poprzez konwersję danych,
+obsługa widoków, procedur składowanych i aktywnych reguł,
+pakiety statystyczne
+pakiety do analizowania danych,
+pakiety do tworzenia hurtowni danych,
+środki udostępniające bazę danych w sieci Internet.
+SZBD działające w architekturze klient-serwer[edytuj]
+
+Większość obecnie spotykanych systemów działa w trybie klient-serwer, gdzie baza danych jest udostępniana klientom przez SZBD będący serwerem. Serwer bazy danych może udostępniać dane klientom bezpośrednio lub przez inny serwer, np. poprzez serwer WWW lub serwer aplikacji.
+Systemy bazy danych w architekturze klient-serwer to m.in.:
+DB2
+Informix Dynamic Server
+Firebird
+Microsoft SQL Server
+MySQL
+Oracle
+PostgreSQL
+SZBD bez podziału na klienta i serwer[edytuj]
+
+Istnieją bazy danych, które nie muszą być współdzielone przez wielu użytkowników jednocześnie. W takim przypadku używa się SZBD nierozróżniających podziału na klienta i serwer, np.
+Microsoft Access – zgodny z SQL, korzystający Microsoft Jet
+Kexi – zgodny z SQL, korzystający z SQLite
