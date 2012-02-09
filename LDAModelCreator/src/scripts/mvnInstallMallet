@@ -1,0 +1,17 @@
+#this scpript installs mvn dependencies required for project
+#you should provide proper paths to jar files
+
+mvn install:install-file \
+-Dfile=/media/sf_Public/dev/atlas/mallet/mallet-2.0.7/dist/mallet-deps.jar \
+-DgroupId=mallet \
+-DartifactId=1 \
+-Dversion=1.0 \
+-Dpackaging=jar
+
+
+mvn install:install-file \
+-Dfile=/media/sf_Public/dev/atlas/mallet/mallet-2.0.7/dist/mallet.jar \
+-DgroupId=mallet \
+-DartifactId=2 \
+-Dversion=1.0 \
+-Dpackaging=jar

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cesAna SYSTEM "xcesAnaIPI.dtd">
+<cesAna version="1.0" type="lex disamb">
+<chunkList>
+<chunk type="p">
+<chunk type="s">
+<tok>
+<orth>ala</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>Al</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>Al</base><ctag>subst:sg:acc:m1</ctag></lex>
+<lex><base>Ala</base><ctag>subst:sg:nom:f</ctag></lex>
+<lex><base>Alo</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>Alo</base><ctag>subst:sg:acc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>ma</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>mieć</base><ctag>fin:sg:ter:imperf</ctag></lex>
+<lex><base>mój</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+<lex><base>mój</base><ctag>adj:sg:voc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>kuta</orth>
+<!-- autoselected: ppas:sg:nom:f:imperf:aff -->
+<lex><base>kuta</base><ctag>subst:sg:nom:f</ctag></lex>
+<lex disamb="1"><base>kuc</base><ctag>subst:sg:nom:f:imperf:aff</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+</chunk>
+</chunkList>
+</cesAna>

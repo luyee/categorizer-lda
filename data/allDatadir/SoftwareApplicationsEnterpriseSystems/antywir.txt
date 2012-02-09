@@ -1,0 +1,36 @@
+Program antywirusowy (antywirus) – program komputerowy, którego celem jest wykrywanie, zwalczanie i usuwanie wirusów komputerowych. Współcześnie najczęściej jest to pakiet programów chroniących komputer przed różnego typu zagrożeniami.
+Programy antywirusowe często są wyposażone w dwa niezależnie pracujące moduły (uwaga: różni producenci stosują różne nazewnictwo):
+skaner – bada pliki na żądanie lub co jakiś czas; służy do przeszukiwania zawartości dysku
+monitor – bada pliki ciągle w sposób automatyczny; służy do kontroli bieżących operacji komputera
+Program antywirusowy powinien również mieć możliwość aktualizacji definicji nowo odkrytych wirusów, najlepiej na bieżąco, przez pobranie ich z Internetu, ponieważ dla niektórych systemów operacyjnych codziennie pojawia się około trzydziestu nowych wirusów.
+Widoczna jest tendencja do integracji narzędzi do ochrony komputera. Kiedyś był to jedynie skaner, który wyszukiwał wirusy, początkowo na podstawie sygnatur znanych wirusów, a potem także typujący pliki jako zawierające podejrzany kod za pomocą metod heurystycznych.
+Trzeba dodać, że współcześnie programy antywirusowe jako jedyna linia obrony nie wystarczają, Obecnie poza skanerem, monitorem i modułem do aktualizacji sygnatur z sieci, pakiet antywirusowy zawiera często także zaporę sieciową, moduły kontroli przesyłek poczty elektronicznej i plików pobieranych z sieci, moduł wykrywania i zapobiegania włamaniom, skaner pamięci i strażnika MBR. Wszystkie te moduły posiadają programy typu internet security - np. Kaspersky Internet Security, jednak można je zainstalować oddzielnie, co według licznych testów laboratoriów antywirusowych, oferują znacznie wyższy poziom ochrony przed malware niż pakiety bezpieczeństwa[1][2].
+Spis treści  [ukryj] 
+1 Moduły programów antywirusowych
+1.1 Skanery
+1.2 Monitory
+1.3 Szczepionki
+1.4 Programy autoweryfikujące
+1.5 Programy zliczające sumy kontrolne
+2 Skanery antywirusowe on-line
+3 Zobacz też
+4 Linki zewnętrzne
+5 Przypisy
+Moduły programów antywirusowych[edytuj]
+
+Skanery[edytuj]
+Skanery to najstarszy i najprostszy sposób ochrony antywirusowej. Ich działanie polega na wyszukiwaniu określonej sekwencji bajtów w ciągu danych. W większości wirusów można wyróżnić unikalną sekwencję bajtów, tzw. sygnaturę, dzięki której możliwe jest odnalezienie wirusa w pamięci lub w zarażonej ofierze. Skuteczność skanera antywirusowego zależy od tego, jak bardzo charakterystyczna jest dana sekwencja. Najlepiej, jeżeli wirus zawiera w sobie jakiś bardzo specyficzny napis lub ciąg bajtów.
+Wraz z pojawieniem się wirusów polimorficznych znaczenie skanerów trochę zmalało, jednak nadal jest to najważniejsza metoda walki z wirusami. Wirusy polimorficzne są trudne do wykrycia, gdyż ich różne próbki nie wyglądają tak samo. Często dwie próbki danego wirusa nie mają ze sobą nic wspólnego. Polimorfizm może być osiągnięty poprzez zakodowanie ciała wirusa. W przypadku tych wirusów również używa się skanera, choć dopiero w późniejszej fazie wykrywania[3].
+Monitory[edytuj]
+Monitor to program antywirusowy zainstalowany jako TSR (ang. Terminate and Stay Resident) lub sterownik SYS, który – poprzez monitorowanie odpowiednich funkcji DOS i BIOS – pozwala na wykrywanie wszystkich wykonywanych za pomocą tych funkcji odwołań do dysków. To, czy monitor będzie działał prawidłowo zależy często od momentu, w którym przejął on kontrolę nad systemem (przed działaniem wirusa, czy już po) oraz od tego, jak głęboko wnika on w system operacyjny. Jak widać autorzy programów antywirusowych muszą korzystać z metod podobnych do tych, które stosują twórcy wirusów. Dużą wadą programów monitorujących jest to, że powodują one często fałszywe alarmy. Niekiedy zdarza się tak, że użytkownik po kolejnym potwierdzeniu jakiejś zwykłej operacji dyskowej staje się mniej uważny i nawet usuwa program antywirusowy z pamięci[3].
+Szczepionki[edytuj]
+Są to programy skierowane przeciwko konkretnym wirusom. Na podstawie posiadanego czy wykrytego egzemplarza wirusa można, po odpowiedniej analizie jego kodu, zdefiniować tzw. sygnatury, na podstawie których wykrywa się kolejne kopie wirusa w systemie. Dokładna analiza kodu wirusa pozwala niekiedy odnaleźć w nim oryginalne wartości pewnych parametrów, które mogą posłużyć do wyleczenia plików. Większość z istniejących szczepionek to rozbudowane programy, które potrafią wykryć i usunąć kilka tysięcy określonych wirusów. Tylko w przypadkach nowych wirusów szczepionki nie są efektywne.
+Programy autoweryfikujące[edytuj]
+Programy te służą do sprawdzania czy dany program nie został w jakiś sposób zmieniony przez wirusa. Sprawdzanie to jest możliwe poprzez dodanie do wskazanego pliku określonego, krótkiego programu. Dodawany kod dopisuje się do pliku wykorzystując te same mechanizmy co wirusy, i pozwala on na autoweryfikację, czyli automatyczne sprawdzanie czy dany program nie został zmodyfikowany.
+Niestety, programy tego typu najczęściej nie są odporne na technikę ukrywania kodu wirusa stealth i w systemie zainfekowanym przez wirusa używającego tej techniki okażą się całkowicie nieefektywne.
+Programy zliczające sumy kontrolne[edytuj]
+Działanie tego typu programów polega na obliczaniu odpowiednich sum kontrolnych dla żądanego pliku lub plików. Zliczane sumy kontrolne są przechowywane w osobnych plikach, tworzonych po pierwszym uruchomieniu programu. Jeżeli pliki te istniały już wcześniej, program antywirusowy wykorzystuje dane w nich zawarte aby porównać bieżąco wyliczoną sumę, z sumą poprzednio zachowaną w pliku.
+Istnieje szereg algorytmów do tworzenia sum kontrolnych dla plików. Ogromną wadą programów tego typu jest to, że pliki przechowujące obliczone sumy kontrolne nie są wcale chronione. Dzięki znajomości wielu algorytmów stosowanych przez programy antywirusowe, niektóre wirusy potrafią zarazić określony plik i obliczyć dla niego nową sumę kontrolną.
+Skanery antywirusowe on-line[edytuj]
+
+Gdy użytkownik nie posiada programu antywirusowego, a chciałby szybko sprawdzić dysk lub tylko jeden plik, dobrym rozwiązaniem są skanery online – moduł programu antywirusowego, za pomocą którego komputer sprawdza określony przez użytkownika plik lub obszar na dysku twardym, dyskietce czy płycie. Po zakończeniu pracy skaner informuje o liczbie znalezionych wirusów i o tym, ile z nich udało mu się skutecznie usunąć. Aby zastosować skaner trzeba posłużyć się przeglądarką internetową.
