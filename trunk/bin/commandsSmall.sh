@@ -1,7 +1,17 @@
 #zakladamy ze jestesmy w katalogu glownym
 set -e
+
+if [ ! -n "$M_NUMITER" ]; then
+  M_NUMITER=1000;
+fi
+if [ ! -n "$M_NUMTOPICS" ]; then
+  M_NUMTOPICS=2;
+fi
+
+
 PWD=$(pwd)
 baseN=$(basename $PWD)
+malletHome="/home/kacper/dev/mallet/mallet-2.0.7"
 
 echo $baseN
 if [ "$baseN" != "categorizer-lda" ]; then
@@ -13,7 +23,7 @@ echo "wrapper script on mallet and malletmodelcreator"
 
 
 LDACreator=${PWD}/LDAModelCreator
-dataDir=${PWD}/data/$1/
+dataDir=${PWD}/data/$1
 
 if [ ! -d "$dataDir" ]; then
 	echo "specifide bad dataSet. Dir $1 does not exist"
@@ -22,23 +32,25 @@ fi
 
 echo "using dataset $dataDir"
 
-java -jar ${LDAModelCreator}/target/LDAModelCreator-1.0-jar-with-dependencies.jar \
---trainingDir ${PWD}/smallMalletDir \
---malletFile ${PWD}/models/small/smallData.txt \
+java -jar ${LDACreator}/target/LDAModelCreator-1.0-jar-with-dependencies.jar \
+--trainingDir ${dataDir}/${1}Dir \
+--malletFile ${dataDir}/${1}Data.txt \
 
 
-/home/kacper/dev/mallet/mallet-2.0.7/bin/mallet import-file \
---input ${PWD}/models/small/smallData.txt \
+${malletHome}/bin/mallet import-file \
+--input ${dataDir}/${1}Data.txt \
 --token-regex '[\p{L}\p{M}]+'  \
 --keep-sequence  \
---output ${PWD}/models/small/TrainingMoldel.mallet
+--output ${dataDir}/TrainingMoldel.mallet
 
 
-/home/kacper/dev/mallet/mallet-2.0.7/bin/mallet train-topics  \
---input  ${PWD}/models/small/TrainingMoldel.mallet \
---num-topics 2 \
---num-iterations 2000 \
---inferencer-filename ${PWD}/models/small/Inferencer.mallet \
---output-topic-keys ${PWD}/models/small/smallDataKeys.txt \
---output-doc-topics ${PWD}/models/small/DocPerTopic.txt
+${malletHome}//bin/mallet train-topics  \
+--input  ${dataDir}/TrainingMoldel.mallet \
+--num-topics ${M_NUMTOPICS} \
+--num-iterations ${M_NUMITER} \
+--inferencer-filename ${dataDir}/Inferencer.mallet \
+--output-topic-keys ${dataDir}/DataKeys.txt \
+--output-doc-topics ${dataDir}/DocPerTopic.txt
+
+echo "trained for ${M_NUMTOPICS} topics "
 
