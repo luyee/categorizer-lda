@@ -61,20 +61,17 @@
       <file leaf-file-name="integrationTestDistClasifierTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DistClasificator/integrationTestDistClasifierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="76" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
+            <state line="33" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inference.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Inference.java">
+      <file leaf-file-name="Inference.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="20" selection-start="1048" selection-end="1048" vertical-scroll-proportion="-6.6">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2961#2971#0" expanded="true" />
-              </folding>
+            <state line="156" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.33243242">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,9 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/util/MalletWriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="34" column="23" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,9 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/util/InputStremToTmpFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="80" selection-start="233" selection-end="294" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,10 +97,8 @@
       <file leaf-file-name="InferenceCommandLineUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/InferenceCommandLineUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="2966" selection-end="2966" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="89" column="9" selection-start="1600" selection-end="3280" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,16 +106,16 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="302" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="71" column="24" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocsTopicsLoader.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DocsTopicsLoader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DistClasificator/DocsTopicsLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="42" selection-start="1691" selection-end="1695" vertical-scroll-proportion="0.8979239">
+            <state line="51" column="12" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,10 +133,8 @@
       <file leaf-file-name="DistanceClassifier.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="37" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1219#1227#0" expanded="true" />
-              </folding>
+            <state line="53" column="38" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/integrationTestDistClasifier.java" />
         <option value="$PROJECT_DIR$/src/test/resources/itegrationDistClassifier/TopicPerDoc2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Categories.java" />
         <option value="$PROJECT_DIR$/src/main/java/DistanceClassifier.java" />
@@ -175,12 +163,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Category.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hello.txt" />
         <option value="$PROJECT_DIR$/src/main/java/util/InputStremToTmpFile.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/InferenceCommandLineUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/MalletWriter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DistClasificator/integrationTestDistClasifierTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Inference.java" />
         <option value="$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DistClasificator/integrationTestDistClasifierTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DistClasificator/DocsTopicsLoader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -226,9 +215,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1366" />
     <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="width" value="1280" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -306,6 +296,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -326,6 +320,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inferencer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inferencer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ldainference" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,9 +392,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -384,6 +404,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ldainference" />
       <recent name="DistClasificator" />
     </key>
   </component>
@@ -477,7 +498,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Inference" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Inference" />
+      <option name="MAIN_CLASS_NAME" value="ldainference.Inference" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -562,6 +583,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -587,24 +626,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -701,12 +722,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Maven.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DocsTopicsLoaderTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.integrationTestDistClasifierTest.testClasification1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.integrationTestDistClasifierTest.testClasification2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Inferencer" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Inference" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DocsTopicsLoaderTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.integrationTestDistClasifierTest.testClasification1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.integrationTestDistClasifierTest.testClasification2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in Inferencer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Inference" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.Unnamed" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -741,7 +762,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="1366" y="24" width="1280" height="960" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -753,10 +774,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13050076" sideWeight="0.6709265" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16477273" sideWeight="0.75738394" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17021276" sideWeight="0.6709265" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15015975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26866883" sideWeight="0.75738394" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24261603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -846,90 +867,63 @@
         <state line="16" column="13" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Inferencer.mallet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="328" column="117" selection-start="57894" selection-end="57894" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/TrainingMoldel.mallet">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InferenceCommandLineUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2966" selection-end="2966" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/InputStremToTmpFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="80" selection-start="233" selection-end="294" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/MalletWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="23" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/DocPerTopic.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Inference.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/MalletWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="20" selection-start="1048" selection-end="1048" vertical-scroll-proportion="-6.6">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2961#2971#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="34" column="23" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/InputStremToTmpFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="80" selection-start="233" selection-end="294" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DistClasificator/DocsTopicsLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="12" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Inferencer.mallet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="328" column="117" selection-start="57894" selection-end="57894" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1219#1227#0" expanded="true" />
-          </folding>
+        <state line="53" column="38" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="24" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DistClasificator/integrationTestDistClasifierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="76" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
+        <state line="33" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InferenceCommandLineUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="9" selection-start="1600" selection-end="3280" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="302" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DistClasificator/DocsTopicsLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="42" selection-start="1691" selection-end="1695" vertical-scroll-proportion="0.8979239">
+        <state line="156" column="0" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.33243242">
           <folding />
         </state>
       </provider>

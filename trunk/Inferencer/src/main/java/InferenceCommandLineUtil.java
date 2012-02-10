@@ -1,4 +1,5 @@
 import cc.mallet.types.InstanceList;
+import ldainference.Inference;
 import org.apache.commons.cli.*;
 
 import java.io.File;
