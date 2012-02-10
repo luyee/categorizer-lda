@@ -1,7 +1,6 @@
 package DistClasificator;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Map;
 import java.util.Vector;
 
@@ -19,7 +18,7 @@ public class DistanceClassifier {
 
     }
 
-    public void readDocTopicFile(InputStream resourceAsStream) throws IOException {
+    public void readDocTopicasStream(InputStream resourceAsStream) throws IOException {
         DocsTopicsLoader docsTopicsLoader = new DocsTopicsLoader(resourceAsStream);
         Map<String,Map<Integer,Double>> itMaped = docsTopicsLoader.getItMaped();
         categories = new Categories(itMaped);
@@ -48,5 +47,10 @@ public class DistanceClassifier {
             str.add(cats.getCategoryName());
         }
         return str;
+    }
+
+    public void readDocTopicasFile(File docPerTopic) throws IOException {
+        InputStream inputStream = new FileInputStream(docPerTopic);
+        readDocTopicasStream(inputStream);
     }
 }

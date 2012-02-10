@@ -28,7 +28,7 @@ public class integrationTestDistClasifierTest extends TestCase {
     @Test
     public void testCalcCategories() throws IOException {
         DistanceClassifier distanceClassifier= new DistanceClassifier();
-        distanceClassifier.readDocTopicFile(
+        distanceClassifier.readDocTopicasStream(
                 getClass().getClassLoader().getResourceAsStream("itegrationDistClassifier/TopicPerDoc1.txt"));
         Categories categories =distanceClassifier.getCategories();
 
@@ -59,7 +59,7 @@ public class integrationTestDistClasifierTest extends TestCase {
     @Test
     public void testClasification1() throws IOException {
         DistanceClassifier distanceClassifier= new DistanceClassifier();
-        distanceClassifier.readDocTopicFile(
+        distanceClassifier.readDocTopicasStream(
                 getClass().getClassLoader().getResourceAsStream("itegrationDistClassifier/TopicPerDoc1.txt"));
 
         double [] arg1 ={0.1, 0.2, 0.1,0.3,0.1};
@@ -83,7 +83,7 @@ public class integrationTestDistClasifierTest extends TestCase {
 //        2   2_b     4 0.4   3 0.3     2 0.4     1 0.21   0   0.12
 //        1   3_c     1 0.3   2 0.1     3 0.4     4 0.11   0   0.11
         DistanceClassifier distanceClassifier= new DistanceClassifier();
-        distanceClassifier.readDocTopicFile(
+        distanceClassifier.readDocTopicasStream(
                 getClass().getClassLoader().getResourceAsStream("itegrationDistClassifier/TopicPerDoc1.txt"));
 
         double [] arg1 ={0.13, 0.14, 0.3,0.3,0.1};
