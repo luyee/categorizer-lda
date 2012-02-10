@@ -1,3 +1,5 @@
+import ldainference.Inference;
+
 import java.util.Arrays;
 import java.util.Vector;
 
