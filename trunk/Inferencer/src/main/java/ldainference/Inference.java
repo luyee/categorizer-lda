@@ -1,3 +1,5 @@
+package ldainference;
+
 import DistClasificator.Category;
 import DistClasificator.DistanceClassifier;
 import cc.mallet.pipe.Pipe;
@@ -25,8 +27,18 @@ public class Inference {
     private File outputFile;
     private File trainingFile;
     private File inferenceFile;
+
     private File inputFile;
+    private File docPerTopic=null;
+
     private final InputStremToTmpFile inputStremToTmpFile = new InputStremToTmpFile();
+    
+    public Inference(File trainingFile, File inferenceFile, File docPerTopic) {
+        this.trainingFile = trainingFile;
+        this.inferenceFile = inferenceFile;
+        this.docPerTopic = docPerTopic;
+    }
+
 
     public Inference() throws IOException {
         buildFromResources();
@@ -49,6 +61,8 @@ public class Inference {
         return inputStremToTmpFile.convertToTmpFile(inputStream);
     }
 
+    
+    
     public void buildFromResources() throws IOException {
 
 
@@ -71,10 +85,14 @@ public class Inference {
         InstanceList instances = createInstances();
         Category cats = infCategories(instances).get(0);
         DistanceClassifier distanceClassifier= new DistanceClassifier();
+        if (docPerTopic==null){
         InputStream inputStreamTraining =
                 this.getClass().getClassLoader().getResourceAsStream("DocPerTopic.txt");
 
-        distanceClassifier.readDocTopicFile(inputStreamTraining);
+        distanceClassifier.readDocTopicasStream(inputStreamTraining);
+        }else {
+            distanceClassifier.readDocTopicasFile(docPerTopic);
+        }
         return distanceClassifier.classifyStr(cats);
 
     }
