@@ -1,4 +1,6 @@
 import java.io.*;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.Vector;
 
 /**
@@ -13,11 +15,27 @@ public class DocumentsLoader {
 
     public static final String DISAMB = ".disamb";
     private Vector<SourceFile> filesToParse ;
+    private Set<String> possibleCats;
 
     private boolean cp1250toUtf=false;
     private String iconv =
             "iconv --from-code=cp1250 --to-code=utf-8 @fromFile@";
 
+    public DocumentsLoader() throws IOException {
+        possibleCats = new HashSet<String>();
+        InputStream is =this.getClass().getClassLoader().getResourceAsStream("cat.txt");
+        DataInputStream in = new DataInputStream(is);
+        BufferedReader br = new BufferedReader(new InputStreamReader(in));
+        String strLine;
+        
+        while ((strLine = br.readLine()) != null)   {
+            strLine.trim();
+            possibleCats.add(strLine);
+        }
+        //Close the input stream
+        in.close();
+
+    }
 
     public void setCp1250toUtf(boolean cp1250toUtf) {
         this.cp1250toUtf = cp1250toUtf;
@@ -51,6 +69,9 @@ public class DocumentsLoader {
                     String name = folder.getAbsolutePath();
                     convert(folder);
                     folder = new File(name);
+                }
+                if(! possibleCats.contains(folder.getParentFile().getName())){
+                    throw new Exception("no such category : "+folder.getParentFile().getName() );
                 }
                 File disamb=hasDISAMBPanteraFile(folder);
                 filesToParse.add(new SourceFile(folder,disamb,folder.getParentFile().getName()));

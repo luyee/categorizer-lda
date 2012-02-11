@@ -12,12 +12,16 @@ import java.util.Vector;
 * To change this template use File | Settings | File Templates.
 */
 public class DocumentsLoaderTest extends junit.framework.TestCase {
-    DocumentsLoader documentsLoader = new DocumentsLoader();
+    DocumentsLoader documentsLoader;
     private String pathname;
+
+    public DocumentsLoaderTest() throws IOException {
+        documentsLoader = new DocumentsLoader();
+    }
 
     protected void setUp() throws Exception {
         super.setUp();
-        pathname = "/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/testDir";
+        pathname = "/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/Drama";
     }
 
 

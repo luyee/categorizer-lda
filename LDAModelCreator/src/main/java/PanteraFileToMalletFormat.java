@@ -25,7 +25,9 @@ public class PanteraFileToMalletFormat {
 
 
     public void addToCvs(PanteraFile panteraFile) throws IOException {
-        out.write(id.toString()+"_"+panteraFile.getLabel());
+        out.write(id.toString()+"_"+
+                panteraFile.getLabel()+"_"+
+                panteraFile.getSourceFile().getName());
         out.write("\t");
         out.write(panteraFile.getLabel());
         out.write("\t");
