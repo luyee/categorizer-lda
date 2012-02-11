@@ -67,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inference.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Inference.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="66" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
+            <state line="161" column="32" selection-start="4967" selection-end="4967" vertical-scroll-proportion="0.28625953">
               <folding />
             </state>
           </provider>
@@ -85,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputStremToTmpFile.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="InputStremToTmpFile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/InputStremToTmpFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="0" selection-end="647" vertical-scroll-proportion="0.7821229">
+            <state line="29" column="1" selection-start="0" selection-end="647" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,7 +133,7 @@
       <file leaf-file-name="DistanceClassifier.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="38" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+            <state line="9" column="38" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/itegrationDistClassifier/TopicPerDoc2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Categories.java" />
         <option value="$PROJECT_DIR$/src/main/java/DistanceClassifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/DocsTopicsLoader.java" />
@@ -170,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/DistClasificator/DocsTopicsLoader.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ldainference/Inference.java" />
       </list>
     </option>
   </component>
@@ -788,7 +788,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -907,11 +907,6 @@
         <state line="33" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/MalletWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="23" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/InferenceCommandLineUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="9" selection-start="1600" selection-end="3280" vertical-scroll-proportion="0.0" />
@@ -932,21 +927,30 @@
         <state line="328" column="117" selection-start="57894" selection-end="57894" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/InputStremToTmpFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="38" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="66" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
+        <state line="29" column="1" selection-start="0" selection-end="647" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/InputStremToTmpFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/MalletWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="0" selection-end="647" vertical-scroll-proportion="0.7821229">
+        <state line="34" column="23" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="32" selection-start="4967" selection-end="4967" vertical-scroll-proportion="0.28625953">
           <folding />
         </state>
       </provider>
