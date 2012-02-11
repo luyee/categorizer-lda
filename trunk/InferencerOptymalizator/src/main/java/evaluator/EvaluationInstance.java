@@ -18,7 +18,7 @@ public class EvaluationInstance {
     protected String instanceName;
     protected Vector<String> data;
     protected Vector<String> inferencedCategories;
-    protected Vector<Double> ref;
+    protected Vector<Double> ref = new Vector<Double>();
 
     /*
    line format:
