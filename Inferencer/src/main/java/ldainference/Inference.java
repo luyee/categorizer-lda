@@ -32,11 +32,13 @@ public class Inference {
     private File docPerTopic=null;
 
     private final InputStremToTmpFile inputStremToTmpFile = new InputStremToTmpFile();
-    
+    private InstanceList previousInstanceList;
+
     public Inference(File trainingFile, File inferenceFile, File docPerTopic) {
         this.trainingFile = trainingFile;
         this.inferenceFile = inferenceFile;
         this.docPerTopic = docPerTopic;
+        previousInstanceList = InstanceList.load(this.trainingFile);
     }
 
 
@@ -54,6 +56,11 @@ public class Inference {
         this.outputFile = outputFile;
         this.inferenceFile = inferenceFile;
         this.inputFile = inputFile;
+        previousInstanceList = InstanceList.load(this.trainingFile);
+    }
+
+    public void close() throws IOException {
+        rewriteTreiningFile(previousInstanceList);
     }
 
     private File convertToTmpFile(InputStream inputStream) throws IOException {
@@ -75,7 +82,7 @@ public class Inference {
                 this.getClass().getClassLoader().getResourceAsStream("TrainingMoldel.mallet");
 
         this.trainingFile = inputStremToTmpFile.convertToTmpFile(inputStreamTraining);
-
+        previousInstanceList = InstanceList.load(this.trainingFile);
 
     }
 
@@ -152,12 +159,8 @@ public class Inference {
 
 
         Pipe instancePipe;
-        InstanceList previousInstanceList = null;
 
-
-        previousInstanceList = InstanceList.load(this.trainingFile);
         instancePipe = previousInstanceList.getPipe();
-
 
         //
         // Create the instance list and open the input file
@@ -167,14 +170,15 @@ public class Inference {
 
         fileReader = new InputStreamReader(new FileInputStream(this.inputFile), "UTF-8");
 
-        // 
-        // Read instances from the file
-        //
 
         instances.addThruPipe(new CsvIterator(fileReader, Pattern.compile("^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$"),
                 3, 2, 1));
 
+        return instances;
 
+    }
+
+    public void rewriteTreiningFile(InstanceList previousInstanceList) throws IOException {
         System.out.println(" Rewriting extended pipe from " + trainingFile.getName());
         System.out.println("  Instance ID = " + previousInstanceList.getPipe().getInstanceId());
 
@@ -183,10 +187,6 @@ public class Inference {
         oos = new ObjectOutputStream(new FileOutputStream(trainingFile));
         oos.writeObject(previousInstanceList);
         oos.close();
-
-
-        return instances;
-
     }
 
 }
