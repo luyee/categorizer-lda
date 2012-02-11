@@ -22,7 +22,7 @@ import java.util.Vector;
  */
 public class DocumentsToTokensParserTest extends TestCase {
 
-    public static final String PATHNAME = "/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/DocParserTest/ala.disamb";
+    public String PATHNAME;
 
 
     private DocumentsToTokensParser documentsToTokensParser;
@@ -31,6 +31,7 @@ public class DocumentsToTokensParserTest extends TestCase {
 
     protected void setUp() throws Exception {
         super.setUp();
+        PATHNAME= this.getClass().getClassLoader().getResource("DocParserTest/ala.disamb").getPath();
         File testFile = new File(PATHNAME);
         documentsToTokensParser = DocumentsToTokensParser.getInstance();
         DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();

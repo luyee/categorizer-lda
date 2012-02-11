@@ -21,7 +21,6 @@ public class DocumentsLoaderTest extends junit.framework.TestCase {
 
     protected void setUp() throws Exception {
         super.setUp();
-        //pathname = "/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/Drama";
         pathname  = this.getClass().getClassLoader().getResource("Drama").getPath();
     }
 
