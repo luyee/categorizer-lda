@@ -5,7 +5,7 @@ if [ ! -n "$M_NUMITER" ]; then
   M_NUMITER=10000;
 fi
 if [ ! -n "$M_NUMTOPICS" ]; then
-  M_NUMTOPICS=85;
+  M_NUMTOPICS=40;
 fi
 
 
