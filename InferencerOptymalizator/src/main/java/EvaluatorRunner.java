@@ -91,6 +91,7 @@ public class EvaluatorRunner {
             RaportWriter raportWriter = new RaportWriter();
 
             raportWriter.writeRaport(evaluator,System.out);
+            inference.close();
 
 
 
