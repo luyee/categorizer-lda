@@ -43,9 +43,9 @@ public class SourceFilesToPanteraFilesTest extends TestCase {
     protected void setUp() throws Exception {
         super.setUp();
         sourcePathname =
-            "/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/testDir/test1/file1.txt";
+            "/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/Drama/Erotica/file1.txt";
         disambPathname =
-            "/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/testDir/test1/file1.txt.disamb";
+            "/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/Drama/Erotica/file1.txt.disamb";
 
     }
 

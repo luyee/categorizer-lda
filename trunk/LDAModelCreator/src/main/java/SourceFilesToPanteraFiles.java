@@ -64,6 +64,7 @@ public class SourceFilesToPanteraFiles {
         String line;
         String cmd = command.replaceAll("@",file.getAbsolutePath());
 
+        System.out.println("pantera on: " +file.getName());
         runPantera(cmd);
 
         DocumentBuilder docBuilder = buildPanteraXMLDoc();
@@ -79,6 +80,7 @@ public class SourceFilesToPanteraFiles {
     }
 
     protected void runPantera(String cmd) throws IOException, InterruptedException {
+
         Process p = Runtime.getRuntime().exec(cmd);
         p.waitFor();
     }

@@ -14,6 +14,8 @@ public class PanteraFile {
     
     private File sourceFile=null;
     private String label;
+    private Document panteraFile=null;
+    private TokenSequence tokenSequence;
 
     public File getSourceFile() {
         return sourceFile;
@@ -23,8 +25,6 @@ public class PanteraFile {
         return panteraFile;
     }
 
-    private Document panteraFile=null;
-    private TokenSequence tokenSequence;
 
     public  boolean hasPanteraFile(){
         return panteraFile!=null;

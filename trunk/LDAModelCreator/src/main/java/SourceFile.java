@@ -9,6 +9,10 @@ import java.io.File;
  */
 public class SourceFile {
 
+    private File sourcefile =null;
+    private File disambFile=null;
+    private String label="-";
+
     public String getLabel(){
         return label;
     }
@@ -38,8 +42,6 @@ public class SourceFile {
         this.sourcefile = sourceFile;
     }
 
-    private File sourcefile =null;
-    private File disambFile=null;
-    private String label="-";
+
     
 }
