@@ -1,6 +1,4 @@
-import evaluator.DataLoader;
-import evaluator.Evaluator;
-import evaluator.RaportWriter;
+import evaluator.*;
 import ldainference.Inference;
 import org.apache.commons.cli.*;
 
@@ -88,7 +86,7 @@ public class EvaluatorRunner {
             evaluator.evaluate();
 
 
-            RaportWriter raportWriter = new RaportWriter();
+            RaportWriterInterface raportWriter = new SmallRaportWriter();
 
             raportWriter.writeRaport(evaluator,System.out);
             inference.close();

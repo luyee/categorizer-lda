@@ -14,7 +14,7 @@ import java.util.Vector;
  * Time: 11:04 PM
  * To change this template use File | Settings | File Templates.
  */
-public class RaportWriter {
+public class RaportWriter extends RaportWriterInterface {
 
     class EvaluationInstanceCmp implements Comparator {
 
@@ -28,7 +28,8 @@ public class RaportWriter {
 
     }
     
-    public void writeRaport( Evaluator evaluator,OutputStream outputStream){
+    @Override
+    public void writeRaport(Evaluator evaluator, OutputStream outputStream){
         DecimalFormat df = new DecimalFormat("#.####");
         PrintStream out = new PrintStream(outputStream);
         int[] referenceValues = evaluator.getReferenceValues();

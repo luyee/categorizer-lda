@@ -19,7 +19,7 @@ public class InferenceCommandLineUtil {
     private static final String FILE_TO_INFERENCE = "input";
 
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String args[]) throws Exception {
 
 
         Option infFileOpt = OptionBuilder.withArgName(FILE_TO_INFERENCE)
