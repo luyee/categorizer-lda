@@ -33,30 +33,45 @@ public class Inference {
 
     private final InputStremToTmpFile inputStremToTmpFile = new InputStremToTmpFile();
     private InstanceList previousInstanceList;
+    private final TopicInferencer inferencer;
 
-    public Inference(File trainingFile, File inferenceFile, File docPerTopic) {
+    public Inference(File trainingFile, File inferenceFile, File docPerTopic) throws Exception {
         this.trainingFile = trainingFile;
         this.inferenceFile = inferenceFile;
         this.docPerTopic = docPerTopic;
         previousInstanceList = InstanceList.load(this.trainingFile);
+        inferencer = TopicInferencer.read(this.inferenceFile);
     }
+    
+    
+    public Inference(InstanceList previousInstanceList, TopicInferencer inferencer1, File docPerTopic1){
+        this.previousInstanceList = previousInstanceList;
+        this.inferencer = inferencer1;
+        this.docPerTopic = docPerTopic1;
+    }
+    
 
 
-    public Inference() throws IOException {
+    public Inference() throws Exception {
         buildFromResources();
+        inferencer = TopicInferencer.read(this.inferenceFile);
     }
-    public Inference(File outputFile, File inputFile) throws IOException {
+    public Inference(File outputFile, File inputFile) throws Exception {
         this.outputFile = outputFile;
         this.inputFile = inputFile;
         buildFromResources();
+        inferencer = TopicInferencer.read(this.inferenceFile);
     }
+    
 
-    public Inference(File trainingFile, File outputFile, File inferenceFile, File inputFile) {
+
+    public Inference(File trainingFile, File outputFile, File inferenceFile, File inputFile) throws Exception {
         this.trainingFile = trainingFile;
         this.outputFile = outputFile;
         this.inferenceFile = inferenceFile;
         this.inputFile = inputFile;
         previousInstanceList = InstanceList.load(this.trainingFile);
+        inferencer = TopicInferencer.read(this.inferenceFile);
     }
 
     public void close() throws IOException {
@@ -106,9 +121,6 @@ public class Inference {
     
     private Vector<Category> infCategories(InstanceList instanceList) throws Exception {
 
-
-        TopicInferencer inferencer =
-                TopicInferencer.read(this.inferenceFile);
 
         InstanceList instances = instanceList;
 
@@ -179,8 +191,8 @@ public class Inference {
     }
 
     public void rewriteTreiningFile(InstanceList previousInstanceList) throws IOException {
-        System.out.println(" Rewriting extended pipe from " + trainingFile.getName());
-        System.out.println("  Instance ID = " + previousInstanceList.getPipe().getInstanceId());
+        //System.out.println(" Rewriting extended pipe from " + trainingFile.getName());
+        //System.out.println("  Instance ID = " + previousInstanceList.getPipe().getInstanceId());
 
         ObjectOutputStream oos;
 
