@@ -2,7 +2,7 @@ package ldainference;
 
 import DistClasificator.Category;
 import DistClasificator.DistanceClassifier;
-import cc.mallet.pipe.Pipe;
+import cc.mallet.pipe.*;
 import cc.mallet.pipe.iterator.CsvIterator;
 import cc.mallet.topics.TopicInferencer;
 import cc.mallet.types.Instance;
@@ -42,6 +42,7 @@ public class Inference {
         previousInstanceList = InstanceList.load(this.trainingFile);
         inferencer = TopicInferencer.read(this.inferenceFile);
     }
+
     
     
     public Inference(InstanceList previousInstanceList, TopicInferencer inferencer1, File docPerTopic1){
