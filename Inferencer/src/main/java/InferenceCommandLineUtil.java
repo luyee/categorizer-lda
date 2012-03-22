@@ -84,6 +84,8 @@ public class InferenceCommandLineUtil {
             inference.inference(instances);
 
 
+            //aaaaa
+
         } catch (ParseException exp) {
             // oops, something went wrong
             System.err.println("Parsing failed.  Reason: " + exp.getMessage());
