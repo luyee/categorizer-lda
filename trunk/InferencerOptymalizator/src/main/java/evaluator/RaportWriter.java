@@ -27,7 +27,7 @@ public class RaportWriter extends RaportWriterInterface {
         }
 
     }
-    //  ddd
+
     
     @Override
     public void writeRaport(Evaluator evaluator, OutputStream outputStream){
