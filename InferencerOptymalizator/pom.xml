@@ -60,7 +60,7 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>EvaluatorRunner</mainClass>
+                                <mainClass>EvaluatorCmdLine</mainClass>
                             </manifest>
                         </archive>
                         <descriptorRefs>
