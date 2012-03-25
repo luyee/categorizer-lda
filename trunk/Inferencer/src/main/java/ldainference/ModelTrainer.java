@@ -3,14 +3,18 @@ package ldainference;
 import cc.mallet.pipe.*;
 import cc.mallet.pipe.iterator.CsvIterator;
 import cc.mallet.topics.ParallelTopicModel;
+import cc.mallet.topics.TopicInferencer;
 import cc.mallet.types.InstanceList;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.UUID;
 import java.util.regex.Pattern;
 
 public class ModelTrainer {
 
+    public static final double THRESHOLD = 0.0;
+    public static final int MAX = -1;
     private InstanceList instances;
     private final int numTopics;
     private final double alphaSum;
@@ -18,6 +22,7 @@ public class ModelTrainer {
     private final int numIterations;
     private final ParallelTopicModel model;
     private final String trainingCsvPath;
+    private File docPerTopic;
 
     public ModelTrainer(String trainingCsvPath, int numIterations) {
         this.trainingCsvPath = trainingCsvPath;
@@ -28,7 +33,17 @@ public class ModelTrainer {
         model = new ParallelTopicModel(numTopics, alphaSum, beta);
     }
 
+    public TopicInferencer getInderencer(){
+        return model.getInferencer();
+    }
 
+    public InstanceList getTrainingInstanceList(){
+        return instances;
+    }
+
+    public File getDocPerTopic() {
+        return docPerTopic;
+    }
 
     public void trainModel() throws IOException, UnsupportedEncodingException {
         //String trainingCsvPath ="/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/UTFtest/engfile";
@@ -68,5 +83,9 @@ public class ModelTrainer {
         model.setNumIterations(numIterations);
         model.estimate();
 
+        docPerTopic = File.createTempFile(UUID.randomUUID().toString(), ".docPerTopic");
+        PrintWriter out = new PrintWriter (new FileWriter (docPerTopic));
+        model.printDocumentTopics(out, THRESHOLD, MAX);
+        out.close();
     }
 }
