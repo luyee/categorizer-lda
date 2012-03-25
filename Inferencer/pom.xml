@@ -44,18 +44,14 @@
             <artifactId>commons-lang</artifactId>
             <version>2.1</version>
         </dependency>
-        <!--        <dependency>
+               <dependency>
                     <groupId>weka</groupId>
                     <artifactId>weka1</artifactId>
                     <version>1.0</version>
 
                 </dependency>
-                <dependency>
-                    <groupId>mulan</groupId>
-                    <artifactId>mulan2</artifactId>
-                    <version>1.0</version>
-                </dependency>
-        -->
+
+
     </dependencies>
     <build>
         <pluginManagement>
@@ -64,9 +60,6 @@
                     <artifactId>maven-assembly-plugin</artifactId>
                     <configuration>
                         <archive>
-                            <manifest>
-                                <mainClass>InferenceCommandLineUtil</mainClass>
-                            </manifest>
                         </archive>
                         <descriptorRefs>
                             <descriptorRef>jar-with-dependencies</descriptorRef>
@@ -80,8 +73,8 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <!-- best lock down version of the plugin too -->
                     <configuration>
-                        <source>1.5</source>
-                        <target>1.5</target>
+                        <source>1.6</source>
+                        <target>1.6</target>
                     </configuration>
                 </plugin>
             </plugins>

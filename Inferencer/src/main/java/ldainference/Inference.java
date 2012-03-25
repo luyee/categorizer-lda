@@ -1,18 +1,10 @@
 package ldainference;
 
-import DistClasificator.Category;
-import DistClasificator.DistanceClassifier;
-import cc.mallet.pipe.*;
-import cc.mallet.pipe.iterator.CsvIterator;
 import cc.mallet.topics.TopicInferencer;
-import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
 import util.InputStremToTmpFile;
-import util.MalletWriter;
 
 import java.io.*;
-import java.util.Vector;
-import java.util.regex.Pattern;
 
 /**
  * Created by IntelliJ IDEA.
@@ -103,94 +95,6 @@ public class Inference {
     }
 
 
-    public Vector<String> inferenceCategories(Vector<String> instance) throws Exception {
-        this.inputFile = MalletWriter.addToCvs(instance);
-        InstanceList instances = createInstances();
-        Category cats = infCategories(instances).get(0);
-        DistanceClassifier distanceClassifier= new DistanceClassifier();
-        if (docPerTopic==null){
-        InputStream inputStreamTraining =
-                this.getClass().getClassLoader().getResourceAsStream("DocPerTopic.txt");
-
-        distanceClassifier.readDocTopicasStream(inputStreamTraining);
-        }else {
-            distanceClassifier.readDocTopicasFile(docPerTopic);
-        }
-        return distanceClassifier.classifyStr(cats);
-
-    }
-    
-    private Vector<Category> infCategories(InstanceList instanceList) throws Exception {
-
-
-        InstanceList instances = instanceList;
-
-        int numIterations = 100;
-        int sampleInterval = 10;
-        int burnInIterations = 10;
-
-        Vector<Category> vector = new Vector<Category>();
-        for (Instance instance : instances) {
-
-            double[] topicDistribution =
-                    inferencer.getSampledDistribution(instance, numIterations,
-                            sampleInterval, burnInIterations);
-            vector.add(new Category(topicDistribution));
-        }
-        return vector;
-
-    }
-
-    public void inference( InstanceList instanceList) {
-
-        try {
-
-            TopicInferencer inferencer =
-                    TopicInferencer.read(this.inferenceFile);
-
-            InstanceList instances = instanceList;
-
-            int numIterations = 100;
-            int sampleInterval = 10;
-            int burnInIterations = 10;
-            double docTopicsThreshold = 0.0;
-            int docTopicsMax = 20;
-            inferencer.writeInferredDistributions(instances, this.outputFile,
-                    numIterations, sampleInterval,
-                    burnInIterations,
-                    docTopicsThreshold, docTopicsMax);
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.err.println(e.getMessage());
-        }
-    }
-
-
-    public InstanceList createInstances() throws IOException, UnsupportedEncodingException {
-
-
-        Pipe instancePipe;
-
-        instancePipe = previousInstanceList.getPipe();
-
-        //
-        // Create the instance list and open the input file
-        //
-        InstanceList instances = new InstanceList(instancePipe);
-        Reader fileReader;
-
-        fileReader = new InputStreamReader(new FileInputStream(this.inputFile), "UTF-8");
-
-
-        instances.addThruPipe(new CsvIterator(fileReader, Pattern.compile("^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$"),
-                3, 2, 1));
-
-        return instances;
-
-    }
-
     public void rewriteTreiningFile(InstanceList previousInstanceList) throws IOException {
         //System.out.println(" Rewriting extended pipe from " + trainingFile.getName());
         //System.out.println("  Instance ID = " + previousInstanceList.getPipe().getInstanceId());
@@ -202,4 +106,23 @@ public class Inference {
         oos.close();
     }
 
+    public void setInputFile(File file) {
+        this.inputFile =file;
+    }
+
+    public File getDocPerTopic() {
+        return docPerTopic;
+    }
+
+    public TopicInferencer getInferencer() {
+        return inferencer;
+    }
+
+    public InstanceList getPreviousInstanceList() {
+        return previousInstanceList;
+    }
+
+    public File getInputFile() {
+        return inputFile;
+    }
 }
