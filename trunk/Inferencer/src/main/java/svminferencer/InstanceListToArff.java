@@ -19,19 +19,27 @@ import java.util.Set;
 public class InstanceListToArff {
 
     private Set<String> categoriesNames;
+    private InstanceList training;
+    private int size2=-1;
 
     public InstanceListToArff() {
         categoriesNames = null;
     }
 
 
-    public InstanceListToArff(Set<String> categoriesNames) {
+    public InstanceListToArff(Set<String> categoriesNames,
+                              InstanceList training) {
         this.categoriesNames = categoriesNames;
+        this.size2 = training.getDataAlphabet().size();
+
     }
 
     public Set<String> getCategoriesNames() {
         return categoriesNames;
     }
+
+
+
 
     public void convert2ARFF(InstanceList instances, PrintWriter pWriter, String description) {
 
@@ -41,6 +49,15 @@ public class InstanceListToArff {
         pWriter.write("@Relation " + description + "\n\n");
 
         int size = dataAlphabet.size();
+
+
+
+        if (size2!=-1){
+            size=size2;
+        }
+
+
+
         for (int i = 0; i < size; i++) {
             pWriter.write("@attribute " +
                     dataAlphabet.lookupObject(i).toString().replaceAll("\\s+", "_")
@@ -49,13 +66,14 @@ public class InstanceListToArff {
 
 
         pWriter.write(classAtr(instances) + "\n");
-        int[] featuresCnt = new int[size];
+
 
 
         pWriter.write("\n\n@data\n");
 
         String cat;
 
+        int[] featuresCnt = new int[size];
         for (Instance instance : instances) {
 //            System.out.println(instance.getSource().toString()+ " source");
             //System.out.println(instance.getName().toString() + " name");
@@ -107,7 +125,9 @@ public class InstanceListToArff {
 
         int[] features = fs.getFeatures();
         for (int i = 0; i < features.length; i++) {
-            ret[features[i]] += 1;
+            if (features[i]< ret.length){
+                ret[features[i]] += 1;
+            }
         }
     }
 }

@@ -7,17 +7,21 @@ import cc.mallet.pipe.iterator.CsvIterator;
 import cc.mallet.topics.TopicInferencer;
 import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
+import interfaces.AbstractInferencer;
 import util.MalletWriter;
 
 import java.io.*;
 import java.util.Vector;
 import java.util.regex.Pattern;
 
-public class Inferencer {
+public class Inferencer extends AbstractInferencer {
 
     private final File docPerTopic;
     private final TopicInferencer inferencer;
     private final InstanceList trainingInstanceList;
+
+
+
 
     public Inferencer( File docPerTopic, TopicInferencer inferencer, InstanceList trainingInstanceList) {
 
@@ -26,6 +30,7 @@ public class Inferencer {
         this.trainingInstanceList = trainingInstanceList;
     }
 
+    @Override
     public Vector<String> inferenceCategories(Vector<String> instance) throws Exception {
         
         InstanceList instances = MalletWriter.createInsatnceList(instance,trainingInstanceList);
