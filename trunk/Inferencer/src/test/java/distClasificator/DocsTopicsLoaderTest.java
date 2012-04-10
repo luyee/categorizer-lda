@@ -1,4 +1,4 @@
-package DistClasificator;
+package distClasificator;
 
 import junit.framework.TestCase;
 import org.junit.Test;

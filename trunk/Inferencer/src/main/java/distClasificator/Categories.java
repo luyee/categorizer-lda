@@ -1,4 +1,4 @@
-package DistClasificator;
+package distClasificator;
 
 import java.util.*;
 

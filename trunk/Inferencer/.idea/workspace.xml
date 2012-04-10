@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4ced284a-913f-4e0b-bc93-4838997e7422" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/svminferencer/KnnModelTrainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/svminferencer/WekaModelTrainer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/DocPerTopic.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Inferencer.mallet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/TrainingMoldel.mallet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/svminferencer/SvmInferencer.java" afterPath="$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inferencer.iml" afterPath="$PROJECT_DIR$/Inferencer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/svminferencer/SVMModelTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/svminferencer/SVMModelTrainer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator/Categories.java" afterPath="$PROJECT_DIR$/src/main/java/distClasificator/Categories.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator/Category.java" afterPath="$PROJECT_DIR$/src/main/java/distClasificator/Category.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java" afterPath="$PROJECT_DIR$/src/main/java/distClasificator/DistanceClassifier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator/DocsTopicsLoader.java" afterPath="$PROJECT_DIR$/src/main/java/distClasificator/DocsTopicsLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator/CategoriesTest.java" afterPath="$PROJECT_DIR$/src/test/java/distClasificator/CategoriesTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator/CategoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/distClasificator/CategoryTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator/DocsTopicsLoaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/distClasificator/DocsTopicsLoaderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator/integrationTestDistClasifierTest.java" afterPath="$PROJECT_DIR$/src/test/java/distClasificator/integrationTestDistClasifierTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java" afterPath="$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator" afterPath="$PROJECT_DIR$/src/main/java/distClasificator" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator" afterPath="$PROJECT_DIR$/src/test/java/distClasificator" />
     </list>
     <ignored path="Inferencer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,7 +108,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="7" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.49473685">
+            <state line="48" column="7" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.3326316">
               <folding />
             </state>
           </provider>
@@ -309,24 +307,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Inferencer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Inferencer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -481,8 +461,8 @@
       <module name="Inferencer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DistClasificator" />
-      <option name="MAIN_CLASS_NAME" value="DistClasificator.integrationTestDistClasifierTest" />
+      <option name="PACKAGE_NAME" value="distClasificator" />
+      <option name="MAIN_CLASS_NAME" value="distClasificator.integrationTestDistClasifierTest" />
       <option name="METHOD_NAME" value="testClasification2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1020,7 +1000,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="7" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.49473685">
+        <state line="48" column="7" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.3326316">
           <folding />
         </state>
       </provider>
