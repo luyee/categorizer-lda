@@ -16,7 +16,7 @@ import java.util.*;
  * Time: 9:10 PM
  * To change this template use File | Settings | File Templates.
  */
-public class SvmInferencer extends AbstractInferencer {
+public class WekaInferencer extends AbstractInferencer {
 
     
     private final InstanceListToArff instanceListToArff;
@@ -27,18 +27,15 @@ public class SvmInferencer extends AbstractInferencer {
     private final int  numCategories;
 
 
-    public SvmInferencer(InstanceList trainingInstanceList,
-                         Classifier classifier,
-                         Set<String> categoiresNames, int numCategories) {
+    public WekaInferencer(InstanceList trainingInstanceList,
+                          Classifier classifier,
+                          Set<String> categoiresNames, int numCategories) {
         this.trainingInstanceList = trainingInstanceList;
         this.classifier = classifier;
         this.numCategories = numCategories;
         instanceListToArff = new InstanceListToArff(categoiresNames,trainingInstanceList);
     }
     
-                /*
-                TODO REMOVE TMP FILES
-                 */
 
     public void  createArffToBeClassifedFile() throws IOException {
         arrfToBeClassifedFile = File.createTempFile(UUID.randomUUID().toString(), ".arff");
@@ -76,10 +73,10 @@ public class SvmInferencer extends AbstractInferencer {
         Map<Double,Integer> map = new TreeMap<Double,Integer>();
         for (int i = 0; i < unlabeled.numInstances(); i++) {
 
-            double clsLabel = classifier.classifyInstance(unlabeled.instance(i));
+            //double clsLabel = classifier.classifyInstance(unlabeled.instance(i));
 
             distribution = classifier.distributionForInstance(unlabeled.instance(i));
-            labeled.instance(i).setClassValue(clsLabel);
+            //labeled.instance(i).setClassValue(clsLabel);
 
             for( int j=0;j<distribution.length;j++ ){
 
@@ -90,7 +87,9 @@ public class SvmInferencer extends AbstractInferencer {
             for(Double d: map.keySet()){
 
                 ret.add(unlabeled.classAttribute().value((int) map.get(d))) ;
+
             }
+            Collections.reverse(ret);
 
             while (ret.size() < numCategories)
                 ret.add(labeled.instance(i).toString(numAtrs));

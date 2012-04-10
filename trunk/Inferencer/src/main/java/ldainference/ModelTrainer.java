@@ -12,11 +12,12 @@ import java.util.ArrayList;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
+import static org.apache.commons.io.FileUtils.copyFile;
+
 public class ModelTrainer extends AbstractModelTrainer {
 
     public static final double THRESHOLD = 0.0;
     public static final int MAX = -1;
-    public static final String LDAMODEL_MALLET = "/LDAModel.mallet";
     private InstanceList trainingInstances;
     private final int numTopics;
     private final double alphaSum;
@@ -31,29 +32,40 @@ public class ModelTrainer extends AbstractModelTrainer {
         this(trainingCsvPath, 10000, 80);
     }
 
-    public boolean readModelFromFile(String modelPath) throws Exception {
-        String pathname = modelPath + LDAMODEL_MALLET;
+    public void readModelFromFile(String pathname) throws Exception {
+
         try {
 
-            model = ParallelTopicModel.read(new File(pathname));
+            model = ParallelTopicModel.read(new File(pathname+"model.lda"));
+            ObjectInputStream ois = new ObjectInputStream(
+                    new FileInputStream(pathname+"trainignInstaces.lda"));
+            trainingInstances = (InstanceList)ois.readObject();
+            ois.close();
+            docPerTopic = new File(pathname+"docPerTopic.lda");
             this.modelFromFile = true;
-            return true;
+          
         } catch (Exception e) {
             System.err.println("Unable to restore saved topic model " +
                     pathname + ": " + e);
-            return false;
+            
         }
     }
 
-    public void saveModel(String modelPath) {
-        String pathname = modelPath + LDAMODEL_MALLET;
-        assert (model != null);
+    public void saveModel(String pathname) {
+
+        assert (model != null && trainingInstances!=null && docPerTopic!=null);
+
         try {
 
             ObjectOutputStream oos =
-                    new ObjectOutputStream(new FileOutputStream(pathname));
+                    new ObjectOutputStream(new FileOutputStream(pathname+"model.lda"));
             oos.writeObject(model);
             oos.close();
+            oos = new ObjectOutputStream(new FileOutputStream(pathname+"trainignInstaces.lda"));
+            oos.writeObject(trainingInstances);
+            oos.close();            
+            copyFile(docPerTopic,
+                    new File(pathname + "docPerTopic.lda"));
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -73,15 +85,12 @@ public class ModelTrainer extends AbstractModelTrainer {
 
     @Override
     public void trainModel() throws IOException, UnsupportedEncodingException {
-        //String trainingCsvPath ="/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/UTFtest/engfile";
+
         // Begin by importing documents from text to feature sequences
         ArrayList<Pipe> pipeList = new ArrayList<Pipe>();
 
-        // Pipes: lowercase, tokenize, remove stopwords, map to features
-        pipeList.add(new CharSequenceLowercase());
-
         pipeList.add(new CharSequence2TokenSequence(Pattern.compile("[\\p{L}\\p{M}]+")));
-        //pipeList.add( new TokenSequenceRemoveStopwords(new File("stoplists/en.txt"), "UTF-8", false, false, false) );
+
         pipeList.add(new TokenSequence2FeatureSequence());
 
         trainingInstances = new InstanceList(new SerialPipes(pipeList));
@@ -89,10 +98,6 @@ public class ModelTrainer extends AbstractModelTrainer {
         Reader fileReader = new InputStreamReader(new FileInputStream(new File(trainingCsvPath)), "UTF-8");
         trainingInstances.addThruPipe(new CsvIterator(fileReader, Pattern.compile("^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$"),
                 3, 2, 1)); // data, label, name fields
-
-        // Create a model with 100 topics, alpha_t = 0.01, beta_w = 0.01
-        //  Note that the first parameter is passed as the sum over topics, while
-        //  the second is
 
 
         if (!this.modelFromFile) {
