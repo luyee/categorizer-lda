@@ -1,4 +1,4 @@
-package DistClasificator;
+package distClasificator;
 
 import java.io.*;
 import java.util.HashMap;

@@ -1,7 +1,7 @@
 package ldainference;
 
-import DistClasificator.Category;
-import DistClasificator.DistanceClassifier;
+import distClasificator.Category;
+import distClasificator.DistanceClassifier;
 import cc.mallet.pipe.Pipe;
 import cc.mallet.pipe.iterator.CsvIterator;
 import cc.mallet.topics.TopicInferencer;

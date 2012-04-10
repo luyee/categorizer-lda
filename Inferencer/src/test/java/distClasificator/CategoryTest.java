@@ -1,4 +1,4 @@
-package DistClasificator;
+package distClasificator;
 
 import junit.framework.TestCase;
 import org.apache.commons.math.linear.ArrayRealVector;

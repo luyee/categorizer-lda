@@ -1,4 +1,4 @@
-package DistClasificator;
+package distClasificator;
 
 import org.apache.commons.lang.ArrayUtils;
 import org.apache.commons.math.linear.ArrayRealVector;
