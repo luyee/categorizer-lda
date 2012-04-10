@@ -15,6 +15,9 @@ public abstract class AbstractModelTrainer {
 
     public abstract void trainModel() throws IOException, UnsupportedEncodingException, Exception;
     public abstract AbstractInferencer getInferencer();
-    public abstract boolean readModelFromFile(String modelPath) throws Exception;
+    /*
+    TODO changed semantics now givig full path to save and read
+     */
+    public abstract void readModelFromFile(String modelPath) throws Exception;
     public abstract void saveModel(String modelPath);
 }
