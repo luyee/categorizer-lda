@@ -27,43 +27,67 @@ public class ModelTrainer extends AbstractModelTrainer {
     private final String trainingCsvPath;
     private File docPerTopic;
 
-
+    /**
+     * Simplified Constructor equivalent to calling
+     * ModelTrainer(rainingCsvPath, 10000, 80)
+     */
     public ModelTrainer(String trainingCsvPath) {
         this(trainingCsvPath, 10000, 80);
     }
 
+    /**
+     * This method is reading model from 3 files which prefixes
+     * are described by pathname.
+     * pathname +"model.lda" is path for trained model
+     * pathname +"trainignInstaces.lda" is path for training instances in binary format
+     * pathname + "docPerTopic.lda" is path for model for for KNN like second model
+     * for more information about how these are used please consult readme attached
+     *
+     * @param pathname path defining location of model
+     */
     public void readModelFromFile(String pathname) throws Exception {
 
         try {
 
-            model = ParallelTopicModel.read(new File(pathname+"model.lda"));
+            model = ParallelTopicModel.read(new File(pathname + "model.lda"));
             ObjectInputStream ois = new ObjectInputStream(
-                    new FileInputStream(pathname+"trainignInstaces.lda"));
-            trainingInstances = (InstanceList)ois.readObject();
+                    new FileInputStream(pathname + "trainignInstaces.lda"));
+            trainingInstances = (InstanceList) ois.readObject();
             ois.close();
-            docPerTopic = new File(pathname+"docPerTopic.lda");
+            docPerTopic = new File(pathname + "docPerTopic.lda");
             this.modelFromFile = true;
-          
+
         } catch (Exception e) {
             System.err.println("Unable to restore saved topic model " +
                     pathname + ": " + e);
-            
+
         }
     }
 
+
+    /**
+     * This method is saving model to 3 files which prefixes
+     * are described by pathname.
+     * pathname +"model.lda" is path for trained model
+     * pathname +"trainignInstaces.lda" is path for training instances in binary format
+     * pathname + "docPerTopic.lda" is path for model for for KNN like second model
+     * for more information about how these are used please consult readme attached
+     *
+     * @param pathname path definig location of model
+     */
     public void saveModel(String pathname) {
 
-        assert (model != null && trainingInstances!=null && docPerTopic!=null);
+        assert (model != null && trainingInstances != null && docPerTopic != null);
 
         try {
 
             ObjectOutputStream oos =
-                    new ObjectOutputStream(new FileOutputStream(pathname+"model.lda"));
+                    new ObjectOutputStream(new FileOutputStream(pathname + "model.lda"));
             oos.writeObject(model);
             oos.close();
-            oos = new ObjectOutputStream(new FileOutputStream(pathname+"trainignInstaces.lda"));
+            oos = new ObjectOutputStream(new FileOutputStream(pathname + "trainignInstaces.lda"));
             oos.writeObject(trainingInstances);
-            oos.close();            
+            oos.close();
             copyFile(docPerTopic,
                     new File(pathname + "docPerTopic.lda"));
 
@@ -73,6 +97,15 @@ public class ModelTrainer extends AbstractModelTrainer {
         }
     }
 
+    /**
+     * Basic Constructor
+     *
+     * @param trainingCsvPath path for training instances which format is described in attached readme
+     * @param numIterations   how many iterations perform while learning model (10000 is almost for sure O.K)
+     * @param numTopics       number of internal topics ( abstract topics NOT the categories - in other words
+     *                        number of dimensions we want to reduce ours space to ). Setting this number to number of categories is usual
+     *                        strategy.
+     */
     public ModelTrainer(String trainingCsvPath, int numIterations, int numTopics) {
         this.trainingCsvPath = trainingCsvPath;
         this.numTopics = numTopics;

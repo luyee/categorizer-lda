@@ -10,6 +10,15 @@ import java.util.Vector;
  * To change this template use File | Settings | File Templates.
  */
 public abstract class AbstractInferencer {
+
+    /**
+     * Inference categories.
+     *
+     * @param instance is vector of String that represents the
+     *                 learning features (e.g basic form of nouns).
+     * @return Returned Vector contains categories
+     *         ordered decreasingly by their probabilities.
+     */
     public abstract Vector<String> inferenceCategories(Vector<String> instance) throws Exception;
 
 
