@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4ced284a-913f-4e0b-bc93-4838997e7422" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator/Categories.java" afterPath="$PROJECT_DIR$/src/main/java/distClasificator/Categories.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator/Category.java" afterPath="$PROJECT_DIR$/src/main/java/distClasificator/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator/DistanceClassifier.java" afterPath="$PROJECT_DIR$/src/main/java/distClasificator/DistanceClassifier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator/DocsTopicsLoader.java" afterPath="$PROJECT_DIR$/src/main/java/distClasificator/DocsTopicsLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator/CategoriesTest.java" afterPath="$PROJECT_DIR$/src/test/java/distClasificator/CategoriesTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator/CategoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/distClasificator/CategoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator/DocsTopicsLoaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/distClasificator/DocsTopicsLoaderTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator/integrationTestDistClasifierTest.java" afterPath="$PROJECT_DIR$/src/test/java/distClasificator/integrationTestDistClasifierTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inferencer.iml" afterPath="$PROJECT_DIR$/Inferencer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java" afterPath="$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DistClasificator" afterPath="$PROJECT_DIR$/src/main/java/distClasificator" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DistClasificator" afterPath="$PROJECT_DIR$/src/test/java/distClasificator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java" />
     </list>
     <ignored path="Inferencer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +86,36 @@
       <file leaf-file-name="ModelTrainer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="67" selection-start="1666" selection-end="1666" vertical-scroll-proportion="-4.8">
+            <state line="16" column="13" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractModelTrainer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="39" selection-start="738" selection-end="753" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inferencer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2187#2197#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractInferencer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="57" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +133,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="7" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.3326316">
+            <state line="82" column="44" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.84210527">
               <folding />
             </state>
           </provider>
@@ -144,7 +169,7 @@
       <file leaf-file-name="SvmInterfaceInt.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/integration/SvmInterfaceInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+            <state line="24" column="23" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,19 +192,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/util/MalletWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ldainference/InferencerInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ldainference/OleModelTrainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ldainference/Inference.java" />
         <option value="$PROJECT_DIR$/src/main/java/svminferencer/InstanceListToArff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java" />
         <option value="$PROJECT_DIR$/src/main/java/integration/SvmInterfaceInt.java" />
         <option value="$PROJECT_DIR$/src/main/java/svminferencer/SvmInferencer.java" />
         <option value="$PROJECT_DIR$/src/main/java/svminferencer/SVMModelTrainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/svminferencer/KnnModelTrainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/svminferencer/WekaModelTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -226,9 +251,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="640" />
+    <option name="x" value="-1" />
+    <option name="y" value="-5" />
+    <option name="width" value="1368" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -256,8 +282,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -415,9 +439,37 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inferencer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inferencer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -827,7 +879,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="640" extended-state="6" />
+    <frame x="-1" y="-5" width="1368" height="670" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.013651877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -841,7 +893,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20409712" sideWeight="0.67276424" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057663" sideWeight="0.67276424" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057663" sideWeight="0.67276424" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24186991" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -909,11 +961,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/InputStremToTmpFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="79" selection-start="233" selection-end="293" vertical-scroll-proportion="0.0" />
@@ -934,56 +981,29 @@
         <state line="47" column="15" selection-start="1870" selection-end="1870" vertical-scroll-proportion="-2.2" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/MalletWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="39" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="590" selection-end="590" vertical-scroll-proportion="0.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/integration/SvmInterfaceInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/InstanceListToArff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="8" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/KnnModelTrainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/WekaModelTrainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="29" selection-start="3778" selection-end="3778" vertical-scroll-proportion="0.5194805">
-          <folding />
-        </state>
+        <state line="106" column="29" selection-start="3778" selection-end="3778" vertical-scroll-proportion="0.5194805" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="35" selection-start="3316" selection-end="3316" vertical-scroll-proportion="0.4631579">
-          <folding />
-        </state>
+        <state line="91" column="35" selection-start="3316" selection-end="3316" vertical-scroll-proportion="0.4631579" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/InstanceListToArff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="8" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/MalletWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="39" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/KnnModelTrainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/SVMModelTrainer.java">
@@ -991,16 +1011,44 @@
         <state line="25" column="36" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/integration/SvmInterfaceInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="23" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="57" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="67" selection-start="1666" selection-end="1666" vertical-scroll-proportion="-4.8">
+        <state line="16" column="13" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="39" selection-start="738" selection-end="753" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2187#2197#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="7" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.3326316">
+        <state line="82" column="44" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.84210527">
           <folding />
         </state>
       </provider>

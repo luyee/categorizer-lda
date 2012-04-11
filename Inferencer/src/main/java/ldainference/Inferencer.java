@@ -21,8 +21,13 @@ public class Inferencer extends AbstractInferencer {
     private final InstanceList trainingInstanceList;
 
 
-
-
+    /**
+     * This constructor should mot be used unless you know what you are doing.
+     * Much safer way is to call @see interfaces.AbstractModelTrainer#getInferencer()
+     * @param docPerTopic file describing KNN like model
+     * @param inferencer  inferencer from ModelTrainer
+     * @param trainingInstanceList list of training instances
+     */
     public Inferencer( File docPerTopic, TopicInferencer inferencer, InstanceList trainingInstanceList) {
 
         this.docPerTopic = docPerTopic;
@@ -43,6 +48,12 @@ public class Inferencer extends AbstractInferencer {
 
     }
 
+    /**
+     * inferencing abstract categories by LDA
+     * @param instanceList representation of input document as instance List
+     * @return  vector of abstract topics as Strings
+     * @throws Exception
+     */
     private Vector<Category> infCategories(InstanceList instanceList) throws Exception {
 
 
@@ -64,6 +75,14 @@ public class Inferencer extends AbstractInferencer {
 
     }
 
+    /**
+     * @deprecated
+     * for creating instances form file. Solely for testing and optimization purposes
+     * @param fileToBeInferenced
+     * @return
+     * @throws IOException
+     * @throws UnsupportedEncodingException
+     */
     public InstanceList createInstances(File fileToBeInferenced) throws IOException, UnsupportedEncodingException {
 
         Pipe instancePipe;
