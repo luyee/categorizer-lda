@@ -1,0 +1,327 @@
+categorizer-lda
+wrapper script on mallet and malletmodelcreator
+using dataset /home/kacper/dev/categorizer-lda/data/402
+trained for 80 topics 
+0: 0.7058823529411765	1: 0.9159663865546218	2: 0.957983193277311	5: 0.9831932773109243	7: 0.9915966386554622	10: 0.9915966386554622	2: 0.91596638655462185:0.9831932773109243
+
+------------------------------------------------
+
+banknot.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, Dentistry, MarketingSales, Erotica, ManagementLeadership, AustralianOceanianHistory, Development, HistoryofScience, Economics, SoftwareApplicationsEnterpriseSystems]	
+ 
+bank.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, Dentistry, MarketingSales, Erotica, ManagementLeadership, Development, AustralianOceanianHistory, Economics, HistoryofScience, InternationalRelations]	
+ 
+pienelektr.txt	0 0 1 1 1 1 [AccountingBankingMoney]	[Dentistry, MarketingSales, AccountingBankingMoney, Erotica, ManagementLeadership, Development, AustralianOceanianHistory, HistoryofScience, InternationalRelations, Economics]	
+ 
+------------------------------------------------
+
+palkiewicz.txt	0 1 1 1 1 1 [AdventureSurvival]	[Erotica, AdventureSurvival, AustralianOceanianHistory, ThrillerMysteryCrime, Medicine, HistoryofScience, ManagementLeadership, Sexuality, Development, Economics]	
+ 
+harcer.txt	0 0 1 1 1 1 [AdventureSurvival]	[FamilyChildHealth, Medicine, AdventureSurvival, Dentistry, Erotica, ManagementLeadership, HistoryofScience, AustralianOceanianHistory, Development, Biology]	
+ 
+czlowiek.txt	0 1 1 1 1 1 [AdventureSurvival]	[ThrillerMysteryCrime, AdventureSurvival, Erotica, AustralianOceanianHistory, ArmamentArmscontrol, ManagementLeadership, HistoryofScience, Development, Economics, MarketingSales]	
+ 
+------------------------------------------------
+
+iiwojnapunicka.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, AustralianOceanianHistory, MiddleEasternHistory, Erotica, ImmigrationEmigration, ManagementLeadership, HistoryofScience, AdventureSurvival, Development, Economics]	
+ 
+mezopotamia.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, MiddleEasternHistory, CookingFoodWine, WorldHistory, ManagementLeadership, Erotica, AustralianOceanianHistory, HistoryofScience, ImmigrationEmigration, Development]	
+ 
+cesarstwozach.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, ImmigrationEmigration, MiddleEasternHistory, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Development, Medicine, ArmamentArmscontrol]	
+ 
+------------------------------------------------
+
+tarcza.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AustralianOceanianHistory, Erotica, Development, Economics, ManagementLeadership, SoftwareApplicationsEnterpriseSystems, HistoryofScience, SecurityDefence, MarketingSales]	
+ 
+forty.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, Erotica, AustralianOceanianHistory, HistoryofScience, ManagementLeadership, Economics, AdventureSurvival, Development, Medicine, MarketingSales]	
+ 
+rosomak.txt	0 1 1 1 1 1 [ArmamentArmscontrol]	[SoftwareApplicationsEnterpriseSystems, ArmamentArmscontrol, OperatingSystems, Erotica, MarketingSales, AustralianOceanianHistory, ManagementLeadership, Development, Economics, HistoryofScience]	
+ 
+------------------------------------------------
+
+atanwojennywaust.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, NorthAmericanHistory, Erotica, ManagementLeadership, Development, Sexuality, HistoryofScience, MiddleEasternHistory, InternationalRelations, ArmamentArmscontrol]	
+ 
+bomba.txt	0 1 1 1 1 1 [AustralianOceanianHistory]	[Erotica, AustralianOceanianHistory, ManagementLeadership, Sexuality, HistoryofScience, ImmigrationEmigration, Development, Economics, ArmamentArmscontrol, MarketingSales]	
+ 
+koralowawojna.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, EarthSciences, Erotica, ManagementLeadership, ArmamentArmscontrol, Development, AncientHistory, HistoryofScience, Economics, AdventureSurvival]	
+ 
+------------------------------------------------
+
+biologia.txt	0 1 1 1 1 1 [Biology]	[Genetics, Biology, HistoryofScience, Medicine, Erotica, ManagementLeadership, AustralianOceanianHistory, Economics, Development, MarketingSales]	
+ 
+bionf.txt	1 1 1 1 1 1 [Biology]	[Biology, EarthSciences, HistoryofScience, Medicine, Erotica, ManagementLeadership, AdventureSurvival, AustralianOceanianHistory, Development, MarketingSales]	
+ 
+cyto.txt	1 1 1 1 1 1 [Biology]	[Biology, Genetics, HistoryofScience, Medicine, Erotica, AustralianOceanianHistory, ManagementLeadership, Development, MarketingSales, Economics]	
+ 
+------------------------------------------------
+
+symbol.txt	1 1 1 1 1 1 [Chemistry]	[Chemistry, Development, Erotica, ManagementLeadership, AustralianOceanianHistory, Biology, HistoryofScience, Economics, Medicine, MarketingSales]	
+ 
+chemia.txt	1 1 1 1 1 1 [Chemistry]	[Chemistry, HistoryofScience, Erotica, Development, ManagementLeadership, Biology, Economics, AustralianOceanianHistory, MarketingSales, Medicine]	
+ 
+reakcje.txt	1 1 1 1 1 1 [Chemistry]	[Chemistry, Erotica, Development, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, Economics, Biology, MarketingSales, Medicine]	
+ 
+------------------------------------------------
+
+prawoczlowieka.txt	0 1 1 1 1 1 [CivilHumanRights]	[InternationalRelations, CivilHumanRights, SecurityDefence, HistoryofScience, Sexuality, ManagementLeadership, AustralianOceanianHistory, Erotica, Development, Medicine]	
+ 
+kodeks.txt	0 1 1 1 1 1 [CivilHumanRights]	[RealEstate, CivilHumanRights, Erotica, ManagementLeadership, AustralianOceanianHistory, Medicine, HistoryofScience, Development, MarketingSales, InternationalRelations]	
+ 
+cywilne.txt	1 1 1 1 1 1 [CivilHumanRights]	[CivilHumanRights, InternationalRelations, SecurityDefence, HistoryofScience, ManagementLeadership, Erotica, AustralianOceanianHistory, Development, Sexuality, Medicine]	
+ 
+------------------------------------------------
+
+NigellaLawson.txt	1 1 1 1 1 1 [CookingFoodWine]	[CookingFoodWine, Erotica, ThrillerMysteryCrime, ManagementLeadership, AustralianOceanianHistory, AdventureSurvival, HistoryofScience, Sexuality, Development, ArmamentArmscontrol]	
+ 
+Wino.txt	1 1 1 1 1 1 [CookingFoodWine]	[CookingFoodWine, AncientHistory, WorldHistory, Erotica, ManagementLeadership, HistoryofScience, Economics, Development, AustralianOceanianHistory, MarketingSales]	
+ 
+Książkakucharska.txt	1 1 1 1 1 1 [CookingFoodWine]	[CookingFoodWine, Erotica, ManagementLeadership, AustralianOceanianHistory, Sexuality, Development, HistoryofScience, Economics, Medicine, Dentistry]	
+ 
+------------------------------------------------
+
+protokol.txt	1 1 1 1 1 1 [CryptographySecurity]	[CryptographySecurity, SecurityDefence, HistoryofScience, MarketingSales, Erotica, ManagementLeadership, Medicine, AustralianOceanianHistory, Development, Economics]	
+ 
+asymetrycczny.txt	0 1 1 1 1 1 [CryptographySecurity]	[HistoryofScience, CryptographySecurity, MarketingSales, Erotica, Biology, Medicine, ManagementLeadership, Economics, Development, AustralianOceanianHistory]	
+ 
+------------------------------------------------
+
+aparat.txt	1 1 1 1 1 1 [Dentistry]	[Dentistry, Erotica, MarketingSales, Medicine, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, AdventureSurvival, Development, Sexuality]	
+ 
+chirurgiastom.txt	1 1 1 1 1 1 [Dentistry]	[Dentistry, AccountingBankingMoney, MarketingSales, Medicine, Erotica, AdventureSurvival, HistoryofScience, ManagementLeadership, AustralianOceanianHistory, FamilyChildHealth]	
+ 
+kanal.txt	0 1 1 1 1 1 [Dentistry]	[AccountingBankingMoney, Dentistry, MarketingSales, Erotica, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, Development, Economics, Medicine]	
+ 
+------------------------------------------------
+
+marksistowskat.txt	1 1 1 1 1 1 [Development]	[Development, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Economics, MarketingSales, InternationalRelations, Sexuality, ArmamentArmscontrol]	
+ 
+models.txt	1 1 1 1 1 1 [Development]	[Development, Economics, ManagementLeadership, MarketingSales, FinanceInvesting, Erotica, AustralianOceanianHistory, HistoryofScience, EnvironmentNaturalresourcesEnergy, Medicine]	
+ 
+tech.txt	0 1 1 1 1 1 [Development]	[Economics, Development, ManagementLeadership, MarketingSales, FinanceInvesting, Erotica, AustralianOceanianHistory, HistoryofScience, EnvironmentNaturalresourcesEnergy, Medicine]	
+ 
+------------------------------------------------
+
+meteoro.txt	1 1 1 1 1 1 [EarthSciences]	[EarthSciences, HistoryofScience, Biology, ManagementLeadership, Erotica, AustralianOceanianHistory, Economics, Development, MarketingSales, ArmamentArmscontrol]	
+ 
+geodezja.txt	1 1 1 1 1 1 [EarthSciences]	[EarthSciences, HistoryofScience, Biology, ManagementLeadership, Erotica, Economics, AustralianOceanianHistory, MarketingSales, Development, Medicine]	
+ 
+tabela.txt	0 1 1 1 1 1 [EarthSciences]	[AustralianOceanianHistory, EarthSciences, WorldHistory, Erotica, HistoryofScience, ManagementLeadership, Economics, ArmamentArmscontrol, AdventureSurvival, Development]	
+ 
+------------------------------------------------
+
+ekpoz.txt	0 1 1 1 1 1 [Economics]	[ManagementLeadership, Economics, Development, MarketingSales, Erotica, HistoryofScience, AustralianOceanianHistory, Medicine, Sexuality, ArmamentArmscontrol]	
+ 
+makro.txt	1 1 1 1 1 1 [Economics]	[Economics, Development, ManagementLeadership, MarketingSales, FinanceInvesting, EnvironmentNaturalresourcesEnergy, Erotica, HistoryofScience, AustralianOceanianHistory, Medicine]	
+ 
+eknorm.txt	0 1 1 1 1 1 [Economics]	[ManagementLeadership, Economics, Development, Erotica, MarketingSales, AustralianOceanianHistory, HistoryofScience, ArmamentArmscontrol, Sexuality, Medicine]	
+ 
+------------------------------------------------
+
+biopaliwo.txt	0 0 0 1 1 1 [EnvironmentNaturalresourcesEnergy]	[Economics, ManagementLeadership, Development, MarketingSales, EnvironmentNaturalresourcesEnergy, Erotica, HistoryofScience, AustralianOceanianHistory, Medicine, FinanceInvesting]	
+ 
+sloneczna.txt	1 1 1 1 1 1 [EnvironmentNaturalresourcesEnergy]	[EnvironmentNaturalresourcesEnergy, Physics, ManagementLeadership, Erotica, HistoryofScience, Economics, Development, AustralianOceanianHistory, ArmamentArmscontrol, Dentistry]	
+ 
+kolektor.txt	1 1 1 1 1 1 [EnvironmentNaturalresourcesEnergy]	[EnvironmentNaturalresourcesEnergy, Physics, ManagementLeadership, Erotica, Development, Economics, AustralianOceanianHistory, HistoryofScience, Medicine, Dentistry]	
+ 
+------------------------------------------------
+
+akt.txt	1 1 1 1 1 1 [Erotica]	[Erotica, ThrillerMysteryCrime, HistoryofScience, AustralianOceanianHistory, Sexuality, ManagementLeadership, Development, Medicine, Economics, MarketingSales]	
+ 
+fotograf.txt	0 1 1 1 1 1 [Erotica]	[ThrillerMysteryCrime, Erotica, AdventureSurvival, AustralianOceanianHistory, ManagementLeadership, Development, Medicine, HistoryofScience, ArmamentArmscontrol, Sexuality]	
+ 
+erotykasztuka.txt	1 1 1 1 1 1 [Erotica]	[Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Sexuality, ImmigrationEmigration, AdventureSurvival, Development, ThrillerMysteryCrime, ArmamentArmscontrol]	
+ 
+------------------------------------------------
+
+legenda.txt	1 1 1 1 1 1 [FairyTalesMythsFables]	[FairyTalesMythsFables, Erotica, ManagementLeadership, MiddleEasternHistory, AustralianOceanianHistory, HistoryofScience, Economics, MarketingSales, Development, ThrillerMysteryCrime]	
+ 
+1001.txt	1 1 1 1 1 1 [FairyTalesMythsFables]	[FairyTalesMythsFables, MiddleEasternHistory, ThrillerMysteryCrime, Erotica, ManagementLeadership, AustralianOceanianHistory, Sexuality, HistoryofScience, Economics, AdventureSurvival]	
+ 
+basn.txt	1 1 1 1 1 1 [FairyTalesMythsFables]	[FairyTalesMythsFables, Erotica, ManagementLeadership, MiddleEasternHistory, AustralianOceanianHistory, ThrillerMysteryCrime, HistoryofScience, Economics, MarketingSales, Sexuality]	
+ 
+------------------------------------------------
+
+centrum.txt	1 1 1 1 1 1 [FamilyChildHealth]	[FamilyChildHealth, Medicine, AdventureSurvival, Dentistry, Erotica, HistoryofScience, ManagementLeadership, Biology, AustralianOceanianHistory, Development]	
+ 
+Stomato.txt	0 0 0 1 1 1 [FamilyChildHealth]	[Medicine, AdventureSurvival, Erotica, Dentistry, FamilyChildHealth, MarketingSales, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Development]	
+ 
+porażenie.txt	1 1 1 1 1 1 [FamilyChildHealth]	[FamilyChildHealth, Medicine, AdventureSurvival, Erotica, HistoryofScience, ManagementLeadership, AustralianOceanianHistory, Development, Dentistry, Sexuality]	
+ 
+------------------------------------------------
+
+anal.txt	1 1 1 1 1 1 [FinanceInvesting]	[FinanceInvesting, Development, MarketingSales, Economics, ManagementLeadership, Erotica, Medicine, HistoryofScience, AustralianOceanianHistory, Biology]	
+ 
+aktywa.txt	1 1 1 1 1 1 [FinanceInvesting]	[FinanceInvesting, MarketingSales, Development, Erotica, ManagementLeadership, Economics, Dentistry, AustralianOceanianHistory, HistoryofScience, Medicine]	
+ 
+fpubl.txt	0 0 0 0 1 1 [FinanceInvesting]	[Development, ManagementLeadership, Economics, InternationalRelations, MarketingSales, CivilHumanRights, FinanceInvesting, HistoryofScience, Erotica, AustralianOceanianHistory]	
+ 
+------------------------------------------------
+
+klon.txt	1 1 1 1 1 1 [Genetics]	[Genetics, Biology, Erotica, Medicine, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, Development, Economics, Sexuality]	
+ 
+genetyka.txt	1 1 1 1 1 1 [Genetics]	[Genetics, Biology, Medicine, Erotica, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, Development, Economics, MarketingSales]	
+ 
+frederick.txt	0 1 1 1 1 1 [Genetics]	[Biology, Genetics, Medicine, Erotica, ManagementLeadership, AustralianOceanianHistory, AdventureSurvival, HistoryofScience, Development, Economics]	
+ 
+------------------------------------------------
+
+proc.txt	1 1 1 1 1 1 [Hardware]	[Hardware, Dentistry, ManagementLeadership, Erotica, Development, AustralianOceanianHistory, Economics, MarketingSales, HistoryofScience, SoftwareApplicationsEnterpriseSystems]	
+ 
+druk.txt	1 1 1 1 1 1 [Hardware]	[Hardware, Dentistry, ManagementLeadership, Erotica, Development, AustralianOceanianHistory, Economics, HistoryofScience, MarketingSales, Medicine]	
+ 
+pam.txt	1 1 1 1 1 1 [Hardware]	[Hardware, Dentistry, Erotica, ManagementLeadership, Development, AustralianOceanianHistory, HistoryofScience, Economics, MarketingSales, Medicine]	
+ 
+------------------------------------------------
+
+naukoznawstwo.txt	1 1 1 1 1 1 [HistoryofScience]	[HistoryofScience, CryptographySecurity, Biology, Medicine, InternationalRelations, MarketingSales, Erotica, ManagementLeadership, Economics, Development]	
+ 
+histogeorg.txt	0 1 1 1 1 1 [HistoryofScience]	[EarthSciences, HistoryofScience, Biology, ManagementLeadership, Erotica, WorldHistory, AustralianOceanianHistory, Economics, MarketingSales, Medicine]	
+ 
+7sztukwyz.txt	1 1 1 1 1 1 [HistoryofScience]	[HistoryofScience, Erotica, Poetry, AustralianOceanianHistory, ManagementLeadership, Medicine, Development, Economics, AdventureSurvival, MarketingSales]	
+ 
+------------------------------------------------
+
+bialem.txt	1 1 1 1 1 1 [ImmigrationEmigration]	[ImmigrationEmigration, Sexuality, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, AdventureSurvival, MarketingSales, Medicine, Development]	
+ 
+wedr.txt	0 1 1 1 1 1 [ImmigrationEmigration]	[AncientHistory, ImmigrationEmigration, MiddleEasternHistory, Erotica, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, Development, Economics, Sexuality]	
+ 
+migr.txt	1 1 1 1 1 1 [ImmigrationEmigration]	[ImmigrationEmigration, Sexuality, Erotica, ManagementLeadership, AustralianOceanianHistory, Development, HistoryofScience, Economics, MarketingSales, Medicine]	
+ 
+------------------------------------------------
+
+dypl.txt	1 1 1 1 1 1 [InternationalRelations]	[InternationalRelations, CivilHumanRights, HistoryofScience, SecurityDefence, ManagementLeadership, MiddleEasternHistory, Erotica, Development, AustralianOceanianHistory, Sexuality]	
+ 
+sanmar.txt	0 1 1 1 1 1 [InternationalRelations]	[Sexuality, InternationalRelations, Erotica, AustralianOceanianHistory, MiddleEasternHistory, ManagementLeadership, HistoryofScience, ImmigrationEmigration, Development, AdventureSurvival]	
+ 
+pism.txt	1 1 1 1 1 1 [InternationalRelations]	[InternationalRelations, CivilHumanRights, SecurityDefence, HistoryofScience, ManagementLeadership, Erotica, Development, AustralianOceanianHistory, Sexuality, Medicine]	
+ 
+------------------------------------------------
+
+zarzad.txt	0 0 1 1 1 1 [ManagementLeadership]	[Economics, Development, ManagementLeadership, MarketingSales, EnvironmentNaturalresourcesEnergy, FinanceInvesting, Erotica, HistoryofScience, AustralianOceanianHistory, Medicine]	
+ 
+pismo.txt	1 1 1 1 1 1 [ManagementLeadership]	[ManagementLeadership, Economics, Development, MarketingSales, HistoryofScience, Erotica, AustralianOceanianHistory, Dentistry, Medicine, Biology]	
+ 
+lider.txt	0 1 1 1 1 1 [ManagementLeadership]	[MiddleEasternHistory, ManagementLeadership, Erotica, InternationalRelations, AustralianOceanianHistory, Development, HistoryofScience, Economics, ImmigrationEmigration, Sexuality]	
+ 
+------------------------------------------------
+
+bad.txt	0 1 1 1 1 1 [MarketingSales]	[FinanceInvesting, MarketingSales, Development, Economics, ManagementLeadership, HistoryofScience, Erotica, Dentistry, AustralianOceanianHistory, Medicine]	
+ 
+sprzedbez.txt	1 1 1 1 1 1 [MarketingSales]	[MarketingSales, Dentistry, ManagementLeadership, Economics, Development, AccountingBankingMoney, Erotica, HistoryofScience, AustralianOceanianHistory, Sexuality]	
+ 
+markint.txt	0 0 1 1 1 1 [MarketingSales]	[AccountingBankingMoney, Dentistry, MarketingSales, SecurityDefence, CryptographySecurity, SoftwareApplicationsEnterpriseSystems, ManagementLeadership, Erotica, Development, Economics]	
+ 
+------------------------------------------------
+
+lekarz.txt	0 1 1 1 1 1 [Medicine]	[FamilyChildHealth, Medicine, AdventureSurvival, Erotica, Dentistry, HistoryofScience, ManagementLeadership, Development, AustralianOceanianHistory, Biology]	
+ 
+cyt.txt	0 0 0 1 1 1 [Medicine]	[HistoryofScience, Biology, Erotica, Medicine, AustralianOceanianHistory, ManagementLeadership, Development, MarketingSales, Economics, ArmamentArmscontrol]	
+ 
+rehab.txt	1 1 1 1 1 1 [Medicine]	[Medicine, FamilyChildHealth, AdventureSurvival, Erotica, ManagementLeadership, HistoryofScience, Development, AustralianOceanianHistory, Economics, Dentistry]	
+ 
+------------------------------------------------
+
+bizancjum.txt	1 1 1 1 1 1 [MiddleEasternHistory]	[MiddleEasternHistory, AncientHistory, ImmigrationEmigration, ManagementLeadership, Erotica, AustralianOceanianHistory, Development, HistoryofScience, Economics, InternationalRelations]	
+ 
+impos.txt	1 1 1 1 1 1 [MiddleEasternHistory]	[MiddleEasternHistory, ManagementLeadership, FairyTalesMythsFables, Erotica, AustralianOceanianHistory, ImmigrationEmigration, AncientHistory, InternationalRelations, HistoryofScience, Development]	
+ 
+podar.txt	1 1 1 1 1 1 [MiddleEasternHistory]	[MiddleEasternHistory, AncientHistory, ImmigrationEmigration, Erotica, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, Development, Sexuality, InternationalRelations]	
+ 
+------------------------------------------------
+
+usa.txt	1 1 1 1 1 1 [NorthAmericanHistory]	[NorthAmericanHistory, AustralianOceanianHistory, Erotica, MiddleEasternHistory, ManagementLeadership, ImmigrationEmigration, Development, HistoryofScience, ArmamentArmscontrol, Sexuality]	
+ 
+brytkolon.txt	1 1 1 1 1 1 [NorthAmericanHistory]	[NorthAmericanHistory, AustralianOceanianHistory, Erotica, ManagementLeadership, HistoryofScience, ArmamentArmscontrol, ImmigrationEmigration, Sexuality, Development, MiddleEasternHistory]	
+ 
+meksyk.txt	1 1 1 1 1 1 [NorthAmericanHistory]	[NorthAmericanHistory, AustralianOceanianHistory, MiddleEasternHistory, ManagementLeadership, Erotica, Sexuality, Development, ImmigrationEmigration, InternationalRelations, Economics]	
+ 
+------------------------------------------------
+
+mac.txt	1 1 1 1 1 1 [OperatingSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, Erotica, ArmamentArmscontrol, ManagementLeadership, Development, MarketingSales, AustralianOceanianHistory, HistoryofScience, Economics]	
+ 
+android.txt	0 1 1 1 1 1 [OperatingSystems]	[SoftwareApplicationsEnterpriseSystems, OperatingSystems, ArmamentArmscontrol, Erotica, MarketingSales, AustralianOceanianHistory, ManagementLeadership, Development, Dentistry, HistoryofScience]	
+ 
+systop.txt	1 1 1 1 1 1 [OperatingSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, Development, ManagementLeadership, Economics, Erotica, Medicine, HistoryofScience, AustralianOceanianHistory, CryptographySecurity]	
+ 
+------------------------------------------------
+
+zasaddyn.txt	1 1 1 1 1 1 [Physics]	[Physics, SpaceUniverse, Erotica, HistoryofScience, ManagementLeadership, Economics, Biology, AustralianOceanianHistory, Development, Medicine]	
+ 
+fiz.txt	1 1 1 1 1 1 [Physics]	[Physics, HistoryofScience, SpaceUniverse, Erotica, Biology, ManagementLeadership, Economics, Medicine, AustralianOceanianHistory, Development]	
+ 
+fizjadr.txt	0 1 1 1 1 1 [Physics]	[EnvironmentNaturalresourcesEnergy, Physics, Erotica, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, Development, Medicine, SpaceUniverse, Dentistry]	
+ 
+------------------------------------------------
+
+poezja.txt	1 1 1 1 1 1 [Poetry]	[Poetry, HistoryofScience, Erotica, ManagementLeadership, AustralianOceanianHistory, Development, ArmamentArmscontrol, Economics, Medicine, Sexuality]	
+ 
+mick.txt	1 1 1 1 1 1 [Poetry]	[Poetry, Erotica, AustralianOceanianHistory, Medicine, Sexuality, ManagementLeadership, AdventureSurvival, HistoryofScience, Development, Economics]	
+ 
+hheks.txt	1 1 1 1 1 1 [Poetry]	[Poetry, HistoryofScience, Erotica, ManagementLeadership, ArmamentArmscontrol, AustralianOceanianHistory, Development, Economics, Medicine, MarketingSales]	
+ 
+------------------------------------------------
+
+grunt.txt	1 1 1 1 1 1 [RealEstate]	[RealEstate, CivilHumanRights, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Development, Medicine, MarketingSales, Economics]	
+ 
+wieczyste.txt	1 1 1 1 1 1 [RealEstate]	[RealEstate, CivilHumanRights, InternationalRelations, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Development, MarketingSales, Medicine]	
+ 
+pojecienieruch.txt	1 1 1 1 1 1 [RealEstate]	[RealEstate, CivilHumanRights, Erotica, ManagementLeadership, AustralianOceanianHistory, Medicine, Development, HistoryofScience, MarketingSales, Economics]	
+ 
+------------------------------------------------
+
+Hinduizm.txt	1 1 1 1 1 1 [Religion]	[Religion, Erotica, HistoryofScience, Sexuality, ManagementLeadership, AustralianOceanianHistory, Development, Economics, MiddleEasternHistory, MarketingSales]	
+ 
+Judaizm.txt	1 1 1 1 1 1 [Religion]	[Religion, Erotica, Sexuality, AustralianOceanianHistory, ManagementLeadership, Development, HistoryofScience, MiddleEasternHistory, MarketingSales, Economics]	
+ 
+Buddyzm.txt	1 1 1 1 1 1 [Religion]	[Religion, Erotica, Economics, Sexuality, AustralianOceanianHistory, HistoryofScience, Development, ManagementLeadership, ArmamentArmscontrol, MarketingSales]	
+ 
+------------------------------------------------
+
+ochrcyw.txt	0 0 0 0 0 0 [SecurityDefence]	[InternationalRelations, ArmamentArmscontrol, Erotica, ManagementLeadership, AustralianOceanianHistory, CivilHumanRights, HistoryofScience, Development, Medicine, MiddleEasternHistory]	
+ 
+bezpiecz.txt	1 1 1 1 1 1 [SecurityDefence, CryptographySecurity]	[SecurityDefence, CryptographySecurity, MarketingSales, ManagementLeadership, Erotica, Development, AustralianOceanianHistory, Economics, ArmamentArmscontrol, HistoryofScience]	
+ 
+bezpteleinf.txt	1 1 1 1 1 1 [SecurityDefence]	[SecurityDefence, CryptographySecurity, MarketingSales, ManagementLeadership, Erotica, Development, AustralianOceanianHistory, Economics, ArmamentArmscontrol, HistoryofScience]	
+ 
+------------------------------------------------
+
+rewolucja.txt	0 1 1 1 1 1 [Sexuality]	[ImmigrationEmigration, Sexuality, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Development, InternationalRelations, MarketingSales, Economics]	
+ 
+celibat.txt	1 1 1 1 1 1 [Sexuality]	[Sexuality, InternationalRelations, Erotica, AustralianOceanianHistory, ManagementLeadership, Development, HistoryofScience, MiddleEasternHistory, MarketingSales, Economics]	
+ 
+antyseks.txt	1 1 1 1 1 1 [Sexuality]	[Sexuality, Erotica, ImmigrationEmigration, ManagementLeadership, AustralianOceanianHistory, HistoryofScience, Economics, Development, MarketingSales, InternationalRelations]	
+ 
+------------------------------------------------
+
+biurowe.txt	1 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[SoftwareApplicationsEnterpriseSystems, OperatingSystems, ArmamentArmscontrol, Erotica, ManagementLeadership, MarketingSales, Development, AustralianOceanianHistory, Economics, HistoryofScience]	
+ 
+adobe.txt	1 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[SoftwareApplicationsEnterpriseSystems, OperatingSystems, ArmamentArmscontrol, Erotica, MarketingSales, AustralianOceanianHistory, ManagementLeadership, Development, HistoryofScience, Dentistry]	
+ 
+corel.txt	1 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[SoftwareApplicationsEnterpriseSystems, ArmamentArmscontrol, OperatingSystems, Erotica, MarketingSales, AustralianOceanianHistory, ManagementLeadership, Development, HistoryofScience, Economics]	
+ 
+------------------------------------------------
+
+PowstanieSłonecznego.txt	1 1 1 1 1 1 [SpaceUniverse]	[SpaceUniverse, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Development, Economics, Medicine, ArmamentArmscontrol, MarketingSales]	
+ 
+HipotezarzadkiejZiemi.txt	1 1 1 1 1 1 [SpaceUniverse]	[SpaceUniverse, Erotica, AustralianOceanianHistory, Development, ManagementLeadership, HistoryofScience, Economics, Medicine, ArmamentArmscontrol, Biology]	
+ 
+WielkiWybuch.txt	0 1 1 1 1 1 [SpaceUniverse]	[Physics, SpaceUniverse, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Development, Economics, Biology, Medicine]	
+ 
+------------------------------------------------
+
+agatha.txt	1 1 1 1 1 1 [ThrillerMysteryCrime]	[ThrillerMysteryCrime, Erotica, AustralianOceanianHistory, CookingFoodWine, AdventureSurvival, ManagementLeadership, HistoryofScience, Development, Economics, Sexuality]	
+ 
+csi.txt	1 1 1 1 1 1 [ThrillerMysteryCrime]	[ThrillerMysteryCrime, AdventureSurvival, Erotica, AustralianOceanianHistory, ManagementLeadership, HistoryofScience, Development, Economics, ArmamentArmscontrol, Medicine]	
+ 
+dreszcz.txt	0 0 1 1 1 1 [ThrillerMysteryCrime]	[FairyTalesMythsFables, Erotica, ThrillerMysteryCrime, AustralianOceanianHistory, ManagementLeadership, MiddleEasternHistory, Biology, HistoryofScience, AdventureSurvival, Sexuality]	
+ 
+------------------------------------------------
+
+rewneo.txt	1 1 1 1 1 1 [WorldHistory]	[WorldHistory, HistoryofScience, ManagementLeadership, Erotica, Economics, Development, AustralianOceanianHistory, Biology, MiddleEasternHistory, AdventureSurvival]	
+ 
+hist.txt	1 1 1 1 1 1 [WorldHistory]	[WorldHistory, MiddleEasternHistory, HistoryofScience, ManagementLeadership, Erotica, AustralianOceanianHistory, ImmigrationEmigration, Economics, Development, AdventureSurvival]	
+ 
+prehist.txt	1 1 1 1 1 1 [WorldHistory]	[WorldHistory, Erotica, HistoryofScience, AncientHistory, CookingFoodWine, AustralianOceanianHistory, ManagementLeadership, MiddleEasternHistory, Development, Economics]	
+ 
+ Rewriting extended pipe from TrainingMoldel.mallet
+  Instance ID = 583c10bfdbd326ba:-790bdff9:1356e388b63:-7ffa
+used /home/kacper/dev/categorizer-lda/data/402
