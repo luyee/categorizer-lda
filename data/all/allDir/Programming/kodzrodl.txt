@@ -1,0 +1,53 @@
+Kod źródłowy (ang. source code) – ciąg instrukcji i deklaracji zapisany w zrozumiałym dla człowieka języku programowania opisujący operacje, jakie powinien wykonać komputer przy pomocy skończonej liczby ściśle zdefiniowanych rozkazów. Jest wynikiem pracy programistów.
+Kod źródłowy pozwala wyrazić w czytelnej dla człowieka formie strukturę i działanie programu komputerowego, biblioteki czy skryptu (źródła programu, biblioteki skryptu). W zależności od wielkości projektu, może składać się z jednego lub większej liczby plików tekstowych, niekiedy pogrupowanych w katalogi. Może też występować w postaci procedur składowanych w bazach danych lub wycinków kodu w artykułach i książkach.
+Zasadniczą cechą kodu źródłowego jest fakt, iż komputery nie wykonują zawartych w nim instrukcji bezpośrednio. Kod musi zostać wcześniej poddany translacji na kod wynikowy, np. skompilowany (przetłumaczony) do postaci kodu maszynowego lub kodu pośredniego. Możliwe jest także wykonywanie go w locie za pośrednictwem dodatkowego programu zwanego interpreterem.
+Spis treści  [ukryj] 
+1 Zastosowania
+2 Organizacja
+3 Licencjonowanie
+4 Jakość kodu
+5 Dokumentowanie kodu
+6 Przykład kodu źródłowego
+7 Zobacz też
+Zastosowania[edytuj]
+
+Głównym zastosowaniem kodu źródłowego jest wyrażanie programów komputerowych w zrozumiałej postaci, dzięki czemu mogą być one łatwo rozwijane i rozbudowywane o nową funkcjonalność. Kod stanowi wtedy wejście dla procesu, którego wynikiem jest rzeczywisty program nadający się do wykonania. Kod źródłowy stanowi także jeden ze sposobów zapisu algorytmów, np. w książkach lub artykułach.
+Dzięki dodatkowemu poziomowi abstrakcji wprowadzanemu przez język programowania, kod źródłowy nie musi uwzględniać wszystkich operacji potrzebnych do rozwiązania danego problemu. Pominięte kwestie mogą być rozwiązywane na etapie kompilacji lub interpretacji zależnie od platformy sprzętowej, na jakiej aktualnie pracujemy. Umożliwia to tworzenie przenośnych programów, mniej uzależnionych od konkretnego rodzaju sprzętu i oprogramowania. Bez dostępu do kodu źródłowego, przeniesienie programu na inną platformę może być bardzo złożonym, a przez to zupełnie nieopłacalnym procesem. Innym rozwiązaniem problemu przenośności jest emulacja oryginalnej platformy.
+Przeglądanie cudzego kodu źródłowego jest popularną metodą podnoszenia swoich umiejętności programistycznych i poznawania nowych technik programowania. Wśród programistów trakowany jest także niekiedy jako forma sztuki (np. konkurs IOCCC).
+Organizacja[edytuj]
+
+Kod źródłowy danego oprogramowania może się składać z wielu plików zwanych często plikami źródłowymi. Nie muszą być one zapisane w jednym i tym samym języku programowania, choć nie jest to często spotykana praktyka. Przykładowo, program napisany w języku C może posiadać pewne partie napisane w asemblerze ze względów optymalizacyjnych. Możliwe jest także niezależne stworzenie i skompilowanie poszczególnych części oprogramowania i połączenie ich później. Technika ta nosi nazwę konsolidacji.
+Kolejne podejście to stworzenie specjalnego programu zwanego interpreterem języka programowania, który wczytuje kod źródłowy i na bieżąco go wykonuje. Może on być zaprojektowany jako program ogólnego przeznaczenia lub część większej aplikacji umożliwiająca jej łatwe rozszerzanie o dodatkowe funkcje bez konieczności ujawniania lub zgłębiania jej wewnętrznej struktury. Przykładem takiej aplikacji jest edytor tekstu GNU Emacs.
+Duże projekty mogą liczyć sobie nawet tysiące plików. Kodowi źródłowemu towarzyszą wtedy dodatkowe instrukcje (np. w postaci pliku Makefile) opisujące zależności między poszczególnymi plikami i podające przepis, jak je skompilować, aby powstał kompletny program. Do zarządzania dużymi partiami kodu źródłowego wykorzystywane są także systemy kontroli wersji.
+Licencjonowanie[edytuj]
+
+ Osobny artykuł: Licencja oprogramowania.
+Pod względem dostępności kodu oprogramowanie wraz z towarzyszącym mu kodem źródłowym można zakwalifikować do jednej z dwóch głównych kategorii:
+Oprogramowanie zamknięte
+Oprogramowanie otwarte (wolne)
+Z oprogramowaniem zamkniętym mamy do czynienia wtedy, gdy jego kod źródłowy nie jest dostępny publicznie, a użytkownicy nabywają wyłącznie jego binarną reprezentację. Pełne korzystanie z niego jest dodatkowo ograniczone przez prawa autorskie, tajemnice handlowe czy patenty. Licencje użytkownika końcowego dołączone do takiego oprogramowania najczęściej zabraniają dekompilacji, inżynierii wstecznej, modyfikacji lub nieautoryzowanej dystrybucji.
+Oprogramowanie ma charakter otwarty, gdy użytkownicy mają dostęp do kodu źródłowego oraz mogą go legalnie adaptować do własnych potrzeb i udostępniać innym własne modyfikacje. Towarzyszące oprogramowaniu licencje służą ochronie konkretnych praw użytkowników do dokonywania tych działań, lecz w większości przypadków nie narzucają ograniczeń na komercyjną sprzedaż takiego oprogramowania. Pierwszą szeroko rozpowszechnioną otwartą licencją oprogramowania była GNU General Public License napisana z myślą o projekcie GNU, a w późniejszym czasie zastosowania również w wielu innych projektach.
+Jakość kodu[edytuj]
+
+Struktura i organizacja kodu źródłowego jest bardzo istotna dla opiekujących się nim osób. W zależności od potrzeb, możemy definiować jakość kodu na różne sposoby:
+Czytelność - wypracowano wiele stylów programowania nastawionych na czytelność, przeważnie dostosowanych do budowy konkretnego języka.
+Wydajność produkowanego kodu wynikowego
+Łatwość rozbudowy - wynika z odpowiedniej organizacji wykorzystywanych w kodzie elementów języka oraz stosowania właściwych technik programistycznych.
+Przenośność
+Dokumentowanie kodu[edytuj]
+
+Oprócz rozkazów, kod źródłowy zawiera także wiele innych elementów takich, jak deklaracje funkcji czy struktury danych. W większych projektach zachodzi potrzeba udokumentowania zawartości, budowy i organizacji kodu źródłowego, ponieważ dokładne zapamiętanie wszystkich wchodzących w jego skład elementów jest zbyt czasochłonne i uniemożliwia szybkie zapoznanie się z projektem nowym członkom zespołu programistów. Podstawowym narzędziem opisywania działania kodu są umieszczone w nim komentarze ze słownym opisem w języku naturalnym, których zawartość jest ignorowana przez programy. Komentarze mogą zawierać objaśnienie, co robi dany fragment kodu, uwagi odnośnie jego użycia bądź informacje techniczne dla innych programistów (np. o znalezionych błędach albo pozostałych do zaimplementowania funkcjach).
+Dokładniejsze dokumentacje mają postać osobnych dokumentów szczegółowo opisujących wszystkie elementy kodu źródłowego w pewien ustandaryzowany sposób. Opis każdego elementu sporządzony jest w języku naturalnym może zawierać odnośniki do powiązanych elementów i przykłady użycia. Programista pragnący użyć danego elementu, może go szybko odnaleźć w dokumentacji i zapoznać się ze wszystkimi dostępnymi na jego temat informacjami. Pozostałe tematy związane z budową i działaniem kodu źródłowego opracowane są najczęściej w formie klasycznych artykułów.
+Istnieje szereg wyspecjalizowanych narzędzi umożliwiających tworzenie dokumentacji bezpośrednio z istniejącego kodu źródłowego, np. Doxygen. Dzięki znajomości gramatyki języka programowania, potrafią automatycznie określić wiele związków między poszczególnymi elementami. Dodatkowe informacje oraz opis są importowane ze specjalnych komentarzy umieszczonych nad każdym elementem.
+Przykład kodu źródłowego[edytuj]
+
+Poniżej zamieszczony jest przykład prostego kodu źródłowego w języku C, który objaśnia, w jaki sposób można wypisać na ekranie napis "Hello world!"
+#include <stdio.h>
+ 
+int main(int argc, char *argv[])
+{
+   printf("Hello world!\n");
+   return 0;
+}
+Na jego podstawie można utworzyć gotowy do uruchomienia program np. przy pomocy kompilatora GCC:
+gcc -o program_wynikowy plik_zrodlowy.c

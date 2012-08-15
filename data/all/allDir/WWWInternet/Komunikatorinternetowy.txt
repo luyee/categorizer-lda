@@ -1,0 +1,46 @@
+Komunikator internetowy (ang. Instant Messenger, od tego skrót IM) – program komputerowy pozwalający na przesyłanie natychmiastowych komunikatów (komunikacja natychmiastowa – ang. Instant Messaging) pomiędzy dwoma lub więcej komputerami, poprzez sieć komputerową, zazwyczaj Internet (dlatego komunikatory internetowe). Od poczty elektronicznej różni się tym, że oprócz samej wiadomości, przesyłane są także informacje o obecności użytkowników, co zwiększa znacznie szansę na prowadzenie bezpośredniej konwersacji.
+Komunikatory przesyłają informacje według zasad ustalonych przez protokoły komunikacyjne tak, że publicznie udokumentowane protokoły są zwykle implementowane przez wiele komunikatorów, zapewniając prawie nieograniczone grono odbiorców, podczas gdy protokoły utajnione zmuszają użytkowników do korzystania z programów przygotowanych przez producentów, ograniczając tym samym możliwość komunikacji.
+Komunikatory bardzo często łączą użytkowników przez serwery, do których przyłączają się, i od których działania są uzależnione. Niekiedy tak skrajnie, że użytkownik skazany jest na reklamy emitowane przez producenta aplikacji.
+
+Historia[edytuj]
+
+Wiele pomysłów zastosowanych w komunikatorach internetowych pochodzi ze starszego, lecz ciągle popularnego protokołu służącego do rozmów przez internet – IRC.
+Wczesne programy do komunikacji natychmiastowej wyświetlały znaki w miarę jak były wpisywane przez rozmówców – komunikacja wtedy bardziej przypominała rozmowę telefoniczną niż wymianę wiadomości. Działa tak uniksowe polecenie talk, bardzo popularne w latach 80. i wczesnych latach 90. XX wieku. W obecnych komunikatorach rozmowa polega zazwyczaj na wymianie linii tekstu.
+Prosta forma komunikacji natychmiastowej została zaimplementowana w systemie PLATO we wczesnych latach 70. XX wieku. W późniejszych latach do komunikacji poprzez Internet inżynierowie i pracownicy akademiccy używali programu talk. Pierwszym komunikatorem w postaci, w jakiej znamy je dzisiaj, do tego pracujący pod systemami innymi niż Unix/Linux, był ICQ, udostępniony w listopadzie 1996. Po jego premierze powstało wiele podobnych programów do komunikacji natychmiastowej, pracujących w różnych sieciach.
+Najnowsze komunikatory oferują wideokonferencje czy rozmowy głosowe (VoIP), tak więc granica między tymi usługami się zaciera.
+19 grudnia 2002 r. AOL Time Warner, firma, która wykupiła Mirabilis, twórcę ICQ, ogłosiła uzyskanie amerykańskiego patentu na komunikację natychmiastową, ale jednocześnie oznajmiła, że nie ma zamiaru w chwili obecnej egzekwować tego patentu.
+Termin "instant messenger" jest znakiem zastrzeżonym firmy AOL Time Warner i nie może być używane w oprogramowaniu niezwiązanym z AOL. Z tego powodu komunikator znany jako GAIM czy gAIM (później Gaim lub gaim) obecnie nazywa się Pidgin.
+Sieci IM[edytuj]
+
+ Osobny artykuł: Protokoły komunikacyjne.
+Zazwyczaj jedna aplikacja pozwala na komunikację tylko z innymi użytkownikami tej aplikacji – daną sieć IM tworzą użytkownicy klientów pozwalających na korzystanie z niej. Powodem było to, że komunikatory zazwyczaj są tworzone przez firmy komercyjne, one także opracowują protokół wymiany danych. Nie jest w ich interesie ujawnianie protokołu, a także umożliwianie rozmów z użytkownikami komunikatorów innych firm. Wyjątki to na przykład Jabber – protokół opracowany przez społeczność internetową, jawny, dostępny dla każdego. Z tego też powodu jest jedną z niewielu sieci IM, która nie ma jednej, nadrzędnej aplikacji klienckiej.
+Wiele protokołów komunikacyjnych, których producenci nie ujawnili, zostało rozpracowanych przy pomocy technik inżynierii odwrotnej – badając ruch sieciowy generowany przez oryginalne aplikacje klienckie. Odpowiedzią niektórych producentów są regulaminowe przepisy zobowiązujące użytkowników do używania tylko oryginalnych programów.
+ Zobacz też: Porównanie protokołów komunikacji natychmiastowej.
+Multikomunikatory[edytuj]
+
+ Osobny artykuł: Multikomunikator internetowy.
+Oprócz programów obsługujących tylko jedną sieć IM, powstały także multikomunikatory, które umożliwiają komunikację z użytkownikami różnych sieci poprzez zestaw wtyczek. Popularne programy tego typu to Tlen, Konnekt, Miranda IM, WTW, AQQ, Pidgin, Kopete, czy Trillian. W sieci Jabber komunikacja z innymi sieciami zapewniana jest przez serwer poprzez system transportów.
+Serwery[edytuj]
+
+Różne sieci IM, a konkretniej różne protokoły, mają w różny sposób rozwiązane kwestie nawiązywania połączeń czy przekazywania informacji o stanie. Większość z nich ma jeden serwer centralny (czasem złożony fizycznie z kilku maszyn), z którym łączy się klient zaraz po połączeniu, przesyłając dane identyfikacyjne, a także informacje o statusie (patrz niżej). Informacja o stanie jest przekazywana do wszystkich zainteresowanych nią użytkowników danej sieci.
+Komunikaty między użytkownikami mogą być przesyłane poprzez serwer, bądź też bezpośrednio. To pierwsze rozwiązanie jest przydatne jeśli którykolwiek z użytkowników biorących udział w rozmowie znajduje się w sieci chronionej firewallem, przez co nie może przyjmować nadchodzących połączeń.
+Inne podejście do kwestii serwerów prezentuje sieć Jabber. Nie ma w niej jednego centralnego serwera – każdy użytkownik może uruchomić swój własny serwer i pozwalać na rejestrację innych użytkowników, bądź też używać go tylko przez siebie.
+Identyfikatory[edytuj]
+
+Użytkownicy w sieciach IM posiadają jednoznaczne identyfikatory, które pozwalają na precyzyjne określenie odbiorcy komunikatów. Część sieci (np. ICQ, Gadu-Gadu) przydziela swoim użytkownikom identyfikatory liczbowe, zazwyczaj metodą "pierwszy wolny". Inne, np. Tlen, MSN czy Yahoo umożliwiają wybranie własnej nazwy. Szczególnym rozszerzeniem tego sposobu jest identyfikowanie użytkowników w sieci Jabber/XMPP. Jako że nie ma w nim centralnego serwera, niezbędne jest określenie w identyfikatorze nazwy serwera na którym zarejestrowany jest użytkownik – identyfikatory w Jabberze przypominają adresy poczty elektronicznej (np. użytkownik@example.com).
+Listy kontaktów[edytuj]
+
+Większość komunikatorów udostępnia możliwość gromadzenia identyfikatorów znajomych osób na liście, przechowywanej przez aplikację kliencką (a w przypadku protokołu Jabber – przez serwer). Dzięki temu możliwe jest przypisywanie łatwiejszych do zapamiętania opisów do zazwyczaj mało znaczących identyfikatorów oferowanych przez sieci IM.
+Katalogi użytkowników[edytuj]
+
+Aby móc uzyskać identyfikator poszukiwanego użytkownika, większość sieci IM oferuje katalogi, w których każdy z użytkowników może zamieścić informacje o sobie – imię, nazwisko, niekiedy adres, numer telefonu czy też inne informacje. Niektóre protokoły przesyłają te dane w popularnym formacie przesyłania wizytówek vCard, używanym przez programy pocztowe czy telefony komórkowe.
+Statusy[edytuj]
+
+Pierwsze komunikatory z graficznym interfejsem użytkownika pozwalały na wybranie jednego z kilku "stanów" – informowały one innych użytkowników danej sieci IM co w danej chwili robi użytkownik (zazwyczaj – "dostępny", "zajęty", "nie przy klawiaturze", "rozłączony"; część komunikatorów oferowała także stan "niewidoczny" pozwalający obserwować innych użytkowników, nie pokazując swojej dostępności). W późniejszych wersjach ilość dostępnych stanów została zwiększona, a także dodano możliwość zamieszczania tekstowych komentarzy do statusów. W założeniu miały być to informacje tłumaczące stan (na przykład "wracam za 10 minut" jako komentarz do nieobecności przy klawiaturze), lecz obecnie stanowią także formę określania stanu emocjonalnego użytkownika, informację czego aktualnie użytkownik słucha, czasem do prowadzenia rozmów, a czasem po prostu zamieszczania cytatów czy innych tekstów.
+Emotikony[edytuj]
+
+ Osobny artykuł: Emotikon.
+Obecnie produkowane komunikatory oferują wklejane ikony sytuacyjne np. łapanie się za głowę, uśmieszki itp. Obrazki takie pojawiają się automatycznie podczas czytania a także można je wklejać podczas pisania. W rzeczywistości obrazki pojawiają się zamiast ustalonych fragmentów tekstu takich jak "<olaboga>" albo ":-)" i nie są w ogóle przesyłane między użytkownikami, więc intensywne używanie emotikonek może rodzić problemy interpretacyjne, gdy odbiorca posiada inny zestaw emotikonek.
+Zagrożenia wynikające z użytkowania komunikatorów[edytuj]
+
+Poprzez komunikatory, tak jak i pocztę elektroniczną bardzo popularne stało się rozsyłanie tzw. SPIM-u (odpowiednika SPAM-u występującego w poczcie elektronicznej) w przykładowej postaci łańcuszków internetowych, podejrzanych linków, które niejednokrotnie zawierają wirusy. Kolejną wadą i zagrożeniem jest fakt, iż takie rozmowy mogą być przechwytywane, podsłuchiwane, gdyż komunikatory internetowe są najczęściej darmowe, często więc producent nie przywiązuje większej wagi do ich bezpieczeństwa. Możliwy jest więc brak odpowiedniego szyfrowania przesyłanych komunikatów (treść rozmowy przesyłana czystym tekstem) oraz haseł do konta. Ale największym chyba zagrożeniem jest tzw. cyber bullying, co oznacza po prostu cyberprzemoc, gdzie zamiarem ludzi ją stosującej - jest wyrządzenie krzywdy psychicznej i poniżenie ofiary.

@@ -1,0 +1,32 @@
+Kryptografia klucza publicznego (nazywana również kryptografią asymetryczną) to rodzaj kryptografii, w którym używa się zestawów dwu lub więcej powiązanych ze sobą kluczy, umożliwiających wykonywanie różnych czynności kryptograficznych. Jeden z kluczy może być udostępniony publicznie bez utraty bezpieczeństwa danych zabezpieczanych tym kryptosystemem.
+Najważniejsze zastosowania kryptografii asymetrycznej – szyfrowanie i podpisy cyfrowe – zakładają istnienie 2 kluczy – prywatnego i publicznego, przy czym klucza prywatnego nie da się łatwo odtworzyć na podstawie publicznego. W niektórych innych zastosowaniach kluczy może być więcej.
+Algorytmy mające zastosowanie w kryptografii asymetrycznej wykorzystują operacje jednokierunkowe - takie, które da się łatwo przeprowadzić w jedną stronę a bardzo trudno w drugą. Np. mnożenie jest łatwe, a faktoryzacja trudna (na czym opiera się RSA). Potęgowanie modulo jest łatwe, a logarytmowanie dyskretne jest trudne (na czym opierają się ElGamal, DSA i ECC).
+Spis treści  [ukryj] 
+1 Historia
+2 Szyfrowanie
+3 Podpisy cyfrowe
+4 Zależności między kluczem publicznym i prywatnym
+5 Przypisy
+6 Zobacz też
+Historia[edytuj]
+
+Kryptografia asymetryczna została oficjalnie wynaleziona przez cywilnych badaczy Martina Hellmana, Whitfielda Diffie w 1976 roku. Prawie równolegle prototyp podobnego systemy stworzył Ralph Merkle – w 1974 roku zaproponował algorytm wymiany kluczy, nazwany puzzlami Merkle'a[1]. Dopiero pod koniec XX wieku brytyjska służba wywiadu elektronicznego GCHQ ujawniła, że pierwsza koncepcja systemu szyfrowania z kluczem publicznym została opracowana przez jej pracownika Jamesa Ellisa już w 1965 roku, a działający system stworzył w 1973 roku Clifford Cocks, również pracownik GCHQ[2]. Odkrycia te były jednak objęte klauzulą tajności do 1997 roku. Obecnie kryptografia asymetryczna jest szeroko stosowana do wymiany informacji poprzez kanały o niskiej poufności jak np. Internet. Stosowana jest także w systemach elektronicznego uwierzytelniania, obsługi podpisów cyfrowych, do szyfrowania poczty (OpenPGP) itd.
+Szyfrowanie[edytuj]
+
+Klucz publiczny używany jest do zaszyfrowania informacji, klucz prywatny do jej odczytu. Ponieważ klucz prywatny jest w wyłącznym posiadaniu adresata informacji, tylko on może ją odczytać. Natomiast klucz publiczny jest udostępniony każdemu, kto zechce zaszyfrować wiadomość.
+Ponieważ kryptografia asymetryczna jest o wiele wolniejsza od symetrycznej, prawie nigdy nie szyfruje się wiadomości za pomocą kryptosystemów asymetrycznych. Zamiast tego szyfruje się jedynie klucz jakiegoś szyfru symetrycznego, takiego jak np. AES. Takie protokoły, łączące elementy kryptografii symetrycznej i asymetrycznej, nazywa się hybrydowymi.
+Podpisy cyfrowe[edytuj]
+
+Strona uwierzytelniająca wylicza skrót (ang. hash) podpisywanej wiadomości. Następnie szyfruje ten skrót swoim kluczem prywatnym i jako podpis cyfrowy dołącza do oryginalnej wiadomości. Dowolna osoba posiadająca klucz publiczny może sprawdzić autentyczność podpisu, poprzez odszyfrowanie skrótu za pomocą klucza publicznego nadawcy i porównanie go z własnoręcznie wyliczonym na podstawie wiadomości.
+W przypadku RSA klucz prywatny i publiczny można zamienić miejscami. Podpisy cyfrowe są implementowane na bazie szyfrowania, tylko z odwrotnym zastosowaniem kluczy – skrót wiadomości jest szyfrowany kluczem prywatnym, i żeby zweryfikować wiadomość, odszyfrowuje się go kluczem publicznym i porównuje z wiadomością.
+W innych kryptosystemach (np. w ElGamal), podpisywanie cyfrowe jest zupełnie niezależne od szyfrowania. Niektóre, jak DSA, umożliwiają tylko podpisywanie, nie da się w nich zaś w oczywisty sposób szyfrować. Podpis tej samej wiadomości w RSA jest zawsze identyczny. W ElGamalu i DSA każdy kolejny podpis tej samej wiadomości zwykle jest inny – co ma znaczenie w niektórych zastosowaniach.
+Rząd Stanów Zjednoczonych usiłował swego czasu ograniczyć stosowanie silnej kryptografii do szyfrowania, jednak musiał pozwolić na silne podpisy cyfrowe. RSA nie dawała możliwości udostępnienia tylko jednej z tych funkcji, dlatego promowany był system podpisów cyfrowych DSA. Jak się jednak okazało, losowość tych podpisów można wykorzystać do implementacji "ukrytego kanału komunikacji", i silnego szyfrowania za pomocą DSA (jak również w podpisach ElGamala, ale ElGamal udostępnia też normalne szyfrowanie). Jest to jednak metoda bardzo powolna, i nie jest stosowana ze względu na dostępność szybszych "bezpośrednich" metod takich jak RSA i ElGamal.
+Zależności między kluczem publicznym i prywatnym[edytuj]
+
+We wszystkich kryptosystemach uzyskanie klucza prywatnego na podstawie publicznego musi być obliczeniowo trudne.
+W RSA zależność między kluczem publicznym i prywatnym jest symetryczna – uzyskanie klucza publicznego na podstawie prywatnego jest równie trudne jak uzyskanie prywatnego na podstawie publicznego. Składowe kluczy d i e obliczane są przy użyciu dwóch dużych i zbliżonych długością liczb pierwszych (p i q) generowanych w sposób możliwie przypadkowy. d i e otrzymuje się na podstawie równania (d jest losowane, e obliczane lub odwrotnie):
+
+Iloczyn p i q jest częścią klucza oznaczaną przez n.
+Klucz publiczny i prywatny tworzą odpowiednio pary (e,n) i (d,n). Liczby p i q, poza procesem generowania kluczy nie są potrzebne i zwykle są kasowane, jednakże istnieje wariant algorytmu w którym wchodzą one w skład klucza prywatnego (są wykorzystywane w celu zwiększenia prędkości działania kryptosystemu).
+W systemie ElGamal wybierana jest liczba pierwsza p, generator g, następnie losowana jest liczba x. Kluczem prywatnym jest (p,g,x), kluczem publicznym zaś (p,g,gx), w grupie multiplikatywnej liczb całkowitych modulo p. Klucz publiczny może być obliczony na podstawie prywatnego, co zresztą ma miejsce podczas generacji kluczy.
+Bardzo podobnie wygląda sytuacja w innych systemach opartych o logarytm dyskretny, takich jak kryptografia krzywych eliptycznych. W tych metodach grupę Zp zastępuje się inną grupą, np. utworzoną z punktów leżących na krzywej eliptycznej.

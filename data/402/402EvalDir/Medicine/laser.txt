@@ -1,0 +1,306 @@
+Laser to generator promieniowania, wykorzystujący zjawisko emisji wymuszonej. Nazwa jest akronimem od Light Amplification by Stimulated Emission of Radiation — wzmocnienie światła poprzez wymuszoną emisję promieniowania. Promieniowanie lasera ma charakterystyczne właściwości, trudne lub wręcz niemożliwe do osiągnięcia w innych typach źródeł promieniowania. Jest spójne w czasie i przestrzeni, zazwyczaj spolaryzowane i ma postać wiązki o bardzo małej rozbieżności. W laserze łatwo jest otrzymać promieniowanie o bardzo małej szerokości linii emisyjnej[1], co jest równoważne bardzo dużej mocy w wybranym, wąskim obszarze widma. W laserach impulsowych można uzyskać bardzo dużą moc w impulsie i bardzo krótki czas trwania impulsu (zob. laser femtosekundowy).
+Słowo laser bez dodatkowych określeń odnosi się najczęściej do laserów emitujących światło widzialne. W przypadku innych długości fali stosowane są dodatkowe określenia precyzujące zakres pracy (zob. nazewnictwo laserów).
+Spis treści  [ukryj] 
+1 Zasada działania
+1.1 Ośrodek czynny
+1.2 Układ pompujący
+1.3 Rezonator optyczny
+1.4 Warunek progowy akcji laserowej
+1.5 Schemat działania lasera z trójpoziomowym układem poziomów energetycznych
+1.6 Właściwości światła laserowego
+2 Rodzaje laserów
+2.1 Podział laserów w zależności od mocy
+2.2 Podział laserów w zależności od sposobu pracy
+2.3 Podział laserów w zależności od widma promieniowania, w których laser pracuje
+2.4 Podział laserów w zależności od ośrodka czynnego
+2.5 Podział laserów w zależności od zastosowań
+3 Opis niektórych typów laserów
+3.1 Laser kryptonowy i ksenonowy
+3.2 Laser neodymowy Nd:YAG
+3.3 Laser półprzewodnikowy
+3.4 Laser barwnikowy
+4 Krótka historia laserów
+5 Bezpieczeństwo pracy
+6 Zastosowanie lasera
+6.1 Laser w przemyśle
+6.1.1 Poligrafia
+6.1.2 Znakowanie produktów
+6.1.3 Laserowe cięcie metali
+6.1.4 Laserowe spawanie metali
+6.1.5 Laserowe drążenie
+6.1.6 Laserowa obróbka cieplna metali
+6.2 Technologia wojskowa
+6.3 Medycyna
+6.4 Telekomunikacja
+6.5 Efekty wizualne
+6.6 Geodezja, budownictwo
+7 Zobacz też
+8 Przypisy
+9 Literatura
+Zasada działania[edytuj]
+
+Zasadniczymi częściami lasera są: ośrodek czynny, rezonator optyczny, układ pompujący. Układ pompujący dostarcza energię do ośrodka czynnego, w ośrodku czynnym w odpowiednich warunkach zachodzi akcja laserowa, czyli kwantowe wzmacnianie (powielanie) fotonów, a układ optyczny umożliwia wybranie odpowiednich fotonów.
+Ośrodek czynny[edytuj]
+Oddziaływanie promieniowania z materią można wyjaśnić za pomocą trzech zjawisk: pochłaniania fotonów (absorpcji), emisji spontanicznej oraz emisji wymuszonej fotonu. Foton wyemitowany w wyniku emisji wymuszonej ma taką samą częstotliwość i polaryzację jak foton wywołujący emisję. Przykładowy foton wzbudzający musi mieć energię równą energii wzbudzenia atomu ośrodka. Atomy w stanie podstawowym pochłaniają takie fotony. Gdy w ośrodku jest więcej atomów w stanie wzbudzonym niż w stanie podstawowym zachodzi inwersja obsadzeń poziomów energetycznych. Stan wzbudzony jest stanem metastabilnym co zapewnia magazynowanie energii do czasu wyemitowania jako wiązki laserowej i jest warunkiem funkcjonowania urządzenia.
+Atomy niektórych pierwiastków mają poziomy energetyczne, na których elektron pozostaje znacznie dłużej (kilkaset µs, kilka ms). Wskutek pobudzania zewnętrznym polem elektrycznym elektrony w atomach przechodzą do stanu metatrwałego, wytwarzając inwersję obsadzeń, która zapewnia lawinową emisję promieniowania koherentnego, czyli o tej samej długości fali.
+Układ pompujący[edytuj]
+Zadaniem układu jest przeniesienie jak największej liczby elektronów w substancji czynnej do stanu wzbudzonego. Układ musi być wydajny by zapewnić inwersję obsadzeń. Pompowanie lasera odbywa się poprzez błysk lampy błyskowej (flesza), błysk innego lasera, przepływ prądu (wyładowanie) w gazie, reakcję chemiczną, zderzenia atomów, wstrzelenie wiązki elektronów do substancji.
+Rezonator optyczny[edytuj]
+Wzbudzony ośrodek czynny stanowi wprawdzie potencjalne źródło światła laserowego, jednak do powstania uporządkowanej akcji laserowej potrzebny jest jeszcze odpowiedni układ optyczny, zwany rezonatorem. Układ ten pełni rolę dodatniego sprzężenia zwrotnego dla światła o wybranym kierunku i określonej długości fali. Spośród wszystkich możliwych kierunków świecenia i wszystkich dostępnych dla ośrodka długości fal, jedynie światło o parametrach ustalonych przez rezonator będzie wzmacniane na tyle mocno, by doprowadzić do akcji laserowej.
+Sprzężenie zwrotne polega na możliwości wielokrotnego przepływu fotonów przez ośrodek, połączonego z ich kaskadowym powielaniem wskutek emisji wymuszonej, dzięki czemu laser generuje spójne światło. Układ optyczny rezonatora składa się zazwyczaj z dwóch dokładnie wykonanych i odpowiednio ustawionych zwierciadeł. Dla określonego kierunku możliwe jest wielokrotne odbicie pomiędzy zwierciadłami, i tylko fotony o takim kierunku, mogą wielokrotnie przebiegać przez ośrodek czynny, powodując akcję laserową. Jeśli rezonator ma postać dwóch równoległych zwierciadeł płaskich, to emitowane światło może leżeć w dość szerokim przedziale częstotliwości, zależnym od charakterystyki ośrodka. Aby dodatkowo określić tę częstotliwość z dużą precyzją, stosuje się dodatkowe elementy układu optycznego, ograniczające możliwość wielokrotnego odbicia fal o długościach innych, niż zadana. Mogą to być na przykład siatki dyfrakcyjne pełniące rolę selektywnego zwierciadła tylko dla określonej długości fali, a także dodatkowe lustra tworzące filtry interferencyjne (interferometry). W zależności od szczegółów technicznych budowy rezonatora, możliwe jest uzyskanie światła laserowego o bardzo różnych własnościach, takich jak kątowa rozbieżność wiązki, określony stopień jej spójności przestrzennej i czasowej, określony profil spektralny linii, czy wreszcie określony rozkład gęstości mocy w poprzecznym przekroju wiązki (tzw. mody poprzeczne).
+Aby emitowane światło laserowe mogło wydostać się poza rezonator (na zewnątrz lasera), przynajmniej jedno z luster powinno być częściowo przepuszczalne. W laserach impulsowych stosuje się często modulację czasową przepuszczalności luster, dzięki czemu cała energia wiązki zostaje uwolniona w chwili "otwarcia" lustra.
+Warunek progowy akcji laserowej[edytuj]
+Aby mogła zajść akcja laserowa, wzmocnienie promieniowania w obszarze czynnym musi co najmniej równoważyć straty promieniowania wewnątrz rezonatora (rozpraszanie, straty dyfrakcyjne) oraz emisję części promieniowania na zewnątrz rezonatora (np. przez częściowo przepuszczalne lustro wyjściowe).
+Rozważmy laser, którego rezonator optyczny ma długość L i jest zakończony dwoma lustrami o współczynnikach odbicia R1 i R2. W trakcie jednego obiegu promieniowania w rezonatorze natężenie światła zmienia się w sposób opisany poniższym wzorem:
+
+gdzie:
+g – wzmocnienie optyczne jednostkowej długości ośrodka czynnego,
+?L – straty wewnętrzne –– suma wszystkich strat promieniowania, na jednostce długości, wewnątrz rezonatora z wyjątkiem absorpcji (jest już uwzględniona w g).
+Warunek progowy:
+
+Zatem wzmocnienie progowe konieczne do zajścia akcji laserowej wynosi:
+
+Schemat działania lasera z trójpoziomowym układem poziomów energetycznych[edytuj]
+Foton przemieszcza elektron z poziomu Ek na poziom wzbudzony En – tzw. krótkożyciowy. Następnie elektron przechodzi w wyniku przejścia bezpromienistego na niższy poziom Em metastabilny. Jeżeli energia fotonu wymuszającego wynosi h? = Em - Ek to zostaje wymuszone wypromieniowanie drugiego fotonu koherentnego a elektron przenosi się na poziom podstawowy.
+Właściwości światła laserowego[edytuj]
+rozbieżność wiązki;
+spójność;
+moc promieniowania i gęstość energii;
+propagacja promieniowania laserowego w środowisku.
+Rozbieżność jest to powiększanie się pola przekroju poprzecznego wiązki wraz z odległością. Rozbieżność wiązki promieniowania określa się kątem rozbieżności ?. Dzięki małym rozbieżnościom wiązki prawie całą energię promieniowania możemy skierowywać w określonym kierunku.
+? = 
+gdzie:
+? – długość fali,
+D – szerokość wiązki na wyjściu z lasera.
+Spójność (koherentność) jest to przestrzenna i czasowa, w fazie i częstotliwości zależność drgań elektromagnetycznych. Aby drgania były spójne muszą mieć jednakową częstotliwość.
+Lasery wypromieniowują całą swoją energię w wąskich wiązkach, w przeciwieństwie do zwykłych źródeł światła, które promieniują we wszystkie strony. Energii zwykłych źródeł światła nie można skoncentrować tak aby uzyskać gęstość mocy w plamce większą od gęstości mocy źródła. Energię promieniowania laserów można w taki sposób skoncentrować. Spowodowane jest to dobrą równoległością wiązki lasera. Duża gęstość mocy umożliwia uzyskanie dużej koncentracji fotonów. Może wtedy zachodzić równoczesne oddziaływanie kilku fotonów z jednym atomem.
+Środowisko naturalne wpływa na propagacje promieniowania laserowego poprzez: zmniejszenie amplitudy i długości jego koherencji oraz na odchylaniu i zmianie prostoliniowości biegu promieniowania. Przyczyną zmniejszania się wielkości promieniowania w danym środowisku są:
+rozproszenie promieniowania;
+absorpcja promieniowania.
+Rozpraszanie promieniowania polega na zmianie kierunku biegu fali. Fotony biegnące w danym środowisku mogą zostać: pochłonięte, rozproszone lub może je nie spotkać żadne z tych zdarzeń. Promieniowanie laserowe w atmosferze podlega rozproszeniu i absorpcji. Rozproszenie promieniowania w powietrzu zależy od:
+długości fali;
+gęstości i niejednorodności atmosfery;
+temperatury;
+zadymienia;
+pory dnia;
+pogody;
+obecności owadów znajdujących się na torze biegu promieniowania laserowego.
+Podczas propagacji promieniowania laserowego w wodzie występują zawsze trudne lub bardzo trudne warunki. Trudne warunki występują np. w wodzie destylowanej, gdzie występuje silne rozproszenie i tłumienie promieniowania w cząsteczkach wody. Bardzo trudne warunki występują, gdy w wodzie znajdują się rozpuszczone sole i zawiesiny, które zwiększają tłumienie i rozproszenie promieniowania. Oba te czynniki powodują skrócenie maksymalnego zasięgu rozprzestrzeniania się światła.
+Rodzaje laserów[edytuj]
+
+Podział laserów w zależności od mocy[edytuj]
+Lasery dużej mocy
+Lasery o średniej mocy
+Lasery małej mocy
+Podział laserów w zależności od sposobu pracy[edytuj]
+Lasery pracy ciągłej, emitujące promieniowanie o stałym natężeniu
+Lasery impulsowe, emitujące impulsy światła
+szczególnym rodzajem lasera impulsowego jest laser femtosekundowy
+Podział laserów w zależności od widma promieniowania, w których laser pracuje[edytuj]
+Lasery w podczerwieni
+Lasery w części widzialnej
+Lasery w nadfiolecie
+Podział laserów w zależności od ośrodka czynnego[edytuj]
+Ośrodek czynny decyduje o najważniejszych parametrach lasera, określa długość emitowanej fali, jej moc, sposób pompowania, możliwe zastosowania lasera.
+W nawiasach podano długości fal emitowanego światła.
+Lasery gazowe:
+He-Ne laser helowo-neonowy (543 nm lub 633 nm)
+Ar laser argonowy (458 nm, 488 nm lub 514,5 nm)
+laser azotowy (337,1 nm)
+laser kryptonowy (jonowy 647,1 nm, 676,4 nm)
+laser na dwutlenku węgla (10,6 µm)
+laser na tlenku węgla
+laser tlenowo-jodowy
+Lasery na ciele stałym
+laser rubinowy (694,3 nm)
+laser neodymowy na szkle
+laser neodymowy na YAG-u (Nd:YAG)
+laser erbowy na YAG-u (Er:YAG) (1645 nm)
+laser tulowy na YAG-u (Tm:YAG) (2015 nm)
+laser holmowy na YAG-u (Ho:YAG) (2090 nm)
+laser tytanowy na szafirze (Ti:Al2O3)
+laser na centrach barwnych
+Lasery na cieczy
+lasery barwnikowe - ośrodkiem czynnym są barwniki rozpuszczone w nieaktywnym ośrodku przezroczystym, np. rodamina
+lasery chylatowe
+lasery neodymowe
+Lasery półprzewodnikowe
+złączowe (diody laserowe)
+laser na materiale objętościowym
+laser na studniach kwantowych
+laser na kropkach kwantowych
+bezzłączowe
+kwantowy laser kaskadowy
+Lasery na wolnych elektronach
+laser promieniowania X
+Podział laserów w zależności od zastosowań[edytuj]
+Specjalne lasery gazowe wytwarzające ultrafiolet o możliwie jak najmniejszej długości fali używane do produkcji półprzewodnikowych układów scalonych:
+F_2 (157 nm)
+ArF (193 nm)
+KrCl (222 nm)
+XeCl (308 nm)
+XeF (351 nm)
+Lasery używane w stomatologii i dermatologii, w tym do usuwania tatuaży, znamion oraz włosów:
+laser rubinowy (694 nm)
+Aleksandrytowy (755 nm)
+pulsacyjna matryca diodowa (810 nm)
+Nd:YAG (1064 nm)
+Ho:YAG (2090 nm)
+Er:YAG (2940 nm)
+Półprzewodnikowe diody laserowe:
+małej mocy - używane we wskaźnikach laserowych, drukarkach laserowych, CD/DVD
+dużej mocy - używane w przemyśle do cięcia i spawania, występują o mocach do 10 kW
+Opis niektórych typów laserów[edytuj]
+
+Laser kryptonowy i ksenonowy[edytuj]
+Wypełnione kryptonem lub ksenonem z domieszką fluoru lub chloru, emitują promieniowanie ultrafioletowe, zastosowania badawcze i do pompowania optycznego laserów barwnikowych. Laser kryptonowy jonowy ma wiele linii w paśmie widzialnym - dwie najintensywniejsze linie to linie 647,1 i 676,4 nm czerwone.
+Laser neodymowy Nd:YAG[edytuj]
+Można wyróżnić mikrolasery objętościowe i cienkowarstwowe. Pompowanie odbywa się za pomocą półprzewodnikowych diod laserowych. Długość aktywnego ośrodka objętościowego jest rzędu 1mm. Możliwość budowy lasera o tak małych wymiarach powstała w wyniku opanowania technologii diod generujących wiązkę o mocy rzędu watów z możliwością dopasowania pasma emisji tych diod do pasma maksymalnej absorpcji neodymu (?=0.81 µm). Długość fali emitowanej przez laser wiązki ?=1.06 µm. Przejścia kwantowe realizowane są na jonach neodymu. Dichroiczne zwierciadła tworzą układ rezonatora otwartego dla mikrolasera objętościowego i falowodowego. Wiązka pompująca (?=0.81 µm) powinna być transmitowana przez pierwsze zwierciadło i całkowicie odbijana przez drugie. Natomiast wiązka generowana przez laser (?=1.06 µm), jak w typowym rezonatorze, powinna być całkowicie odbijana przez drugie zwierciadło i częściowo transmitowane przez pierwsze.
+Mikrolaser objętościowy w połączeniu z kryształem nieliniowym tworzy laser o zwartej budowie, emitujący linię zieloną (druga harmoniczna, ? = 0,533 µm) o mocy nawet kilkunastu miliwatów. Tą drogą można uzyskać również harmoniczne wyższe niż druga i uzyskać promieniowanie w nadfiolecie.
+Laser półprzewodnikowy[edytuj]
+ Osobny artykuł: Laser półprzewodnikowy.
+Nazywany również laserem diodowym lub diodą laserową - laser, którego obszarem czynnym jest półprzewodnik. Najczęściej laser półprzewodnikowy ma postać złącza p-n w którym obszar czynny jest pompowany przez przepływający przez złącze prąd elektryczny. Są to najbardziej perspektywiczne lasery z punktu widzenia ich zastosowań w fotonice ze względu na małe wymiary, dość wysokie moce, łatwość modulacji prądem sterującym o wysokiej częstotliwości (rzędu gigaherców) i możliwość uzyskania promieniowania od pasma bliskiej podczerwieni (diody laserowe dla telekomunikacji światłowodowej) do skraju fioletowego pasma widzialnego.
+Laser barwnikowy[edytuj]
+Substancją czynną jest tak zwany barwnik, pompowany optycznie przez inny laser, z reguły o krótszej długości fali (najczęściej jest to silny laser argonowy, kryptonowy lub neodymowy).
+Cząsteczki barwnika mogą oddawać pochłoniętą na skutek pompowania energię między innymi w drodze emisji wymuszonej, w dość szerokim zakresie długości fal. O powstaniu akcji laserowej decydują dodatkowe warunki zewnętrzne - na przykład odpowiedni układ luster i siatek dyfrakcyjnych, zwany rezonatorem. Dobierając parametry rezonatora, można uzyskać akcję laserową w określonym kierunku padania światła, o określonej długości fali. Przestrajanie może odbywać się poprzez przesuw luster, obrót siatki dyfrakcyjnej, a nawet zmianę ciśnienia. Aby nie doprowadzić do przegrzania barwnika (lub spadku jego aktywności wskutek przeniesienia większości oświetlonych cząsteczek na metastabilne poziomy energetyczne nieprzydatne w akcji laserowej), należy zadbać o jego właściwą cyrkulację - może to być na przykład ciągły przepływ barwnika przez aktywny obszar lub jego intensywne mieszanie. Dzięki szerokiemu zakresowi przestrajania, zarówno płynnego (poprzez regulację rezonatora) jak i skokowego (poprzez wymianę barwnika na inny) lasery barwnikowe znajdują zastosowania wszędzie tam, gdzie potrzebne jest uzyskanie ściśle określonej długości fali, trudnej do uzyskania przy użyciu konwencjonalnego lasera. Zakres dostępnych długości fal powiększa się dodatkowo za sprawą optyki nieliniowej, np. generacja harmonicznej pozwala na emisję fal o połowę krótszych od fal generowanych przez czynnik roboczy lasera.
+Lasery barwnikowe stosuje się w spektroskopii, medycynie, fotochemii i wielu innych dziedzinach.
+Krótka historia laserów[edytuj]
+
+Często podaje się datę 1954 skonstruowania masera, pierwszego wzmacniacza kwantowego.
+W 1957 Gordon Gould ogłosił pomysł (jak też i nazwę) lasera, równolegle z niezależnymi pracami nad maserami optycznymi (Arthur Leonard Schawlow, Charles Townes).
+Pierwszy laser (rubinowy) zbudował i uruchomił 16 maja 1960 roku Theodore Maiman, ośrodkiem czynnym był kryształ korundu domieszkowany chromem - rubin.
+Pierwszy laser gazowy helowo-neonowy zbudowano w 1961.
+W roku następnym Snitzer uruchomił laser na bazie szkła neodymowego, a w roku 1964 Gaisik i Karkos skonstruowali laser na bazie granatu itrowo-glinowego domieszkowanego neodymem. Wtedy też irański fizyk, Ali Javan, zbudował pierwszy laser helowo-neonowy.
+Nagroda Nobla z fizyki - 1964 - N. G. Basow i A. M. Prochorow (ZSRR) oraz C. H. Townes (USA) za prace będące podstawą działania laserów i maserów
+W tym samym roku zbudowany został pierwszy laser półprzewodnikowy z pompowaniem diodowym.
+W latach 1967-69 Bagdasarow i Kamiński zbudowali laser na bazie kryształu perowskitu itrowo-glinowego domieszkowanego neodymem, a Homer, Linz i Gabbe wykorzystali fluorek litowo-itrowy (YLF).
+Kilka lat później (w 1979 roku) skonstruowano laser z przestrajaniem częstotliwości na krysztale aleksandrytu, a w roku 1982 Moulton zaprezentował laser, w którym ciałem roboczym był szafir domieszkowany jonami tytanu (w żargonie nazywany skrótowcem tikor od ti – tytan) i kor – korund.
+Pierwszy polski laser powstał w Wojskowej Akademii Technicznej w 1963 (laser gazowy He-Ne, generujący promieniowanie podczerwone).
+Bezpieczeństwo pracy[edytuj]
+
+
+
+Piktogram stosowany także przy laserach bezpiecznych
+Ponieważ promieniowanie laserowe o tej samej mocy lecz o różnych długościach fal może wywołać różne skutki podczas oddziaływania z tkanką biologiczną, lasery podzielono na klasy. Zasady bezpiecznej pracy z urządzeniami laserowymi podano w Polskiej Normie PN-EN 60825-1:2005 (Bezpieczeństwo urządzeń laserowych -- Część 1: Klasyfikacja sprzętu, wymagania i przewodnik użytkownika). Nowy podział na siedem klas (1, 1M, 2, 2M, 3R, 3B, 4):
+1 - Lasery które są bezpieczne w racjonalnych warunkach pracy
+1M - Lasery emitujące promieniowanie w zakresie długości fal od 302,5 nm do 4000 nm, które są bezpieczne w racjonalnych warunkach pracy, ale mogą być niebezpieczne podczas patrzenia w wiązkę przez przyrządy optyczne.
+2 - Lasery emitujące promieniowanie widzialne w przedziale długości fal od 400 do 700 nm. Ochrona oka jest zapewniona w sposób naturalny przez instynktowne reakcje obronne
+2M - Lasery emitujące promieniowanie widzialne w przedziale długości fal od 400 do 700 nm. Ochrona oka jest zapewniona w sposób naturalny przez instynktowne reakcje obronne, ale mogą być niebezpieczne podczas patrzenia w wiązkę przez przyrządy optyczne
+3R - Lasery emitujące promieniowanie w zakresie długości fal od 302,5 nm do 106 nm, dla których bezpośrednie patrzenie w wiązkę jest potencjalnie niebezpieczne.
+3B - Lasery, które są niebezpieczne podczas bezpośredniej ekspozycji promieniowania. Patrzenie na odbicia rozproszone jest zwykle bezpieczne.
+4 - Lasery, które wytwarzają niebezpieczne odbicia rozproszone. Mogą one powodować uszkodzenie skóry oraz stwarzają zagrożenie pożarem. Podczas obsługi laserów klasy 4 należy zachować szczególną ostrożność.
+Jednym z najważniejszych elementów oznakowania urządzeń laserowych są etykiety informujące o klasie lasera. Tekst na tych etykietach powinien być napisany czarnymi literami na żółtym tle.
+Zastosowanie lasera[edytuj]
+
+Laser w przemyśle[edytuj]
+Poligrafia[edytuj]
+Lasery znalazły zastosowanie w nowoczesnej poligrafii:
+Computer-to-Film CtF czyli w naświetlarkach filmów poligraficznych
+Computer-to-Plate CtP w naświetlarkach offsetowych form drukowych
+Computer-to-Press CtPress czyli w naświetlarkach zintegrowanych z maszyną drukarską
+Computer-to-Print CtPrint czyli w jednym z typów druku cyfrowego, tj. w technologii analogicznej do używanych w cyfrowych kserokopiarkach
+Znakowanie produktów[edytuj]
+
+
+Przykład przedmiotu z wygrawerowanym laserowo napisem
+Lasery znalazły również zastosowanie przy znakowaniu produktów. Używa się ich przy liniach produkcyjnych posiadających bardzo wysokiej wydajności (np. 70 000 prod./h) oraz gdy chcemy uzyskać trwały i estetyczny nadruk. Podstawowym założeniem stosowania lasera do znakowania jest jego trwałość oraz nieusuwalność znaku. Aby 'zniszczyć' np. datę przydatności do produkcji na towarze spożywczym wykonaną laserem , należałoby zniszczyć także opakowanie lub usunąć etykietę.
+Wyróżnia się dwa sposoby znakowania materiałów:
+usuwanie cienkiej warstwy farby z powierzchni przedmiotu;
+zmiana barwy - zachodzi ona dzięki stosowaniu różnych domieszek lub poprzez pokrywanie powierzchni przedmiotu specjalnymi rodzajami farb lub tlenków.
+Wyróżniamy również dwie podstawowe technologie znakowania:
+naświetlanie powierzchni przedmiotu przez specjalnie przygotowaną maskę ze wzorem;
+system Galwo.
+Naświetlanie powierzchni przedmiotu przez specjalnie przygotowaną maskę ze wzorem, który ma być naniesiony na powierzchnię, polega na tym, że niezogniskowana wiązka laserowa przechodzi przez otwory w masce, układ ogniskujący i przez powierzchnię przedmiotu na odpowiednią głębokość. W systemie Galwo zogniskowana wiązka laserowa jest kierowana przy pomocy dwóch zwierciadeł sterowanych elektromagnetycznie bezpośrednio na powierzchnię przedmiotu. Obraz może być utworzony z pojedynczych punktów lub linii.
+Nadruki można wykonywać na:
+etykietach produktów poprzez usuwanie warstwy farby lub odbarwienie etykiety
+butelkach PET poprzez trwałe naniesienie znaków (proces jw. lub przy zastosowaniu specjalnej technologii spieniającej PET)
+elementach metalowych oraz innych - popularnie zwanych grawerowaniem
+Laserowe cięcie metali[edytuj]
+
+
+Wycinarka laserowa firmy Bystronic
+
+
+Koło zębate wykonane poprzez cięcie laserowe
+Cięcie laserowe stanowi nowoczesną metodę obróbki o podobnych parametrach wymiarowych jak klasyczna obróbka mechaniczna. Podstawowa różnica tkwi w stosowanym czynniku tnącym, który w przypadku cięcia laserowego stanowi promień lasera oraz gaz techniczny o dużej czystości. W zależności od stosowanego urządzenia (przede wszystkim jego mocy) cięcie przeprowadza się na następujące sposoby:
+przed odparowanie;
+przez topnienie i wydmuchiwanie;
+przez wypalenie;
+poprzez generowanie pęknięć termicznych;
+poprzez zarysowanie;
+przez tzw. zimne cięcie.
+Laserowe cięcie wykonuje się w obecności gazu ochronnego takiego jak: azot, tlen lub argon, którego zadaniem jest:
+wydmuchiwanie materiału stopionego podczas cięcia;
+zapobieżenie utlenianiu się powierzchni przecięcia;
+zapobieżenie spalaniu się łatwopalnych materiałów;
+przyspieszenie procesu cięcia i zwiększenie jego precyzji.
+Proces ciecia laserowego zależy od absorpcji padającego promieniowania i przewodności cieplnej materiałów. Z kolei współczynnik absorpcji zależy od: rodzaju materiału, stanu jego powierzchni, długości fali promieniowania ? i temperatury T.
+Laserowe spawanie metali[edytuj]
+
+
+Spawarka laserowa
+Spawanie laserowe polega na łączeniu detali przez stopienie obszarów ich styku przy pomocy skoncentrowanej wiązki lasera. Duża gęstość mocy wiązki laserowej gwarantuje, że energia spawania jest na poziomie minimalnym potrzebnym do stopienia złącza. Strefy wpływu ciepła i stopienia są bardzo wąskie. Odkształcenie materiału jest bardzo małe, a po procesie spawania nie trzeba wykonywać dodatkowej obróbki mechanicznej. Podczas spawania spoina musi być zabezpieczona przed utlenianiem i zanieczyszczeniami przy pomocy gazów ochronnych takich jak np.: Ar, N2, CO2, He. Efektywność spawania zależy od absorpcji energii wiązki przez powierzchnię metali, która wynosi: 1 ÷ 5% dla laserów CO2 i 2 ÷ 30% dla laserów stałych. Z tego powodu powierzchnie niektórych metali powinny być poczernione lub zmatowione.
+Laserowe drążenie[edytuj]
+Za pomocą lasera można drążyć bardzo małe otwory w bardzo twardych materiałach np. w diamencie, a także w bardzo kruchych np. w ceramice. Otwory są wykonywane z dużą prędkością i mają powtarzalny kształt. Wiązka laserowa topi metal, tworzy się jeziorko płynnego metalu, a strumień gazu częściowo spala i usuwa stopiony metal z obszaru oddziaływania wiązki laserowej. Materiał musi być usuwany na tę samą stronę, z której działa gaz.
+Laserowa obróbka cieplna metali[edytuj]
+Właściwości wiązki laserowej można wykorzystać do cieplnej obróbki powierzchniowej metali. Wiązkę można skupić na małej powierzchni, dzięki czemu tą metodą da się obrabiać cieplnie określone fragmenty powierzchni. Za pomocą wiązki laserowej można zastąpić klasyczne metody obróbki cieplnej lub stopować powierzchnie metali innymi pierwiastkami dzięki czemu następuje zmiana składu i właściwości warstwy wierzchniej. Do laserowej obróbki powierzchniowej metali zaliczyć można m.in.:
+Hartowanie:
+bezprzetopieniowe;
+przetopieniowe.
+Stopowanie:
+przetapianie;
+wtapianie.
+Hartowanie laserowe bezprzetopieniowe (w porównaniu z tradycyjnym hartowaniem) daje twardsze i cieńsze warstwy, o bardziej drobnoziarnistej strukturze, odporne na tarcie i korozję. Ponadto zwiększa się ich wytrzymałość statyczna i zmęczeniowa, udarność oraz ciągliwość. W zależności od parametrów wiązki laserowej uzyskuje się różne struktury martenzytu oraz udziały węgliku, ferrytu itd.
+Hartowanie laserowe przetopieniowe natomiast powoduje pogorszenie chropowatości, ale polepszenie właściwości tribologicznych, zmęczeniowych i antykorozyjnych. Dzięki przetopieniu warstwy wierzchniej można uzyskać strukturę drobnoziarnistą oraz częściowe lub całkowite rozpuszczenie występujących w strukturze faz wydzielenia lub zanieczyszczeń (węgliki, tlenki, grafit). Głębokość warstwy zahartowanej przetopieniowo żeliwa szarego dochodzi do kilku milimetrów. W taki sposób hartuje się cylindry silników, wieńce kół zębatych, krzywki.
+Stopowanie jest to jednoczesne topnienie i mieszanie materiału stopującego ze stopowanym (podłożem). Wiązka laserowa topi materiały, które ulegają wymieszaniu i powstaje wypływka na obrzeżu jeziorka. Cienka warstwa materiału w stanie stałym stykająca się z roztopionym materiałem jeziorka topi się w wyniku przewodzenia ciepła z kąpieli do ciała stałego. Na granicy podłoża i stopu pojawia się cienka warstwa dyfuzyjna. Po ustaniu działania wiązki laserowej powstały stop krzepnie, a materiał podłoża w jego sąsiedztwie hartuje się samoistnie. Struktura, skład chemiczny i właściwości stopu są inne niż materiału podłoża i materiału stopującego. Wszystkie fazy w strefie przetopionej są rozłożone równomiernie na całej głębokości. Warstwa powstałego stopu ma większą twardość, wytrzymałość zmęczeniową, lepsze właściwości tribologiczne oraz antykorozyjne, ale ma mniejszą gładkość niż podłoże przed stopowaniem. W zależności od sposobu wprowadzania pierwiastków stopujących rozróżnia się:
+przetapianie;
+wtapianie.
+Przetapianie polega na naniesieniu na podłoże materiału stopującego i na przetopieniu go razem z warstwą wierzchnią materiału podłoża. Przetapianie rozpoczyna się od powłoki z materiału stopującego i rozprzestrzenia się na warstwę wierzchnią podłoża. Materiał stopujący całkowicie rozpuszcza się w materiale podłoża. Przy przetapianiu zawsze powstaje plazma i parowanie materiału. Materiał stopujący nanosi się przez naparowywanie, osadzanie elektrolityczne, malowanie, natryskiwanie, pokrywanie pastami, proszkami. Większa chropowatość podłoża polepsza adhezję proszku do podłoża. Przeciętna grubość warstw przetapianych wynosi 0,3 ÷ 0,4 mm. Najczęściej stopuje się różne gatunki stali, żeliwa, stopy aluminium, tytanu. Stosuje się na elementy części maszyn lub narzędzi pracujących szczególnie w trudnych warunkach np. krawędzie tnące narzędzi skrawających.
+Wtapianie polega na wprowadzeniu w obszar działania wiązki laserowej i w utworzone jeziorko przetopionego materiału podłoża materiału stopującego w postaci proszku, pasty, gazu. Przy wtapianiu proszkowym topnienie obydwu materiałów odbywa się jednocześnie.
+Technologia wojskowa[edytuj]
+
+
+"Airborne Laser" zainstalowany na pokładzie specjalnej wersji samolotu Boeing 747-400F.
+Laser ma potrójne zastosowanie militarne:
+Dalmierze laserowe, stosowane do oceny odległości od celu, wchodzą w skład systemów kierowania ogniem lub systemów rozpoznawczych czołgów i niektórych innych pojazdów bojowych, samolotów i śmigłowców, mogą być także przenośne.
+W systemach naprowadzających cel jest oświetlany wiązką laserową, promieniowanie odbite jest emitowane praktycznie we wszystkich kierunkach (z uwagi na rozpraszanie wiązki na powierzchni). Pocisk rakietowy, artyleryjski lub bomba kierowana, wyposażony w czujnik laserowy, określa źródło odbitej wiązki, i za pomocą układów elektronicznych naprowadza się na podświetlony cel.
+Podobne zastosowanie ma laserowy wskaźnik celu, lecz w tym przypadku laser wskazuje cel, a operator broni (strzelec) samodzielnie naprowadza promień lasera na cel.
+Systemy laserowe są zdolne do uwalniania skoncentrowanej energii w postaci wiązki świetlnej w bardzo krótkim przedziale czasu. Powoduje to, iż cała energia jest wyzwalana w bardzo krótkim czasie, co przy prędkości światła powoduje, iż praktycznie jest niemożliwe uniknięcie trafienia z takiej broni. Laser jako broń energetyczna jest najmniej rozpowszechniony - dopiero wprowadzany jedynie w USA na platformach powietrznych (Airborne Laser), aczkolwiek jest jednym z ulubionych tematów twórczości science-fiction. Lasery mniejszej mocy stosowane są też do niszczenia układów optycznych pojazdów. Prowadzone są prace nad laserami mogącymi krótkotrwale oślepiać żołnierzy. Używanie broni trwale oślepiającej jest zabronione przez IV protokół dodatkowy do Konwencji ONZ z 1980 roku[2].
+Łącza telefoniczne stosowane na niewielkich odległościach. Są one bardzo pojemne i zapewniają tajność ich przesyłania. Antena nadawcza powinna zapewnić określoną rozbieżność wiązki promieniowania laserowego - duża aby łatwo nacelować i jednocześnie mała, aby nie rozpraszać zbyt dużo energii promieniowania. Powierzchnia apertury układu odbiorczego powinna być możliwie jak największa.
+Mierniki głównie w lotnictwie takie jak:
+wysokości (altimetry);
+składowych szybkości gazu (aneometry);
+przyspieszenia;
+szybkości lotu.
+Medycyna[edytuj]
+
+
+Powiększenie modułu laserowego (diody i fotodiody) z CD-ROMu
+Funkcjonalny laser rubinowy w zakresie medycyny stosowany był już w drugiej połowie lat 60. Pierwszym dermatologiem, który badał działanie lasera w medycynie był Leo Goldman.
+Lasery są wykorzystywane w medycynie do takich celów jak:
+diagnostyka (lasery diagnostyczne);
+terapia schorzeń (lasery stymulacyjne i chirurgiczne);
+oświetlanie pola operacji.
+Lasera używa się w medycynie przede wszystkim dla "twardej" obróbki tkanek:
+cięcia,
+koagulacji,
+odparowania (fotoablacji oraz ablacji stymulowanej plazmą)
+obróbki mechanicznej (rozrywania, fragmentacji czy kawitacji)
+Lasery w okulistyce wykorzystywane są m.in. do przyklejenia siatkówki do dna oka, która może się odkleić na skutek uderzenia w tył głowy. Obie tkanki są punktowo łączone za pomocą koagulacji. Wiązkę lasera nakierowuje się na miejsce, gdzie ma być wytworzony punkt koagulacji. Impuls świetlny skleja w tym miejscu odwarstwioną siatkówkę. Koagulator laserowy stosuje się także do leczenia zmian naczyniowych i krwotoków do wnętrza gałki ocznej. Laser stosuje się także do przecinania cyst powiek i spojówek, naczyń wrastających w spojówkę, zrostów tęczówkowo – rogówkowych. Stosuje się go przy korekcji wad refrakcji (krótkowzroczność, dalekowzroczność, astygmatyzm) oraz zabiegów przeciwjaskrowych i przeciwzaćmowych. Jedną z metod korekcji wad refrakcji jest LASIK (Laser Assised In Situ Keratomileusis). Lasery działające z dokładnością do 0,25 µm odparowują nierówności w głębszych warstwach rogówki. Dzięki tej metodzie można skorygować wadę wzroku w zakresie + 6 do - 13 dioptrii.
+W dermatologii laserów używa się do usuwania niektórych nowotworów i naczyniaków powstałych np. po odmrożeniach. W leczeniu nowotworów wykorzystuje się lasery o dużej gęstości mocy i małych rozmiarach wiązki laserowej. Wiązką można zniszczyć chore komórki nie naruszając zdrowych. Skalpel laserowy pomocny jest przy leczeniu oparzeń. Przy jego pomocy można zdejmować naskórek lub warstwę spalonej skóry i odsłonić zdrową aby mogła się zagoić. Laser pomocny jest też przy usuwaniu tatuaży i włosów, rozjaśnianiu skóry, przywracaniu jej gładkości i sprężystości. Lasery stosowane w medycynie estetycznej:[3]
+Erbium-YAG-Laser jest stosowany do usuwania blizn, niewielkich brodawek oraz znamion
+Laser CO2 jest stosowany do niwelowania powierzchownych zmarszczek na skórze oraz blizn po trądziku
+Laser KTP jest stosowany do usuwania naczyń krwionośnych
+dzięki laserowi można również usunąć plamy starcze, przebarwienia oraz tatuaże
+W diagnostyce wykorzystuje się metodę laserowo indukowanej fluorescencji. Promienie lasera naświetlają tkanki powodując ich fluorescencję. Tkanki emitują światło, które przy pomocy światłowodu trafia do komputera, gdzie jego widmo jest analizowane. Chora tkanka ma zmienione widmo emisyjne. Dzięki temu można dokładnie stwierdzić jakie związki zawiera dana tkanka i które z nich nie są jej naturalnymi składnikami, a które efektami zmian chorobowych.
+Telekomunikacja[edytuj]
+Nadajniki laserowe przy transmisji światłowodowej
+Odczyt i zapis informacji na płytach kompaktowych
+Efekty wizualne[edytuj]
+
+
+Zegar ścienny wykonany techniką cięcia laserowego metalu
+Lasery są wykorzystywane do tworzenia efektów wizualnych np. w spektaklach teatralnych, reklamach, koncertach i dyskotekach.
+Tanie lasery diodowe są wykorzystywane jako wskaźniki podczas prezentacji dydaktycznych, konferencyjnych, reklamowych itp.
+Geodezja, budownictwo[edytuj]
+Prostoliniowy bieg wiązki lasera wykorzystywany jest w pomiarach geodezyjnych (dalmierze), a także w budownictwie (poziomnice laserowe, generatory linii)

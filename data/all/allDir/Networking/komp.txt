@@ -1,0 +1,37 @@
+Sieć komputerowa (w skrócie: sieć) – to zbiór komputerów i innych urządzeń połączonych ze sobą kanałami komunikacyjnymi. Sieć komputerowa umożliwia wzajemne przekazywanie informacji oraz udostępnianie zasobów własnych między podłączonymi do niej urządzeniami, tzw. "punktami sieci".
+Przeznaczenie[edytuj]
+
+Głównym przeznaczeniem sieci komputerowej – ideą dla której została stworzona i wciąż jest ulepszana i rozwijana – to ułatwienie komunikacji pomiędzy ludźmi, będącymi faktycznymi użytkownikami sieci. Sieć umożliwia łatwy i szybki dostęp do publikowanych danych, jak również otwiera techniczną możliwość tworzenia i korzystania ze wspólnych zasobów informacji i zasobów danych. W sensie prawnym, i w pewnym przybliżeniu, użytkownicy sieci komputerowej są również jej beneficjentami.
+Cechy użytkowe sieci komputerowej[edytuj]
+
+Poniżej wyszczególniono niektóre, użytkowe cechy sieci komputerowej:
+ułatwienie komunikacji między ludźmi.
+Korzystając z sieci, ludzie mogą komunikować się szybko i łatwo przy wykorzystaniu odpowiednich programów komputerowych i oferowanych w danej sieci usług sieciowych. W odniesieniu do sieci Internet należy wyróżnić dwa rodzaje programów i skojarzone z nimi usługi:
+klient poczty elektronicznej – poczta elektroniczna,
+przeglądarka internetowa – World Wide Web.
+udostępnianie plików, danych i informacji.
+W środowisku sieciowym, upoważnieni użytkownicy mogą uzyskiwać zdalny dostęp do danych i informacji przechowywanych na innych komputerach w sieci, jak również sami mogą udostępniać posiadane zasoby.
+udostępnianie zasobów sprzętowych.
+W środowisku sieciowym każdy, podłączony do sieci komputer, może uzyskać dostęp do urządzeń peryferyjnych, uprzednio udostępnionych do wykorzystania sieciowego, takich jak np. drukarki sieciowe czy udostępnione pamięci masowe.
+uruchamianie programów na komputerach zdalnych.
+Użytkownicy mający dostęp do sieci mogą uruchamiać na swoich komputerach programy zainstalowane na komputerach zdalnych. Takich użytkowników nazywa się również użytkownikami zdalnymi,
+rozpowszechnianie Wolnego i Otwartego Oprogramowania.
+Sieć komputerowa, a w szczególności Internet, stymuluje rozwój i upowszechnianie oprogramowania tworzonego i udostępnianego na zasadach licencji GPL.
+Składniki sieci komputerowej[edytuj]
+
+Wśród składników sieci komputerowej można wyróżnić następujące, główne grupy:
+hosty – czyli komputery sieciowe, dzięki którym użytkownicy mają dostęp do sieci;
+serwery – stale włączone komputery o dużej mocy obliczeniowej, wyposażone w pojemną i wydajną pamięć operacyjną i pamięć masową;
+medium transmisyjne – nośnik informacji, realizujący funkcję kanału komunikacyjnego. Są to kable: miedziane i światłowodowe i/lub fale radiowe;
+sprzęt sieciowy – koncentratory, przełączniki, routery, karty sieciowe, modemy, punkty dostępu;
+oprogramowanie – programy komputerowe zainstalowane na hostach, serwerach i innych urządzeniach sieciowych.
+Topologia sieci komputerowej[edytuj]
+
+ Główny artykuł: Topologia sieci komputerowej.
+gwiazda – komputery są podłączone do jednego, centralnego punktu zwanego koncentratorem lub przełącznikiem;
+gwiazda rozszerzona – posiada punkt centralny i punkty poboczne. Często spotykana topologia dla sieci standardu Ethernet;
+hierarchiczna – struktura podobna do drzewa binarnego;
+magistrala – komputery współdzielą jeden nośnik kablowy;
+pierścień – komputery są połączone pomiędzy sobą odcinkami kabla tworząc zamknięty pierścień, np. token ring;
+pierścień podwójny – komputery są połączone dwoma odcinkami kabla, np. FDDI;
+siatka – sieć rozszerzona o połączenia nadmiarowe. Rozwiązanie stosowane w sieciach, w których jest wymagana wysoka niezawodność działania.

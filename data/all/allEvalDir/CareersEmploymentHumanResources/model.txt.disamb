@@ -1,0 +1,3557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cesAna SYSTEM "xcesAnaIPI.dtd">
+<cesAna version="1.0" type="lex disamb">
+<chunkList>
+<chunk type="p">
+<chunk type="s">
+<tok>
+<orth>Model</orth>
+<!-- autoselected: subst:sg:nom:m3 -->
+<lex><base>model</base><ctag>subst:sg:nom:m1</ctag></lex>
+<lex disamb="1"><base>model</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>kapitału</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>kapitał</base><ctag>subst:sg:gen:m3</ctag></lex>
+</tok>
+<tok>
+<orth>ludzkiego</orth>
+<!-- autoselected: adj:sg:gen:m3:pos -->
+<lex><base>ludzki</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>ludzki</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+</tok>
+<tok>
+<orth>-</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>opiera</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>opierać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>się</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>się</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>na</orth>
+<!-- autoselected: prep:loc -->
+<lex><base>na</base><ctag>interj</ctag></lex>
+<lex><base>na</base><ctag>prep:acc</ctag></lex>
+<lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
+</tok>
+<tok>
+<orth>przekonaniu</orth>
+<!-- autoselected: subst:sg:loc:n -->
+<lex><base>przekonanie</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex disamb="1"><base>przekonanie</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>przekonać</base><ctag>ger:sg:dat:n:perf:aff</ctag></lex>
+<lex><base>przekonać</base><ctag>ger:sg:loc:n:perf:aff</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>że</orth>
+<!-- autoselected: comp -->
+<lex disamb="1"><base>że</base><ctag>comp</ctag></lex>
+<lex><base>że</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>człowiek</orth>
+<!-- autoselected: subst:sg:nom:m1 -->
+<lex disamb="1"><base>człowiek</base><ctag>subst:sg:nom:m1</ctag></lex>
+</tok>
+<tok>
+<orth>jest</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>istotą</orth>
+<!-- autoselected: subst:sg:inst:f -->
+<lex disamb="1"><base>istota</base><ctag>subst:sg:inst:f</ctag></lex>
+</tok>
+<tok>
+<orth>zdolną</orth>
+<!-- autoselected: adj:sg:inst:f:pos -->
+<lex><base>zdolny</base><ctag>adj:sg:acc:f:pos</ctag></lex>
+<lex disamb="1"><base>zdolny</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>chętną</orth>
+<!-- autoselected: adj:sg:acc:f:pos -->
+<lex disamb="1"><base>chętny</base><ctag>adj:sg:acc:f:pos</ctag></lex>
+<lex><base>chętny</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>do</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>nauki</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>nauka</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>nauka</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>nauka</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>nauka</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>która</orth>
+<!-- autoselected: adj:sg:nom:f:pos -->
+<lex disamb="1"><base>który</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:sg:voc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>dąży</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>dążyć</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>do</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>samorealizacji</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>samorealizacja</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>samorealizacja</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>samorealizacja</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>samorealizacja</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>poprzez</orth>
+<!-- autoselected: prep:acc:nwok -->
+<lex disamb="1"><base>poprzez</base><ctag>prep:acc:nwok</ctag></lex>
+</tok>
+<tok>
+<orth>własny</orth>
+<!-- autoselected: adj:sg:acc:m3:pos -->
+<lex><base>własny</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+<lex><base>własny</base><ctag>adj:sg:nom:m2:pos</ctag></lex>
+<lex><base>własny</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+<lex><base>własny</base><ctag>adj:sg:voc:m1:pos</ctag></lex>
+<lex><base>własny</base><ctag>adj:sg:voc:m2:pos</ctag></lex>
+<lex><base>własny</base><ctag>adj:sg:voc:m3:pos</ctag></lex>
+<lex disamb="1"><base>własny</base><ctag>adj:sg:acc:m3:pos</ctag></lex>
+</tok>
+<tok>
+<orth>rozwój</orth>
+<!-- autoselected: subst:sg:acc:m3 -->
+<lex><base>rozwój</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex disamb="1"><base>rozwój</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Dążenie</orth>
+<!-- autoselected: subst:sg:nom:n -->
+<lex disamb="1"><base>dążenie</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>dążenie</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>dążenie</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>dążyć</base><ctag>ger:sg:nom:n:imperf:aff</ctag></lex>
+<lex><base>dążyć</base><ctag>ger:sg:acc:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>do</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>samodoskonalenia</orth>
+<!-- autoselected: ger:sg:gen:n:imperf:aff -->
+<lex><base>samodoskonalenie</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>samodoskonalenie</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>samodoskonalenie</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>samodoskonalenie</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex disamb="1"><base>samodoskonalić</base><ctag>ger:sg:gen:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>się</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>się</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>wynika</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>wynikać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>jej</orth>
+<!-- autoselected: ppron3:sg:gen:f:ter:akc:npraep -->
+<lex><base>jej</base><ctag>interj</ctag></lex>
+<lex disamb="1"><base>on</base><ctag>ppron3:sg:gen:f:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:sg:dat:f:ter:akc:npraep</ctag></lex>
+</tok>
+<tok>
+<orth>naturalnej</orth>
+<!-- autoselected: adj:sg:gen:f:pos -->
+<lex disamb="1"><base>naturalny</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+<lex><base>naturalny</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+<lex><base>naturalny</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>potrzeby</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>potrzeba</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>potrzeba</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>potrzeba</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>potrzeba</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Szanse</orth>
+<!-- autoselected: subst:pl:nom:f -->
+<lex disamb="1"><base>szansa</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>szansa</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>szansa</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>pracy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+</tok>
+<tok>
+<orth>w</orth>
+<!-- autoselected: prep:loc:nwok -->
+<lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+<lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+<lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+<lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+<lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+<lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+<lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>przedsiębiorstwach</orth>
+<!-- autoselected: subst:pl:loc:n -->
+<lex disamb="1"><base>przedsiębiorstwo</base><ctag>subst:pl:loc:n</ctag></lex>
+</tok>
+<tok>
+<orth>wykorzystujących</orth>
+<!-- autoselected: pact:pl:loc:n:imperf:aff -->
+<lex><base>wykorzystywać</base><ctag>pact:pl:gen:m1:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:gen:m2:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:gen:m3:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:gen:n:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:loc:m1:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:loc:m2:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:loc:m3:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:loc:f:imperf:aff</ctag></lex>
+<lex disamb="1"><base>wykorzystywać</base><ctag>pact:pl:loc:n:imperf:aff</ctag></lex>
+<lex><base>wykorzystywać</base><ctag>pact:pl:acc:m1:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>model</orth>
+<!-- autoselected: subst:sg:acc:m3 -->
+<lex><base>model</base><ctag>subst:sg:nom:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex disamb="1"><base>model</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>kapitału</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>kapitał</base><ctag>subst:sg:gen:m3</ctag></lex>
+</tok>
+<tok>
+<orth>ludzkiego</orth>
+<!-- autoselected: adj:sg:gen:m3:pos -->
+<lex><base>ludzki</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>ludzki</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+</tok>
+<tok>
+<orth>mają</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex><base>Maja</base><ctag>subst:sg:inst:m1</ctag></lex>
+<lex><base>Maja</base><ctag>subst:sg:inst:f</ctag></lex>
+<lex disamb="1"><base>maić</base><ctag>fin:pl:ter:imperf</ctag></lex>
+<lex><base>maja</base><ctag>subst:sg:inst:f</ctag></lex>
+<lex><base>mieć</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>nie</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>nie</base><ctag>conj</ctag></lex>
+<lex><base>nie</base><ctag>qub</ctag></lex>
+<lex><base>on</base><ctag>ppron3:sg:acc:n:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:m2:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:m3:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:f:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:n:ter:akc:praep</ctag></lex>
+</tok>
+<tok>
+<orth>tylko</orth>
+<!-- autoselected: conj -->
+<lex><base>Tylka</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex disamb="1"><base>tylko</base><ctag>conj</ctag></lex>
+<lex><base>tylko</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>najlepsi</orth>
+<!-- autoselected: adj:pl:nom:m1:sup -->
+<lex disamb="1"><base>dobry</base><ctag>adj:pl:nom:m1:sup</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:voc:m1:sup</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Ważnym</orth>
+<!-- autoselected: adj:sg:inst:m3:pos -->
+<lex><base>ważny</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+<lex disamb="1"><base>ważny</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>atutem</orth>
+<!-- autoselected: subst:sg:inst:m3 -->
+<lex disamb="1"><base>atut</base><ctag>subst:sg:inst:m3</ctag></lex>
+</tok>
+<tok>
+<orth>podczas</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>podczas</base><ctag>prep:gen</ctag></lex>
+</tok>
+<tok>
+<orth>rekrutacji</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>rekrutacja</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>rekrutacja</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>rekrutacja</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>rekrutacja</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>cechy</orth>
+<!-- autoselected: subst:pl:nom:f -->
+<lex><base>cech</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>cech</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>cech</base><ctag>subst:pl:voc:m3</ctag></lex>
+<lex><base>cecha</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex disamb="1"><base>cecha</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>cecha</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>cecha</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>osobowości</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>osobowość</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>osobowość</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>osobowość</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>osobowość</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex><base>osobowość</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>osobowość</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>osobowość</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>osobowość</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>kandydata</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>kandydat</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>kandydat</base><ctag>subst:sg:acc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>takie</orth>
+<!-- autoselected: adj:pl:nom:f:pos -->
+<lex><base>taki</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex disamb="1"><base>taki</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>taki</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>jak</orth>
+<!-- autoselected: prep:nom -->
+<lex><base>jak</base><ctag>adv</ctag></lex>
+<lex><base>jak</base><ctag>adv:pos</ctag></lex>
+<lex><base>jak</base><ctag>conj</ctag></lex>
+<lex disamb="1"><base>jak</base><ctag>prep:nom</ctag></lex>
+<lex><base>jak</base><ctag>subst:sg:nom:m2</ctag></lex>
+<lex><base>jaka</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>:</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>umiejętność</orth>
+<!-- autoselected: subst:sg:nom:f -->
+<lex disamb="1"><base>umiejętność</base><ctag>subst:sg:nom:f</ctag></lex>
+<lex><base>umiejętność</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<tok>
+<orth>pracy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+</tok>
+<tok>
+<orth>w</orth>
+<!-- autoselected: prep:loc:nwok -->
+<lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+<lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+<lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+<lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+<lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+<lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+<lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>zespole</orth>
+<!-- autoselected: subst:sg:loc:m3 -->
+<lex disamb="1"><base>zespół</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>zespół</base><ctag>subst:sg:voc:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>chęć</orth>
+<!-- autoselected: subst:sg:nom:f -->
+<lex><base>chęcić</base><ctag>impt:sg:sec:imperf</ctag></lex>
+<lex disamb="1"><base>chęć</base><ctag>subst:sg:nom:f</ctag></lex>
+<lex><base>chęć</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<tok>
+<orth>doskonalenia</orth>
+<!-- autoselected: ger:sg:gen:n:imperf:aff -->
+<lex><base>doskonalenie</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>doskonalenie</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>doskonalenie</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>doskonalenie</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex disamb="1"><base>doskonalić</base><ctag>ger:sg:gen:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>się</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>się</base><ctag>qub</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>lojalność</orth>
+<!-- autoselected: subst:sg:nom:f -->
+<lex disamb="1"><base>lojalność</base><ctag>subst:sg:nom:f</ctag></lex>
+<lex><base>lojalność</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Mają</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex><base>Maja</base><ctag>subst:sg:inst:m1</ctag></lex>
+<lex><base>Maja</base><ctag>subst:sg:inst:f</ctag></lex>
+<lex disamb="1"><base>maić</base><ctag>fin:pl:ter:imperf</ctag></lex>
+<lex><base>maja</base><ctag>subst:sg:inst:f</ctag></lex>
+<lex><base>mieć</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>one</orth>
+<!-- autoselected: ppron3:pl:nom:m3:ter:akc:npraep -->
+<lex><base>on</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>on</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:nom:m2:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:nom:m2:ter:akc:praep</ctag></lex>
+<lex disamb="1"><base>on</base><ctag>ppron3:pl:nom:m3:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:nom:m3:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:nom:f:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:nom:f:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:nom:n:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:nom:n:ter:akc:praep</ctag></lex>
+</tok>
+<tok>
+<orth>większe</orth>
+<!-- autoselected: adj:sg:acc:n:com -->
+<lex><base>duży</base><ctag>adj:sg:nom:n:com</ctag></lex>
+<lex disamb="1"><base>duży</base><ctag>adj:sg:acc:n:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:sg:voc:n:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:nom:m2:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:nom:m3:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:nom:f:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:nom:n:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:acc:m2:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:acc:m3:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:acc:f:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:acc:n:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:voc:m2:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:voc:m3:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:voc:f:com</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:voc:n:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:sg:nom:n:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:sg:acc:n:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:sg:voc:n:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:nom:m2:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:nom:m3:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:nom:f:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:nom:n:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:acc:m2:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:acc:m3:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:acc:f:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:acc:n:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:voc:m2:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:voc:m3:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:voc:f:com</ctag></lex>
+<lex><base>wielki</base><ctag>adj:pl:voc:n:com</ctag></lex>
+</tok>
+<tok>
+<orth>znaczenie</orth>
+<!-- autoselected: subst:sg:acc:n -->
+<lex><base>znaczenie</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex disamb="1"><base>znaczenie</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>znaczenie</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>znaczyć</base><ctag>ger:sg:nom:n:imperf:aff</ctag></lex>
+<lex><base>znaczyć</base><ctag>ger:sg:acc:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>niż</orth>
+<!-- autoselected: conj -->
+<lex><base>nizać</base><ctag>impt:sg:sec:imperf</ctag></lex>
+<lex disamb="1"><base>niż</base><ctag>conj</ctag></lex>
+<lex><base>niż</base><ctag>prep:nom</ctag></lex>
+<lex><base>niż</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex><base>niż</base><ctag>subst:sg:acc:m3</ctag></lex>
+<lex><base>niża</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>niżyć</base><ctag>impt:sg:sec:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>referencje</orth>
+<!-- autoselected: subst:pl:acc:f -->
+<lex><base>referencja</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex disamb="1"><base>referencja</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>referencja</base><ctag>subst:pl:voc:f</ctag></lex>
+<lex><base>referencje</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>referencje</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>referencje</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>i</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+<lex><base>i</base><ctag>interj</ctag></lex>
+<lex><base>i</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>dyplomy</orth>
+<!-- autoselected: subst:pl:acc:m3 -->
+<lex><base>dyplom</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex disamb="1"><base>dyplom</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>dyplom</base><ctag>subst:pl:voc:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Spis</orth>
+<!-- autoselected: subst:sg:nom:m3 -->
+<lex disamb="1"><base>spis</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex><base>spis</base><ctag>subst:sg:acc:m3</ctag></lex>
+<lex><base>spisa</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>treści</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>treść</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>treść</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>treść</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>treść</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex><base>treść</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>treść</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>treść</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>treść</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>[</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>[</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>ukryj</orth>
+<!-- autoselected: impt:sg:sec:perf -->
+<lex disamb="1"><base>ukryć</base><ctag>impt:sg:sec:perf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>]</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>]</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>1</orth>
+<!-- autoselected: ign -->
+<lex disamb="1"><base>1</base><ctag>ign</ctag></lex>
+</tok>
+<tok>
+<orth>Cechy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex><base>cech</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>cech</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>cech</base><ctag>subst:pl:voc:m3</ctag></lex>
+<lex disamb="1"><base>cecha</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>cecha</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>cecha</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>cecha</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>2</orth>
+<!-- autoselected: ign -->
+<lex disamb="1"><base>2</base><ctag>ign</ctag></lex>
+</tok>
+<tok>
+<orth>Korzyści</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>korzyść</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>2</orth>
+<!-- autoselected: ign -->
+<lex disamb="1"><base>2</base><ctag>ign</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>1</orth>
+<!-- autoselected: ign -->
+<lex disamb="1"><base>1</base><ctag>ign</ctag></lex>
+</tok>
+<tok>
+<orth>Dla</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>dla</base><ctag>prep:gen</ctag></lex>
+</tok>
+<tok>
+<orth>pracownika</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:sg:acc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>2</orth>
+<!-- autoselected: ign -->
+<lex disamb="1"><base>2</base><ctag>ign</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>2</orth>
+<!-- autoselected: ign -->
+<lex disamb="1"><base>2</base><ctag>ign</ctag></lex>
+</tok>
+<tok>
+<orth>Dla</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>dla</base><ctag>prep:gen</ctag></lex>
+</tok>
+<tok>
+<orth>pracodawcy</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>pracodawca</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:sg:dat:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:pl:nom:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:pl:voc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>3</orth>
+<!-- autoselected: ign -->
+<lex disamb="1"><base>3</base><ctag>ign</ctag></lex>
+</tok>
+<tok>
+<orth>Wady</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex><base>wad</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>wad</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>wad</base><ctag>subst:pl:voc:m3</ctag></lex>
+<lex disamb="1"><base>wada</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>wada</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>wada</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>wada</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>Cechy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex><base>cech</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>cech</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>cech</base><ctag>subst:pl:voc:m3</ctag></lex>
+<lex disamb="1"><base>cecha</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>cecha</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>cecha</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>cecha</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>[</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>[</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>edytuj</orth>
+<!-- autoselected: impt:sg:sec:imperf -->
+<lex disamb="1"><base>edytować</base><ctag>impt:sg:sec:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>]</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>]</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+</chunk>
+<chunk type="p">
+<chunk type="s">
+<tok>
+<orth>Pracownicy</orth>
+<!-- autoselected: subst:pl:nom:m1 -->
+<lex><base>pracownica</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>pracownica</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>pracownica</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex disamb="1"><base>pracownik</base><ctag>subst:pl:nom:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:pl:voc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>przyjmowani</orth>
+<!-- autoselected: ppas:pl:nom:m1:imperf:aff -->
+<lex disamb="1"><base>przyjmować</base><ctag>ppas:pl:nom:m1:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>do</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>pracy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:inst:nwok -->
+<lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex disamb="1"><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>myślą</orth>
+<!-- autoselected: subst:sg:inst:f -->
+<lex disamb="1"><base>myśl</base><ctag>subst:sg:inst:f</ctag></lex>
+<lex><base>myśleć</base><ctag>fin:pl:ter:imperf</ctag></lex>
+<lex><base>myślić</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>o</orth>
+<!-- autoselected: prep:loc -->
+<lex><base>o</base><ctag>interj</ctag></lex>
+<lex><base>o</base><ctag>prep:acc</ctag></lex>
+<lex disamb="1"><base>o</base><ctag>prep:loc</ctag></lex>
+<lex><base>ojciec</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>długotrwałym</orth>
+<!-- autoselected: adj:sg:loc:n:pos -->
+<lex><base>długotrwały</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+<lex disamb="1"><base>długotrwały</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+<lex><base>długotrwały</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>zatrudnieniu</orth>
+<!-- autoselected: subst:sg:loc:n -->
+<lex><base>zatrudnienie</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex disamb="1"><base>zatrudnienie</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>zatrudnić</base><ctag>ger:sg:dat:n:perf:aff</ctag></lex>
+<lex><base>zatrudnić</base><ctag>ger:sg:loc:n:perf:aff</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Od</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex><base>Oda</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex disamb="1"><base>od</base><ctag>prep:gen:nwok</ctag></lex>
+</tok>
+<tok>
+<orth>momentu</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>moment</base><ctag>subst:sg:gen:m3</ctag></lex>
+</tok>
+<tok>
+<orth>zatrudnienia</orth>
+<!-- autoselected: subst:sg:gen:n -->
+<lex disamb="1"><base>zatrudnienie</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>zatrudnienie</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>zatrudnienie</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>zatrudnienie</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>zatrudnić</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>przedsiębiorstwo</orth>
+<!-- autoselected: subst:sg:nom:n -->
+<lex disamb="1"><base>przedsiębiorstwo</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:sg:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>dba</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>dbać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>o</orth>
+<!-- autoselected: prep:acc -->
+<lex><base>o</base><ctag>interj</ctag></lex>
+<lex disamb="1"><base>o</base><ctag>prep:acc</ctag></lex>
+<lex><base>o</base><ctag>prep:loc</ctag></lex>
+<lex><base>ojciec</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>dobre</orth>
+<!-- autoselected: adj:sg:acc:n:pos -->
+<lex><base>dobre</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>dobre</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>dobre</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>dobre</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>dobre</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>dobre</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>dobry</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex disamb="1"><base>dobry</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+<lex><base>dobry</base><ctag>depr:pl:nom:m2</ctag></lex>
+<lex><base>dobry</base><ctag>depr:pl:voc:m2</ctag></lex>
+<lex><base>dobry</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>dobry</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>dobry</base><ctag>subst:pl:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>samopoczucie</orth>
+<!-- autoselected: subst:sg:acc:n -->
+<lex><base>samopoczucie</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex disamb="1"><base>samopoczucie</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>samopoczucie</base><ctag>subst:sg:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>i</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+<lex><base>i</base><ctag>interj</ctag></lex>
+<lex><base>i</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>zadowolenie</orth>
+<!-- autoselected: subst:sg:acc:n -->
+<lex><base>zadowolenie</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex disamb="1"><base>zadowolenie</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>zadowolenie</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>zadowolić</base><ctag>ger:sg:nom:n:perf:aff</ctag></lex>
+<lex><base>zadowolić</base><ctag>ger:sg:acc:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>pracy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Pracownicy</orth>
+<!-- autoselected: subst:pl:nom:m1 -->
+<lex><base>pracownica</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>pracownica</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>pracownica</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex disamb="1"><base>pracownik</base><ctag>subst:pl:nom:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:pl:voc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>traktowani</orth>
+<!-- autoselected: ppas:pl:nom:m1:imperf:aff -->
+<lex disamb="1"><base>traktować</base><ctag>ppas:pl:nom:m1:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>jak</orth>
+<!-- autoselected: adv -->
+<lex disamb="1"><base>jak</base><ctag>adv</ctag></lex>
+<lex><base>jak</base><ctag>adv:pos</ctag></lex>
+<lex><base>jak</base><ctag>conj</ctag></lex>
+<lex><base>jak</base><ctag>prep:nom</ctag></lex>
+<lex><base>jak</base><ctag>subst:sg:nom:m2</ctag></lex>
+<lex><base>jaka</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>ważne</orth>
+<!-- autoselected: adj:pl:nom:n:pos -->
+<lex><base>ważny</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex disamb="1"><base>ważny</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>ważny</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>aktywa</orth>
+<!-- autoselected: subst:pl:nom:n -->
+<lex disamb="1"><base>aktywa</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>aktywa</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>aktywa</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>przedsiębiorstwa</orth>
+<!-- autoselected: subst:sg:gen:n -->
+<lex disamb="1"><base>przedsiębiorstwo</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>o</orth>
+<!-- autoselected: prep:acc -->
+<lex><base>o</base><ctag>interj</ctag></lex>
+<lex disamb="1"><base>o</base><ctag>prep:acc</ctag></lex>
+<lex><base>o</base><ctag>prep:loc</ctag></lex>
+<lex><base>ojciec</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>które</orth>
+<!-- autoselected: adj:pl:acc:m3:pos -->
+<lex><base>który</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex disamb="1"><base>który</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>trzeba</orth>
+<!-- autoselected: pred -->
+<lex disamb="1"><base>trzeba</base><ctag>pred</ctag></lex>
+</tok>
+<tok>
+<orth>się</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>się</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>troszczyć</orth>
+<!-- autoselected: inf:imperf -->
+<lex disamb="1"><base>troszczyć</base><ctag>inf:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>i</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+<lex><base>i</base><ctag>interj</ctag></lex>
+<lex><base>i</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>inwestować</orth>
+<!-- autoselected: inf:imperf -->
+<lex disamb="1"><base>inwestować</base><ctag>inf:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Inwestycje</orth>
+<!-- autoselected: subst:pl:nom:f -->
+<lex disamb="1"><base>inwestycja</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>inwestycja</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>inwestycja</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>w</orth>
+<!-- autoselected: prep:acc:nwok -->
+<lex disamb="1"><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+<lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+<lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+<lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+<lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+<lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>kapitał</orth>
+<!-- autoselected: subst:sg:acc:m3 -->
+<lex><base>kapitał</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex disamb="1"><base>kapitał</base><ctag>subst:sg:acc:m3</ctag></lex>
+<lex><base>kapitała</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>ludzki</orth>
+<!-- autoselected: adj:sg:acc:m3:pos -->
+<lex><base>ludzki</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:nom:m2:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:voc:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:voc:m2:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:voc:m3:pos</ctag></lex>
+<lex disamb="1"><base>ludzki</base><ctag>adj:sg:acc:m3:pos</ctag></lex>
+</tok>
+<tok>
+<orth>mają</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex><base>Maja</base><ctag>subst:sg:inst:m1</ctag></lex>
+<lex><base>Maja</base><ctag>subst:sg:inst:f</ctag></lex>
+<lex disamb="1"><base>maić</base><ctag>fin:pl:ter:imperf</ctag></lex>
+<lex><base>maja</base><ctag>subst:sg:inst:f</ctag></lex>
+<lex><base>mieć</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>charakter</orth>
+<!-- autoselected: subst:sg:acc:m3 -->
+<lex><base>charakter</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex disamb="1"><base>charakter</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>:</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>szkoleń</orth>
+<!-- autoselected: subst:pl:gen:n -->
+<lex disamb="1"><base>szkolenie</base><ctag>subst:pl:gen:n</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>kursów</orth>
+<!-- autoselected: subst:pl:gen:m3 -->
+<lex disamb="1"><base>kurs</base><ctag>subst:pl:gen:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>wyjazdów</orth>
+<!-- autoselected: subst:pl:gen:m3 -->
+<lex disamb="1"><base>wyjazd</base><ctag>subst:pl:gen:m3</ctag></lex>
+</tok>
+<tok>
+<orth>integracyjnych</orth>
+<!-- autoselected: adj:pl:gen:m3:pos -->
+<lex><base>integracyjny</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>integracyjny</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+<lex><base>integracyjny</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>możliwości</orth>
+<!-- autoselected: subst:pl:gen:f -->
+<lex><base>możliwości</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>możliwości</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>możliwości</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>możliwości</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex disamb="1"><base>możliwość</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>rozwoju</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>rozwój</base><ctag>subst:sg:gen:m3</ctag></lex>
+<lex><base>rozwój</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>rozwój</base><ctag>subst:sg:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>swoich</orth>
+<!-- autoselected: adj:pl:gen:n:pos -->
+<lex><base>swoje</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>swoje</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+<lex disamb="1"><base>swój</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+</tok>
+<tok>
+<orth>zainteresowań</orth>
+<!-- autoselected: subst:pl:gen:n -->
+<lex disamb="1"><base>zainteresowanie</base><ctag>subst:pl:gen:n</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Ludzie</orth>
+<!-- autoselected: subst:pl:nom:m1 -->
+<lex><base>człowiek</base><ctag>depr:pl:nom:m2</ctag></lex>
+<lex><base>człowiek</base><ctag>depr:pl:voc:m2</ctag></lex>
+<lex disamb="1"><base>człowiek</base><ctag>subst:pl:nom:m1</ctag></lex>
+<lex><base>człowiek</base><ctag>subst:pl:voc:m1</ctag></lex>
+<lex><base>lud</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>lud</base><ctag>subst:sg:voc:m3</ctag></lex>
+<lex><base>ludzie</base><ctag>subst:pl:nom:m1</ctag></lex>
+<lex><base>ludzie</base><ctag>subst:pl:voc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>zwalniani</orth>
+<!-- autoselected: ppas:pl:nom:m1:imperf:aff -->
+<lex disamb="1"><base>zwalniać</base><ctag>ppas:pl:nom:m1:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>stosunkowo</orth>
+<!-- autoselected: adv:pos -->
+<lex disamb="1"><base>stosunkowo</base><ctag>adv:pos</ctag></lex>
+</tok>
+<tok>
+<orth>rzadko</orth>
+<!-- autoselected: adv:pos -->
+<lex disamb="1"><base>rzadko</base><ctag>adv:pos</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>pracy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>co</orth>
+<!-- autoselected: subst:sg:nom:n -->
+<lex disamb="1"><base>CO</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>CO</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>co</base><ctag>comp</ctag></lex>
+<lex><base>co</base><ctag>prep:nom</ctag></lex>
+<lex><base>co</base><ctag>prep:acc</ctag></lex>
+<lex><base>co</base><ctag>qub</ctag></lex>
+<lex><base>co</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>co</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>co</base><ctag>subst:sg:acc:n</ctag></lex>
+</tok>
+<tok>
+<orth>wynika</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>wynikać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>założeń</orth>
+<!-- autoselected: subst:pl:gen:n -->
+<lex disamb="1"><base>założenie</base><ctag>subst:pl:gen:n</ctag></lex>
+</tok>
+<tok>
+<orth>modelu</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>model</base><ctag>subst:sg:gen:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>jak</orth>
+<!-- autoselected: adv -->
+<lex disamb="1"><base>jak</base><ctag>adv</ctag></lex>
+<lex><base>jak</base><ctag>adv:pos</ctag></lex>
+<lex><base>jak</base><ctag>conj</ctag></lex>
+<lex><base>jak</base><ctag>prep:nom</ctag></lex>
+<lex><base>jak</base><ctag>subst:sg:nom:m2</ctag></lex>
+<lex><base>jaka</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>również</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>również</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>poniesionych</orth>
+<!-- autoselected: ppas:pl:gen:m3:perf:aff -->
+<lex><base>ponieść</base><ctag>ppas:pl:gen:m1:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:gen:m2:perf:aff</ctag></lex>
+<lex disamb="1"><base>ponieść</base><ctag>ppas:pl:gen:m3:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:gen:f:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:gen:n:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:loc:m1:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:loc:m2:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:loc:m3:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:loc:f:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:loc:n:perf:aff</ctag></lex>
+<lex><base>ponieść</base><ctag>ppas:pl:acc:m1:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>nakładów</orth>
+<!-- autoselected: subst:pl:gen:m3 -->
+<lex disamb="1"><base>nakład</base><ctag>subst:pl:gen:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Jeśli</orth>
+<!-- autoselected: comp -->
+<lex disamb="1"><base>jeśli</base><ctag>comp</ctag></lex>
+</tok>
+<tok>
+<orth>ktoś</orth>
+<!-- autoselected: subst:sg:nom:m1 -->
+<lex disamb="1"><base>ktoś</base><ctag>subst:sg:nom:m1</ctag></lex>
+</tok>
+<tok>
+<orth>sobie</orth>
+<!-- autoselected: siebie:dat -->
+<lex disamb="1"><base>się</base><ctag>siebie:dat</ctag></lex>
+<lex><base>się</base><ctag>siebie:loc</ctag></lex>
+</tok>
+<tok>
+<orth>nie</orth>
+<!-- autoselected: qub -->
+<lex><base>nie</base><ctag>conj</ctag></lex>
+<lex disamb="1"><base>nie</base><ctag>qub</ctag></lex>
+<lex><base>on</base><ctag>ppron3:sg:acc:n:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:m2:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:m3:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:f:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:n:ter:akc:praep</ctag></lex>
+</tok>
+<tok>
+<orth>radzi</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex><base>rad</base><ctag>adj:pl:nom:m1:pos</ctag></lex>
+<lex disamb="1"><base>radzić</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>na</orth>
+<!-- autoselected: prep:loc -->
+<lex><base>na</base><ctag>interj</ctag></lex>
+<lex><base>na</base><ctag>prep:acc</ctag></lex>
+<lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
+</tok>
+<tok>
+<orth>danym</orth>
+<!-- autoselected: adj:sg:loc:n:pos -->
+<lex><base>dana</base><ctag>subst:pl:dat:f</ctag></lex>
+<lex><base>dane</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>dany</base><ctag>adj:sg:inst:m1:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:sg:inst:m2:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:sg:inst:m3:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:sg:inst:n:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:sg:loc:m1:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:sg:loc:m2:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+<lex disamb="1"><base>dany</base><ctag>adj:sg:loc:n:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:pl:dat:m1:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:pl:dat:m2:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:pl:dat:m3:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:pl:dat:f:pos</ctag></lex>
+<lex><base>dany</base><ctag>adj:pl:dat:n:pos</ctag></lex>
+<lex><base>dać</base><ctag>ppas:sg:inst:m1:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:sg:inst:m2:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:sg:inst:m3:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:sg:inst:n:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:sg:loc:m1:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:sg:loc:m2:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:sg:loc:m3:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:sg:loc:n:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:pl:dat:m1:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:pl:dat:m2:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:pl:dat:m3:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:pl:dat:f:perf:aff</ctag></lex>
+<lex><base>dać</base><ctag>ppas:pl:dat:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>stanowisku</orth>
+<!-- autoselected: subst:sg:loc:n -->
+<lex><base>stanowisko</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex disamb="1"><base>stanowisko</base><ctag>subst:sg:loc:n</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>przesuwany</orth>
+<!-- autoselected: ppas:sg:nom:m3:imperf:aff -->
+<lex><base>przesuwać</base><ctag>ppas:sg:nom:m1:imperf:aff</ctag></lex>
+<lex><base>przesuwać</base><ctag>ppas:sg:nom:m2:imperf:aff</ctag></lex>
+<lex disamb="1"><base>przesuwać</base><ctag>ppas:sg:nom:m3:imperf:aff</ctag></lex>
+<lex><base>przesuwać</base><ctag>ppas:sg:acc:m3:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>jest</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>na</orth>
+<!-- autoselected: prep:acc -->
+<lex><base>na</base><ctag>interj</ctag></lex>
+<lex disamb="1"><base>na</base><ctag>prep:acc</ctag></lex>
+<lex><base>na</base><ctag>prep:loc</ctag></lex>
+</tok>
+<tok>
+<orth>inne</orth>
+<!-- autoselected: adj:sg:acc:n:pos -->
+<lex><base>inny</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex disamb="1"><base>inny</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>inny</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+<lex><base>inny</base><ctag>depr:pl:nom:m2</ctag></lex>
+<lex><base>inny</base><ctag>depr:pl:voc:m2</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>gdzie</orth>
+<!-- autoselected: adv -->
+<lex disamb="1"><base>gdzie</base><ctag>adv</ctag></lex>
+<lex><base>gdzie</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>jest</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>w</orth>
+<!-- autoselected: prep:loc:nwok -->
+<lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+<lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+<lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+<lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+<lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+<lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+<lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>stanie</orth>
+<!-- autoselected: subst:sg:loc:m3 -->
+<lex disamb="1"><base>stan</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>stan</base><ctag>subst:sg:voc:m3</ctag></lex>
+<lex><base>stanąć</base><ctag>fin:sg:ter:perf</ctag></lex>
+<lex><base>stać</base><ctag>fin:sg:ter:perf</ctag></lex>
+<lex><base>stać</base><ctag>ger:sg:nom:n:imperf:aff</ctag></lex>
+<lex><base>stać</base><ctag>ger:sg:nom:n:perf:aff</ctag></lex>
+<lex><base>stać</base><ctag>ger:sg:acc:n:imperf:aff</ctag></lex>
+<lex><base>stać</base><ctag>ger:sg:acc:n:perf:aff</ctag></lex>
+<lex><base>stań</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>stań</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>stań</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>sprostać</orth>
+<!-- autoselected: inf:perf -->
+<lex disamb="1"><base>sprostać</base><ctag>inf:perf</ctag></lex>
+</tok>
+<tok>
+<orth>obowiązkom</orth>
+<!-- autoselected: subst:pl:dat:m3 -->
+<lex disamb="1"><base>obowiązek</base><ctag>subst:pl:dat:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Korzyści</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>korzyść</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>[</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>[</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>edytuj</orth>
+<!-- autoselected: impt:sg:sec:imperf -->
+<lex disamb="1"><base>edytować</base><ctag>impt:sg:sec:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>]</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>]</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+</chunk>
+<chunk type="p">
+<chunk type="s">
+<tok>
+<orth>Inwestycje</orth>
+<!-- autoselected: subst:pl:nom:f -->
+<lex disamb="1"><base>inwestycja</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>inwestycja</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>inwestycja</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>w</orth>
+<!-- autoselected: prep:acc:nwok -->
+<lex disamb="1"><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+<lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+<lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+<lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+<lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+<lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>kapitał</orth>
+<!-- autoselected: subst:sg:acc:m3 -->
+<lex><base>kapitał</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex disamb="1"><base>kapitał</base><ctag>subst:sg:acc:m3</ctag></lex>
+<lex><base>kapitała</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>ludzki</orth>
+<!-- autoselected: adj:sg:acc:m3:pos -->
+<lex><base>ludzki</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:nom:m2:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:voc:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:voc:m2:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:voc:m3:pos</ctag></lex>
+<lex disamb="1"><base>ludzki</base><ctag>adj:sg:acc:m3:pos</ctag></lex>
+</tok>
+<tok>
+<orth>są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>korzyściami</orth>
+<!-- autoselected: subst:pl:inst:f -->
+<lex disamb="1"><base>korzyść</base><ctag>subst:pl:inst:f</ctag></lex>
+</tok>
+<tok>
+<orth>obustronnymi</orth>
+<!-- autoselected: adj:pl:inst:f:pos -->
+<lex><base>obustronny</base><ctag>adj:pl:inst:m1:pos</ctag></lex>
+<lex><base>obustronny</base><ctag>adj:pl:inst:m2:pos</ctag></lex>
+<lex><base>obustronny</base><ctag>adj:pl:inst:m3:pos</ctag></lex>
+<lex disamb="1"><base>obustronny</base><ctag>adj:pl:inst:f:pos</ctag></lex>
+<lex><base>obustronny</base><ctag>adj:pl:inst:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>(</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>zarówno</orth>
+<!-- autoselected: conj -->
+<lex><base>zarówno</base><ctag>adv</ctag></lex>
+<lex disamb="1"><base>zarówno</base><ctag>conj</ctag></lex>
+</tok>
+<tok>
+<orth>dla</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>dla</base><ctag>prep:gen</ctag></lex>
+</tok>
+<tok>
+<orth>pracownika</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:sg:acc:m1</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>jak</orth>
+<!-- autoselected: conj -->
+<lex><base>jak</base><ctag>adv</ctag></lex>
+<lex><base>jak</base><ctag>adv:pos</ctag></lex>
+<lex disamb="1"><base>jak</base><ctag>conj</ctag></lex>
+<lex><base>jak</base><ctag>prep:nom</ctag></lex>
+<lex><base>jak</base><ctag>subst:sg:nom:m2</ctag></lex>
+<lex><base>jaka</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>i</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+<lex><base>i</base><ctag>interj</ctag></lex>
+<lex><base>i</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>pracodawcy</orth>
+<!-- autoselected: subst:pl:nom:m1 -->
+<lex><base>pracodawca</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:sg:dat:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex disamb="1"><base>pracodawca</base><ctag>subst:pl:nom:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:pl:voc:m1</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>)</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Dla</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>dla</base><ctag>prep:gen</ctag></lex>
+</tok>
+<tok>
+<orth>pracownika</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:sg:acc:m1</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>[</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>[</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>edytuj</orth>
+<!-- autoselected: impt:sg:sec:imperf -->
+<lex disamb="1"><base>edytować</base><ctag>impt:sg:sec:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>]</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>]</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>Głównymi</orth>
+<!-- autoselected: adj:pl:inst:f:pos -->
+<lex><base>główny</base><ctag>adj:pl:inst:m1:pos</ctag></lex>
+<lex><base>główny</base><ctag>adj:pl:inst:m2:pos</ctag></lex>
+<lex><base>główny</base><ctag>adj:pl:inst:m3:pos</ctag></lex>
+<lex disamb="1"><base>główny</base><ctag>adj:pl:inst:f:pos</ctag></lex>
+<lex><base>główny</base><ctag>adj:pl:inst:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>zaletami</orth>
+<!-- autoselected: subst:pl:inst:f -->
+<lex disamb="1"><base>zaleta</base><ctag>subst:pl:inst:f</ctag></lex>
+</tok>
+<tok>
+<orth>tego</orth>
+<!-- autoselected: adj:sg:gen:m3:pos -->
+<lex><base>ten</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>ten</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+<lex><base>to</base><ctag>subst:sg:gen:n</ctag></lex>
+</tok>
+<tok>
+<orth>modelu</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>model</base><ctag>subst:sg:gen:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>w</orth>
+<!-- autoselected: prep:loc:nwok -->
+<lex><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+<lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+<lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+<lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+<lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+<lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+<lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>odniesieniu</orth>
+<!-- autoselected: subst:sg:loc:n -->
+<lex><base>odniesienie</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex disamb="1"><base>odniesienie</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>odnieść</base><ctag>ger:sg:dat:n:perf:aff</ctag></lex>
+<lex><base>odnieść</base><ctag>ger:sg:loc:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>do</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>pracownika</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:sg:acc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>jest</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>bezpieczeństwo</orth>
+<!-- autoselected: subst:sg:nom:n -->
+<lex disamb="1"><base>bezpieczeństwo</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>bezpieczeństwo</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>bezpieczeństwo</base><ctag>subst:sg:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>zatrudnienia</orth>
+<!-- autoselected: subst:sg:gen:n -->
+<lex disamb="1"><base>zatrudnienie</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>zatrudnienie</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>zatrudnienie</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>zatrudnienie</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>zatrudnić</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>dobry</orth>
+<!-- autoselected: adj:sg:nom:m3:pos -->
+<lex><base>dobry</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:sg:nom:m2:pos</ctag></lex>
+<lex disamb="1"><base>dobry</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:sg:voc:m1:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:sg:voc:m2:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:sg:voc:m3:pos</ctag></lex>
+<lex><base>dobry</base><ctag>adj:sg:acc:m3:pos</ctag></lex>
+<lex><base>dobry</base><ctag>subst:sg:nom:m1</ctag></lex>
+<lex><base>dobry</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex><base>dobry</base><ctag>subst:sg:voc:m1</ctag></lex>
+<lex><base>dobry</base><ctag>subst:sg:voc:m3</ctag></lex>
+<lex><base>dobry</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>klimat</orth>
+<!-- autoselected: subst:sg:nom:m3 -->
+<lex disamb="1"><base>klimat</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex><base>klimat</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>pracy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>niska</orth>
+<!-- autoselected: adj:sg:nom:f:pos -->
+<lex><base>Nisko</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>Nisko</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>Nisko</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>Nisko</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex disamb="1"><base>niski</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:sg:voc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>stresogenność</orth>
+<!-- autoselected: subst:sg:nom:f -->
+<lex disamb="1"><base>stresogenność</base><ctag>subst:sg:nom:f</ctag></lex>
+<lex><base>stresogenność</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Elementy</orth>
+<!-- autoselected: subst:pl:nom:m3 -->
+<lex disamb="1"><base>element</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>element</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>element</base><ctag>subst:pl:voc:m3</ctag></lex>
+<lex><base>elementy</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>elementy</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>elementy</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>te</orth>
+<!-- autoselected: adj:pl:nom:m3:pos -->
+<lex><base>te</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>te</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>te</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>te</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>te</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>te</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>te</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>te</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>te</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>te</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>te</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>te</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>te</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>te</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex disamb="1"><base>ten</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>sprawiają</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>sprawiać</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>że</orth>
+<!-- autoselected: comp -->
+<lex disamb="1"><base>że</base><ctag>comp</ctag></lex>
+<lex><base>że</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>pracownik</orth>
+<!-- autoselected: subst:sg:nom:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:sg:nom:m1</ctag></lex>
+</tok>
+<tok>
+<orth>chętniej</orth>
+<!-- autoselected: adv:com -->
+<lex disamb="1"><base>chętnie</base><ctag>adv:com</ctag></lex>
+</tok>
+<tok>
+<orth>przychodzi</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>przychodzić</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>do</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>pracy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+</tok>
+<tok>
+<orth>i</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+<lex><base>i</base><ctag>interj</ctag></lex>
+<lex><base>i</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>lepiej</orth>
+<!-- autoselected: adv:com -->
+<lex disamb="1"><base>dobrze</base><ctag>adv:com</ctag></lex>
+</tok>
+<tok>
+<orth>ją</orth>
+<!-- autoselected: ppron3:sg:acc:f:ter:akc:npraep -->
+<lex disamb="1"><base>on</base><ctag>ppron3:sg:acc:f:ter:akc:npraep</ctag></lex>
+</tok>
+<tok>
+<orth>wykonuje</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>wykonywać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Dla</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>dla</base><ctag>prep:gen</ctag></lex>
+</tok>
+<tok>
+<orth>pracodawcy</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>pracodawca</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:sg:dat:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:pl:nom:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:pl:voc:m1</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>[</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>[</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>edytuj</orth>
+<!-- autoselected: impt:sg:sec:imperf -->
+<lex disamb="1"><base>edytować</base><ctag>impt:sg:sec:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>]</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>]</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>Z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>zastosowania</orth>
+<!-- autoselected: ger:sg:gen:n:perf:aff -->
+<lex><base>zastosowanie</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>zastosowanie</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>zastosowanie</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>zastosowanie</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex disamb="1"><base>zastosować</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>tego</orth>
+<!-- autoselected: adj:sg:gen:m3:pos -->
+<lex><base>ten</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>ten</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+<lex><base>to</base><ctag>subst:sg:gen:n</ctag></lex>
+</tok>
+<tok>
+<orth>modelu</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>model</base><ctag>subst:sg:gen:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>wiele</orth>
+<!-- autoselected: num:pl:acc:m3:rec -->
+<lex><base>wiele</base><ctag>adv</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:nom:m2:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:nom:f:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:nom:n:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:acc:m1:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:acc:m2:rec</ctag></lex>
+<lex disamb="1"><base>wiele</base><ctag>num:pl:acc:m3:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:acc:f:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:acc:n:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:voc:m2:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:voc:m3:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:voc:f:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:voc:n:rec</ctag></lex>
+<lex><base>wiele</base><ctag>num:pl:voc:m1:rec</ctag></lex>
+</tok>
+<tok>
+<orth>korzyści</orth>
+<!-- autoselected: subst:pl:gen:f -->
+<lex><base>korzyść</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex disamb="1"><base>korzyść</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>płynie</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex><base>płyn</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>płyn</base><ctag>subst:sg:voc:m3</ctag></lex>
+<lex disamb="1"><base>płynąć</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>również</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>również</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>dla</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>dla</base><ctag>prep:gen</ctag></lex>
+</tok>
+<tok>
+<orth>pracodawcy</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>pracodawca</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:sg:dat:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:pl:nom:m1</ctag></lex>
+<lex><base>pracodawca</base><ctag>subst:pl:voc:m1</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>to</orth>
+<!-- autoselected: subst:sg:nom:n -->
+<lex><base>to</base><ctag>pred</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>to</base><ctag>conj</ctag></lex>
+<lex><base>to</base><ctag>qub</ctag></lex>
+<lex disamb="1"><base>to</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>to</base><ctag>subst:sg:acc:n</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>:</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>duża</orth>
+<!-- autoselected: adj:sg:nom:f:pos -->
+<lex><base>dużać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+<lex disamb="1"><base>duży</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+<lex><base>duży</base><ctag>adj:sg:voc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>lojalność</orth>
+<!-- autoselected: subst:sg:nom:f -->
+<lex disamb="1"><base>lojalność</base><ctag>subst:sg:nom:f</ctag></lex>
+<lex><base>lojalność</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>zaangażowanie</orth>
+<!-- autoselected: ger:sg:nom:n:perf:aff -->
+<lex><base>zaangażowanie</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>zaangażowanie</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>zaangażowanie</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex disamb="1"><base>zaangażować</base><ctag>ger:sg:nom:n:perf:aff</ctag></lex>
+<lex><base>zaangażować</base><ctag>ger:sg:acc:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>pracownika</orth>
+<!-- autoselected: subst:sg:gen:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:sg:gen:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:sg:acc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>w</orth>
+<!-- autoselected: prep:acc:nwok -->
+<lex disamb="1"><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+<lex><base>wiek</base><ctag>brev:pun</ctag></lex>
+<lex><base>wielki</base><ctag>brev:pun</ctag></lex>
+<lex><base>wiersz</base><ctag>brev:pun</ctag></lex>
+<lex><base>wieś</base><ctag>brev:pun</ctag></lex>
+<lex><base>wyspa</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>wykonywaną</orth>
+<!-- autoselected: ppas:sg:acc:f:imperf:aff -->
+<lex disamb="1"><base>wykonywać</base><ctag>ppas:sg:acc:f:imperf:aff</ctag></lex>
+<lex><base>wykonywać</base><ctag>ppas:sg:inst:f:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>pracę</orth>
+<!-- autoselected: subst:sg:acc:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>niskie</orth>
+<!-- autoselected: adj:pl:nom:m3:pos -->
+<lex><base>niski</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex disamb="1"><base>niski</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>koszty</orth>
+<!-- autoselected: subst:pl:nom:m3 -->
+<lex disamb="1"><base>koszt</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>koszt</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>koszt</base><ctag>subst:pl:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>rekrutacji</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>rekrutacja</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>rekrutacja</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>rekrutacja</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>rekrutacja</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Wady</orth>
+<!-- autoselected: subst:pl:nom:f -->
+<lex><base>wad</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>wad</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>wad</base><ctag>subst:pl:voc:m3</ctag></lex>
+<lex><base>wada</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex disamb="1"><base>wada</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>wada</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>wada</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>[</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>[</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>edytuj</orth>
+<!-- autoselected: impt:sg:sec:imperf -->
+<lex disamb="1"><base>edytować</base><ctag>impt:sg:sec:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>]</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>]</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+</chunk>
+<chunk type="p">
+<chunk type="s">
+<tok>
+<orth>Wadami</orth>
+<!-- autoselected: subst:pl:inst:m3 -->
+<lex disamb="1"><base>wad</base><ctag>subst:pl:inst:m3</ctag></lex>
+<lex><base>wada</base><ctag>subst:pl:inst:f</ctag></lex>
+</tok>
+<tok>
+<orth>tego</orth>
+<!-- autoselected: adj:sg:gen:m3:pos -->
+<lex><base>ten</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>ten</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>ten</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+<lex><base>to</base><ctag>subst:sg:gen:n</ctag></lex>
+</tok>
+<tok>
+<orth>modelu</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>model</base><ctag>subst:sg:gen:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>czasochłonne</orth>
+<!-- autoselected: adj:pl:nom:f:pos -->
+<lex><base>czasochłonny</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex disamb="1"><base>czasochłonny</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>czasochłonny</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>i</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+<lex><base>i</base><ctag>interj</ctag></lex>
+<lex><base>i</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>drogie</orth>
+<!-- autoselected: adj:pl:nom:f:pos -->
+<lex><base>drogi</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex disamb="1"><base>drogi</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>drogi</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>szkolenia</orth>
+<!-- autoselected: subst:pl:nom:n -->
+<lex><base>szkolenie</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex disamb="1"><base>szkolenie</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>szkolenie</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>szkolenie</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>szkolić</base><ctag>ger:sg:gen:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>pracowników</orth>
+<!-- autoselected: subst:pl:gen:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:pl:gen:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:pl:acc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>dostosowujące</orth>
+<!-- autoselected: pact:pl:nom:n:imperf:aff -->
+<lex><base>dostosowywać</base><ctag>pact:sg:nom:n:imperf:aff</ctag></lex>
+<lex><base>dostosowywać</base><ctag>pact:sg:acc:n:imperf:aff</ctag></lex>
+<lex><base>dostosowywać</base><ctag>pact:pl:nom:m2:imperf:aff</ctag></lex>
+<lex><base>dostosowywać</base><ctag>pact:pl:nom:m3:imperf:aff</ctag></lex>
+<lex><base>dostosowywać</base><ctag>pact:pl:nom:f:imperf:aff</ctag></lex>
+<lex disamb="1"><base>dostosowywać</base><ctag>pact:pl:nom:n:imperf:aff</ctag></lex>
+<lex><base>dostosowywać</base><ctag>pact:pl:acc:m2:imperf:aff</ctag></lex>
+<lex><base>dostosowywać</base><ctag>pact:pl:acc:m3:imperf:aff</ctag></lex>
+<lex><base>dostosowywać</base><ctag>pact:pl:acc:f:imperf:aff</ctag></lex>
+<lex><base>dostosowywać</base><ctag>pact:pl:acc:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>ich</orth>
+<!-- autoselected: ppron3:pl:gen:m2:ter:akc:npraep -->
+<lex><base>on</base><ctag>ppron3:pl:gen:m1:ter:akc:npraep</ctag></lex>
+<lex disamb="1"><base>on</base><ctag>ppron3:pl:gen:m2:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:gen:m3:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:gen:f:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:gen:n:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:m1:ter:akc:npraep</ctag></lex>
+</tok>
+<tok>
+<orth>do</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>pracy</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>praca</base><ctag>subst:sg:loc:f</ctag></lex>
+</tok>
+<tok>
+<orth>i</orth>
+<!-- autoselected: conj -->
+<lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+<lex><base>i</base><ctag>interj</ctag></lex>
+<lex><base>i</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>podnoszące</orth>
+<!-- autoselected: pact:pl:nom:f:imperf:aff -->
+<lex><base>podnosić</base><ctag>pact:sg:nom:n:imperf:aff</ctag></lex>
+<lex><base>podnosić</base><ctag>pact:sg:acc:n:imperf:aff</ctag></lex>
+<lex><base>podnosić</base><ctag>pact:pl:nom:m2:imperf:aff</ctag></lex>
+<lex><base>podnosić</base><ctag>pact:pl:nom:m3:imperf:aff</ctag></lex>
+<lex disamb="1"><base>podnosić</base><ctag>pact:pl:nom:f:imperf:aff</ctag></lex>
+<lex><base>podnosić</base><ctag>pact:pl:nom:n:imperf:aff</ctag></lex>
+<lex><base>podnosić</base><ctag>pact:pl:acc:m2:imperf:aff</ctag></lex>
+<lex><base>podnosić</base><ctag>pact:pl:acc:m3:imperf:aff</ctag></lex>
+<lex><base>podnosić</base><ctag>pact:pl:acc:f:imperf:aff</ctag></lex>
+<lex><base>podnosić</base><ctag>pact:pl:acc:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>ich</orth>
+<!-- autoselected: ppron3:pl:gen:m2:ter:akc:npraep -->
+<lex><base>on</base><ctag>ppron3:pl:gen:m1:ter:akc:npraep</ctag></lex>
+<lex disamb="1"><base>on</base><ctag>ppron3:pl:gen:m2:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:gen:m3:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:gen:f:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:gen:n:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:m1:ter:akc:npraep</ctag></lex>
+</tok>
+<tok>
+<orth>kwalifikacje</orth>
+<!-- autoselected: subst:pl:acc:n -->
+<lex><base>kwalifikacja</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>kwalifikacja</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>kwalifikacja</base><ctag>subst:pl:voc:f</ctag></lex>
+<lex><base>kwalifikacje</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex disamb="1"><base>kwalifikacje</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>kwalifikacje</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Brak</orth>
+<!-- autoselected: subst:sg:nom:m3 -->
+<lex><base>brak</base><ctag>pred</ctag></lex>
+<lex disamb="1"><base>brak</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex><base>brak</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>nowych</orth>
+<!-- autoselected: adj:pl:gen:m3:pos -->
+<lex><base>nowa</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>nowa</base><ctag>subst:pl:loc:f</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>nowy</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+<lex><base>nowy</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+<lex><base>nowy</base><ctag>subst:pl:gen:m1</ctag></lex>
+<lex><base>nowy</base><ctag>subst:pl:acc:m1</ctag></lex>
+<lex><base>nowy</base><ctag>subst:pl:loc:m1</ctag></lex>
+</tok>
+<tok>
+<orth>pomysłów</orth>
+<!-- autoselected: subst:pl:gen:m3 -->
+<lex disamb="1"><base>pomysł</base><ctag>subst:pl:gen:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>idei</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>idea</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>idea</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>idea</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>idea</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>spojrzenia</orth>
+<!-- autoselected: subst:pl:nom:n -->
+<lex><base>spojrzenie</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex disamb="1"><base>spojrzenie</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>spojrzenie</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>spojrzenie</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>spojrzeć</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>na</orth>
+<!-- autoselected: prep:acc -->
+<lex><base>na</base><ctag>interj</ctag></lex>
+<lex disamb="1"><base>na</base><ctag>prep:acc</ctag></lex>
+<lex><base>na</base><ctag>prep:loc</ctag></lex>
+</tok>
+<tok>
+<orth>świat</orth>
+<!-- autoselected: subst:sg:acc:m3 -->
+<lex><base>Świat</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex disamb="1"><base>Świat</base><ctag>subst:sg:acc:m3</ctag></lex>
+<lex><base>świat</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex><base>świat</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>może</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex><base>może</base><ctag>qub</ctag></lex>
+<lex disamb="1"><base>móc</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>wynikać</orth>
+<!-- autoselected: inf:imperf -->
+<lex disamb="1"><base>wynikać</base><ctag>inf:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>niewielkiej</orth>
+<!-- autoselected: adj:sg:gen:f:pos -->
+<lex disamb="1"><base>niewielki</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+<lex><base>niewielki</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+<lex><base>niewielki</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>rotacji</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>rotacja</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>rotacja</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>rotacja</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>rotacja</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>pracowników</orth>
+<!-- autoselected: subst:pl:gen:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:pl:gen:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:pl:acc:m1</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+</chunk>
+<chunk type="p">
+<chunk type="s">
+<tok>
+<orth>Model</orth>
+<!-- autoselected: subst:sg:nom:m3 -->
+<lex><base>model</base><ctag>subst:sg:nom:m1</ctag></lex>
+<lex disamb="1"><base>model</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>kapitału</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>kapitał</base><ctag>subst:sg:gen:m3</ctag></lex>
+</tok>
+<tok>
+<orth>ludzkiego</orth>
+<!-- autoselected: adj:sg:gen:m3:pos -->
+<lex><base>ludzki</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>ludzki</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+</tok>
+<tok>
+<orth>jest</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>często</orth>
+<!-- autoselected: adv:pos -->
+<lex disamb="1"><base>często</base><ctag>adv:pos</ctag></lex>
+</tok>
+<tok>
+<orth>powiązany</orth>
+<!-- autoselected: ppas:sg:nom:m3:perf:aff -->
+<lex><base>powiązać</base><ctag>ppas:sg:nom:m1:perf:aff</ctag></lex>
+<lex><base>powiązać</base><ctag>ppas:sg:nom:m2:perf:aff</ctag></lex>
+<lex disamb="1"><base>powiązać</base><ctag>ppas:sg:nom:m3:perf:aff</ctag></lex>
+<lex><base>powiązać</base><ctag>ppas:sg:acc:m3:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>ze</orth>
+<!-- autoselected: prep:inst:wok -->
+<lex><base>z</base><ctag>prep:gen:wok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:wok</ctag></lex>
+<lex disamb="1"><base>z</base><ctag>prep:inst:wok</ctag></lex>
+</tok>
+<tok>
+<orth>strategią</orth>
+<!-- autoselected: subst:sg:inst:f -->
+<lex disamb="1"><base>strategia</base><ctag>subst:sg:inst:f</ctag></lex>
+</tok>
+<tok>
+<orth>konkurencji</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>konkurencja</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>konkurencja</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>konkurencja</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>konkurencja</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>przez</orth>
+<!-- autoselected: prep:acc:nwok -->
+<lex disamb="1"><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+</tok>
+<tok>
+<orth>markę</orth>
+<!-- autoselected: subst:sg:acc:f -->
+<lex disamb="1"><base>marka</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<tok>
+<orth>(</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>przedsiębiorstwo</orth>
+<!-- autoselected: subst:sg:nom:n -->
+<lex disamb="1"><base>przedsiębiorstwo</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:sg:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>oferuje</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>oferować</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>produkt</orth>
+<!-- autoselected: subst:sg:acc:m3 -->
+<lex><base>produkt</base><ctag>subst:sg:nom:m3</ctag></lex>
+<lex disamb="1"><base>produkt</base><ctag>subst:sg:acc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>znany</orth>
+<!-- autoselected: adj:sg:acc:m3:pos -->
+<lex><base>znany</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+<lex><base>znany</base><ctag>adj:sg:nom:m2:pos</ctag></lex>
+<lex><base>znany</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+<lex><base>znany</base><ctag>adj:sg:voc:m1:pos</ctag></lex>
+<lex><base>znany</base><ctag>adj:sg:voc:m2:pos</ctag></lex>
+<lex><base>znany</base><ctag>adj:sg:voc:m3:pos</ctag></lex>
+<lex disamb="1"><base>znany</base><ctag>adj:sg:acc:m3:pos</ctag></lex>
+<lex><base>znany</base><ctag>subst:sg:nom:m1</ctag></lex>
+<lex><base>znany</base><ctag>subst:sg:voc:m1</ctag></lex>
+<lex><base>znać</base><ctag>ppas:sg:nom:m1:imperf:aff</ctag></lex>
+<lex><base>znać</base><ctag>ppas:sg:nom:m2:imperf:aff</ctag></lex>
+<lex><base>znać</base><ctag>ppas:sg:nom:m3:imperf:aff</ctag></lex>
+<lex><base>znać</base><ctag>ppas:sg:acc:m3:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>ze</orth>
+<!-- autoselected: prep:gen:wok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:wok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:wok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:wok</ctag></lex>
+</tok>
+<tok>
+<orth>swoich</orth>
+<!-- autoselected: adj:pl:gen:f:pos -->
+<lex><base>swoje</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>swoje</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:gen:m2:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+<lex disamb="1"><base>swój</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:gen:n:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:m1:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:m2:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:f:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:loc:n:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:pl:acc:m1:pos</ctag></lex>
+</tok>
+<tok>
+<orth>zalet</orth>
+<!-- autoselected: subst:pl:gen:f -->
+<lex disamb="1"><base>zaleta</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>walorów</orth>
+<!-- autoselected: subst:pl:gen:m3 -->
+<lex disamb="1"><base>walor</base><ctag>subst:pl:gen:m3</ctag></lex>
+<lex><base>walory</base><ctag>subst:pl:gen:n</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>kojarzonych</orth>
+<!-- autoselected: ppas:pl:gen:m3:imperf:aff -->
+<lex><base>kojarzyć</base><ctag>ppas:pl:gen:m1:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:gen:m2:imperf:aff</ctag></lex>
+<lex disamb="1"><base>kojarzyć</base><ctag>ppas:pl:gen:m3:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:gen:f:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:gen:n:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:loc:m1:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:loc:m2:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:loc:m3:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:loc:f:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:loc:n:imperf:aff</ctag></lex>
+<lex><base>kojarzyć</base><ctag>ppas:pl:acc:m1:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:inst:nwok -->
+<lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex disamb="1"><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>marką</orth>
+<!-- autoselected: subst:sg:inst:f -->
+<lex disamb="1"><base>marka</base><ctag>subst:sg:inst:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>)</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+</chunk>
+<chunk type="p">
+<chunk type="s">
+<tok>
+<orth>Prowadzenie</orth>
+<!-- autoselected: subst:sg:nom:n -->
+<lex disamb="1"><base>prowadzenie</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>prowadzenie</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>prowadzenie</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>prowadzić</base><ctag>ger:sg:nom:n:imperf:aff</ctag></lex>
+<lex><base>prowadzić</base><ctag>ger:sg:acc:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>polityki</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex><base>polityk</base><ctag>depr:pl:nom:m2</ctag></lex>
+<lex><base>polityk</base><ctag>depr:pl:voc:m2</ctag></lex>
+<lex disamb="1"><base>polityka</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>polityka</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>polityka</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>polityka</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>personalnej</orth>
+<!-- autoselected: adj:sg:gen:f:pos -->
+<lex><base>personalna</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>personalna</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>personalna</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex disamb="1"><base>personalny</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+<lex><base>personalny</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+<lex><base>personalny</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>wg</orth>
+<!-- autoselected: brev:npun -->
+<lex><base>według</base><ctag>brev:pun</ctag></lex>
+<lex disamb="1"><base>według</base><ctag>brev:npun</ctag></lex>
+</tok>
+<tok>
+<orth>modelu</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>model</base><ctag>subst:sg:gen:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:loc:m3</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m1</ctag></lex>
+<lex><base>model</base><ctag>subst:sg:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>kapitału</orth>
+<!-- autoselected: subst:sg:gen:m3 -->
+<lex disamb="1"><base>kapitał</base><ctag>subst:sg:gen:m3</ctag></lex>
+</tok>
+<tok>
+<orth>ludzkiego</orth>
+<!-- autoselected: adj:sg:gen:m3:pos -->
+<lex><base>ludzki</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>ludzki</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>ludzki</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+</tok>
+<tok>
+<orth>wiąże</orth>
+<!-- autoselected: fin:sg:ter:imperf -->
+<lex disamb="1"><base>wiązać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>się</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>się</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:inst:nwok -->
+<lex><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex disamb="1"><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>dużymi</orth>
+<!-- autoselected: adj:pl:inst:m3:pos -->
+<lex><base>duży</base><ctag>adj:pl:inst:m1:pos</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:inst:m2:pos</ctag></lex>
+<lex disamb="1"><base>duży</base><ctag>adj:pl:inst:m3:pos</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:inst:f:pos</ctag></lex>
+<lex><base>duży</base><ctag>adj:pl:inst:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>kosztami</orth>
+<!-- autoselected: subst:pl:inst:m3 -->
+<lex disamb="1"><base>koszt</base><ctag>subst:pl:inst:m3</ctag></lex>
+</tok>
+<tok>
+<orth>wynikającymi</orth>
+<!-- autoselected: pact:pl:inst:m3:imperf:aff -->
+<lex><base>wynikać</base><ctag>pact:pl:inst:m1:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:inst:m2:imperf:aff</ctag></lex>
+<lex disamb="1"><base>wynikać</base><ctag>pact:pl:inst:m3:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:inst:f:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:inst:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>nakładów</orth>
+<!-- autoselected: subst:pl:gen:m3 -->
+<lex disamb="1"><base>nakład</base><ctag>subst:pl:gen:m3</ctag></lex>
+</tok>
+<tok>
+<orth>na</orth>
+<!-- autoselected: prep:acc -->
+<lex><base>na</base><ctag>interj</ctag></lex>
+<lex disamb="1"><base>na</base><ctag>prep:acc</ctag></lex>
+<lex><base>na</base><ctag>prep:loc</ctag></lex>
+</tok>
+<tok>
+<orth>kształcenie</orth>
+<!-- autoselected: subst:sg:acc:n -->
+<lex><base>kształcenie</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex disamb="1"><base>kształcenie</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>kształcenie</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>kształcić</base><ctag>ger:sg:nom:n:imperf:aff</ctag></lex>
+<lex><base>kształcić</base><ctag>ger:sg:acc:n:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>pracowników</orth>
+<!-- autoselected: subst:pl:gen:m1 -->
+<lex disamb="1"><base>pracownik</base><ctag>subst:pl:gen:m1</ctag></lex>
+<lex><base>pracownik</base><ctag>subst:pl:acc:m1</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>zapewnienie</orth>
+<!-- autoselected: ger:sg:nom:n:perf:aff -->
+<lex><base>zapewnienie</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>zapewnienie</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>zapewnienie</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex disamb="1"><base>zapewnić</base><ctag>ger:sg:nom:n:perf:aff</ctag></lex>
+<lex><base>zapewnić</base><ctag>ger:sg:acc:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>im</orth>
+<!-- autoselected: ppron3:pl:dat:m2:ter:akc:npraep -->
+<lex><base>im</base><ctag>comp</ctag></lex>
+<lex><base>imienia</base><ctag>brev:pun</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:dat:m1:ter:akc:npraep</ctag></lex>
+<lex disamb="1"><base>on</base><ctag>ppron3:pl:dat:m2:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:dat:m3:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:dat:f:ter:akc:npraep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:dat:n:ter:akc:npraep</ctag></lex>
+</tok>
+<tok>
+<orth>możliwości</orth>
+<!-- autoselected: subst:pl:gen:f -->
+<lex><base>możliwości</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>możliwości</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>możliwości</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>możliwości</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex disamb="1"><base>możliwość</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>możliwość</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>kariery</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex><base>karier</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>karier</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>karier</base><ctag>subst:pl:voc:m3</ctag></lex>
+<lex disamb="1"><base>kariera</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>kariera</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>kariera</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>kariera</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>zawodowej</orth>
+<!-- autoselected: adj:sg:gen:f:pos -->
+<lex disamb="1"><base>zawodowy</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+<lex><base>zawodowy</base><ctag>adj:sg:dat:f:pos</ctag></lex>
+<lex><base>zawodowy</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>itd</orth>
+<!-- autoselected: brev:pun -->
+<lex disamb="1"><base>i tak dalej</base><ctag>brev:pun</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Jednakże</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>jednakże</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>ponoszone</orth>
+<!-- autoselected: ppas:pl:nom:m3:perf:aff -->
+<lex><base>ponosić</base><ctag>ppas:sg:nom:n:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:sg:nom:n:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:sg:acc:n:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:sg:acc:n:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:nom:m2:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:nom:m2:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:nom:m3:imperf:aff</ctag></lex>
+<lex disamb="1"><base>ponosić</base><ctag>ppas:pl:nom:m3:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:nom:f:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:nom:f:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:nom:n:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:nom:n:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:acc:m2:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:acc:m2:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:acc:m3:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:acc:m3:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:acc:f:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:acc:f:perf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:acc:n:imperf:aff</ctag></lex>
+<lex><base>ponosić</base><ctag>ppas:pl:acc:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>koszty</orth>
+<!-- autoselected: subst:pl:nom:m3 -->
+<lex disamb="1"><base>koszt</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>koszt</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>koszt</base><ctag>subst:pl:voc:m3</ctag></lex>
+</tok>
+<tok>
+<orth>są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>współmierne</orth>
+<!-- autoselected: adj:pl:nom:m3:pos -->
+<lex><base>współmierny</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex disamb="1"><base>współmierny</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>współmierny</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>do</orth>
+<!-- autoselected: prep:gen -->
+<lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:sg:voc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:gen:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:dat:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:inst:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:loc:n</ctag></lex>
+<lex><base>do</base><ctag>subst:pl:voc:n</ctag></lex>
+</tok>
+<tok>
+<orth>korzyści</orth>
+<!-- autoselected: subst:pl:gen:f -->
+<lex><base>korzyść</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:sg:voc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex disamb="1"><base>korzyść</base><ctag>subst:pl:gen:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>korzyść</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<tok>
+<orth>wynikających</orth>
+<!-- autoselected: pact:pl:gen:f:imperf:aff -->
+<lex><base>wynikać</base><ctag>pact:pl:gen:m1:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:gen:m2:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:gen:m3:imperf:aff</ctag></lex>
+<lex disamb="1"><base>wynikać</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:gen:n:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:loc:m1:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:loc:m2:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:loc:m3:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:loc:f:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:loc:n:imperf:aff</ctag></lex>
+<lex><base>wynikać</base><ctag>pact:pl:acc:m1:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>z</orth>
+<!-- autoselected: prep:gen:nwok -->
+<lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:acc:nwok</ctag></lex>
+<lex><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+<lex><base>z</base><ctag>qub</ctag></lex>
+<lex><base>zeszyt</base><ctag>brev:pun</ctag></lex>
+</tok>
+<tok>
+<orth>zastosowania</orth>
+<!-- autoselected: ger:sg:gen:n:perf:aff -->
+<lex><base>zastosowanie</base><ctag>subst:sg:gen:n</ctag></lex>
+<lex><base>zastosowanie</base><ctag>subst:pl:nom:n</ctag></lex>
+<lex><base>zastosowanie</base><ctag>subst:pl:acc:n</ctag></lex>
+<lex><base>zastosowanie</base><ctag>subst:pl:voc:n</ctag></lex>
+<lex disamb="1"><base>zastosować</base><ctag>ger:sg:gen:n:perf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>strategii</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>strategia</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>strategia</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>strategia</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>strategia</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>konkurencji</orth>
+<!-- autoselected: subst:sg:gen:f -->
+<lex disamb="1"><base>konkurencja</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>konkurencja</base><ctag>subst:sg:dat:f</ctag></lex>
+<lex><base>konkurencja</base><ctag>subst:sg:loc:f</ctag></lex>
+<lex><base>konkurencja</base><ctag>subst:pl:gen:f</ctag></lex>
+</tok>
+<tok>
+<orth>przez</orth>
+<!-- autoselected: prep:acc:nwok -->
+<lex disamb="1"><base>przez</base><ctag>prep:acc:nwok</ctag></lex>
+</tok>
+<tok>
+<orth>markę</orth>
+<!-- autoselected: subst:sg:acc:f -->
+<lex disamb="1"><base>marka</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+<chunk type="s">
+<tok>
+<orth>Przedsiębiorstwo</orth>
+<!-- autoselected: subst:sg:nom:n -->
+<lex disamb="1"><base>przedsiębiorstwo</base><ctag>subst:sg:nom:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:sg:acc:n</ctag></lex>
+<lex><base>przedsiębiorstwo</base><ctag>subst:sg:voc:n</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>którego</orth>
+<!-- autoselected: adj:sg:gen:m3:pos -->
+<lex><base>który</base><ctag>adj:sg:gen:m1:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:sg:gen:m2:pos</ctag></lex>
+<lex disamb="1"><base>który</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:sg:acc:m1:pos</ctag></lex>
+<lex><base>który</base><ctag>adj:sg:acc:m2:pos</ctag></lex>
+</tok>
+<tok>
+<orth>przewagą</orth>
+<!-- autoselected: subst:sg:inst:f -->
+<lex disamb="1"><base>przewaga</base><ctag>subst:sg:inst:f</ctag></lex>
+</tok>
+<tok>
+<orth>konkurencyjną</orth>
+<!-- autoselected: adj:sg:inst:f:pos -->
+<lex><base>konkurencyjny</base><ctag>adj:sg:acc:f:pos</ctag></lex>
+<lex disamb="1"><base>konkurencyjny</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>są</orth>
+<!-- autoselected: fin:pl:ter:imperf -->
+<lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>niskie</orth>
+<!-- autoselected: adj:pl:nom:m3:pos -->
+<lex><base>niski</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:sg:acc:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:sg:voc:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:nom:m2:pos</ctag></lex>
+<lex disamb="1"><base>niski</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:nom:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:acc:m2:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:acc:f:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:acc:n:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:voc:m2:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:voc:m3:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:voc:f:pos</ctag></lex>
+<lex><base>niski</base><ctag>adj:pl:voc:n:pos</ctag></lex>
+</tok>
+<tok>
+<orth>koszty</orth>
+<!-- autoselected: subst:pl:nom:m3 -->
+<lex disamb="1"><base>koszt</base><ctag>subst:pl:nom:m3</ctag></lex>
+<lex><base>koszt</base><ctag>subst:pl:acc:m3</ctag></lex>
+<lex><base>koszt</base><ctag>subst:pl:voc:m3</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>nie</orth>
+<!-- autoselected: qub -->
+<lex><base>nie</base><ctag>conj</ctag></lex>
+<lex disamb="1"><base>nie</base><ctag>qub</ctag></lex>
+<lex><base>on</base><ctag>ppron3:sg:acc:n:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:m2:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:m3:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:f:ter:akc:praep</ctag></lex>
+<lex><base>on</base><ctag>ppron3:pl:acc:n:ter:akc:praep</ctag></lex>
+</tok>
+<tok>
+<orth>powinna</orth>
+<!-- autoselected: winien:sg:f:imperf -->
+<lex disamb="1"><base>powinien</base><ctag>winien:sg:f:imperf</ctag></lex>
+<lex><base>powinny</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+<lex><base>powinny</base><ctag>adj:sg:voc:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>stosować</orth>
+<!-- autoselected: inf:imperf -->
+<lex disamb="1"><base>stosować</base><ctag>inf:imperf</ctag></lex>
+</tok>
+<tok>
+<orth>omawianej</orth>
+<!-- autoselected: ppas:sg:gen:f:imperf:aff -->
+<lex disamb="1"><base>omawiać</base><ctag>ppas:sg:gen:f:imperf:aff</ctag></lex>
+<lex><base>omawiać</base><ctag>ppas:sg:dat:f:imperf:aff</ctag></lex>
+<lex><base>omawiać</base><ctag>ppas:sg:loc:f:imperf:aff</ctag></lex>
+</tok>
+<tok>
+<orth>metody</orth>
+<!-- autoselected: subst:sg:nom:m1 -->
+<lex disamb="1"><base>Metody</base><ctag>subst:sg:nom:m1</ctag></lex>
+<lex><base>Metody</base><ctag>subst:sg:voc:m1</ctag></lex>
+<lex><base>metoda</base><ctag>subst:sg:gen:f</ctag></lex>
+<lex><base>metoda</base><ctag>subst:pl:nom:f</ctag></lex>
+<lex><base>metoda</base><ctag>subst:pl:acc:f</ctag></lex>
+<lex><base>metoda</base><ctag>subst:pl:voc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>,</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+</tok>
+<tok>
+<orth>bowiem</orth>
+<!-- autoselected: comp -->
+<lex disamb="1"><base>bowiem</base><ctag>comp</ctag></lex>
+</tok>
+<tok>
+<orth>mogła</orth>
+<!-- autoselected: praet:sg:f:imperf -->
+<lex disamb="1"><base>móc</base><ctag>praet:sg:f:imperf</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>by</orth>
+<!-- autoselected: qub -->
+<lex disamb="1"><base>by</base><ctag>qub</ctag></lex>
+</tok>
+<tok>
+<orth>stracić</orth>
+<!-- autoselected: inf:perf -->
+<lex disamb="1"><base>stracić</base><ctag>inf:perf</ctag></lex>
+</tok>
+<tok>
+<orth>swoją</orth>
+<!-- autoselected: adj:sg:acc:f:pos -->
+<lex><base>swoić</base><ctag>fin:pl:ter:imperf</ctag></lex>
+<lex disamb="1"><base>swój</base><ctag>adj:sg:acc:f:pos</ctag></lex>
+<lex><base>swój</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+</tok>
+<tok>
+<orth>pozycję</orth>
+<!-- autoselected: subst:sg:acc:f -->
+<lex disamb="1"><base>pozycja</base><ctag>subst:sg:acc:f</ctag></lex>
+</tok>
+<ns/>
+<tok>
+<orth>.</orth>
+<!-- autoselected: interp -->
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</chunk>
+</chunk>
+</chunkList>
+</cesAna>

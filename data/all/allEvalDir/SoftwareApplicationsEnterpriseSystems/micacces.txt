@@ -1,0 +1,26 @@
+Microsoft Access - system obsługi relacyjnych baz danych, wchodzący w skład pakietu biurowego Microsoft Office dla środowiska Windows. Od wersji 2.0 dostępny w wersji polskiej[1].
+Bazy danych Access są zapisywane w pojedynczych plikach (rozszerzenie mdb, skompilowana wersja mde). Jest to wygodne w przypadku prostych zastosowań, jednak kosztem wydajności, wielodostępności oraz bezpieczeństwa danych. Aby uniknąć takich problemów Access można podłączyć do zewnętrznych źródeł danych (do dowolnego źródła obsługującego popularne oprogramowanie pośredniczące, np. do serwera Microsoft SQL Server, PostgreSQL lub innej bazy MS Access). W takim przypadku Access spełnia rolę graficznego interfejsu dla zewnętrznych źródeł danych, a nie całego systemu obsługi baz danych.
+Access posiada własny, wbudowany aparat bazy danych (Microsoft Jet), który pełni funkcje wewnętrznej bazy danych. Istnieje możliwość rezygnacji z MS Jet wykorzystując projekty programu Microsoft Access (rozszerzenie adp), ale wówczas wszystkie elementy bazy danych przechowywane są wyłącznie na tym podłączonym serwerze.
+Do przykładowych zastosowań można zaliczyć prostsze aplikacje dla małych i średnich firm dotyczące analizy oraz przetwarzania danych. Microsoft Access można również wykorzystać do szybkiego prototypowania aplikacji bazodanowych.
+Dostęp do baz danych utworzonych w Microsoft Access wymaga posiadania programu Access, bądź też napisania osobnego programu z użyciem zewnętrznych narzędzi. Wyjątkiem jest najbardziej rozbudowana wersja Developer, która umożliwia też tworzenie gotowej aplikacji zawartej w jednym pliku wykonywalnym.
+Spis treści  [ukryj] 
+1 Cechy Microsoft Access
+2 Service Pack 1
+3 Przypisy
+3.1 Linki zewnętrzne
+3.2 Zobacz też
+Cechy Microsoft Access[edytuj]
+
+W wersji 2003 Access ma następujące ograniczenia:
+maksymalny rozmiar bazy danych to 2 GB (w tej przestrzeni muszą się również zmieścić obiekty systemowe, np. indeksy),
+maksymalna liczba obiektów w bazie: 32 768,
+maksymalna liczba jednoczesnych użytkowników: 255,
+maksymalna liczba pól w tabeli: 255,
+maksymalny rozmiar tabeli: 4 GB (wraz z obiektami systemowymi) i jest to jedyne ograniczenie liczby rekordów
+Poza tym Microsoft Access zawiera wbudowany interpreter VBA (ang. Visual Basic for Applications).
+Service Pack 1[edytuj]
+
+28 czerwca 2011 Microsoft wydał swój pierwszy Service Pack do pakietu Office 2010. Poniżej wymieniono najważniejsze ulepszenia oferowane przez dodatek SP1 dla Access 2010 :
+Dodatek SP1 dla programu Access 2010 udostępnia nową funkcję służącą do integrowania zawartości społeczności w galerii Części aplikacji.
+Rozwiązano problem występujący podczas próby wyeksportowania pliku programu Access do skoroszytu programu Excel.
+Zwiększona wydajność w przypadku publikowania formularzy klienta zawierających obrazy osadzone z programu Access.

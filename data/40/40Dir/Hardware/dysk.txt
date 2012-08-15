@@ -1,0 +1,96 @@
+Dysk twardy, napęd dysku twardego (ang. hard disk drive) – rodzaj pamięci masowej, wykorzystujący nośnik magnetyczny do przechowywania danych. Nazwa "dysk twardy" wynika z zastosowania twardego materiału jako podłoża dla właściwego nośnika, w odróżnieniu od dyskietek (ang. floppy disk, czyli miękki dysk), w których nośnik magnetyczny naniesiono na podłoże elastyczne.
+Pierwowzorem twardego dysku jest pamięć bębnowa. Pierwsze dyski twarde takie, jak dzisiaj znamy, wyprodukowała w 1980 roku firma Seagate – był przeznaczony do mikrokomputerów, miał pojemność 5 MB, czyli 5 razy więcej niż ówczesna, dwustronna dyskietka 8-calowa.
+Pojemność dysków wynosi od 5 MB (przez 10MB, 20MB i 40MB – dyski MFM w komputerach klasy XT 808x i 286) do 3 TB[1] (w laptopach 20-1000 GB). Opracowano również miniaturowe dyski twarde typu Microdrive, o pojemnościach od kilkuset MB do kilku GB, przeznaczone dla cyfrowych aparatów fotograficznych i innych urządzeń przenośnych.
+Dla dysków twardych najważniejsze są następujące parametry: pojemność, szybkość transmisji danych, czas dostępu do danych, prędkość obrotowa dysków magnetycznych (obr/min.) oraz średni czas bezawaryjnej pracy (MTBF).
+Kilka dysków twardych można łączyć w macierz dyskową, dzięki czemu można zwiększyć niezawodność przechowywania danych, dostępną przestrzeń na dane, zwiększyć szybkość odczytu/zapisu.
+Spis treści  [ukryj] 
+1 Historia
+2 Budowa
+3 Dysk RAM
+4 Strategie szeregowania zadań
+5 Sposoby adresowania danych na dysku
+6 Najbardziej znani producenci dysków
+7 Zobacz też
+8 Linki zewnętrzne
+9 Przypisy
+Historia[edytuj]
+
+
+
+Jeden z pierwszych modeli twardych dysków IBM
+Użycie sztywnych talerzy i uszczelnienie jednostki umożliwia większą precyzję zapisu niż na dyskietce, w wyniku czego dysk twardy może zgromadzić o wiele więcej danych niż dyskietka. Ma również krótszy czas dostępu do danych i w efekcie szybszy transfer.
+4 września 1956 firma IBM skonstruowała pierwszy 24-calowy dysk twardy o nazwie RAMAC 350. Miał on pojemność 5 MB.
+W 1983 pojawiły się komputery IBM PC/XT z dyskami 5 i 10 MB
+W 1984 firma Seagate wypuściła na rynek pierwszy dysk 5.25", ST-506 o pojemności 5 MB.
+W 1986 został opracowany kontroler IDE (Integrated Drive Electronics).
+W 1987 rozpoczęła się era dysków 3.5 cala
+W 2003 dysk twardy w typowym stanowisku pracy mógł zgromadzić od 60 do 500 GB danych, obracać się z prędkością 5400 do 10 000 obrotów na minutę (taka prędkość obrotowa jest możliwa dzięki zastosowaniu łożyskowania FDB). W wydajnych serwerach i HI-Endowych stacjach roboczych stosowane były dyski SCSI o prędkościach obrotowych na poziomie 15.000 obrotów na minutę.
+W 2006 dzięki technologii zapisu prostopadłego możliwe jest przetrzymywanie na dysku ponad 1 TB danych. Standardem staje się złącze SATA i SAS oraz technologia optymalizacji odczytu NCQ. Stacje dyskietek zaczęły przegrywać z pamięciami USB do których złącza montuje się z przodu obudowy.
+W 2008 pojawiły sie dyski SSD. Na początku technologia ta była bagatelizowana przez dużych graczy (np. Western Digital). Jednak stosunkowo duże zainteresowanie rynku mimo bardzo wysokiej ceny, duża wydajność dzięki minimalnemu czasowi dostępu do danych oraz malejąca cena za MB szybko zmieniła ich nastawienie.
+Na początku 2009 wyprodukowane zostały dyski o pojemność 2 TB. Pojawiły się wersje dysków Green, czyli ekologicznych o dynamicznej zmianie prędkości obrotowych. Rozwijany jest standard SATA 3 na potrzeby dysków SSD.
+W październiku 2010 Western Digital wyprodukowała dysk twardy Caviar Green o pojemności 3 TB
+Budowa[edytuj]
+
+
+
+Sześć dysków twardych o wymiarach 8”, 5.25”, 3.5”, 2.5”, 1.8”, i 1”
+
+
+Dysk twardy po zdjęciu pokrywy
+
+
+Schemat budowy dysku twardego
+
+
+Ruch głowicy
+
+
+Głowica z bliska
+Dysk stały składa się z zamkniętego w obudowie, wirującego talerza (dysku) lub zespołu talerzy, wykonanych najczęściej ze stopów aluminium, o wypolerowanej powierzchni, pokrytej nośnikiem magnetycznym o grubości kilku mikrometrów, oraz z głowic elektromagnetycznych umożliwiających zapis i odczyt danych. Na każdą powierzchnię talerza dysku przypada po jednej głowicy odczytu i zapisu. Głowice są umieszczone na elastycznych ramionach i w stanie spoczynku stykają się z talerzem blisko jego osi. W czasie pracy unoszą się, a ich odległość nad talerzem jest stabilizowana dzięki sile aerodynamicznej powstałej w wyniku szybkich obrotów talerza. Jest to najpopularniejsze obecnie rozwiązanie (są też inne sposoby prowadzenia głowic nad talerzami)[potrzebne źródło].
+Ramię głowicy dysku ustawia głowice w odpowiedniej odległości od osi obrotu talerza w celu odczytu lub zapisu danych na odpowiednim cylindrze. Pierwsze konstrukcje (do ok. 200MB) były wyposażone w silnik krokowy, stosowany uprzednio w stacjach dyskietek. Wzrost liczby cylindrów na dysku oraz konieczność zwiększenia szybkości dysków wymusił wprowadzenie innych rozwiązań. Najpopularniejszym obecnie jest tzw. voice coil czyli cewka, wzorowana na układzie magnetodynamicznym stosowanym w głośnikach. Umieszczona w silnym polu magnetycznym cewka porusza się i zajmuje położenie zgodnie z przepływającym przez nią prądem, ustawiając ramię w odpowiedniej pozycji. Dzięki temu czas przejścia między kolejnymi ścieżkami jest nawet krótszy niż 1 milisekunda, a przy większych odległościach nie przekracza kilkudziesięciu milisekund. Układ regulujący prądem zmienia natężenie prądu, tak by głowica ustabilizowała jak najszybciej swe położenia w zadanej odległości od środka talerza (nad wyznaczonym cylindrem).
+Informacja jest zapisywana na dysk przez przesyłanie strumienia elektromagnetycznego przez antenę albo głowicę zapisującą, która jest bardzo blisko magnetycznie polaryzowalnego materiału, zmieniającego swoją polaryzacją magnetyczną wraz ze strumieniem indukcji magnetycznej. Informacja może być z powrotem odczytana w odwrotny sposób, gdyż zmienne pole magnetyczne powoduje indukowanie napięcia elektrycznego w cewce głowicy lub zmianę oporu w głowicy magnetyczno-oporowej.
+Ramiona połączone są zworą i poruszają się razem. Zwora kieruje głowicami promieniowo po talerzach a w miarę rotacji talerzy, daje każdej głowicy dostęp do całości jej talerza.
+Zintegrowana elektronika kontroluje ruch zwory, obroty dysku, oraz przygotowuje odczyty i zapisy na rozkaz od kontrolera dysku. Nowoczesne układy elektroniczne są zdolne do skutecznego szeregowania odczytów i zapisów na przestrzeni dysku oraz do zastępowania uszkodzonych sektorów zapasowymi.
+
+
+uszkodzenia głowicy
+Obudowa chroni części napędu od pyłu, pary wodnej, i innych źródeł zanieczyszczenia. Jakiekolwiek zanieczyszczenie głowic lub talerzy może doprowadzić do uszkodzenia głowicy (head crash), awarii dysku, w której głowica uszkadza talerz, ścierając cienką warstwę magnetyczną. Awarie głowicy mogą również być spowodowane przez błąd elektroniczny, uszkodzenie, błędy produkcyjne dysku lub zużycie.
+Dysk RAM[edytuj]
+
+Dyski RAM to urządzenia emulujące dyski, w których do zapisu danych stosuje się rozwiązania wykorzystujące popularne pamięci RAM, dzięki którym osiąga się krótki czas dostępu i bardzo szybki transfer danych, którego wartości przekraczają przepustowość oferowaną przez typowe interfejsy dla dysków twardych, takie jak Ultra ATA czy Serial ATA. Dysków RAM nie należy mylić coraz popularniejszymi dyskami SSD, różnica polega na rodzaju pamięci krzemowej (Flash ROM vs dynamic RAM). Dyski RAM mają mniejsze pojemności i są zdecydowanie droższe. Zasadniczą wadą takich dysków jest utrata zapisanych danych przy zaniku napięcia (np. przy wyłączeniu komputera), dlatego też stosuje się pomocnicze źródła prądu podtrzymujące pracę dysków: wbudowane akumulatory i zewnętrzne zasilacze.
+Dotychczas zaproponowane rozwiązania to:
+– dysk zabudowany na karcie PCI (dysk iRAM)
+– dysk w standardowej obudowie 5.25"
+– dysk na karcie rozszerzeń ISA, zawierający własne akumulatory oraz gniazdo niewielkiego zewnętrznego zasilacza podtrzymującego układy i ładującego akumulatory.
+Strategie szeregowania zadań[edytuj]
+
+FIFO – (ang. first in, first out) żądania są przetwarzane sekwencyjnie wg kolejki. Pierwsze żądanie w kolejce jest obsługiwane jako pierwsze. Sprawiedliwa strategia nieprowadząca do zagłodzenia, ruchy głowicy losowe przy wielu procesach, mała wydajność.
+Priorytet – mniejsze zadania uzyskują wyższy priorytet i są wykonywane szybciej, dobry czas reakcji. Nie optymalizuje wykorzystania dysku, lecz wykonanie zadań.
+LIFO – (ang. last in, first out) ostatni na wejściu i pierwszy na wyjściu. Ryzyko zagłodzenia przy dużym obciążeniu, poprawia przepustowość i zmniejsza kolejki.
+SSTF – (ang. shortest service time first) najpierw obsługiwane jest żądanie, przy którym są najmniejsze ruchy głowicy; dobra wydajność, ryzyko zagłodzenia.
+SCAN – ramię „skanuje” dysk, realizując napotkane na swojej drodze żądania, a gdy dotrze do ostatniej ścieżki, wówczas zaczyna skanować dysk w drugą stronę.
+C-SCAN – skanowanie tylko w jednym kierunku. Po osiągnięciu końca ścieżki ramię wraca na przeciwny koniec dysku i zaczyna skanowanie w tym samym kierunku.
+N-step-SCAN – żądania są ustawiane w podkolejkach od długości N. Każda podkolejka jest przetwarzana zgodnie ze strategią SCAN. Dla dużego N zbliża się do SCAN, dla N=1 jest to FIFO.
+FSCAN – dwie podkolejki. Gdy skanowanie się rozpoczyna, żądania są umieszczone w pierwszej podkolejce. Żądania pojawiające się w czasie skanowania są ustawiane do drugiej podkolejki i przetwarzane po zakończeniu skanowania zadań z pierwszej podkolejki.
+Sposoby adresowania danych na dysku[edytuj]
+
+CHS (cylinder, head, sector)
+ECHS (Extended cylinder, head, sector)
+LBA (Logical Block Adressing)
+MZR (Multiple Zone Recording)
+CKD Count Key Data (w komputerach mainframe)
+ECKD Enhanced CKD
+Jako główną linię podziału można podać FBA (Fixed Block Address) - CKD (Count Key Data), przy czym wszystkie komputery poza maszynami klasy mainframe używają obecnie dysków FBA. Przez wiele lat dyski FBA miały jednakowy rozmiar sektora wynoszący 512 bajtów (netto + 8B na sector ID), obecnie przy pojemnościach terabajtowych, producenci przechodzą na większe rozmiary sektora, które są obsługiwane przez relatywnie najnowsze wersje systemów operacyjnych. Dyski CKD są nadal z powodzeniem używane przez instalacje mainframe, przy czym od kilkunastu lat są to wyłącznie dyski emulowane przez macierze dyskowe.
+Najbardziej znani producenci dysków[edytuj]
+
+Western Digital
+Seagate
+Samsung
+Hitachi Global Storage Technologies
+Maxtor
+IBM
+Toshiba
+Fujitsu
+Quantum
+NeXuS
+Thomson
