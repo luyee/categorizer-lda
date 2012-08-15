@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4ced284a-913f-4e0b-bc93-4838997e7422" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inferencer.iml" afterPath="$PROJECT_DIR$/Inferencer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java" afterPath="$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java" />
     </list>
     <ignored path="Inferencer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +67,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -105,9 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2187#2197#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +125,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="44" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.84210527">
+            <state line="82" column="44" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.36842105">
               <folding />
             </state>
           </provider>
@@ -251,9 +243,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-5" />
-    <option name="width" value="1368" />
+    <option name="y" value="24" />
+    <option name="width" value="1366" />
     <option name="height" value="670" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -282,6 +273,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -468,7 +460,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -488,9 +479,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -677,24 +668,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -720,6 +693,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -879,8 +870,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-5" width="1368" height="670" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1366" height="670" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.013651877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -893,7 +884,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20409712" sideWeight="0.67276424" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057663" sideWeight="0.67276424" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30547112" sideWeight="0.67276424" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24186991" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -991,6 +982,26 @@
         <state line="91" column="35" selection-start="3316" selection-end="3316" vertical-scroll-proportion="0.4631579" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="39" selection-start="738" selection-end="753" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="57" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/InstanceListToArff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="8" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" />
@@ -1016,39 +1027,9 @@
         <state line="24" column="23" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractInferencer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/ModelTrainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/AbstractModelTrainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="738" selection-end="753" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ldainference/Inferencer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2187#2197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="44" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.84210527">
+        <state line="82" column="44" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.36842105">
           <folding />
         </state>
       </provider>

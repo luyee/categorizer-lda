@@ -4,17 +4,17 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88c6c8d2-c0e1-4db0-b942-e831eaedfa47" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/trainer/LDATrainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/trainer" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/EvaluatorRunner.java" afterPath="$PROJECT_DIR$/src/main/java/EvaluatorCmdLine.java" />
+    <list default="true" readonly="true" id="88c6c8d2-c0e1-4db0-b942-e831eaedfa47" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/runners" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/runners/CmpRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/runners/SimpleRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InferencerOptymalizator.iml" afterPath="$PROJECT_DIR$/InferencerOptymalizator.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/EvaluatorCmdLine.java" afterPath="$PROJECT_DIR$/src/main/java/EvaluatorCmdLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ProbabilisticTestOnSmall.java" afterPath="$PROJECT_DIR$/src/main/java/ProbabilisticTestOnSmall.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/evaluator/Evaluator.java" afterPath="$PROJECT_DIR$/src/main/java/evaluator/Evaluator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/evaluator/RaportWriter.java" afterPath="$PROJECT_DIR$/src/main/java/evaluator/RaportWriter.java" />
     </list>
     <ignored path="InferencerOptymalizator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,28 +77,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EvaluatorCmdLine.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EvaluatorCmdLine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EvaluatorCmdLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="9" selection-start="3703" selection-end="3703" vertical-scroll-proportion="1.1642652">
+            <state line="56" column="34" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RaportWriter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/RaportWriter.java">
+      <file leaf-file-name="SimpleRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runners/SimpleRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+            <state line="43" column="35" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProbabilisticTestOnSmall.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ProbabilisticTestOnSmall.java">
+      <file leaf-file-name="CmpRunner.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runners/CmpRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="51" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
+            <state line="71" column="34" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.9052632">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="10" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +116,16 @@
       <file leaf-file-name="Evaluator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/Evaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="59" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+            <state line="97" column="0" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProbabilisticTestOnSmall.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ProbabilisticTestOnSmall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="23" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,16 +134,16 @@
       <file leaf-file-name="EvaluationInstance.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/EvaluationInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+            <state line="14" column="13" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntegratinTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/IntegratinTests.java">
+      <file leaf-file-name="DataLoader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/DataLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="45" selection-start="3570" selection-end="3676" vertical-scroll-proportion="0.0">
+            <state line="58" column="11" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,12 +173,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ProbabilisticTestOnSmall.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/evaluatorResources/dataSet1.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/evaluator/EvaluationInstanceTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/evaluatorResources/dataSet2.txt" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/IntegratinTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/EvaluatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/EvaluationInstance.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/SmallRaportWriter.java" />
@@ -168,9 +182,13 @@
         <option value="$PROJECT_DIR$/src/main/java/trainer/LDATrainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/wekaClasifier/ListInstancesToArff.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/RaportWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/Evaluator.java" />
         <option value="$PROJECT_DIR$/src/main/java/EvaluatorRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/Evaluator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProbabilisticTestOnSmall.java" />
         <option value="$PROJECT_DIR$/src/main/java/EvaluatorCmdLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runners/CmpRunner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/runners/SimpleRunner.java" />
       </list>
     </option>
   </component>
@@ -219,7 +237,7 @@
     <option name="x" value="-1" />
     <option name="y" value="-5" />
     <option name="width" value="1368" />
-    <option name="height" value="734" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -247,8 +265,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,40 +300,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evaluatorResources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InferencerOptymalizator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InferencerOptymalizator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evaluator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -363,12 +345,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="evaluator" />
+              <option name="myItemId" value="runners" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,51 +382,7 @@
       <recent name="evaluator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProbabilisticTestOnSmall">
-    <configuration default="false" name="IntegratinTests" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="InferencerOptymalizator" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="evaluator" />
-      <option name="MAIN_CLASS_NAME" value="evaluator.IntegratinTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EvaluatorTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="InferencerOptymalizator" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="evaluator" />
-      <option name="MAIN_CLASS_NAME" value="evaluator.EvaluatorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SimpleRunner">
     <configuration default="false" name="evaluator in InferencerOptymalizator" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="InferencerOptymalizator" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -489,6 +429,22 @@
     </configuration>
     <configuration default="false" name="ProbabilisticTestOnSmall" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ProbabilisticTestOnSmall" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InferencerOptymalizator" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CmpRunner" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="runners.CmpRunner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -667,12 +623,28 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="false" name="SimpleRunner" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="runners.SimpleRunner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InferencerOptymalizator" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.IntegratinTests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EvaluatorTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.evaluator in InferencerOptymalizator" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EvaluatorTest.testEvaluate" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ProbabilisticTestOnSmall" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.evaluator in InferencerOptymalizator" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EvaluatorTest.testEvaluate" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ProbabilisticTestOnSmall" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CmpRunner" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SimpleRunner" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -697,6 +669,7 @@
     <option name="FORCE_UPDATE" value="false" />
     <configuration useDefault="false">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -729,26 +702,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-5" width="1368" height="734" extended-state="6" />
+    <frame x="-1" y="-5" width="1368" height="670" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26217532" sideWeight="0.8966746" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26176023" sideWeight="0.7643678" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39984825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31183612" sideWeight="0.67235494" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23371647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31183612" sideWeight="0.46551725" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5344828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -810,19 +783,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/EvaluatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/RaportWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="44" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/EvaluationInstanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/SmallRaportWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" />
+        <state line="29" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/RaportWriterInterface.java">
@@ -830,34 +793,54 @@
         <state line="12" column="11" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mallet/2/1.0/2-1.0.jar!/cc/mallet/types/InstanceList.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/SmallRaportWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="36" selection-start="7407" selection-end="7426" vertical-scroll-proportion="0.3493014" />
+        <state line="25" column="5" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/weka/weka1/1.0/weka1-1.0.jar!/weka/classifiers/functions/SMO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="0" selection-start="7535" selection-end="7535" vertical-scroll-proportion="0.7085202" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/weka/weka1/1.0/weka1-1.0.jar!/weka/classifiers/lazy/IBk.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="4516" selection-end="4516" vertical-scroll-proportion="0.57236844" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/Inferencer/Inferencer/1.0/Inferencer-1.0.jar!/ldainference/ModelTrainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="940" selection-end="940" vertical-scroll-proportion="0.62222224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EvaluatorCmdLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="34" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="616" selection-end="775" vertical-scroll-proportion="0.027829314" />
+        <state line="26" column="10" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/DataLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/Evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="11" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.94434136" />
+        <state line="97" column="0" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProbabilisticTestOnSmall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="51" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" />
+        <state line="17" column="23" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/EvaluationInstance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
+        <state line="14" column="13" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/IntegratinTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/DataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="45" selection-start="3570" selection-end="3676" vertical-scroll-proportion="0.0" />
+        <state line="58" column="11" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/evaluatorResources/dataSet1.txt">
@@ -865,23 +848,23 @@
         <state line="0" column="0" selection-start="0" selection-end="167" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/RaportWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/SimpleRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+        <state line="43" column="35" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/Evaluator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/Inferencer/Inferencer/1.0/Inferencer-1.0.jar!/svminferencer/KnnModelTrainer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="59" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+        <state line="10" column="11" selection-start="358" selection-end="358" vertical-scroll-proportion="0.3089245">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EvaluatorCmdLine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/CmpRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="9" selection-start="3703" selection-end="3703" vertical-scroll-proportion="1.1642652">
+        <state line="71" column="34" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.9052632">
           <folding />
         </state>
       </provider>
@@ -963,6 +946,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: commons-cli:commons-cli:1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

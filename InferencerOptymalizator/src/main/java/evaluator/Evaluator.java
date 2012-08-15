@@ -1,7 +1,7 @@
 package evaluator;
 
 
-import ldainference.Inferencer;
+import interfaces.AbstractInferencer;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ import java.util.Vector;
  * To change this template use File | Settings | File Templates.
  */
 public class Evaluator {
-    private Inferencer inferencer;
+    private AbstractInferencer inferencer;
     private Vector<EvaluationInstance> evaluationInstances;
     private double[] correct = new double[]{0, 0, 0, 0,0,0};
     private int[] referenceValues = new int[]{0, 1, 2, 5,7,10};
@@ -23,7 +23,7 @@ public class Evaluator {
     private double static5=0;
 
     
-    public Evaluator( Vector<String> evalinsts, Inferencer inference){
+    public Evaluator( Vector<String> evalinsts, AbstractInferencer inference){
         Vector<EvaluationInstance> e2 = parseInputLis(evalinsts);
 
         evaluationInstances= e2;
@@ -47,10 +47,7 @@ public class Evaluator {
         return e2;
     }
 
-    public Evaluator(Inferencer inferencer, Vector<EvaluationInstance> evaluationInstances) {
-        this.inferencer = inferencer;
-        this.evaluationInstances = evaluationInstances;
-    }
+
 
     public Evaluator() {
         //To change body of created methods use File | Settings | File Templates.
