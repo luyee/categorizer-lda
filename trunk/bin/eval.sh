@@ -34,7 +34,7 @@ fi
 echo "using dataset $dataDir"
 
 
-echo "trained for ${M_NUMTOPICS} topics "
+#echo "trained for ${M_NUMTOPICS} topics "
 
 java -jar ${InferencerOpt}/target/InferencerOptymalizator-1.0-jar-with-dependencies.jar \
 --inferencer ${dataDir}/Inferencer.mallet \

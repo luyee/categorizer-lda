@@ -1,17 +1,9 @@
-import cc.mallet.topics.TopicInferencer;
-import cc.mallet.types.InstanceList;
-import evaluator.DataLoader;
-import evaluator.Evaluator;
-import evaluator.RaportWriterInterface;
-import evaluator.SmallRaportWriter;
 import ldainference.Inferencer;
 import ldainference.ModelTrainer;
 import org.apache.commons.cli.*;
-import svminferencer.SvmInferencer;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Vector;
 
 /**
  * Created by IntelliJ IDEA.
@@ -39,7 +31,6 @@ public class EvaluatorCmdLine {
                 .create(TRAINING);
 
 
-
         Options options = new Options();
 
         options.addOption(infFileOpt);
@@ -63,42 +54,39 @@ public class EvaluatorCmdLine {
 
             //Inference inference = new Inference(trainingFile, inferenceFile, docPerTopicFile);
 
-             Inferencer inferencer;
-             ModelTrainer modelTrainer;
-             SvmInferencer svmInferencer;
-            modelTrainer = new ModelTrainer(trainingFile.getAbsolutePath(),100);
+            Inferencer inferencer;
+            ModelTrainer modelTrainer;
+            //SvmInferencer svmInferencer;
+            //modelTrainer = new ModelTrainer(trainingFile.getAbsolutePath(), 100);
 
-            modelTrainer.trainModel();
+            //modelTrainer.trainModel();
 
-            File docPerTopic = modelTrainer.getDocPerTopic();
-            TopicInferencer ldaInferencer = modelTrainer.getInderencer();
-            InstanceList trainingInstanceList = modelTrainer.getTrainingInstanceList();
-
-            //SVMModelTrainer svmModelTrainer = new SVMModelTrainer(trainingInstanceList);
-            //svmModelTrainer.train();
-
-
-            inferencer = new Inferencer(docPerTopic,ldaInferencer,trainingInstanceList);
-
-
-
-            //Classifier svm =  svmModelTrainer.getSmo();
-            //Set<String> categoriesNames = svmModelTrainer.getCategoriesNames();
-
-            //svmInferencer = new SvmInferencer(trainingInstanceList,svm,categoriesNames, 2);
-
-            DataLoader dataLoader= new DataLoader(fileToInference.getAbsolutePath());
-            Vector<String> data = dataLoader.getEvaluationInsatnces();
-            Evaluator evaluator = new Evaluator(data,inferencer);
-            evaluator.evaluate();
-
-
-
-            RaportWriterInterface raportWriter = new SmallRaportWriter();
-
-            raportWriter.writeRaport(evaluator,System.out);
-            //inference.close();
-
+//            File docPerTopic = modelTrainer.getDocPerTopic();
+//            TopicInferencer ldaInferencer = modelTrainer.getInderencer();
+//            InstanceList trainingInstanceList = modelTrainer.getTrainingInstanceList();
+//
+//            //SVMModelTrainer svmModelTrainer = new SVMModelTrainer(trainingInstanceList);
+//            //svmModelTrainer.train();
+//
+//
+//            inferencer = new Inferencer(docPerTopic, ldaInferencer, trainingInstanceList);
+//
+//
+//            //Classifier svm =  svmModelTrainer.getSmo();
+//            //Set<String> categoriesNames = svmModelTrainer.getCategoriesNames();
+//
+//            //svmInferencer = new SvmInferencer(trainingInstanceList,svm,categoriesNames, 2);
+//
+//            DataLoader dataLoader = new DataLoader(fileToInference.getAbsolutePath());
+//            Vector<String> data = dataLoader.getEvaluationInsatnces();
+//            Evaluator evaluator = new Evaluator(data, inferencer);
+//            evaluator.evaluate();
+//
+//
+//            RaportWriterInterface raportWriter = new SmallRaportWriter();
+//
+//            raportWriter.writeRaport(evaluator, System.out);
+//            //inference.close();
 
 
         } catch (ParseException exp) {
