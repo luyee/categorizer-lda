@@ -1,0 +1,27 @@
+System operacyjny czasu rzeczywistego (ang. Real-Time Operating System - RTOS) to komputerowy system operacyjny, który został opracowany tak, by spełnić wymagania narzucone na czas wykonywania zadanych operacji. Systemy takie stosuje się jako elementy komputerowych systemów sterowania pracujących w reżimie czasu rzeczywistego - system czasu rzeczywistego.
+Ogólnie można przyjąć założenie, że zadaniem systemu operacyjnego czasu rzeczywistego oraz oprogramowania pracującego pod jego kontrolą i całego sterownika komputerowego jest wypracowywanie odpowiedzi (np. sygnałów sterujących kontrolowanym obiektem) na skutek wystąpienia pewnych zdarzeń (zmianie sygnałów z czujników sterownika). Biorąc to pod uwagę, podstawowym wymaganiem dla systemu operacyjnego czasu rzeczywistego jest określenie najgorszego (najdłuższego) czasu, po jakim urządzenie komputerowe wypracuje odpowiedź po wystąpieniu zdarzenia. Ze względu na to kryterium, systemy operacyjne czasu rzeczywistego dzielą się na dwa rodzaje:
+Twarde - takie, dla których znany jest najgorszy (najdłuższy) czas odpowiedzi, oraz wiadomo jest, że nie zostanie on przekroczony.
+Miękkie - takie, które starają się odpowiedzieć najszybciej jak to możliwe, ale nie wiadomo jest, jaki może być najgorszy czas odpowiedzi.
+Nietrywialnym problemem w tego typu systemach operacyjnych jest algorytm szeregowania oraz podziału czasu. W systemie operacyjnym czasu rzeczywistego trzeba określić, któremu z procesów należy przydzielić procesor oraz na jak długi czas, aby wszystkie wykonywane procesy spełniały zdefiniowane dla nich ograniczenia czasowe.
+Pojawienie się systemów operacyjnych tego typu wiąże się z m.in. zapotrzebowaniem techniki wojskowej na precyzyjne w czasie sterowanie rakietami. Obecnie systemy operacyjne tego typu są wykorzystywane powszechnie w przemyśle cywilnym, sterują również urządzeniami takimi jak na przykład: centrale telefoniczne, marsjańskie lądowniki NASA oraz samochodowy ABS.
+Zobacz też[edytuj]
+
+ChibiOS/RT
+DioneOS
+FlexOS
+FreeRTOS
+uCRTOS
+MicroC/OS-II
+eCOS
+QNX
+OS9
+VxWorks
+LynxOS
+Phoenix-RTOS
+iRMX
+RT-Linux
+RTKernel
+DRYOS
+Windows CE
+SCIOPTA
+Sirius RTOS

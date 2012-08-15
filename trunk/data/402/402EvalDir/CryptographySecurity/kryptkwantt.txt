@@ -1,0 +1,20 @@
+Kryptologia kwantowa obejmuje metody wykonywania zadań kryptograficznych przy użyciu informatyki kwantowej.
+Spis treści  [ukryj] 
+1 Kryptoanaliza kwantowa
+2 Szyfrowanie kwantowe
+3 Wymiana kluczy
+4 Przypisy
+Kryptoanaliza kwantowa[edytuj]
+Za pomocą hipotetycznych komputerów kwantowych można by szybko dokonywać pewnych obliczeń, których nie da się szybko wykonać na zwykłych komputerach. Chodzi tu przede wszystkim o faktoryzację dużych liczb algorytmem Shora, co pozwoliłoby na łamanie RSA. Jednak dla większości systemów nie są znane żadne zastosowania obliczeń kwantowych w ich kryptoanalizie.
+Szyfrowanie kwantowe[edytuj]
+Służy do przekazywania danych na niewielkie odległości (kilkanaście do kilkadziesiąt kilometrów) za pomocą światła.
+Przykładowo przesyłana informacja kodowana jest na pojedynczych fotonach. W zależności od kierunku polaryzacji (poziomego lub pionowego) foton przechodzi przez filtr polaryzacyjny na stacji odbierającej, bądź nie, przekazując 0 lub 1. Dodatkowo polaryzatory mogą być ustawiane z odchyleniem 0 lub 45 stopni. Klucz określa sekwencje użytych polaryzatorów. Załóżmy, że chcemy przechwycić wiadomość składającą się z 1 bitu. Ustawiamy nasz polaryzator w dowolnej pozycji. Jeżeli się pomyliliśmy, to foton ma 50% szans na przekazanie wiadomości (statystycznie 50% fotonów przejdzie przez źle ustawiony polaryzator), jeżeli trafiliśmy, foton przekaże właściwą informację, ponieważ jednak nie możemy określić w których przypadkach ustawiliśmy polaryzator dobrze, a w których źle, nie możemy również rozszyfrować wiadomości[1].
+Wymiana kluczy[edytuj]
+Głównym pomysłem w kwantowej wymianie kluczy jest użycie najmniejszych możliwych porcji energii do przekazania informacji (kwantów). Każda próba odczytu informacji powoduje jej bezpowrotne zniszczenie. Nie ma sposobu przechwycenia transmisji bez jej zakłócenia, więc kluczowe informacje mogą być wymieniane z dużą pewnością zachowania tajemnicy.
+Algorytm:
+Alicja losuje klucz i przesyła go Bobowi poprzez losowo ustawione nadajniki.
+Bob za pomocą losowo ustawionych detektorów odbiera transmisję od Alicji.
+Bob jawnym kanałem przekazuje w jaki sposób ustawił swoje detektory.
+Alicja informuje Boba w których przypadkach się pomylił.
+Bob i Alicja jawnym kanałem porównują co najmniej kilkadziesiąt bitów z uzyskanego klucza.
+W przypadku próby przechwycenia uzgadnianego klucza, intruz spowoduje powstanie różnicy w porównywanych przez Alicję i Boba fragmentach z prawdopodobieństwem zależnym od wielkości porównywanej próbki. W tym wypadku Alicja i Bob rozpoczną cały proces uzgadniania klucza od początku.

@@ -1,0 +1,76 @@
+Heurystyka (gr. heuresis – odnaleźć, odkryć, heureka – znalazłem) - w informatyce metoda znajdowania rozwiązań, dla której nie ma gwarancji znalezienia rozwiązania optymalnego, a często nawet prawidłowego. Rozwiązań tych używa się np. wtedy, gdy pełny algorytm jest z przyczyn technicznych zbyt kosztowny lub gdy jest nieznany (np. przy przewidywaniu pogody lub przy wykrywaniu niektórych zagrożeń komputerowych, takich jak wirusy lub robaki). Metody używa się też często do znajdowania rozwiązań przybliżonych, na podstawie których później wylicza się ostateczny rezultat pełnym algorytmem. To ostatnie zastosowanie szczególnie dotyczy przypadków, gdy heurystyka jest wykorzystywana do nakierowywania pełnego algorytmu ku optymalnemu rozwiązaniu, aby zmniejszyć czas działania programu w typowym przypadku bez poświęcania jakości rozwiązania (np. algorytm A*).
+Wyszukiwaniem informacji nazywamy proces przeszukiwania określonego zbioru dokumentów odnoszących się do tematu czy przedmiotu wskazanego w zapytaniu lub zawierających konieczne dla użytkownika fakty. Proces ten nie został jednak precyzyjnie i skończenie określony przez wzory, normy czy algorytmy i w dużej mierze opiera się na heurystykach w tym wypadku definiowanych jako zbiór reguł oraz wskazówek, które mogą, lecz nie muszą, prowadzić do właściwego rozwiązania.
+Spis treści  [ukryj] 
+1 Algorytm a heurystyka
+1.1 Przykład
+2 Strategia wyszukiwawcza
+3 Potrzeby informacyjne użytkownika
+4 Skuteczność wyszukiwania informacji
+5 Rodzaje poszukiwań
+Algorytm a heurystyka[edytuj]
+
+Zasadnicza różnica między postępowaniem algorytmicznym a heurystycznym polega na tym, że pierwsze podejście zawsze daje rozwiązanie (choć czas oczekiwania na rozwiązanie może być nawet nieskończenie długi), podczas gdy podejście twórcze może być zawodne. Ze względu na to metody algorytmiczne stosowane są najczęściej w przypadku zbadanych, znanych już problemów, heurystyczne natomiast wszędzie tam, gdzie algorytmy nie wystarczają do rozwiązania zadania, gdzie wymagane są uzupełnienia, poszukiwane nowe metody i sposoby odnajdywania odpowiedzi czy rozwiązania zapytań.
+Heurystyka informacyjna dotyczy tego, jak szybko i efektywnie wyszukać dokładnie tę informację, której użytkownik potrzebuje oraz tego, z jakich narzędzi, pamięci lub sprzętów służących do procesu poszukiwawczego będzie korzystał. Optymalne dotarcie do rozwiązania określa szybkość oraz cenę dostępu do właściwego wyniku, czyli odnalezienie dokumentów relewantnych przy minimalnej liczbie operacji w procesie wyszukiwania.
+Dwie naczelne zasady heurystyki informacyjnej to:
+zasada wyczerpania (kompletności)
+zasada właściwego doboru materiału (relewantności)
+Pożądany stopień trafności i kompletności zależy w dużej mierze od przeznaczenia wykorzystania informacji, tzn. do czego informacja jest w rzeczywistości potrzebna. Nie zawsze użytkownikowi zależy w jednakowym stopniu na osiągnięciu dużej trafności i kompletności wyszukiwania, tym bardziej, że podniesienie jednego wskaźnika powoduje z reguły obniżenie drugiego, tj. zwiększenie trafności obniża kompletność i odwrotnie. Przy ustalaniu zdolności potrzeb informacyjnych pamiętać należy, że istotną cechą relewantności jest jej subiektywny charakter, jest to jednak podstawowa cecha każdej informacji, która nie może istnieć bez odbiorcy.
+Przykład[edytuj]
+W szczególności metody heurystyczne są stosowane kiedy nie jest znany algorytm rozwiązujący ogólny problem, ale chcemy rozwiązać pewną mniejszą klasę problemów zawartych w ogólny, o pewnych specyficznych cechach. Przykładem może tu być, problem komiwojażera - znaleźć trasę pomiędzy miastami, przechodzącą przez wszystkie miasta i będąc przy tym najkrótszą możliwą taka trasą. Ogólnie postawiony problem jest NP-trudny, i wydaje się że nie istnieje algorytm działający wiele szybciej niż algorytm typu brute-force, sprawdzający wszystkie możliwości, co limituje jego zastosowanie do grafów o małej wielkości (rzędu 15 miast). Jednakże pożytki jakie by dało znalezienie takiego algorytmu w praktyce powoduje że szuka się rozwiązań tego problemu wystarczająco blisko rozwiązania, co pozwala zwiększyć liczbę miast (miejsc) znacznie. Takimi heurezami może być na przykład użycie takich znanych faktów, jak:
+miasta i drogi leżą na płaszczyźnie (w przypadku ogólnego problemu nie jest to prawda, nie każdy graf jest planarny,
+miasta są rozłożone mniej więcej równomiernie na pewnym obszarze,
+miasta mają tendencję do klastrowania (miasta skupiają się grupy. Co sugeruje, żeby rozwiązać problem komiwojażera dla klastrów w całości, używając dróg szybkiego ruchu, a następnie mniejsze i niezależne problemy komiwojażera w klastrach),
+da się szybko oszacować odległość pomiędzy dowolnymi miastami, poprzez długość w linii prostej,
+wydaje się że trasa nie powinny się krzyżować samą ze sobą,
+na pewno niepożądane jest, aby trasa zawierała odcinki, które mają charakter jazdy "tam i z powrotem", szczególnie na duże odległości,
+powinniśmy zacząć podróż na brzegu obszaru i starać się go okrążać systematycznie, nie zaś przemieszczać się chaotycznie,
+i inne które być może w ogólności nie są prawdziwe, ale jedynie mamy przekonanie że pomogą rozwiązać problem,
+często pomaga sprawdzenie kilku przypadkowych kombinacji i wybieranie ich najlepszych cech (zobacz algorytm genetyczny)
+Wiele z takich heurez można znaleźć poprzez obserwację jak ludzie rozwiązują problem (w sposób przybliżony) "ręcznie" - wystarczy wydrukować wiele kopii różnych map i przeprowadzić eksperymenty na ludziach, obserwując sposób w jaki łączą oni miasta ołówkiem (czy poprawiają trasy), albo poruszają gałkami ocznymi. Eksperymenty takie też pozwalają znaleźć przypadki kiedy heurezy nie działają, oraz pozwalają na oszacowanie czasu ile zajmuje znalezienie rozwiązania.
+
+Innym przykładem, może być użycie heurezy w celu optymalizacji najczęstszych przypadków z jakimi będzie borykał się program (popartych najczęściej wcześniejszym profilowanem). Umożliwia to na podstawie jakiegoś kryterium (np. rozmiar wejścia), rozwiązywanie kilkoma algorytmami do wyboru, i w razie niemożności rozwiązania algorytmem specyficznym, powrót do ogólnego algorytmem zapasowym, który wiadomo że zwróci poprawny wynik.
+Strategia wyszukiwawcza[edytuj]
+
+Dwie wymienione wyżej zasady obligują do przyjęcia określonej, optymalnej strategii wyszukiwawczej, tzn. takiego formułowania instrukcji wyszukiwawczej i ustalania kolejności poszukiwań, aby zidentyfikować maksymalną liczbę relewantnych dokumentów pochodnych istniejących w zbiorze przy minimalnej liczbie operacji identyfikowania, czyli przekształcania zbioru. Inaczej mówiąc, jest to plan układu i kolejności stawiania pytań przez przeszukującego w trakcie realizacji określonego zapotrzebowania na informację.
+Zgodnie z 4 podstawowymi heurystykami wyszukiwania informacji należy:
+wybraną strategię traktować jako hipotezę, próbę odgadnięcia sposobu zaindeksowania poszukiwanego tematu,
+początkowo uzyskane wyniki przeglądać pod kątem odnalezienia innych niż przyjęte możliwości wyszukiwawcze,
+wykorzystywać wszelkie alternatywne strategie wyszukiwania,
+nie zakładać, iż dane w bazie danych są indeksowane w sposób optymalny dla użytkownika.
+Z pojęciem strategii wyszukiwawczej związek mają inne pojęcia:
+Kwerenda informacyjna – pytanie w języku naturalnym skierowane do systemu informacyjnego w celu otrzymania potrzebnej informacji. Jest to inaczej zapytanie informacyjne.
+Instrukcja wyszukiwawcza – treść zapytania informacyjnego użytkownika wyrażona w języku informacyjnym w celu wyszukania ze zbioru informacyjnego dokumentów relewantnych. Inaczej mówiąc, instrukcję wyszukiwawczą pytania stanowi tekst języka informacyjno-wyszukiwawczego wyspecjalizowany w funkcji wyszukiwawczej odwzorowującej treść zapytania informacyjnego.
+Charakterystyka wyszukiwawcza – opis dokumentu wyrażony w języku informacyjnym, charakteryzujący podstawową treść dokumentów lub inne cechy konieczne do odszukania tych dokumentów według instrukcji wyszukiwawczej.
+Potrzeby informacyjne użytkownika[edytuj]
+
+Służenie pomocą użytkownikom w odnajdywaniu informacji jest celem działalności informacyjnej. W procesie przepływu informacji pełni ona funkcję pośrednika między źródłem a odbiorcą. Przekazuje informacje lub dokumenty z informacjami w nich zawartymi użytkownikom, a od nich przyjmują dezyderaty wyrażające ich potrzeby informacyjne. Użytkownikiem może być osoba lub instytucja. Może być nim student przystępujący do egzaminu, początkujący pracownik naukowy lub zaawansowany badacz, naukowiec lub praktyk. Każdy z nich będzie mieć inne zapotrzebowania informacyjne, gdyż każdy z nich potrzebuje informacji w innym celu i na innym poziomie.
+Aby w pełni i skutecznie zaspokoić te zindywidualizowane zapotrzebowania informacyjne, centralnym punktem zainteresowania placówek i serwisów informacyjnych powinien być użytkownik ze swoimi wciąż zmieniającymi się potrzebami. Należy pamiętać, że nawet najlepiej, najpełniej, najtrafniej i najbardziej atrakcyjnie przygotowana informacja nie ma znaczenia, nim nie trafi do właściwego odbiorcy i zanim odbiorca nie przekształci się w użytkownika, wykorzystując otrzymane informacje. Potrzeby informacyjne są wielkościami dynamicznymi, zmieniającymi się oraz zróżnicowanymi, zależnymi od wielu czynników subiektywnych i obiektywnych.
+Czynniki subiektywne związane są z osobowością użytkownika, jego wiekiem, uzdolnieniami, poziomem i rodzajem wykształcenia, znajomością języków obcych, doświadczeniem, zainteresowaniami itp.
+Czynniki obiektywne to między innymi rodzaj i charakter pracy, pełnione funkcje, przeznaczenie wykorzystania informacji.
+Użytkowników można podzielić według wielu kryteriów: według rodzajów wykształcenia, wykonywanego zawodu (zajęcia), zajmowanych stanowisk (pełnionych funkcji), przygotowania do samodzielnego prowadzenia wyszukiwań, wieku, poziomu wykształcenia itd. Tak więc znajomość potrzeb informacyjnych odbiorców ma istotne znaczenie dla efektywności działalności informacyjnej. Od trafnego określenia tych potrzeb zależy w dużej mierze znalezienie właściwych możliwości ich zaspokojenia.
+Skuteczność wyszukiwania informacji[edytuj]
+
+Skuteczność efektów procesu poszukiwania można zmierzyć przy pomocy następujących wskaźników określających:
+kompletność odpowiedzi – wskazuje największą liczbę odpowiedzi z określonej bazy danych, które pasują do zapytania. Wskaźnik ten obliczany jest na podstawie ilorazu; liczby odpowiedzi spełniających kryterium wyszukiwania oraz liczby dokumentów istniejących w bazie danych × 100%;
+dokładność wyszukiwania – wskazuje stopień, w jakim wyświetlone wyniki pasują do zapytania. Dokładność obliczana jest na podstawie stosunku liczby wyników spełniających kryteria wyszukiwania do liczby wszystkich odpowiedzi × 100%;
+odpad – określany na podstawie ilorazu liczby wyników nie spełniających kryteriów wyszukiwania i liczby dokumentów z bazy danych nie pasujących do zapytania × 100%;
+trafność – ten wskaźnik określa stopień, w jakim dokument dotyczy interesującego tematu. Kryterium to wyznaczane jest przez użytkownika.
+Rodzaje poszukiwań[edytuj]
+
+Dwie podstawowe metody wyszukiwania to:
+wyszukiwanie faktograficzne – gdy poszukujemy konkretnego dokumentu o znanym autorze lub tytule (tj. chcemy ustalić jego lokalizację lub przynajmniej dowiedzieć się, czy jest w danym zbiorze), czy też obiektem poszukiwania są informacje na określony temat w niezidentyfikowanych jeszcze dokumentach. W sytuacji pierwszej należy sięgnąć do zbioru wyszukiwawczego, np. do katalogu w bibliotece.
+W razie niepowodzenia, jeśli okaże się że w danym zbiorze nie ma poszukiwanego dokumentu, można skorzystać z katalogów centralnych, zawierających informacje o zbiorach większej liczby bibliotek. Jeżeli dokument nie jest dostępny na terenie kraju, należy poszukiwać go przez zagraniczne drukowane katalogi czołowych bibliotek lub katalogi centralne i starać się o sprowadzenie dokumentu za pośrednictwem macierzystej biblioteki w ramach wypożyczeń międzybibliotecznych. Nieco trudniejsze jest wyszukiwanie rzeczowe, na określony temat. Jeżeli mają to być informacje ogólne, poszukiwania mogą się ograniczyć do przejrzenia encyklopedii lub słowników. Jeśli jednak informacja ma być szczegółowa, strategia wyszukiwawcza musi być bardziej skomplikowana. Tak jak w poprzedniej sytuacji warto zajrzeć do encyklopedii lub słowników, gdyż informacje tam zdobyte pozwolą nam umiejscowić przedmiot zainteresowania w systematyce nauk. Poszukiwania należy rozpocząć teraz od katalogów rzeczowych. Należy znaleźć termin odzwierciedlający obiekt zainteresowania, ustalić odpowiadające mu hasła i odszukać je w katalogu alfabetycznym.
+wyszukiwanie bibliograficzne – poszukiwania w bibliografiach należy zacząć od znalezienia odpowiedniej bibliografii specjalnej na dany temat. O bibliografiach specjalnych informują bibliografie bibliografii. Najpierw przeglądamy retrospektywne, następnie bieżące aż do ostatniego rocznika, który ukazał się w druku, natomiast lata nie objęte jeszcze bibliografią bibliografii uzupełniamy na podstawie bieżącej bibliografii narodowej. W ten sposób otrzymamy całość materiału i sprawdzimy, czy i jakie bibliografie ukazały się na interesujący nas temat. Jeżeli bibliografia specjalna nie istnieje, poszukiwania prowadzimy poprzez bibliografie ogólne, tj. bibliografie narodowe bieżące i retrospektywne. Przeglądanie bibliografii należy poprzedzić zorientowaniem się, jaki ma ona zakres tematyczny i jaki zasięg chronologiczny oraz zapoznaniem się z aparatem pomocniczym i układem bibliografii.
+Wskaźniki efektywności działań wyszukiwawczych są konsekwencją zastosowanych sposobów wyszukiwania informacji, z których najbardziej popularne to:
+wyszukiwanie według słów kluczowych – odnajdywanie dokumentów zawierających jedno lub kilka słów podanych w zapytaniu przez użytkownika;
+wyszukiwanie boolowskie – poszukiwanie dokumentów, które zawierają lub nie zawierają słów podanych w zapytaniu przy użyciu operatorów logicznych (AND, OR, NOT);
+wyszukiwanie koncepcyjne – polega na odnajdywaniu dokumentów znaczeniowo związanych z podanym słowem, lecz niekoniecznie użytym w ich tekście;
+szukanie frazy – poszukiwanie dokumentów zawierających ciąg wyrazów lub pełne zdanie wskazane poprzez użycie cudzysłowu;
+szukanie z określeniem sąsiedztwa słów – polega na określeniu odległości, w jakiej powinny się znaleźć w dokumencie podane słowa;
+szukanie rozmyte – dzięki zastosowaniu masek, np. *- zastępuje kilkuliterową końcówkę wyrazu, ? – zastępuje jeden znak, wykrywa zbieżność słów np. maskowanie końcówek czy niepoprawne wpisanie wyrazów;
+tezaurus – zbiór synonimów, których można używać, gdy wskazane słowa nie występują w dokumencie;
+szukanie dokumentów podobnych jest wyszukiwaniem dokumentów podobnych do dokumentów odnalezionych wcześniej;
+Jeżeli stosowane rodzaje wyszukiwania informacji nie zapewniają pożądanych efektów, użycie odpowiednich heurystyk może przyczynić się do zwiększenia liczby odwołań lub wzrostu precyzji odpowiedzi. Aby poprawić pierwszy z przytoczonych wyżej wskaźników efektywności działań wyszukiwawczych należy stosować reguły, które uwzględniają:
+dodawanie słownictwa specjalistycznego do wyrażeń pochodzących z języka naturalnego;
+wykorzystywanie dodatkowych synonimów połączonych operatorem OR;
+stosowanie terminów ścisłych.

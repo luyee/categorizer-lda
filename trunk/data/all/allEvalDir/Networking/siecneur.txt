@@ -1,0 +1,66 @@
+Sieć neuronowa (sztuczna sieć neuronowa) – ogólna nazwa struktur matematycznych i ich programowych lub sprzętowych modeli, realizujących obliczenia lub przetwarzanie sygnałów poprzez rzędy elementów, zwanych sztucznymi neuronami, wykonujących pewną podstawową operację na swoim wejściu. Oryginalną inspiracją takiej struktury była budowa naturalnych neuronów, łączących je synaps, oraz układów nerwowych, w szczególności mózgu.
+Czasem nazwą sztuczne sieci neuronowe określa się interdyscyplinarną dziedzinę wiedzy zajmującą się konstrukcją, trenowaniem i badaniem możliwości tego rodzaju sieci.
+Spis treści  [ukryj] 
+1 Typy sieci neuronowych
+1.1 Sieci jednokierunkowe
+1.2 Sieci rekurencyjne
+1.3 Samoorganizujące się mapy
+1.4 Inne
+2 Zastosowania
+3 Zobacz też
+4 Linki zewnętrzne
+5 Przypisy
+Typy sieci neuronowych[edytuj]
+
+Cechą wspólną wszystkich sieci neuronowych jest to, że na ich strukturę składają się neurony połączone ze sobą synapsami. Z synapsami związane są wagi, czyli wartości liczbowe, których interpretacja zależy od modelu.
+Sieci jednokierunkowe[edytuj]
+Sieci jednokierunkowe to sieci neuronowe, w których nie występuje sprzężenie zwrotne, czyli pojedynczy wzorzec lub sygnał przechodzi przez każdy neuron dokładnie raz w swoim cyklu. Najprostszą siecią neuronową jest pojedynczy perceptron progowy, opracowany przez McCullocha i Pittsa w roku 1943.
+W bardziej zaawansowanych rozwiązaniach stosuje się funkcje przejścia. Najpopularniejszą klasę funkcji stosowanych w sieciach neuronowych stanowią funkcje sigmoidalne, np. tangens hiperboliczny. Sieć zbudowana z neuronów wyposażonych w nieliniową funkcję przejścia ma zdolność nieliniowej separacji wzorców wejściowych. Jest więc uniwersalnym klasyfikatorem.
+Do uczenia perceptronów wielowarstwowych stosuje się algorytmy spadku gradientowego, między innymi algorytm propagacji wstecznej.
+Sieci jednokierunkowe dzielą się na jednowarstwowe, dwuwarstwowe i wielowarstwowe. Sieci jednowarstwowe mogą rozwiązać jedynie wąską klasę problemów. Sieci dwu i wielowarstwowe mogą rozwiązać znacznie szerszą klasę i są pod tym względem równoważne, jednak stosuje się do nich inne algorytmy uczenia (dla wielowarstwowych są one prostsze).
+Sieci rekurencyjne[edytuj]
+Mianem sieci rekurencyjnej określa się sieć, w której połączenia między neuronami stanowią graf z cyklami. Wśród różnorodności modeli rekurencyjnych sztucznych sieci neuronowych wyróżnić można:
+sieć Hopfielda – układ gęsto połączonych ze sobą neuronów (każdy z każdym, ale bez połączeń zwrotnych) realizującą dynamikę gwarantującą zbieżność do preferowanych wzorców
+maszyna Boltzmanna – opracowana przez Geoffa Hintona i Terry'ego Sejnowskiego stochastyczna modyfikacja sieci Hopfielda; modyfikacja ta pozwoliła na uczenie neuronów ukrytych i likwidację wzorców pasożytniczych kosztem zwiększenia czasu symulacji.
+Sieci Hopfielda i maszyny Boltzmanna stosuje się jako pamięci adresowane kontekstowo, do rozpoznawania obrazów, rozpoznawania mowy, a także do rozwiązywania problemów minimalizacji (np. problemu komiwojażera).
+Samoorganizujące się mapy[edytuj]
+ Osobny artykuł: Sieć Kohonena.
+Samoorganizujące się mapy (Self Organizing Maps, SOM), zwane też sieciami Kohonena, to sieci neuronów, z którymi są stowarzyszone współrzędne na prostej, płaszczyźnie lub w dowolnej n-wymiarowej przestrzeni.
+Uczenie tego rodzaju sieci polega na zmianach współrzędnych neuronów, tak, by dążyły one do wzorca zgodnego ze strukturą analizowanych danych. Sieci zatem "rozpinają się" wokół zbiorów danych, dopasowując do nich swoją strukturę.
+Sieci te stosowane są do klasyfikacji wzorców, np. głosek mowy ciągłej, tekstu, muzyki. Do najciekawszych zastosowań należy rozpinanie siatki wokół komputerowego modelu skanowanego obiektu.
+Inne[edytuj]
+Popularnymi modelami są również maszyny wektorów wspierających (SVM), sieci oparte na radialnych funkcjach bazowych (sieci radialne, RBF) i sieci przesyłające żetony (ang. counter-propagation neural networks). Stosunkowo nowym modelem są sieci oparte na neuronach impulsujących.
+Zastosowania[edytuj]
+
+
+W treści tej sekcji hasła występują prawdopodobnie wyrażenia zwodnicze, co nie jest zgodne z zasadami przyjętymi w Wikipedii.
+
+Ta sekcja od 2010-06 wymaga uzupełnienia źródeł podanych informacji.
+Informacje nieweryfikowalne mogą zostać zakwestionowane i usunięte.
+Aby uczynić sekcję weryfikowalną, należy podać przypisy do materiałów opublikowanych w wiarygodnych źródłach.
+Adnotacja: W szczególności zastosowania według "Magazynu Byte"..
+Współcześnie nie ma wątpliwości, że sztuczne sieci neuronowe nie stanowią dobrego modelu mózgu[potrzebne źródło], choć różne ich postaci wykazują cechy charakterystyczne dla biologicznych układów neuronowych: zdolność do uogólniania wiedzy, uaktualniania kosztem wcześniej poznanych wzorców, dawanie mylnych odpowiedzi po przepełnieniu[potrzebne źródło]. Mimo uproszczonej budowy sztuczne sieci neuronowe stosuje się czasem do modelowania schorzeń mózgu[potrzebne źródło].
+Sztuczne sieci neuronowe znajdują zastosowanie w rozpoznawaniu i klasyfikacji wzorców (przydzielaniu wzorcom kategorii), predykcji szeregów czasowych, analizie danych statystycznych, odszumianiu i kompresji obrazu i dźwięku oraz w zagadnieniach sterowania i automatyzacji.
+Magazyn BYTE wymienia między innymi następujące zastosowania tych sieci:
+diagnostyka układów elektronicznych
+badania psychiatryczne
+prognozy giełdowe
+prognozowanie sprzedaży
+poszukiwania ropy naftowej
+interpretacja badań biologicznych
+prognozy cen
+analiza badań medycznych
+planowanie remontów maszyn
+planowanie postępów w nauce
+analiza problemów produkcyjnych
+optymalizacja działalności handlowej
+analiza spektralna
+optymalizacja utylizacji odpadów
+dobór surowców
+selekcja celów śledztwa w kryminalistyce
+dobór pracowników
+sterowanie procesów przemysłowych.[1]
+Najpopularniejsze obecnie zastosowanie sieci neuronowych[potrzebne źródło]:
+w programach do rozpoznawania pisma (OCR)
+na lotniskach do sprawdzania, czy prześwietlony bagaż zawiera niebezpieczne ładunki
+do syntezy mowy.

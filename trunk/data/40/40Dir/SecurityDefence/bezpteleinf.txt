@@ -1,0 +1,135 @@
+Bezpieczeństwo teleinformatyczne – zbiór zagadnień z dziedziny telekomunikacji i informatyki związany z szacowaniem i kontrolą ryzyka wynikającego z korzystania z komputerów, sieci komputerowych i przesyłania danych do zdalnych lokalizacji, rozpatrywany z perspektywy poufności, integralności i dostępności.
+Budowanie bezpiecznych systemów teleinformatycznych i aplikacji jest celem starań projektantów sieciowych i programistów, a także przedmiotem studiów teoretycznych, zarówno w dziedzinie telekomunikacji oraz informatyki, jak i ekonomii. Zaowocowało to opracowaniem metod oceny bezpieczeństwa i kontrolowania zagrożeń, których przegląd znajduje się poniżej. Mimo tych starań, ze względu na złożoność i czasochłonność wielu spośród proponowanych procesów, luki zabezpieczeń stanowią jednak poważny i wymierny problem dla użytkowników sieci teleinformatycznych.
+Spis treści  [ukryj] 
+1 Teoria i praktyka bezpiecznych systemów komputerowych
+2 Geneza błędów zabezpieczeń
+2.1 Błędy projektowe
+2.2 Błędy implementacyjne
+2.3 Błędy konfiguracyjne
+2.4 Błędy operatora
+2.5 Spory dotyczące kategoryzacji
+3 Projektowanie z myślą o bezpieczeństwie
+3.1 Odpowiednia budowa protokołów i interfejsów
+3.2 Wybór metod programistycznych
+3.3 Testowanie jakości aplikacji
+3.3.1 Przegląd kodu źródłowego
+3.3.2 Testy typu czarna skrzynka
+3.3.3 Testy siłowe
+3.4 Formalne dowodzenie poprawności
+4 Zarządzanie bezpieczeństwem
+4.1 Ograniczanie interakcji
+4.2 Ograniczanie uprawnień
+4.3 Rozliczalność i nadzór operacyjny
+5 Stan faktyczny
+6 Kontrowersje wokół produktów
+6.1 Pomiar bezpieczeństwa
+6.2 Pomiar wagi błędów w systemach
+6.3 Niezrozumiała terminologia
+6.4 Zrzekanie się odpowiedzialności
+6.5 Tryb informowania o błędach
+7 Przypisy
+8 Zobacz też
+9 Linki zewnętrzne
+Teoria i praktyka bezpiecznych systemów komputerowych[edytuj]
+
+Według powszechnie przytaczanej definicji, prawdziwie bezpieczny system teleinformatyczny jest wyidealizowanym urządzeniem, które poprawnie i w całości realizuje tylko i wyłącznie cele zgodne z intencjami właściciela[1].
+W praktyce, budowa skomplikowanego systemu spełniającego te założenia jest z reguły niemożliwa. Dzieje się tak nie tylko ze względu na ryzyko wystąpienia prozaicznych usterek i błędów, ale także na trudność określenia i sformalizowania często sprzecznych oczekiwań projektanta oprogramowania, programisty, prawowitego właściciela systemu, posiadacza przetwarzanych danych, czy w końcu użytkownika końcowego. Nawet po ich określeniu, w wielu przypadkach trudne lub niemożliwe jest też automatyczne dowiedzenie, że dany program spełnia sformalizowane oczekiwania. Z tych względów, zapewnianie bezpieczeństwa sprowadza się najczęściej do całościowego zarządzania ryzykiem: określane są potencjalne zagrożenia, szacowane prawdopodobieństwo ich wystąpienia, oceniany potencjał strat – a następnie podejmowane są kroki zapobiegawcze w zakresie, który jest racjonalny z uwagi na możliwości techniczne i względy ekonomiczne.
+Geneza błędów zabezpieczeń[edytuj]
+
+Sytuacje, w których oprogramowanie nie realizuje prawidłowo funkcji zamierzonych przez autora oraz właściciela systemu, towarzyszą ludziom od zarania dziejów informatyki, często prowadząc do kosztownych wypadków i tragedii. Do przykładów można zaliczyć utratę sondy NASA Mariner 1 w 1962 na skutek błędu w kodzie napisanym w języku FORTRAN, czy śmierć pacjentów na skutek wadliwego oprogramowania maszyn Therac-25 w latach 80.
+Szczególnie w dobie łączności modemowej, sieci rozległych i Internetu, problemem stały się także sytuacje, w których chociaż oprogramowanie działa zgodnie z oczekiwaniami autora i właściciela systemu, pozwala oprócz tego osobom trzecim na interakcję z systemem w zakresie, który nie był zamierzony ani oczekiwany. Takie zachowanie określane jest jako błąd zabezpieczeń.
+Scenariusze, które mogą prowadzić do nieautoryzowanego wykorzystania systemu są dzielone na kilka grup, w zależności od swego pochodzenia.
+Błędy projektowe[edytuj]
+Termin ten opisuje sytuacje, w których założenia dla oprogramowania opierały się na błędnych przesłankach, na przykład na mylnym rozumieniu zasad funkcjonowania sieci komputerowych i budowy wykorzystywanych protokołów komunikacyjnych. Do takich błędów można zaliczyć wykorzystanie szyfrów podatnych na ataki, jak miało to miejsce w przypadku protokołu Needhama-Schroedera użytego w usłudze Kerberos; a także nieprawidłowy dobór mechanizmów uwierzytelniania, czy pełne zaufanie informacjom przesyłanym przez klienta w architekturze klient-serwer. Ich skutkiem może być sytuacja, w której nie można ufać wynikom pracy aplikacji i integralności przetwarzanych przez nią danych.
+Błędy implementacyjne[edytuj]
+Do tej grupy zaliczają się wszelkie pomyłki techniczne popełniane przez programistów na skutek ich niewiedzy lub nieuwagi. Przykładem jest niewystarczające sprawdzanie parametrów lub wyników działania wywołań systemowych, co może prowadzić do podatności na ataki typu przepełnienie bufora, nadużycie szablonu formatowania funkcji *printf() (ang. format string attack) czy przekroczenie zakresu liczb całkowitych. Częstym efektem błędów implementacyjnych jest możliwość przejęcia pełnej kontroli nad procesem przez osoby niepowołane oraz możliwość bezpośredniej interakcji z systemem operacyjnym.
+Błędy konfiguracyjne[edytuj]
+Kategoria ta obejmuje pomyłki popełniane przez administratorów, którzy przygotowują oprogramowanie do wykorzystania przez użytkowników. Mogą one powstawać na skutek niezrozumienia dokumentacji lub sposobu działania aplikacji, albo zwykłej niestaranności. Przykładem może być ustawienie trywialnych haseł dla uprzywilejowanych kont, albo udostępnienie zbędnej funkcjonalności bez adekwatnej kontroli dostępu.
+Błędy operatora[edytuj]
+ Zobacz też: inżynieria społeczna (informatyka).
+Do tej klasy zaliczają się zachowania użytkowników, którzy nie rozumieją w pełni funkcji oprogramowania i zasad działania systemów komputerowych. Przykładem może być uruchamianie załączników od niepewnych nadawców przysłanych w poczcie elektronicznej, ignorowanie komunikatów ostrzegawczych, przypadkowa zmiana opcji programu, ale także np. utrata nośnika z kopią zapasową danych.
+Warto zaznaczyć, że beztroska ze strony użytkowników jest zwykle bardzo poważnym problemem – na przykład, według głośnych swego czasu badań, ponad 70% ankietowanych deklaruje wolę wymiany swoich haseł do systemów komputerowych za tabliczkę czekolady[2].
+Spory dotyczące kategoryzacji[edytuj]
+Dwie ostatnie grupy błędów są przedmiotem trwających debat. Część specjalistów uważa, że winą za nieprawidłowe konfigurowanie i używanie oprogramowania nie można obarczać autora systemu, i w związku z tym nie powinny być rozpatrywane jako techniczne problemy zabezpieczeń. Inny pogląd mówi jednak, że zgodnie z zasadą minimalnego zaskakiwania (ang. principle of least astonishment), jeśli program sprzyja popełnianiu błędów przez użytkownika lub administratora na skutek oferowania nieintuicyjnej funkcjonalności, jest to usterka w samym oprogramowaniu[3].
+Projektowanie z myślą o bezpieczeństwie[edytuj]
+
+Istnieją dwa podstawowe nurty w walce z zagrożeniami bezpieczeństwa. Pierwszym z nich jest możliwie skuteczne zapobieganie powstawaniu takich usterek. Chociaż wyeliminowanie błędów zabezpieczeń w skomplikowanych systemach teleinformatycznych jest w praktyce niemożliwe (lub przynajmniej nieekonomiczne), zaproponowano szereg metod, które pozwalają na zredukowanie ryzyka pomyłek przy tworzeniu oprogramowania.
+Opracowane zostało wiele międzynarodowych standardów opisujących metody oceny bezpieczeństwa architektury systemów teleinformatycznych. Przykładem są normy Common Criteria ISO/IEC 15408[4], ITSEC czy FIPS, częściowo wywodzące się z dokumentu TCSEC opracowanego przez Departament Obrony Stanów Zjednoczonych. Poniżej znajduje się omówienie kluczowych zagadnień, które zwykle rozpatrywane są przy takich ewaluacjach.
+Odpowiednia budowa protokołów i interfejsów[edytuj]
+W odróżnieniu od drobnych błędów programistycznych, wybór nieprawidłowej i podatnej na ataki architektury rozwiązania często jest problemem, którego skorygowanie okazuje się niezwykle czasochłonne i wymaga znacznych nakładów finansowych. Co więcej, w niektórych przypadkach, na przykład przy nieprawidłowej interpretacji zagrożeń związanych z architekturami klient-serwer, skorygowanie problemu może być po prostu niemożliwe. Typowym przykładem są współczesne kłopoty ze spamem, które w dużej mierze wynikają z historycznej, przyjętej w 1982 roku budowy protokołu SMTP. Ze względu na popularność i znaczenie tego protokołu, znacząca modyfikacja SMTP jest dziś w praktyce niewykonalna.
+Podobne zasady dotyczą interfejsów użytkownika – gdy zaprojektowane są w nieintuicyjny i niekonsekwentny sposób, sprzyjają popełnianiu błędów przez operatora. Późniejsze skorygowanie tych błędów może być bardzo trudne.
+W związku z tym, zrozumienie i analiza zagrożeń na etapie projektowania platformy są zwykle wymieniane jako kluczowy element budowy bezpiecznych rozwiązań teleinformatycznych[5][6]. W praktyce problem ten jest często zaniedbywany.
+Wybór metod programistycznych[edytuj]
+
+
+Schemat automatu skończonego, jednej z metod budowania weryfikowalnego kodu
+Na skutek zmęczenia lub pośpiechu, nawet najlepiej wyszkoleni i doświadczeni programiści mogą popełniać rudymentarne, oczywiste dla innych błędy. Świadczy o tym choćby odnalezienie wielu podatności w tworzonych przez ekspertów programach OpenSSL[7] czy OpenSSH[8]. Pewne sposoby tworzenia aplikacji, przez swoją złożoność lub brak wsparcia dla dodatkowej kontroli kodu, naturalnie sprzyjają pomyłkom tego typu.
+Aby zapobiegać temu zjawisku, stworzono języki, które w odróżnieniu od np. C++ lub Javy, wymagają od programistów przestrzegania ścisłego rygoru pracy, zmierzającego do wyeliminowania ryzykownych struktur programistycznych. Przykładem takiego języka jest Ada. Postuluje się także liczne bezpieczne metody programistyczne oraz stosowanie niewielkich, przejrzystych i łatwych do weryfikacji bloków funkcjonalnych pracujących jako możliwie niezależne automaty skończone.
+Metody te wymagają dodatkowego przeszkolenia programistów i podnoszą koszty oraz czasochłonność wdrożeń, przez co ich zastosowanie komercyjne jest znikome.
+Testowanie jakości aplikacji[edytuj]
+Procesy zapewniania jakości mogą i niemal zawsze powinny uwzględniać także weryfikację bezpieczeństwa zaimplementowanych rozwiązań technologicznych. Podstawowe metody prowadzenia takich analiz są omówione poniżej.
+Przegląd kodu źródłowego[edytuj]
+Przegląd kodu źródłowego to procedura polegająca na inspekcji kodu w poszukiwaniu potencjalnie niebezpiecznych konstrukcji lub oczywistych pomyłek. Może być przeprowadzona ręcznie przez doświadczonego specjalistę, lub dokonana ze wsparciem narzędzi automatycznych (Flawfinder, Splint, Cqual i inne). Często stosowaną nazwą tego drugiego wariantu jest statyczna analiza kodu. W obu przypadkach, zaletą jest wysoka skuteczność, wadą natomiast pozostaje wysoki koszt zatrudnienia eksperta oraz czasochłonność procesu.
+Testy typu czarna skrzynka[edytuj]
+Termin ten opisuje badania zachowania programu binarnego lub platformy, bez dodatkowej wiedzy o sposobie wewnętrznej konstrukcji programu. Może być przeprowadzona ręcznie, często przy wykorzystaniu odpluskwiaczy (ang. debuggerów) lub – w pewnych sytuacjach – za pomocą specjalizowanych skanerów zabezpieczeń (Nmap, Nessus, WebInspect, itp). Zaletą jest możliwość zlecenia takich badań osobie trzeciej bez konieczności przekazania jej kodu źródłowego. Wadą jest trudność w diagnozowaniu subtelnych problemów implementacyjnych.
+Testy siłowe[edytuj]
+To działania przeprowadzane za pomocą narzędzi zautomatyzowanego losowego testowania (ang. fuzzing). Polegają na generacji przypadkowych danych wejściowych i obserwowaniu zachowania programu. Zaletą jest pełna automatyzacja procesu i możliwość ujawnienia bardzo złożonych błędów, np. wynikających z interakcji z systemem operacyjnym. Ich wadą jest niekompatybilność z bardziej skomplikowanymi protokołami komunikacyjnymi (co może prowadzić do odrzucenia wszelkich losowo wygenerowanych sekwencji na bardzo wczesnym etapie obróbki danych przez program).
+Najlepsze efekty daje zwykle połączenie kilku spośród tych metod.
+Formalne dowodzenie poprawności[edytuj]
+Dającą potencjalnie największe możliwości, ale współcześnie wciąż nieosiągalną metodą weryfikacji bezpieczeństwa programów jest formalne dowodzenie ich poprawności [9]. W teorii przy szczegółowym opisie oczekiwanego zachowania aplikacji lub platformy oraz danym algorytmie jej działania istnieje potencjalna możliwość wykorzystania systemów automatycznego dowodzenia twierdzeń do zbadania, czy napisany kod spełnia oczekiwania autora.
+Temat ten jest obszarem intensywnych prac badawczych, powstały też pewne rozwiązania, których poprawność udowodniono matematycznie. Do przykładów zaliczyć można proste mikrojądro systemu Coyotos, czy Extremely Reliable Operating System. W praktyce jednak, ze względu na stopień skomplikowania typowych programów komercyjnych i zakres ich interakcji z komponentami zewnętrznymi, trudność sformalizowania specyfikacji oprogramowania oraz problem stopu, poza szczególnymi przypadkami takie metody są nieefektywne.
+Zarządzanie bezpieczeństwem[edytuj]
+
+Drugą strategią zapewnienia bezpieczeństwa systemów teleinformatycznych jest budowanie ich w sposób, który ogranicza ewentualne problemy wynikające z naruszenia zabezpieczeń lub niepożądanej aktywności uprawnionego użytkownika. Takie podejście staje się szczególnie istotne w przypadku utrzymywania dużej infrastruktury o zastosowaniu komercyjnych, na przykład w firmach i organizacjach rządowych. Celem zarządzania bezpieczeństwem jest tam zminimalizowanie potencjalnych strat i umożliwienie szybkiej i sprawnej identyfikacji problemów.
+Istnieje wiele standardów dotyczących tego procesu. Jednym z bardziej popularnych i szczegółowych przykładów jest dwuczęściowa brytyjska norma BS 7799, Information technology – Code of practice for information security management oraz Information Security Management Systems – Specification with guidance for use. Norma ta została później zaadoptowana przez ISO jako ISO/IEC 17799:2003 oraz ISO/IEC 27001:2005. Polskimi odpowiednikami są PN-ISO/IEC 17799:2007 oraz PN-ISO/IEC 27001:2007.
+Poniżej znajduje się omówienie podstawowych zagadnień technicznych poruszanych przy zarządzaniu bezpieczeństwem.
+Ograniczanie interakcji[edytuj]
+
+
+Zapora sieciowa ogranicza dostęp do usług sieciowych
+Jednym z ważniejszych narzędzi w zarządzaniu bezpieczeństwem jest ograniczanie do niezbędnego minimum zakresu możliwej interakcji między użytkownikami i systemami, oraz pomiędzy poszczególnymi komponentami platformy. Istnieją dwa argumenty przemawiające za taką praktyką: pierwszy mówi, że im mniejsza jest objętość kodu, z którą użytkownik lub inny system może bezpośrednio oddziaływać, tym statystycznie mniej błędów programistycznych może zostać wykorzystane. Drugi wskazuje, że gdy dojdzie do przełamania zabezpieczeń jednego z komponentów systemu, ogranicza to zbiór systemów, które mogłyby bezpośrednio paść ofiarą dalszych ataków, więc muszą stać się przedmiotem kosztownej i czasochłonnej analizy.
+Czterema podstawowymi metodami ograniczenia zakresu interakcji są:
+dobrane do zastosowania, minimalistyczne projektowanie protokołów, unikanie łączenia diametralnie różnych funkcjonalności w ramach jednego rozwiązania;
+separacja komponentów logicznych platformy tak, by zdobycie uprawnień administratora na jednym komputerze nie oznaczało całkowitej utraty kontroli nad systemami;
+wyłączanie zbędnych usług sieciowych na platformach.
+Stosowanie zapór sieciowych do segmentacji sieci.
+Ograniczanie uprawnień[edytuj]
+Inną istotną zasadą jest ograniczanie uprawnień nadawanych użytkownikom i innym systemom do najniższego, uzasadnionego realizowanymi celami poziomu, oraz taki podział kompetencji, by sfinalizowanie istotnych procesów biznesowych (na przykład: zarejestrowanie nowego dostawcy towaru, wprowadzenie faktury, czy autoryzowanie przelewu) wymagało współpracy kilku osób. Cel ten można osiągnąć między innymi za pomocą mechanizmów ACL.
+Taka architektura redukuje ryzyko celowych nadużyć, zmniejsza szkody spowodowane przez naruszenie bezpieczeństwa pojedynczego konta lub systemu i wymaga spisku ze strony kilku pracowników w przypadku woli działania na szkodę operatora systemu, co jest zdecydowanie mniej prawdopodobne, niż indywidualne próby nadużyć.
+Rozliczalność i nadzór operacyjny[edytuj]
+Odpowiedni poziom rozliczalności i logowania działań użytkowników, a także monitorowanie tworzonych rejestrów pracy i wykrywanie innych nieprawidłowości (program antywirusowy, IDS, i tym podobnych) jest kluczowym elementem nadzorowania bezpieczeństwa. Pozwalana on na reagowanie na problemy zanim włamywacz zdecyduje się na ujawnienie swojej obecności (np. przez skasowanie danych lub podmianę strony), oraz zanim atak doprowadzi do destabilizacji systemu lub innych zauważalnych symptomów zewnętrznych.
+Powiązanym zagadnieniem jest audyt wewnętrzny.
+Stan faktyczny[edytuj]
+
+Zgodnie ze sformułowaniem jednego z czołowych specjalistów w dziedzinie bezpieczeństwa IT, Bruce Schneiera, bezpieczeństwo to proces, nie produkt [10]. Zapewnienie bezpieczeństwa nie jest prostym zadaniem i wymaga ciągłych nakładów pracy, planowania, oraz edukacji użytkowników, co nie w każdym środowisku jest wykonalne. Co więcej, w wielu sytuacjach bezpieczeństwo nie jest postrzegane jako priorytet – specjaliści, w tym także Schneier, często przytaczają osławione twierdzenie o tańczących świnkach:
+„	
+Musząc wybrać między obejrzeniem tańczących świnek a bezpieczeństwem, użytkownicy za każdym razem zdecydują się na świnki.
+”
+— Edward Felten, Gary McGraw, Securing Java[11]
+Zasada ta może wydawać się humorystyczna, ale została w pewnym stopniu zweryfikowana empirycznie – w jednym ze studiów, użytkownicy byli bardziej skłonni zaufać "uroczej" stronie prezentującej animację z tańczącymi zwierzętami, niż wielu innym witrynom spreparowanym przez badaczy[12].
+Z tych powodów, mimo znaczącej wiedzy, którą zgromadzono w ostatnich dziesięcioleciach na temat teoretycznych i praktycznych aspektów bezpieczeństwa teleinformatycznego, liczba stwierdzanych poważnych problemów każdego roku wzrasta, i staje się coraz poważniejszym problemem dla użytkowników komputerów, wymagając nieustannej aktualizacji oprogramowania i szczególnej ostrożności przy korzystaniu z Internetu.
+Według badań magazynu InformationWeek oraz firmy konsultingowej Accenture, w 2006 blisko 57% firm doświadczyło problemów z wirusami komputerowymi, 34% z robakami, 18% padło ofiarą ataków DoS, 9% doświadczyło włamań sieciowych, a 8% padło ofiarą kradzieży tożsamości[13]. Dzieje się tak mimo wydatków na bezpieczeństwo sięgających 10% całkowitego budżetu IT.
+Z podobnymi problemami spotykają się użytkownicy indywidualni, których komputery są masowo wykorzystywane jako zombie do ataków DDoS, wysyłania spamu, i innej niepożądanej aktywności. Poważnym problemem staje się też podszywanie się (ang. phishing) – forma inżynierii społecznej wykorzystująca naiwność użytkowników i brak pełnego zrozumienia technologii, by podstępem uzyskać potencjalnie wartościowe dane, takie jak numery kart kredytowych czy inne dane identyfikacyjne (patrz ilustracja).
+Dodatkowy niepokój budzi fakt, że w ostatnich latach celem ataków stają się także coraz bardziej zaawansowane technologicznie telefony komórkowe, konsole gier wideo, systemy obsługujące infrastrukturę telekomunikacyjną, i inne platformy, które dotychczas nie były postrzegane jako źródła zagrożeń.
+Kontrowersje wokół produktów[edytuj]
+
+Ponieważ wielu użytkowników obawia się o bezpieczeństwo swoich danych i prywatność podczas korzystania z Internetu, bezpieczeństwo stało się argumentem marketingowym, często przywoływanym przez producentów oprogramowania komercyjnego, a także przedmiotem wielu analiz porównawczych. Takie postępowanie rodzi jednak wiele kontrowersji, a dotychczasowe obietnice producentów nie przekładają się na zauważalną redukcję liczby obserwowanych włamań, mimo że ok. 90% użytkowników komputerów używa oprogramowania mającego chronić przed atakami[14].
+Najbardziej kontrowersyjne debaty związane z praktykami dostawców oprogramowania opisano poniżej.
+Pomiar bezpieczeństwa[edytuj]
+Termin "pomiar bezpieczeństwa" wywołuje wiele dyskusji ze względu na brak jednoznacznej definicji pojęcia "bezpieczeństwo", co z kolei jest źródłem sporów dotyczących metodologii pomiarowych. Krzysztof Liderman z WAT proponuje następującą definicję[15]:
+Bezpieczeństwo teleinformatyczne oznacza poziom uzasadnionego (np. analizą ryzyka) zaufania, że potencjalne straty wynikające z niepożądanego (przypadkowego lub świadomego) ujawnienia, modyfikacji, zniszczenia lub uniemożliwienia przetwarzania informacji przechowywanej i przesyłanej za pomocą systemów teleinformatycznych nie zostaną poniesione
+Przykładem działań mających na celu ocenę stanu ochrony teleinformatycznej jest audyt informatyczny.
+Pomiar wagi błędów w systemach[edytuj]
+Nie ma pośród ekspertów konsensusu, jak porównywać poziom bezpieczeństwa dwóch aplikacji lub systemów. To prowadzi do stosowania wielu kontrowersyjnych miar, często podporządkowanych tezie, którą próbuje udowodnić autor. Szczególne wątpliwości budzą porównania opierające się na zliczaniu błędów bez uwzględnienia ich faktycznej wagi i ryzyka, które się z nim wiąże; a także zliczanie wyłącznie błędów potwierdzonych i poprawionych przez producenta, w sytuacji, gdy różni producenci mają odmienne kryteria grupowania problemów, i inne zasady powiadamiania o problemach, które wykryli i poprawili we własnym zakresie. Przykładem takiego kontrowersyjnego porównania była sponsorowana przez firmę Microsoft analiza, która wykazała, że Linux jest bardziej podatny na ataki, niż Windows[16].
+W celu ujednolicenia metodyki pomiaru wagi błędów stworzono CVSS (Common Vulnerability Scoring System)[17], który jest wzorem pozwalającym na wyliczenie bezwzględnej wagi błędu na podstawie jego cech systematycznych. Na końcową wagę CVSS mają wpływ trzy wartości pośrednie:
+Miara podstawowa (Base CVSS) wynikająca z tych cech błędu, które wspólnych dla wszystkich podatnych implementacji i niezmiennych w czasie (np. możliwość zdalnego wykorzystania błędu, brak konieczności uwierzytelnienia).
+Miara zmienna w czasie (Temporal CVSS) biorąca pod uwagę czynniki powstające po publikacji informacji o błędzie - np. początkowy brak exploita i późniejsze jego pojawienie się.
+Miara środowiskowa (Environmental CVSS) uwzględniająca lokalną specyfikę w konkretnym systemie teleinformatycznym. Miara ta jest ustalana indywidualnie przez każdą organizację.
+CVSS jest stosowany m.in. w katalogach błędów (CVE) oraz przez producentów komercyjnych skanerów podatności (np. Qualys).
+Niezrozumiała terminologia[edytuj]
+Innym problemem sygnalizowanym przez ekspertów jest celowe stosowanie przez dostawców usług i oprogramowania niejasnego lub mylącego nazewnictwa. Wiele reklam banków internetowych i sklepów on-line sugeruje, że dane użytkowników pozostają bezpieczne ze względu na wykorzystanie technologii kryptograficznych takich jak SSL do komunikacji z klientem. W praktyce, technologie te zapobiegają tylko bardzo wąskiej grupie problemów i nie świadczą w żaden sposób o tym, że relatywnie trudniej będzie osobie postronnej przełamać zabezpieczenia witryny by – na przykład – uzyskać kopię bazy z danymi osobowymi lub numerami kart kredytowych.
+Nawet w przypadku, gdy opracowana przez specjalistów terminologia używana jest prawidłowo, często okazuje się ona zbyt skomplikowana: ikona zamkniętej kłódki, zaprojektowana jako intuicyjny komunikat dla użytkownika i wyświetlana przez niemal wszystkie przeglądarki WWW, została z powodzeniem "zaadoptowana" przez autorów złośliwego oprogramowania do mamienia ofiar[18].
+Zrzekanie się odpowiedzialności[edytuj]
+Kolejną praktyką budzącą znaczne kontrowersje jest zrzekanie się przez niemal wszystkich producentów oprogramowania jakiejkolwiek odpowiedzialności za straty spowodowane przez błędy zabezpieczeń, wliczając w to przypadki celowych zaniedbań ze strony autora. Niektórzy specjaliści, ze Schneierem na czele, argumentują, że jedynym sposobem podniesienia jakości oprogramowania jest wprowadzenie ustawowej odpowiedzialności na wzór regulacji w przemyśle samochodowym[19], gdzie producent ponosi niezbywalną odpowiedzialność cywilną i karną za nieprawidłowości, którym mógł zapobiec.
+Tryb informowania o błędach[edytuj]
+Tematem, który często dzieli dostawców oraz badaczy zabezpieczeń jest sposób, w jaki opinia publiczna powinna być informowana o błędach. Dostawcy zamkniętego oprogramowania zwykle uważają, że informacje takie powinny być publikowane z opóźnieniem i w ograniczonej formie, lub też nie publikowane wcale; wielu badaczy uważa natomiast, że użytkownicy mają prawo wiedzieć o problemach tak szybko, jak to możliwe, i że tylko taki sposób postępowania wymusza odpowiednią reakcję na producentach[20]. Spory tego typu czasem kierowane są na drogę sądową. Zagadnienie to omówione jest szczegółowo w artykule pełna otwartość.
