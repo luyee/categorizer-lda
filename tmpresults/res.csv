@@ -1,0 +1,1115 @@
+categorizer-lda
+wrapper script on mallet and malletmodelcreator
+using dataset /home/kacper/dev/categorizer-lda/data/all
+trained for 80 topics 
+0: 0.6575052854122622	1: 0.8583509513742071	2: 0.927061310782241	5: 0.9566596194503171	7: 0.9608879492600423	10: 0.9630021141649049	2: 0.85835095137420715:0.9545454545454546
+
+------------------------------------------------
+
+pieniadz.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, RealEstate, Development, Erotica, Humor, Sexuality, Society, AdventureSurvival, Economics, MediaCommunication]	
+ 
+bankowelektr.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, RealEstate, Networking, Erotica, MediaCommunication, AdventureSurvival, Humor, Development, ComputerScience, ManagementLeadership]	
+ 
+bank.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, RealEstate, Development, Erotica, Economics, Humor, ManagementLeadership, AdventureSurvival, MediaCommunication, Sexuality]	
+ 
+banknot.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, RealEstate, Erotica, Humor, AdventureSurvival, MediaCommunication, Romance, Sexuality, Development, GraphicsDesign]	
+ 
+bankcentralny.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, RealEstate, Economics, Development, ManagementLeadership, MarketingSales, Erotica, Humor, AdventureSurvival, GraphicsDesign]	
+ 
+pienelektr.txt	0 1 1 1 1 1 [AccountingBankingMoney]	[RealEstate, AccountingBankingMoney, Erotica, Humor, AdventureSurvival, Development, Sexuality, MediaCommunication, Romance, GraphicsDesign]	
+ 
+------------------------------------------------
+
+palkiewicz.txt	0 1 1 1 1 1 [AdventureSurvival]	[GeographyTravel, AdventureSurvival, AustralianOceanianHistory, Humor, Erotica, MediaCommunication, AfricanHistory, Romance, EnvironmentClimateMeteorology, Sexuality]	
+ 
+czlowiek.txt	0 0 1 1 1 1 [AdventureSurvival]	[ScienceFiction, ThrillerMysteryCrime, AdventureSurvival, Horror, Erotica, GeographyTravel, AustralianOceanianHistory, Romance, Humor, EnvironmentClimateMeteorology]	
+ 
+harcer.txt	0 1 1 1 1 1 [AdventureSurvival]	[WorldPolitics, AdventureSurvival, Erotica, GeographyTravel, Humor, MediaCommunication, Romance, AfricanHistory, GraphicsDesign, Sexuality]	
+ 
+sztukaprzetrw.txt	1 1 1 1 1 1 [AdventureSurvival]	[AdventureSurvival, Erotica, MediaCommunication, Sexuality, Humor, Development, Society, Education, ManagementLeadership, Culture]	
+ 
+grylls.txt	1 1 1 1 1 1 [AdventureSurvival]	[AdventureSurvival, Humor, Erotica, Romance, GeographyTravel, Horror, FairyTalesMythsFables, MediaCommunication, Sexuality, AfricanHistory]	
+ 
+komandos.txt	0 1 1 1 1 1 [AdventureSurvival]	[Erotica, AdventureSurvival, Horror, Humor, Romance, GeographyTravel, GraphicsDesign, FairyTalesMythsFables, MediaCommunication, Sexuality]	
+ 
+------------------------------------------------
+
+rpa.txt	0 1 1 1 1 1 [AfricanHistory]	[NorthAmericanHistory, AfricanHistory, AustralianOceanianHistory, GeographyTravel, AdventureSurvival, Erotica, MiddleEasternHistory, Humor, Romance, MediaCommunication]	
+ 
+wojnawsomalii.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, AdventureSurvival, AustralianOceanianHistory, GeographyTravel, Erotica, WorldPolitics, Humor, MiddleEasternHistory, Sexuality, Romance]	
+ 
+powsaniemahdiego.txt	0 1 1 1 1 1 [AfricanHistory]	[MiddleEasternHistory, AfricanHistory, Conflicts, AsianHistory, Erotica, AdventureSurvival, Humor, Romance, Sexuality, MediaCommunication]	
+ 
+kolonizacja.txt	0 1 1 1 1 1 [AfricanHistory]	[AustralianOceanianHistory, AfricanHistory, GeographyTravel, AdventureSurvival, NorthAmericanHistory, ImmigrationEmigration, Erotica, EnvironmentClimateMeteorology, MiddleEasternHistory, Humor]	
+ 
+histliberii.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, LatinAmericanHistory, EuropeanHistory, AsianHistory, MiddleEasternHistory, NorthAmericanHistory, AdventureSurvival, AustralianOceanianHistory, Erotica, Humor]	
+ 
+apartheid.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, LatinAmericanHistory, Erotica, Sexuality, Humor, AdventureSurvival, EuropeanHistory, AustralianOceanianHistory, MediaCommunication, GeographyTravel]	
+ 
+------------------------------------------------
+
+akupunk.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, Erotica, Medicine, AdventureSurvival, Humor, MediaCommunication, Sexuality, Development, GeographyTravel, Romance]	
+ 
+roslecz.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, Biology, Medicine, Erotica, Nature, Humor, EnvironmentClimateMeteorology, AdventureSurvival, Sexuality, MediaCommunication]	
+ 
+akupre.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, Erotica, Humor, Sexuality, AdventureSurvival, MediaCommunication, Medicine, Development, Romance, Education]	
+ 
+ziololecz.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, Medicine, Erotica, Humor, Sexuality, AdventureSurvival, HistoryofScience, MediaCommunication, Romance, Development]	
+ 
+bio.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, Medicine, Erotica, Humor, AdventureSurvival, Sexuality, MediaCommunication, EnvironmentClimateMeteorology, GraphicsDesign, Development]	
+ 
+homeopatia.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, Medicine, Erotica, Humor, AdventureSurvival, MediaCommunication, Sexuality, Development, Romance, GraphicsDesign]	
+ 
+------------------------------------------------
+
+iiwojnapunicka.txt	0 0 1 1 1 1 [AncientHistory]	[MiddleEasternHistory, Conflicts, AncientHistory, AfricanHistory, ImmigrationEmigration, Erotica, AdventureSurvival, Humor, EuropeanHistory, Romance]	
+ 
+egipt.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, WorldHistory, MiddleEasternHistory, AsianHistory, Erotica, Humor, AfricanHistory, Sexuality, Romance, AdventureSurvival]	
+ 
+mezopotamia.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, WorldHistory, MiddleEasternHistory, AsianHistory, Erotica, AfricanHistory, Humor, Romance, AdventureSurvival, MediaCommunication]	
+ 
+starozytnosc.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, MiddleEasternHistory, AsianHistory, WorldHistory, EuropeanHistory, AfricanHistory, ImmigrationEmigration, Erotica, Humor, Romance]	
+ 
+cesarstwozach.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, MiddleEasternHistory, AsianHistory, ImmigrationEmigration, EuropeanHistory, AfricanHistory, Conflicts, Erotica, AdventureSurvival, Humor]	
+ 
+krpartow.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, AsianHistory, MiddleEasternHistory, EuropeanHistory, AfricanHistory, WorldHistory, Erotica, Humor, Romance, AdventureSurvival]	
+ 
+------------------------------------------------
+
+rosomak.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AustralianOceanianHistory, AdventureSurvival, Erotica, Humor, MediaCommunication, Sexuality, Romance, SoftwareApplicationsEnterpriseSystems, Development]	
+ 
+uklppal.txt	0 1 1 1 1 1 [ArmamentArmscontrol]	[EnvironmentClimateMeteorology, ArmamentArmscontrol, SecurityDefence, Erotica, Humor, AdventureSurvival, MediaCommunication, Romance, Sexuality, GraphicsDesign]	
+ 
+tarcza.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, EnvironmentClimateMeteorology, SecurityDefence, Erotica, MediaCommunication, AdventureSurvival, Humor, Sexuality, Development, Romance]	
+ 
+okret.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AustralianOceanianHistory, MiddleEasternHistory, WorldPolitics, Erotica, AdventureSurvival, Humor, Sexuality, Romance, MediaCommunication]	
+ 
+schron.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AustralianOceanianHistory, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, SecurityDefence, Humor, Sexuality, MediaCommunication, Romance]	
+ 
+forty.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AustralianOceanianHistory, Erotica, AdventureSurvival, GraphicsDesign, Humor, ManagementLeadership, Sexuality, MediaCommunication, Romance]	
+ 
+------------------------------------------------
+
+sztuka.txt	0 1 1 1 1 1 [ArtArchitecturePhotography]	[Erotica, ArtArchitecturePhotography, Poetry, GraphicsDesign, Humor, FairyTalesMythsFables, Culture, Drama, Sexuality, AdventureSurvival]	
+ 
+modernizm.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, GraphicsDesign, Culture, Erotica, Humor, AdventureSurvival, Sexuality, Romance, MediaCommunication, Development]	
+ 
+fotografia.txt	0 0 1 1 1 1 [ArtArchitecturePhotography]	[MediaCommunication, Humor, ArtArchitecturePhotography, GeographyTravel, AdventureSurvival, Erotica, ComputerScience, Sexuality, Romance, GraphicsDesign]	
+ 
+architekt.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, GraphicsDesign, Culture, Erotica, Sexuality, HistoryofScience, Society, AdventureSurvival, Development, Humor]	
+ 
+fpowielacz.txt	0 0 1 1 1 1 [ArtArchitecturePhotography]	[MediaCommunication, Humor, ArtArchitecturePhotography, GeographyTravel, Erotica, AdventureSurvival, ComputerScience, Sexuality, Romance, GraphicsDesign]	
+ 
+gaudi.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, GraphicsDesign, Romance, Erotica, Sexuality, AdventureSurvival, Humor, FairyTalesMythsFables, MediaCommunication, Culture]	
+ 
+------------------------------------------------
+
+HistoriaChin.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, MiddleEasternHistory, AfricanHistory, EuropeanHistory, Erotica, ImmigrationEmigration, AdventureSurvival, Humor, LatinAmericanHistory, Romance]	
+ 
+HistoriaIraku.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, MiddleEasternHistory, AncientHistory, AfricanHistory, EuropeanHistory, WorldHistory, Erotica, Humor, AdventureSurvival, Romance]	
+ 
+HistoriaTurcji.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, AfricanHistory, MiddleEasternHistory, EuropeanHistory, LatinAmericanHistory, Erotica, AncientHistory, AdventureSurvival, Humor, WorldPolitics]	
+ 
+HistoriaAfganistanu.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, MiddleEasternHistory, AfricanHistory, EuropeanHistory, Conflicts, Erotica, AdventureSurvival, Humor, Romance, Sexuality]	
+ 
+HistoriaJaponii.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, AfricanHistory, MiddleEasternHistory, EuropeanHistory, Erotica, LatinAmericanHistory, AdventureSurvival, Humor, Sexuality, Romance]	
+ 
+HistoriaIranu.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, MiddleEasternHistory, AncientHistory, EuropeanHistory, AfricanHistory, LatinAmericanHistory, Erotica, Romance, ImmigrationEmigration, Humor]	
+ 
+------------------------------------------------
+
+koralowawojna.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, ArmamentArmscontrol, MiddleEasternHistory, WorldPolitics, AfricanHistory, Conflicts, AdventureSurvival, Erotica, GeographyTravel, Humor]	
+ 
+prehaustr.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, GeographyTravel, AfricanHistory, AdventureSurvival, Erotica, EnvironmentClimateMeteorology, Humor, HistoryofScience, Romance, Sexuality]	
+ 
+bomba.txt	0 0 1 1 1 1 [AustralianOceanianHistory]	[Erotica, Humor, AustralianOceanianHistory, AdventureSurvival, Sexuality, MediaCommunication, Romance, ManagementLeadership, GraphicsDesign, FairyTalesMythsFables]	
+ 
+australia.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, GeographyTravel, AfricanHistory, AdventureSurvival, NorthAmericanHistory, EnvironmentClimateMeteorology, HistoryofScience, WorldHistory, Erotica, EarthSciences]	
+ 
+atanwojennywaust.txt	0 0 1 1 1 1 [AustralianOceanianHistory]	[NorthAmericanHistory, AfricanHistory, AustralianOceanianHistory, AdventureSurvival, Erotica, GeographyTravel, Humor, Sexuality, WorldPolitics, Romance]	
+ 
+histkoleowaust.txt	0 1 1 1 1 1 [AustralianOceanianHistory]	[ArmamentArmscontrol, AustralianOceanianHistory, Erotica, AdventureSurvival, Humor, Development, Sexuality, GeographyTravel, Romance, MediaCommunication]	
+ 
+------------------------------------------------
+
+biologia.txt	1 1 1 1 1 1 [Biology]	[Biology, Nature, Erotica, HistoryofScience, EnvironmentClimateMeteorology, AdventureSurvival, Humor, Sexuality, Evolution, Development]	
+ 
+biomech.txt	0 0 0 0 0 1 [Biology]	[Erotica, Humor, AdventureSurvival, Development, ImmigrationEmigration, Sexuality, Romance, EnvironmentClimateMeteorology, MediaCommunication, Biology]	
+ 
+bionf.txt	0 0 1 1 1 1 [Biology]	[Sociology, GeographyTravel, Biology, InternationalRelations, GraphicsDesign, HistoryofScience, Culture, Erotica, MediaCommunication, Humor]	
+ 
+cyto.txt	1 1 1 1 1 1 [Biology]	[Biology, Erotica, AdventureSurvival, Humor, EnvironmentClimateMeteorology, Sexuality, GeographyTravel, GraphicsDesign, Sociology, MediaCommunication]	
+ 
+botanika.txt	1 1 1 1 1 1 [Biology]	[Biology, Nature, HistoryofScience, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, Humor, Sexuality, ManagementLeadership, Development]	
+ 
+------------------------------------------------
+
+dzialgosp.txt	1 1 1 1 1 1 [Business]	[Business, Economics, MarketingSales, ManagementLeadership, Development, GraphicsDesign, Erotica, Humor, Society, AdventureSurvival]	
+ 
+przedsiebiorczosc.txt	0 1 1 1 1 1 [Business]	[Economics, Business, MarketingSales, ManagementLeadership, Development, GraphicsDesign, Education, Erotica, Society, AdventureSurvival]	
+ 
+spolkahandlowa.txt	0 1 1 1 1 1 [Business]	[Law, Business, CivilHumanRights, RealEstate, Development, Humor, MarketingSales, Erotica, Economics, Sexuality]	
+ 
+orzed.txt	1 1 1 1 1 1 [Business]	[Business, Economics, Law, MarketingSales, ManagementLeadership, Development, CivilHumanRights, GraphicsDesign, Humor, Erotica]	
+ 
+osobfiz.txt	1 1 1 1 1 1 [Business]	[Business, Economics, Development, MarketingSales, ManagementLeadership, Erotica, GraphicsDesign, Humor, AdventureSurvival, Sexuality]	
+ 
+biznes.txt	0 1 1 1 1 1 [Business]	[Economics, Business, MarketingSales, ManagementLeadership, Development, GraphicsDesign, Erotica, Humor, Society, Education]	
+ 
+------------------------------------------------
+
+umowaopr.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, Education, RealEstate, MarketingSales, Erotica, ManagementLeadership, GraphicsDesign, Humor, Society, Drama]	
+ 
+wolont.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, Education, Society, ManagementLeadership, Erotica, Development, AdventureSurvival, Sexuality, GraphicsDesign, Humor]	
+ 
+zwiazek.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, Education, ManagementLeadership, Business, Development, Society, Erotica, GraphicsDesign, Economics, AdventureSurvival]	
+ 
+zatrudnienie.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, Education, ManagementLeadership, Erotica, Society, Development, GraphicsDesign, Humor, AdventureSurvival, Sexuality]	
+ 
+kariera.txt	0 0 0 0 0 0 [CareersEmploymentHumanResources]	[Erotica, Romance, Sexuality, Society, Humor, Development, AdventureSurvival, FairyTalesMythsFables, Culture, MediaCommunication]	
+ 
+praca.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, Education, ManagementLeadership, Society, Development, Economics, GraphicsDesign, Erotica, Sexuality, Business]	
+ 
+------------------------------------------------
+
+inz.txt	0 0 0 0 0 0 [Chemistry]	[ManagementLeadership, Sociology, Education, GeographyTravel, GraphicsDesign, InternationalRelations, Development, HistoryofScience, Erotica, Sexuality]	
+ 
+ziazekchem.txt	1 1 1 1 1 1 [Chemistry]	[Chemistry, Erotica, GraphicsDesign, AdventureSurvival, Humor, Development, MediaCommunication, Sexuality, ManagementLeadership, Romance]	
+ 
+suprmol.txt	1 1 1 1 1 1 [Chemistry]	[Chemistry, GraphicsDesign, Erotica, Humor, AdventureSurvival, Development, MediaCommunication, Sexuality, ManagementLeadership, Romance]	
+ 
+symbol.txt	1 1 1 1 1 1 [Chemistry]	[Chemistry, GraphicsDesign, Erotica, Humor, AdventureSurvival, Development, MediaCommunication, Sexuality, Romance, ManagementLeadership]	
+ 
+chemia.txt	1 1 1 1 1 1 [Chemistry]	[Chemistry, HistoryofScience, Erotica, GraphicsDesign, Humor, AdventureSurvival, MediaCommunication, Development, Sexuality, EnvironmentClimateMeteorology]	
+ 
+reakcje.txt	1 1 1 1 1 1 [Chemistry]	[Chemistry, Erotica, GraphicsDesign, Humor, AdventureSurvival, MediaCommunication, Development, Sexuality, Romance, EnvironmentClimateMeteorology]	
+ 
+------------------------------------------------
+
+kodeks.txt	1 1 1 1 1 1 [CivilHumanRights]	[CivilHumanRights, RealEstate, GraphicsDesign, Erotica, AdventureSurvival, Humor, Business, GeographyTravel, MarketingSales, Law]	
+ 
+cywilne.txt	0 0 1 1 1 1 [CivilHumanRights]	[Law, Business, CivilHumanRights, RealEstate, Erotica, Humor, Sexuality, AdventureSurvival, MediaCommunication, Development]	
+ 
+wlasnoscint.txt	0 1 1 1 1 1 [CivilHumanRights]	[Law, CivilHumanRights, Business, RealEstate, Erotica, Humor, Sexuality, MarketingSales, AdventureSurvival, MediaCommunication]	
+ 
+europ.txt	0.5 0.5 0.5 0.5 0.5 0.5 [CivilHumanRights, InternationalRelations]	[InternationalRelations, WorldPolitics, SecurityDefence, Development, ManagementLeadership, Erotica, AdventureSurvival, Education, Humor, GraphicsDesign]	
+ 
+prawoczlowieka.txt	1 1 1 1 1 1 [CivilHumanRights]	[CivilHumanRights, Law, Erotica, Humor, InternationalRelations, Sexuality, AfricanHistory, AdventureSurvival, SecurityDefence, MediaCommunication]	
+ 
+powszechnadekl.txt	1 1 1 1 1 1 [CivilHumanRights]	[CivilHumanRights, Erotica, Humor, AdventureSurvival, InternationalRelations, AfricanHistory, MediaCommunication, Sexuality, SecurityDefence, Romance]	
+ 
+------------------------------------------------
+
+informatyka.txt	1 1 1 1 1 1 [ComputerScience]	[ComputerScience, Sociology, ManagementLeadership, GeographyTravel, GraphicsDesign, Erotica, HistoryofScience, Education, MediaCommunication, Humor]	
+ 
+grafika.txt	0 0 1 1 1 1 [ComputerScience]	[MediaCommunication, Humor, ComputerScience, ArtArchitecturePhotography, GeographyTravel, Erotica, AdventureSurvival, Sexuality, ManagementLeadership, Romance]	
+ 
+symulacje.txt	1 1 1 1 1 1 [ComputerScience]	[ComputerScience, CryptographySecurity, Development, Erotica, Economics, ManagementLeadership, MediaCommunication, Humor, AdventureSurvival, Sexuality]	
+ 
+sztucznaint.txt	1 1 1 1 1 1 [ComputerScience]	[ComputerScience, DatabaseManagement, Erotica, ManagementLeadership, Humor, AdventureSurvival, MediaCommunication, Sexuality, Development, Education]	
+ 
+webmaster.txt	0 0 1 1 1 1 [ComputerScience]	[WWWInternet, Networking, ComputerScience, MarketingSales, MediaCommunication, Erotica, Humor, Education, AdventureSurvival, SecurityDefence]	
+ 
+------------------------------------------------
+
+Powstaniewarszawskie.txt	1 1 1 1 1 1 [Conflicts]	[Conflicts, Erotica, AdventureSurvival, Humor, GeographyTravel, Romance, AfricanHistory, MediaCommunication, Sexuality, GraphicsDesign]	
+ 
+BitMaratonem.txt	1 1 1 1 1 1 [Conflicts]	[Conflicts, AfricanHistory, MiddleEasternHistory, Erotica, AdventureSurvival, Humor, Romance, Sexuality, MediaCommunication, AustralianOceanianHistory]	
+ 
+1.txt	1 1 1 1 1 1 [Conflicts]	[Conflicts, AfricanHistory, MiddleEasternHistory, Erotica, AustralianOceanianHistory, AdventureSurvival, Humor, Romance, SecurityDefence, MediaCommunication]	
+ 
+Wojny.txt	0 1 1 1 1 1 [Conflicts]	[EuropeanHistory, Conflicts, AfricanHistory, MiddleEasternHistory, AdventureSurvival, WorldPolitics, Erotica, Humor, Romance, Sexuality]	
+ 
+2.txt	1 1 1 1 1 1 [Conflicts]	[Conflicts, EuropeanHistory, AfricanHistory, AdventureSurvival, MiddleEasternHistory, WorldPolitics, AustralianOceanianHistory, Erotica, Humor, GeographyTravel]	
+ 
+BitwaWiedniem.txt	1 1 1 1 1 1 [Conflicts]	[Conflicts, MiddleEasternHistory, EuropeanHistory, AfricanHistory, Erotica, AdventureSurvival, Humor, GraphicsDesign, SecurityDefence, Romance]	
+ 
+------------------------------------------------
+
+NigellaLawson.txt	0 0 0 0 0 0 [CookingFoodWine]	[Romance, Teensfiction, ThrillerMysteryCrime, Humor, MediaCommunication, Erotica, AdventureSurvival, FairyTalesMythsFables, GeographyTravel, Horror]	
+ 
+Winoróżowe.txt	0 1 1 1 1 1 [CookingFoodWine]	[EnvironmentNaturalresourcesEnergy, CookingFoodWine, Erotica, EnvironmentClimateMeteorology, Humor, AdventureSurvival, Sexuality, Romance, MediaCommunication, Development]	
+ 
+Wino.txt	0 1 1 1 1 1 [CookingFoodWine]	[EnvironmentNaturalresourcesEnergy, CookingFoodWine, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, Humor, Romance, Sexuality, MediaCommunication, Development]	
+ 
+Wegetarianizm.txt	0 1 1 1 1 1 [CookingFoodWine]	[DietNutrition, CookingFoodWine, Erotica, Sexuality, Humor, AdventureSurvival, Romance, MediaCommunication, GraphicsDesign, Development]	
+ 
+Książkakucharska.txt	0 0 1 1 1 1 [CookingFoodWine]	[Teensfiction, Romance, CookingFoodWine, Erotica, ThrillerMysteryCrime, AdventureSurvival, Humor, MediaCommunication, FairyTalesMythsFables, WorldHistory]	
+ 
+Kuchniapolska.txt	0 1 1 1 1 1 [CookingFoodWine]	[DietNutrition, CookingFoodWine, Erotica, Humor, AdventureSurvival, Romance, Sexuality, MediaCommunication, GraphicsDesign, Development]	
+ 
+------------------------------------------------
+
+kryptologia.txt	1 1 1 1 1 1 [CryptographySecurity]	[CryptographySecurity, ComputerScience, Erotica, MediaCommunication, Development, Humor, AdventureSurvival, SecurityDefence, Sexuality, ManagementLeadership]	
+ 
+protokol.txt	1 1 1 1 1 1 [CryptographySecurity]	[CryptographySecurity, ComputerScience, Erotica, MediaCommunication, AdventureSurvival, Development, Humor, Sexuality, ManagementLeadership, Romance]	
+ 
+asymetrycczny.txt	1 1 1 1 1 1 [CryptographySecurity]	[CryptographySecurity, ComputerScience, Erotica, Development, MediaCommunication, Humor, AdventureSurvival, Sexuality, Romance, ManagementLeadership]	
+ 
+atak.txt	1 1 1 1 1 1 [CryptographySecurity]	[CryptographySecurity, ComputerScience, SecurityDefence, Erotica, MediaCommunication, Humor, Development, AdventureSurvival, Sexuality, Romance]	
+ 
+szyfr.txt	1 1 1 1 1 1 [CryptographySecurity]	[CryptographySecurity, ComputerScience, Erotica, Humor, MediaCommunication, AdventureSurvival, Romance, Development, Sexuality, GraphicsDesign]	
+ 
+------------------------------------------------
+
+kultfiz.txt	1 1 1 1 1 1 [Culture]	[Culture, Society, Education, Development, Sexuality, Erotica, AdventureSurvival, MediaCommunication, Humor, ManagementLeadership]	
+ 
+znawstwo.txt	0 1 1 1 1 1 [Culture]	[Sociology, Culture, GeographyTravel, GraphicsDesign, InternationalRelations, HistoryofScience, Society, Education, Sexuality, Erotica]	
+ 
+kultura.txt	1 1 1 1 1 1 [Culture]	[Culture, Society, Education, Development, Sexuality, ManagementLeadership, FairyTalesMythsFables, MediaCommunication, Erotica, GraphicsDesign]	
+ 
+unesco.txt	0 1 1 1 1 1 [Culture]	[Romance, Culture, Erotica, AdventureSurvival, GeographyTravel, AustralianOceanianHistory, Humor, Sexuality, Poetry, GraphicsDesign]	
+ 
+krajobraz.txt	0 0 1 1 1 1 [Culture]	[GraphicsDesign, ArtArchitecturePhotography, Culture, Erotica, Development, AdventureSurvival, Sexuality, Society, Humor, Sociology]	
+ 
+dobrakult.txt	0 1 1 1 1 1 [Culture]	[Society, Culture, Education, Development, Sexuality, Erotica, MediaCommunication, Humor, FairyTalesMythsFables, AdventureSurvival]	
+ 
+------------------------------------------------
+
+obiektoowa.txt	1 1 1 1 1 1 [DatabaseManagement]	[DatabaseManagement, ComputerScience, Programming, Erotica, ManagementLeadership, AdventureSurvival, Humor, Sexuality, MediaCommunication, Development]	
+ 
+system.txt	1 1 1 1 1 1 [DatabaseManagement]	[DatabaseManagement, Networking, ComputerScience, ManagementLeadership, Development, Erotica, MediaCommunication, Humor, AdventureSurvival, Sexuality]	
+ 
+relacyjny.txt	1 1 1 1 1 1 [DatabaseManagement]	[DatabaseManagement, ComputerScience, Erotica, Development, Sexuality, AdventureSurvival, Humor, MediaCommunication, Society, ManagementLeadership]	
+ 
+kopia.txt	0 0 0 0 0 0 [DatabaseManagement]	[SecurityDefence, Erotica, Humor, MediaCommunication, AdventureSurvival, Sexuality, Development, ComputerScience, Romance, ManagementLeadership]	
+ 
+rozprosz.txt	1 1 1 1 1 1 [DatabaseManagement]	[DatabaseManagement, Erotica, ComputerScience, Humor, AdventureSurvival, MediaCommunication, Sexuality, Development, Romance, GraphicsDesign]	
+ 
+bazadanych.txt	1 1 1 1 1 1 [DatabaseManagement]	[DatabaseManagement, ComputerScience, Erotica, Development, ManagementLeadership, AdventureSurvival, Sexuality, Humor, MediaCommunication, FairyTalesMythsFables]	
+ 
+------------------------------------------------
+
+prochnica.txt	1 1 1 1 1 1 [Dentistry]	[Dentistry, FamilyChildHealth, DietNutrition, Sexuality, Erotica, AdventureSurvival, Humor, Romance, MediaCommunication, Medicine]	
+ 
+aparat.txt	0 0 0 1 1 1 [Dentistry]	[MediaCommunication, Humor, Erotica, AdventureSurvival, Dentistry, Sexuality, Romance, GeographyTravel, FairyTalesMythsFables, ArtArchitecturePhotography]	
+ 
+choroby.txt	1 1 1 1 1 1 [Dentistry]	[Dentistry, FamilyChildHealth, DietNutrition, Sexuality, Erotica, Humor, AdventureSurvival, Romance, Medicine, MediaCommunication]	
+ 
+chirurgia.txt	0.5 0.5 0.5 0.5 0.5 0.5 [Dentistry, FamilyChildHealth]	[Medicine, FamilyChildHealth, Erotica, AdventureSurvival, Humor, Sexuality, Education, MediaCommunication, Romance, GraphicsDesign]	
+ 
+chirurgiastom.txt	1 1 1 1 1 1 [Dentistry]	[Dentistry, FamilyChildHealth, Medicine, Erotica, Sexuality, Humor, AdventureSurvival, MediaCommunication, GraphicsDesign, Romance]	
+ 
+kanal.txt	1 1 1 1 1 1 [Dentistry]	[Dentistry, FamilyChildHealth, DietNutrition, Sexuality, Erotica, Humor, AdventureSurvival, Romance, MediaCommunication, Medicine]	
+ 
+------------------------------------------------
+
+models.txt	1 1 1 1 1 1 [Development]	[Development, FinanceInvesting, Erotica, ManagementLeadership, AdventureSurvival, Education, Economics, Sexuality, Humor, MediaCommunication]	
+ 
+zrownowazonyrozwoj.txt	0 0 1 1 1 1 [Development]	[Society, Culture, Development, Education, Sexuality, ManagementLeadership, Economics, Erotica, GraphicsDesign, MediaCommunication]	
+ 
+marksistowskat.txt	0 0 0 1 1 1 [Development]	[Society, Culture, Education, Development, Sexuality, ManagementLeadership, Erotica, AdventureSurvival, MediaCommunication, FairyTalesMythsFables]	
+ 
+strategie.txt	0 1 1 1 1 1 [Development]	[Economics, Development, MarketingSales, Business, ManagementLeadership, WorldHistory, GraphicsDesign, Society, Erotica, Sexuality]	
+ 
+modefc.txt	1 1 1 1 1 1 [Development]	[Development, Economics, WorldHistory, ManagementLeadership, ImmigrationEmigration, MarketingSales, Erotica, Sexuality, Society, GraphicsDesign]	
+ 
+tech.txt	0 1 1 1 1 1 [Development]	[FinanceInvesting, Development, ManagementLeadership, Education, Erotica, Humor, AdventureSurvival, MediaCommunication, Economics, Sexuality]	
+ 
+------------------------------------------------
+
+proteinowa.txt	1 1 1 1 1 1 [DietNutrition]	[DietNutrition, CookingFoodWine, Erotica, Humor, AdventureSurvival, Sexuality, MediaCommunication, Romance, FairyTalesMythsFables, GraphicsDesign]	
+ 
+dieta.txt	1 1 1 1 1 1 [DietNutrition]	[DietNutrition, CookingFoodWine, Erotica, Humor, Sexuality, AdventureSurvival, GraphicsDesign, MediaCommunication, Romance, GeographyTravel]	
+ 
+wegetarianizm.txt	1 1 1 1 1 1 [DietNutrition]	[DietNutrition, CookingFoodWine, Erotica, Sexuality, Humor, AdventureSurvival, Romance, MediaCommunication, GraphicsDesign, FairyTalesMythsFables]	
+ 
+zrownowazona.txt	1 1 1 1 1 1 [DietNutrition]	[DietNutrition, CookingFoodWine, Erotica, Humor, AdventureSurvival, Sexuality, Romance, Development, MediaCommunication, EnvironmentClimateMeteorology]	
+ 
+kwas.txt	1 1 1 1 1 1 [DietNutrition]	[DietNutrition, CookingFoodWine, Erotica, Humor, AdventureSurvival, Sexuality, Dentistry, GraphicsDesign, MediaCommunication, Romance]	
+ 
+pozajelitoe.txt	0 0 1 1 1 1 [DietNutrition]	[Dentistry, FamilyChildHealth, DietNutrition, Sexuality, Erotica, Humor, Medicine, AdventureSurvival, EnvironmentClimateMeteorology, Romance]	
+ 
+------------------------------------------------
+
+witkiewicz.txt	0 0 0 0 1 1 [Drama]	[Erotica, Poetry, FairyTalesMythsFables, Humor, Romance, ArtArchitecturePhotography, Drama, GraphicsDesign, AdventureSurvival, Sexuality]	
+ 
+dramat.txt	1 1 1 1 1 1 [Drama]	[Drama, Romance, Poetry, Humor, Erotica, AdventureSurvival, Sexuality, FairyTalesMythsFables, MediaCommunication, Development]	
+ 
+szekspir.txt	1 1 1 1 1 1 [Drama]	[Drama, Poetry, Romance, Humor, Erotica, FairyTalesMythsFables, Fantasy, Sexuality, AdventureSurvival, MediaCommunication]	
+ 
+zasada.txt	0 1 1 1 1 1 [Drama]	[RealEstate, Drama, MarketingSales, Erotica, Romance, Humor, CareersEmploymentHumanResources, AdventureSurvival, Poetry, Sexuality]	
+ 
+dziady.txt	1 1 1 1 1 1 [Drama]	[Drama, Romance, Poetry, Erotica, Humor, Culture, AdventureSurvival, Sexuality, FairyTalesMythsFables, MediaCommunication]	
+ 
+dramrom.txt	1 1 1 1 1 1 [Drama]	[Drama, Romance, Poetry, Humor, Erotica, AdventureSurvival, MediaCommunication, FairyTalesMythsFables, Sexuality, GraphicsDesign]	
+ 
+------------------------------------------------
+
+geologia.txt	0 1 1 1 1 1 [EarthSciences]	[HistoryofScience, EarthSciences, Erotica, AdventureSurvival, Humor, EnvironmentClimateMeteorology, MediaCommunication, Education, FairyTalesMythsFables, Romance]	
+ 
+ziemia.txt	1 1 1 1 1 1 [EarthSciences]	[EarthSciences, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, HistoryofScience, Humor, MediaCommunication, Romance, Sexuality, Development]	
+ 
+tabela.txt	0 1 1 1 1 1 [EarthSciences]	[Nature, EarthSciences, EnvironmentClimateMeteorology, GeographyTravel, AustralianOceanianHistory, AdventureSurvival, Erotica, HistoryofScience, Humor, AfricanHistory]	
+ 
+oceanografia.txt	1 1 1 1 1 1 [EarthSciences]	[EarthSciences, EnvironmentClimateMeteorology, GeographyTravel, Sociology, HistoryofScience, AdventureSurvival, Erotica, Humor, GraphicsDesign, AustralianOceanianHistory]	
+ 
+geodezja.txt	1 1 1 1 1 1 [EarthSciences]	[EarthSciences, EnvironmentClimateMeteorology, Erotica, HistoryofScience, AdventureSurvival, Humor, Sexuality, MediaCommunication, GraphicsDesign, Romance]	
+ 
+meteoro.txt	1 1 1 1 1 1 [EarthSciences]	[EarthSciences, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, Humor, MediaCommunication, Sociology, Sexuality, GeographyTravel, Nature]	
+ 
+------------------------------------------------
+
+eknorm.txt	1 1 1 1 1 1 [Economics]	[Economics, Development, Erotica, ManagementLeadership, Humor, GraphicsDesign, AdventureSurvival, Sexuality, Romance, MediaCommunication]	
+ 
+ekonomia.txt	1 1 1 1 1 1 [Economics]	[Economics, Business, MarketingSales, ManagementLeadership, Development, GraphicsDesign, Society, Erotica, Humor, AdventureSurvival]	
+ 
+ekpoz.txt	1 1 1 1 1 1 [Economics]	[Economics, Development, ManagementLeadership, Erotica, Humor, AdventureSurvival, GraphicsDesign, Sexuality, Education, MediaCommunication]	
+ 
+makro.txt	1 1 1 1 1 1 [Economics]	[Economics, MarketingSales, Business, ManagementLeadership, Development, GraphicsDesign, FinanceInvesting, Society, Erotica, AdventureSurvival]	
+ 
+gosp.txt	1 1 1 1 1 1 [Economics]	[Economics, Development, ManagementLeadership, Erotica, GraphicsDesign, Sexuality, Humor, AdventureSurvival, InternationalRelations, Society]	
+ 
+mikro.txt	1 1 1 1 1 1 [Economics]	[Economics, Development, MarketingSales, ManagementLeadership, Business, Erotica, GraphicsDesign, Humor, AdventureSurvival, Sexuality]	
+ 
+------------------------------------------------
+
+integr.txt	1 1 1 1 1 1 [Education]	[Education, Society, CareersEmploymentHumanResources, Culture, Development, ManagementLeadership, Sexuality, Erotica, GraphicsDesign, AdventureSurvival]	
+ 
+plec.txt	0 1 1 1 1 1 [Education]	[CareersEmploymentHumanResources, Education, ManagementLeadership, Erotica, GraphicsDesign, Development, AdventureSurvival, Society, GeographyTravel, Sociology]	
+ 
+nieformalna.txt	1 1 1 1 1 1 [Education]	[Education, CareersEmploymentHumanResources, ManagementLeadership, Erotica, Development, Society, AdventureSurvival, Sexuality, Humor, GraphicsDesign]	
+ 
+pedag.txt	0 0 1 1 1 1 [Education]	[Culture, Society, Education, Development, Sexuality, ManagementLeadership, Sociology, GraphicsDesign, HistoryofScience, Erotica]	
+ 
+metodyka.txt	0 1 1 1 1 1 [Education]	[ManagementLeadership, Education, Development, Society, Culture, Sexuality, Erotica, AdventureSurvival, GraphicsDesign, Humor]	
+ 
+edukacja.txt	1 1 1 1 1 1 [Education]	[Education, CareersEmploymentHumanResources, Society, ManagementLeadership, Culture, Development, Sexuality, Erotica, AdventureSurvival, GraphicsDesign]	
+ 
+------------------------------------------------
+
+fizatm.txt	0 1 1 1 1 1 [EnvironmentClimateMeteorology]	[EarthSciences, EnvironmentClimateMeteorology, Physics, Erotica, Humor, AdventureSurvival, MediaCommunication, Sexuality, HistoryofScience, Romance]	
+ 
+balon.txt	1 1 1 1 1 1 [EnvironmentClimateMeteorology]	[EnvironmentClimateMeteorology, ArmamentArmscontrol, SecurityDefence, Erotica, MediaCommunication, Humor, AdventureSurvival, Sexuality, Romance, GraphicsDesign]	
+ 
+mikroklimat.txt	1 1 1 1 1 1 [EnvironmentClimateMeteorology]	[EnvironmentClimateMeteorology, Erotica, Biology, AdventureSurvival, Humor, Sexuality, Romance, MediaCommunication, Development, GraphicsDesign]	
+ 
+cyklontrop.txt	1 1 1 1 1 1 [EnvironmentClimateMeteorology]	[EnvironmentClimateMeteorology, ArmamentArmscontrol, SecurityDefence, EarthSciences, AdventureSurvival, Erotica, MediaCommunication, Humor, Romance, Sexuality]	
+ 
+czynniki.txt	1 1 1 1 1 1 [EnvironmentClimateMeteorology]	[EnvironmentClimateMeteorology, EarthSciences, Erotica, AdventureSurvival, Humor, GeographyTravel, MediaCommunication, Romance, Sexuality, AustralianOceanianHistory]	
+ 
+zwrotnikowy.txt	0 1 1 1 1 1 [EnvironmentClimateMeteorology]	[EarthSciences, EnvironmentClimateMeteorology, AustralianOceanianHistory, GeographyTravel, AdventureSurvival, AfricanHistory, Erotica, Humor, HistoryofScience, Romance]	
+ 
+------------------------------------------------
+
+kolektor.txt	1 1 1 1 1 1 [EnvironmentNaturalresourcesEnergy]	[EnvironmentNaturalresourcesEnergy, CookingFoodWine, EnvironmentClimateMeteorology, AdventureSurvival, Erotica, Humor, Sexuality, Development, ManagementLeadership, MediaCommunication]	
+ 
+sloneczna.txt	1 1 1 1 1 1 [EnvironmentNaturalresourcesEnergy]	[EnvironmentNaturalresourcesEnergy, CookingFoodWine, EnvironmentClimateMeteorology, Erotica, Humor, AdventureSurvival, MediaCommunication, Sexuality, Romance, GraphicsDesign]	
+ 
+biopaliwo.txt	1 1 1 1 1 1 [EnvironmentNaturalresourcesEnergy]	[EnvironmentNaturalresourcesEnergy, CookingFoodWine, EnvironmentClimateMeteorology, AdventureSurvival, Erotica, Humor, Development, Sexuality, Romance, MediaCommunication]	
+ 
+wodna.txt	1 1 1 1 1 1 [EnvironmentNaturalresourcesEnergy]	[EnvironmentNaturalresourcesEnergy, CookingFoodWine, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, Humor, Romance, Sexuality, MediaCommunication, Development]	
+ 
+pradyiplywy.txt	1 1 1 1 1 1 [EnvironmentNaturalresourcesEnergy]	[EnvironmentNaturalresourcesEnergy, CookingFoodWine, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, Humor, Romance, MediaCommunication, Sexuality, SecurityDefence]	
+ 
+geotermalna.txt	1 1 1 1 1 1 [EnvironmentNaturalresourcesEnergy]	[EnvironmentNaturalresourcesEnergy, EnvironmentClimateMeteorology, EarthSciences, CookingFoodWine, Erotica, AdventureSurvival, Humor, MediaCommunication, Sexuality, Romance]	
+ 
+------------------------------------------------
+
+filmero.txt	1 1 1 1 1 1 [Erotica]	[Erotica, Humor, Sexuality, Romance, AdventureSurvival, FairyTalesMythsFables, MediaCommunication, GraphicsDesign, Horror, Development]	
+ 
+akt.txt	1 1 1 1 1 1 [Erotica]	[Erotica, Humor, Poetry, ArtArchitecturePhotography, GraphicsDesign, FairyTalesMythsFables, AdventureSurvival, Romance, Sexuality, MediaCommunication]	
+ 
+erotykasztuka.txt	1 1 1 1 1 1 [Erotica]	[Erotica, Humor, Romance, AdventureSurvival, Sexuality, FairyTalesMythsFables, MediaCommunication, GraphicsDesign, Poetry, Horror]	
+ 
+erotyk.txt	1 1 1 1 1 1 [Erotica]	[Erotica, Romance, Humor, AdventureSurvival, Sexuality, GeographyTravel, MediaCommunication, FairyTalesMythsFables, GraphicsDesign, Poetry]	
+ 
+strip.txt	0 1 1 1 1 1 [Erotica]	[Humor, Erotica, AdventureSurvival, GeographyTravel, Sexuality, Romance, MediaCommunication, FairyTalesMythsFables, GraphicsDesign, Development]	
+ 
+fotograf.txt	1 1 1 1 1 1 [Erotica]	[Erotica, Humor, AdventureSurvival, Romance, FairyTalesMythsFables, GraphicsDesign, MediaCommunication, Horror, Education, Sexuality]	
+ 
+------------------------------------------------
+
+HistoriaHiszpanii.txt	0 1 1 1 1 1 [EuropeanHistory]	[LatinAmericanHistory, EuropeanHistory, MiddleEasternHistory, AfricanHistory, AsianHistory, Erotica, Romance, Sexuality, InternationalRelations, AdventureSurvival]	
+ 
+HistoriaPolski.txt	1 1 1 1 1 1 [EuropeanHistory]	[EuropeanHistory, AfricanHistory, Conflicts, MiddleEasternHistory, AsianHistory, AdventureSurvival, Erotica, Humor, WorldPolitics, Sexuality]	
+ 
+HistoriaUkrainy.txt	1 1 1 1 1 1 [EuropeanHistory]	[EuropeanHistory, Conflicts, AfricanHistory, WorldPolitics, AdventureSurvival, MiddleEasternHistory, Erotica, Humor, AsianHistory, Sexuality]	
+ 
+HistoriaGrecji.txt	0 0 1 1 1 1 [EuropeanHistory]	[Conflicts, AfricanHistory, EuropeanHistory, MiddleEasternHistory, Erotica, AdventureSurvival, Humor, Sexuality, Romance, AsianHistory]	
+ 
+HistoriaNiemiec.txt	1 1 1 1 1 1 [EuropeanHistory]	[EuropeanHistory, Conflicts, MiddleEasternHistory, AfricanHistory, AsianHistory, Erotica, AdventureSurvival, Humor, ImmigrationEmigration, Sexuality]	
+ 
+HistoriaRosji.txt	1 1 1 1 1 1 [EuropeanHistory]	[EuropeanHistory, Conflicts, AfricanHistory, AsianHistory, MiddleEasternHistory, WorldPolitics, AdventureSurvival, Erotica, ImmigrationEmigration, Humor]	
+ 
+------------------------------------------------
+
+histmyslew.txt	1 1 1 1 1 1 [Evolution]	[Evolution, Erotica, Humor, Romance, Development, Sexuality, AdventureSurvival, MediaCommunication, Economics, FairyTalesMythsFables]	
+ 
+dobornaturalny.txt	1 1 1 1 1 1 [Evolution]	[Evolution, Erotica, Development, Humor, AdventureSurvival, Sexuality, Romance, MediaCommunication, Economics, Education]	
+ 
+ewmon.txt	1 1 1 1 1 1 [Evolution]	[Evolution, Erotica, Biology, Humor, AdventureSurvival, Romance, Sexuality, Development, MediaCommunication, GraphicsDesign]	
+ 
+darwin.txt	1 1 1 1 1 1 [Evolution]	[Evolution, Erotica, Humor, AdventureSurvival, Romance, Sexuality, FairyTalesMythsFables, GeographyTravel, HistoryofScience, MediaCommunication]	
+ 
+teoriawsprzodka.txt	1 1 1 1 1 1 [Evolution]	[Evolution, Erotica, Biology, Humor, AdventureSurvival, Sexuality, Romance, Development, MediaCommunication, FairyTalesMythsFables]	
+ 
+ewolucja.txt	1 1 1 1 1 1 [Evolution]	[Evolution, Biology, Erotica, Development, Humor, Sexuality, Romance, AdventureSurvival, Economics, Culture]	
+ 
+------------------------------------------------
+
+mit.txt	1 1 1 1 1 1 [FairyTalesMythsFables]	[FairyTalesMythsFables, Erotica, Culture, Sexuality, Society, Humor, Education, AdventureSurvival, HistoryofScience, Development]	
+ 
+1001.txt	0 1 1 1 1 1 [FairyTalesMythsFables]	[Fantasy, FairyTalesMythsFables, Teensfiction, Horror, Romance, Erotica, Humor, AdventureSurvival, Sexuality, MediaCommunication]	
+ 
+andersen.txt	1 1 1 1 1 1 [FairyTalesMythsFables]	[FairyTalesMythsFables, Romance, Teensfiction, Erotica, Fantasy, Horror, Humor, AdventureSurvival, Poetry, Sexuality]	
+ 
+legenda.txt	0 1 1 1 1 1 [FairyTalesMythsFables]	[Erotica, FairyTalesMythsFables, Humor, Romance, AdventureSurvival, MediaCommunication, Fantasy, Sexuality, WorldHistory, GeographyTravel]	
+ 
+grimm.txt	1 1 1 1 1 1 [FairyTalesMythsFables]	[FairyTalesMythsFables, Fantasy, Erotica, Horror, Humor, Romance, AdventureSurvival, HistoryofScience, Sexuality, MediaCommunication]	
+ 
+basn.txt	1 1 1 1 1 1 [FairyTalesMythsFables]	[FairyTalesMythsFables, Fantasy, Horror, Teensfiction, Erotica, Sexuality, Romance, Humor, AdventureSurvival, MediaCommunication]	
+ 
+------------------------------------------------
+
+centrum.txt	1 1 1 1 1 1 [FamilyChildHealth]	[FamilyChildHealth, Medicine, Dentistry, Education, AdventureSurvival, Erotica, Humor, GraphicsDesign, MediaCommunication, Sexuality]	
+ 
+sanat.txt	0 1 1 1 1 1 [FamilyChildHealth]	[Medicine, FamilyChildHealth, Erotica, AdventureSurvival, Humor, GraphicsDesign, MediaCommunication, Education, Romance, Sexuality]	
+ 
+Stomato.txt	0 1 1 1 1 1 [FamilyChildHealth]	[Dentistry, FamilyChildHealth, Medicine, Erotica, Humor, AdventureSurvival, Sexuality, Romance, MediaCommunication, GraphicsDesign]	
+ 
+porażenie.txt	1 1 1 1 1 1 [FamilyChildHealth]	[FamilyChildHealth, Medicine, Dentistry, Sexuality, Education, Erotica, AdventureSurvival, Humor, MediaCommunication, Development]	
+ 
+zolt.txt	0 1 1 1 1 1 [FamilyChildHealth]	[Dentistry, FamilyChildHealth, DietNutrition, Sexuality, Erotica, AdventureSurvival, Humor, ManagementLeadership, Romance, Education]	
+ 
+------------------------------------------------
+
+rozmor.txt	0 0 0 0 0 0 [FamilyGrowingUp]	[Society, Culture, Sexuality, Education, Development, Erotica, AdventureSurvival, ManagementLeadership, MediaCommunication, Humor]	
+ 
+rozwint.txt	0 0 0 0 0 0 [FamilyGrowingUp]	[Sexuality, Erotica, DatabaseManagement, AdventureSurvival, Humor, Education, Psychology, Development, FairyTalesMythsFables, MediaCommunication]	
+ 
+dojrz.txt	1 1 1 1 1 1 [FamilyGrowingUp]	[FamilyGrowingUp, Erotica, Sexuality, AdventureSurvival, Romance, Humor, Education, FairyTalesMythsFables, MediaCommunication, Development]	
+ 
+pokwitanie.txt	1 1 1 1 1 1 [FamilyGrowingUp]	[FamilyGrowingUp, Erotica, Education, Sexuality, AdventureSurvival, Humor, FairyTalesMythsFables, MediaCommunication, Romance, Development]	
+ 
+młodz.txt	1 1 1 1 1 1 [FamilyGrowingUp]	[FamilyGrowingUp, Erotica, Sexuality, Education, Society, Humor, AdventureSurvival, Culture, Development, MediaCommunication]	
+ 
+skalat.txt	1 1 1 1 1 1 [FamilyGrowingUp]	[FamilyGrowingUp, Erotica, Education, Sexuality, AdventureSurvival, Humor, FairyTalesMythsFables, MediaCommunication, Romance, Development]	
+ 
+------------------------------------------------
+
+KrólArtur.txt	0 1 1 1 1 1 [Fantasy]	[MiddleEasternHistory, Fantasy, Romance, Erotica, Humor, AfricanHistory, FairyTalesMythsFables, AdventureSurvival, MediaCommunication, GeographyTravel]	
+ 
+ŚwiatDysku.txt	0 1 1 1 1 1 [Fantasy]	[Humor, Fantasy, Erotica, GeographyTravel, AdventureSurvival, Romance, Horror, FairyTalesMythsFables, Sexuality, MediaCommunication]	
+ 
+Śródziemie.txt	1 1 1 1 1 1 [Fantasy]	[Fantasy, FairyTalesMythsFables, Teensfiction, Horror, Romance, Erotica, Humor, AdventureSurvival, MediaCommunication, Sexuality]	
+ 
+Fantasy.txt	1 1 1 1 1 1 [Fantasy]	[Fantasy, FairyTalesMythsFables, Horror, Romance, Humor, Erotica, Teensfiction, AdventureSurvival, ScienceFiction, MediaCommunication]	
+ 
+Wiedźmin.txt	0 0 1 1 1 1 [Fantasy]	[SoftwareApplicationsEnterpriseSystems, AdventureSurvival, Fantasy, Horror, Erotica, Humor, FairyTalesMythsFables, Romance, MediaCommunication, Sexuality]	
+ 
+OpowieściNarnii.txt	1 1 1 1 1 1 [Fantasy]	[Fantasy, FairyTalesMythsFables, Teensfiction, Horror, Romance, Erotica, Humor, AdventureSurvival, Sexuality, MediaCommunication]	
+ 
+------------------------------------------------
+
+anal.txt	1 1 1 1 1 1 [FinanceInvesting]	[FinanceInvesting, Development, Economics, MediaCommunication, AdventureSurvival, Humor, Erotica, ManagementLeadership, Society, Sexuality]	
+ 
+inw.txt	1 1 1 1 1 1 [FinanceInvesting]	[FinanceInvesting, Development, Economics, ManagementLeadership, AdventureSurvival, Erotica, Humor, MediaCommunication, MarketingSales, Sexuality]	
+ 
+amortt.txt	1 1 1 1 1 1 [FinanceInvesting]	[FinanceInvesting, Development, Humor, Economics, AdventureSurvival, MediaCommunication, Erotica, Sexuality, Romance, Society]	
+ 
+aktywa.txt	1 1 1 1 1 1 [FinanceInvesting]	[FinanceInvesting, Development, Erotica, Humor, AdventureSurvival, MediaCommunication, Economics, Sexuality, Romance, RealEstate]	
+ 
+fpubl.txt	0 0 0 0 0 0 [FinanceInvesting]	[Economics, Business, Development, MarketingSales, ManagementLeadership, GraphicsDesign, InternationalRelations, Erotica, Society, AdventureSurvival]	
+ 
+finanse.txt	0 0 0 1 1 1 [FinanceInvesting]	[Economics, Business, MarketingSales, FinanceInvesting, Development, ManagementLeadership, GraphicsDesign, Erotica, Humor, Society]	
+ 
+------------------------------------------------
+
+klon.txt	1 1 1 1 1 1 [Genetics]	[Genetics, Biology, Evolution, Erotica, Humor, AdventureSurvival, MediaCommunication, Sexuality, Romance, Development]	
+ 
+genomika.txt	1 1 1 1 1 1 [Genetics]	[Genetics, Biology, Erotica, AdventureSurvival, Humor, Sexuality, MediaCommunication, Development, Romance, ManagementLeadership]	
+ 
+genetyka.txt	1 1 1 1 1 1 [Genetics, Biology]	[Genetics, Biology, Evolution, Erotica, AdventureSurvival, Humor, MediaCommunication, Sexuality, Romance, Development]	
+ 
+gen.txt	1 1 1 1 1 1 [Genetics]	[Genetics, Biology, Erotica, Humor, AdventureSurvival, MediaCommunication, Sexuality, Romance, Development, GraphicsDesign]	
+ 
+mrna.txt	1 1 1 1 1 1 [Genetics]	[Genetics, Biology, Erotica, Humor, AdventureSurvival, Romance, MediaCommunication, Sexuality, Development, GraphicsDesign]	
+ 
+frederick.txt	1 1 1 1 1 1 [Genetics]	[Genetics, Biology, Erotica, AdventureSurvival, Humor, Romance, Sexuality, MediaCommunication, Development, GraphicsDesign]	
+ 
+------------------------------------------------
+
+ptg.txt	0 1 1 1 1 1 [GeographyTravel]	[Sociology, GeographyTravel, AdventureSurvival, InternationalRelations, GraphicsDesign, HistoryofScience, Erotica, Humor, MediaCommunication, Culture]	
+ 
+strzelecki.txt	1 1 1 1 1 1 [GeographyTravel]	[GeographyTravel, AustralianOceanianHistory, AdventureSurvival, AfricanHistory, EnvironmentClimateMeteorology, Erotica, Romance, Humor, HistoryofScience, FairyTalesMythsFables]	
+ 
+geogtur.txt	0 1 1 1 1 1 [GeographyTravel]	[Sociology, GeographyTravel, InternationalRelations, GraphicsDesign, HistoryofScience, Culture, Biology, ManagementLeadership, Education, Erotica]	
+ 
+cejrow.txt	0 0 1 1 1 1 [GeographyTravel]	[MediaCommunication, Humor, GeographyTravel, ArtArchitecturePhotography, AdventureSurvival, Erotica, Horror, Sexuality, Romance, ComputerScience]	
+ 
+richard.txt	1 1 1 1 1 1 [GeographyTravel]	[GeographyTravel, AustralianOceanianHistory, AfricanHistory, AdventureSurvival, Erotica, EnvironmentClimateMeteorology, Romance, Humor, FairyTalesMythsFables, MediaCommunication]	
+ 
+tehexclub.txt	0 1 1 1 1 1 [GeographyTravel]	[Humor, GeographyTravel, Erotica, AdventureSurvival, Fantasy, Romance, AustralianOceanianHistory, AfricanHistory, GraphicsDesign, Sexuality]	
+ 
+------------------------------------------------
+
+dobrywwzor.txt	1 1 1 1 1 1 [GraphicsDesign]	[GraphicsDesign, Economics, Erotica, Humor, AdventureSurvival, Development, ManagementLeadership, MediaCommunication, Romance, Sexuality]	
+ 
+instytut.txt	1 1 1 1 1 1 [GraphicsDesign]	[GraphicsDesign, Economics, ManagementLeadership, Development, ArtArchitecturePhotography, Erotica, Sociology, Humor, Education, MarketingSales]	
+ 
+dizajn.txt	1 1 1 1 1 1 [GraphicsDesign]	[GraphicsDesign, Sociology, ArtArchitecturePhotography, GeographyTravel, Erotica, Culture, InternationalRelations, HistoryofScience, Humor, AdventureSurvival]	
+ 
+wzor.txt	0 0 0 1 1 1 [GraphicsDesign]	[Society, Culture, Sexuality, Development, GraphicsDesign, Erotica, MediaCommunication, Education, Humor, AdventureSurvival]	
+ 
+edmund.txt	1 1 1 1 1 1 [GraphicsDesign]	[GraphicsDesign, ArtArchitecturePhotography, Erotica, Humor, AdventureSurvival, Romance, GeographyTravel, Culture, Sociology, Sexuality]	
+ 
+warsztkrakow.txt	1 1 1 1 1 1 [GraphicsDesign]	[GraphicsDesign, ArtArchitecturePhotography, Erotica, Humor, AdventureSurvival, Education, Romance, MediaCommunication, Sexuality, Development]	
+ 
+------------------------------------------------
+
+druk.txt	1 1 1 1 1 1 [Hardware]	[Hardware, MediaCommunication, Erotica, Development, Humor, AdventureSurvival, Sexuality, EnvironmentClimateMeteorology, Romance, ManagementLeadership]	
+ 
+plyc.txt	1 1 1 1 1 1 [Hardware]	[Hardware, MediaCommunication, Erotica, Development, Humor, AdventureSurvival, Sexuality, Romance, GraphicsDesign, SoftwareApplicationsEnterpriseSystems]	
+ 
+dysk.txt	1 1 1 1 1 1 [Hardware]	[Hardware, MediaCommunication, Erotica, Development, Humor, AdventureSurvival, EnvironmentClimateMeteorology, Sexuality, Romance, SoftwareApplicationsEnterpriseSystems]	
+ 
+proc.txt	1 1 1 1 1 1 [Hardware]	[Hardware, MediaCommunication, Erotica, Development, AdventureSurvival, Humor, ComputerScience, Sexuality, ManagementLeadership, Romance]	
+ 
+pam.txt	1 1 1 1 1 1 [Hardware]	[Hardware, MediaCommunication, Erotica, Development, Humor, AdventureSurvival, Sexuality, Romance, ArtArchitecturePhotography, EnvironmentClimateMeteorology]	
+ 
+skan.txt	1 1 1 1 1 1 [Hardware]	[Hardware, MediaCommunication, Humor, Erotica, ComputerScience, AdventureSurvival, Development, Sexuality, Romance, ArtArchitecturePhotography]	
+ 
+------------------------------------------------
+
+naukoznawstwo.txt	0 0 0 1 1 1 [HistoryofScience]	[Sociology, GeographyTravel, InternationalRelations, Culture, HistoryofScience, GraphicsDesign, Education, ManagementLeadership, Society, Sexuality]	
+ 
+histogeorg.txt	1 1 1 1 1 1 [HistoryofScience]	[HistoryofScience, EarthSciences, GeographyTravel, AustralianOceanianHistory, EnvironmentClimateMeteorology, AdventureSurvival, WorldHistory, AfricanHistory, Erotica, Humor]	
+ 
+historianauki.txt	1 1 1 1 1 1 [HistoryofScience]	[HistoryofScience, EarthSciences, Erotica, Humor, AdventureSurvival, EnvironmentClimateMeteorology, MediaCommunication, FairyTalesMythsFables, Biology, Education]	
+ 
+histlogiki.txt	1 1 1 1 1 1 [HistoryofScience]	[HistoryofScience, Mathematics, Erotica, Humor, Education, PhilosophyofScience, MediaCommunication, AdventureSurvival, FairyTalesMythsFables, Philosophy]	
+ 
+wojnanaukizrel.txt	1 1 1 1 1 1 [HistoryofScience]	[HistoryofScience, Sexuality, Erotica, Humor, AdventureSurvival, FairyTalesMythsFables, Romance, EarthSciences, MediaCommunication, Education]	
+ 
+7sztukwyz.txt	1 1 1 1 1 1 [HistoryofScience]	[HistoryofScience, Erotica, Humor, AdventureSurvival, FairyTalesMythsFables, Sexuality, Romance, MediaCommunication, GraphicsDesign, GeographyTravel]	
+ 
+------------------------------------------------
+
+Doom.txt	0 0 1 1 1 1 [Horror]	[SoftwareApplicationsEnterpriseSystems, AdventureSurvival, Horror, Erotica, Humor, MediaCommunication, Romance, FairyTalesMythsFables, Fantasy, Sexuality]	
+ 
+Wampir.txt	1 1 1 1 1 1 [Horror]	[Horror, Teensfiction, Erotica, Romance, Sexuality, Humor, AdventureSurvival, FairyTalesMythsFables, MediaCommunication, GraphicsDesign]	
+ 
+Thering.txt	1 1 1 1 1 1 [Horror]	[Horror, FairyTalesMythsFables, AdventureSurvival, Fantasy, Erotica, Romance, Humor, ThrillerMysteryCrime, MediaCommunication, Sexuality]	
+ 
+HowardPhillipsLovecraft.txt	1 1 1 1 1 1 [Horror]	[Horror, ScienceFiction, FairyTalesMythsFables, Fantasy, AdventureSurvival, ThrillerMysteryCrime, Romance, Humor, Erotica, GeographyTravel]	
+ 
+Sandman.txt	0 0 1 1 1 1 [Horror]	[ScienceFiction, ThrillerMysteryCrime, Horror, AdventureSurvival, Erotica, Romance, FairyTalesMythsFables, Humor, Fantasy, Teensfiction]	
+ 
+Horror.txt	1 1 1 1 1 1 [Horror]	[Horror, ScienceFiction, ThrillerMysteryCrime, AdventureSurvival, FairyTalesMythsFables, Erotica, Humor, Romance, Fantasy, MediaCommunication]	
+ 
+------------------------------------------------
+
+Kabaret.txt	1 1 1 1 1 1 [Humor]	[Humor, Erotica, Romance, AdventureSurvival, GeographyTravel, Fantasy, FairyTalesMythsFables, Horror, MediaCommunication, GraphicsDesign]	
+ 
+Czarnyhumor.txt	0 1 1 1 1 1 [Humor]	[MediaCommunication, Humor, Erotica, AdventureSurvival, GeographyTravel, Romance, FairyTalesMythsFables, Sexuality, ArtArchitecturePhotography, GraphicsDesign]	
+ 
+Satyra.txt	0 1 1 1 1 1 [Humor]	[Erotica, Humor, Romance, AdventureSurvival, Poetry, Sexuality, FairyTalesMythsFables, MediaCommunication, Drama, GraphicsDesign]	
+ 
+KabaretPotem.txt	1 1 1 1 1 1 [Humor]	[Humor, Erotica, GeographyTravel, AdventureSurvival, Fantasy, Romance, GraphicsDesign, MediaCommunication, Horror, Sexuality]	
+ 
+Dowcip.txt	0 1 1 1 1 1 [Humor]	[MediaCommunication, Humor, ArtArchitecturePhotography, GeographyTravel, Erotica, AdventureSurvival, Sexuality, Romance, GraphicsDesign, FairyTalesMythsFables]	
+ 
+Komizm.txt	0 1 1 1 1 1 [Humor]	[MediaCommunication, Humor, Romance, Erotica, AdventureSurvival, FairyTalesMythsFables, Development, Sexuality, Drama, GeographyTravel]	
+ 
+------------------------------------------------
+
+przepisy.txt	1 1 1 1 1 1 [ImmigrationEmigration]	[ImmigrationEmigration, Erotica, AfricanHistory, AdventureSurvival, Humor, Sexuality, MediaCommunication, Romance, GeographyTravel, GraphicsDesign]	
+ 
+wedr.txt	0 0 0 1 1 1 [ImmigrationEmigration]	[AncientHistory, MiddleEasternHistory, AsianHistory, EuropeanHistory, ImmigrationEmigration, AfricanHistory, Erotica, Romance, Humor, AdventureSurvival]	
+ 
+bialem.txt	1 1 1 1 1 1 [ImmigrationEmigration]	[ImmigrationEmigration, Erotica, EuropeanHistory, Sexuality, AdventureSurvival, Humor, AfricanHistory, Development, Romance, MediaCommunication]	
+ 
+wusa.txt	0 0 1 1 1 1 [ImmigrationEmigration]	[WorldHistory, NorthAmericanHistory, ImmigrationEmigration, Development, AfricanHistory, Erotica, Sexuality, Society, Humor, AdventureSurvival]	
+ 
+migr.txt	1 1 1 1 1 1 [ImmigrationEmigration]	[ImmigrationEmigration, Development, WorldHistory, Erotica, Sexuality, AdventureSurvival, Society, Humor, MediaCommunication, ManagementLeadership]	
+ 
+garb.txt	1 1 1 1 1 1 [ImmigrationEmigration]	[ImmigrationEmigration, Development, Erotica, Sexuality, AfricanHistory, AdventureSurvival, Humor, MediaCommunication, ManagementLeadership, WorldHistory]	
+ 
+------------------------------------------------
+
+pism.txt	0 1 1 1 1 1 [InternationalRelations]	[Sociology, InternationalRelations, GeographyTravel, GraphicsDesign, WorldPolitics, HistoryofScience, AdventureSurvival, Erotica, SecurityDefence, Culture]	
+ 
+dypl.txt	1 1 1 1 1 1 [InternationalRelations]	[InternationalRelations, WorldPolitics, SecurityDefence, Erotica, Humor, AdventureSurvival, GraphicsDesign, Development, Society, Sexuality]	
+ 
+stosmn.txt	0 1 1 1 1 1 [InternationalRelations]	[Sociology, InternationalRelations, GeographyTravel, HistoryofScience, GraphicsDesign, Culture, Erotica, ManagementLeadership, Education, Humor]	
+ 
+protok.txt	0 0 0 1 1 1 [InternationalRelations]	[Erotica, CivilHumanRights, Humor, AdventureSurvival, InternationalRelations, Sexuality, Romance, MediaCommunication, SecurityDefence, GraphicsDesign]	
+ 
+sanmar.txt	0 1 1 1 1 1 [InternationalRelations]	[LatinAmericanHistory, InternationalRelations, WorldPolitics, AdventureSurvival, AfricanHistory, Erotica, Romance, Humor, Sexuality, MediaCommunication]	
+ 
+------------------------------------------------
+
+paragwaj.txt	1 1 1 1 1 1 [LatinAmericanHistory]	[LatinAmericanHistory, AfricanHistory, EuropeanHistory, Erotica, MiddleEasternHistory, AdventureSurvival, InternationalRelations, Romance, Sexuality, Humor]	
+ 
+argentyna.txt	1 1 1 1 1 1 [LatinAmericanHistory]	[LatinAmericanHistory, AfricanHistory, InternationalRelations, EuropeanHistory, Romance, Erotica, MiddleEasternHistory, Sexuality, AdventureSurvival, Humor]	
+ 
+chile.txt	1 1 1 1 1 1 [LatinAmericanHistory]	[LatinAmericanHistory, AfricanHistory, EuropeanHistory, Erotica, Humor, AdventureSurvival, InternationalRelations, Romance, Sexuality, MiddleEasternHistory]	
+ 
+brazyllia.txt	1 1 1 1 1 1 [LatinAmericanHistory]	[LatinAmericanHistory, AfricanHistory, MiddleEasternHistory, EuropeanHistory, AdventureSurvival, Erotica, NorthAmericanHistory, AsianHistory, Romance, Humor]	
+ 
+inkowie.txt	1 1 1 1 1 1 [LatinAmericanHistory]	[LatinAmericanHistory, Erotica, MiddleEasternHistory, Humor, Romance, AdventureSurvival, AfricanHistory, Sexuality, Development, MediaCommunication]	
+ 
+peru.txt	1 1 1 1 1 1 [LatinAmericanHistory]	[LatinAmericanHistory, AfricanHistory, EuropeanHistory, MiddleEasternHistory, AsianHistory, Erotica, AdventureSurvival, Romance, Humor, InternationalRelations]	
+ 
+------------------------------------------------
+
+Prawomiędzynarodowe.txt	1 1 1 1 1 1 [Law]	[Law, CivilHumanRights, Business, InternationalRelations, WorldPolitics, Erotica, Humor, Sexuality, SecurityDefence, AfricanHistory]	
+ 
+Prawo.txt	1 1 1 1 1 1 [Law]	[Law, Business, CivilHumanRights, PhilosophyofScience, Sexuality, Humor, Erotica, RealEstate, InternationalRelations, Development]	
+ 
+Historiaprawnych.txt	0 0 1 1 1 1 [Law]	[PhilosophyofScience, Philosophy, Law, Erotica, Sexuality, Humor, Culture, Development, HistoryofScience, Society]	
+ 
+Prawokarne.txt	1 1 1 1 1 1 [Law]	[Law, Business, CivilHumanRights, Sexuality, Erotica, Humor, Development, AdventureSurvival, Society, RealEstate]	
+ 
+Filozofiaprawa.txt	1 1 1 1 1 1 [Law]	[Law, PhilosophyofScience, Philosophy, CivilHumanRights, Business, HistoryofScience, FairyTalesMythsFables, Humor, Sexuality, Erotica]	
+ 
+Prawokonstytucyjne.txt	1 1 1 1 1 1 [Law]	[Law, CivilHumanRights, Business, InternationalRelations, WorldPolitics, AfricanHistory, SecurityDefence, Erotica, Humor, Sexuality]	
+ 
+------------------------------------------------
+
+pismo.txt	0 1 1 1 1 1 [ManagementLeadership]	[Sociology, ManagementLeadership, GeographyTravel, GraphicsDesign, Education, InternationalRelations, Erotica, Development, Economics, Humor]	
+ 
+menedzer.txt	0 1 1 1 1 1 [ManagementLeadership]	[Economics, ManagementLeadership, Development, Business, Education, MarketingSales, CareersEmploymentHumanResources, GraphicsDesign, Erotica, Society]	
+ 
+przyw.txt	0 1 1 1 1 1 [ManagementLeadership]	[Terrorism, ManagementLeadership, Erotica, Humor, AdventureSurvival, Sexuality, Development, MediaCommunication, Economics, GraphicsDesign]	
+ 
+zarzad.txt	1 1 1 1 1 1 [ManagementLeadership]	[ManagementLeadership, Development, Education, Economics, Society, Sexuality, GraphicsDesign, ComputerScience, MarketingSales, Business]	
+ 
+zzl.txt	1 1 1 1 1 1 [ManagementLeadership]	[ManagementLeadership, Education, Development, Economics, Society, CareersEmploymentHumanResources, Sexuality, GraphicsDesign, Erotica, Culture]	
+ 
+lider.txt	0 1 1 1 1 1 [ManagementLeadership]	[Terrorism, ManagementLeadership, Erotica, AdventureSurvival, Sexuality, Humor, Society, Development, Education, Culture]	
+ 
+------------------------------------------------
+
+markwiel.txt	0 1 1 1 1 1 [MarketingSales]	[Economics, MarketingSales, Business, ManagementLeadership, Development, GraphicsDesign, Erotica, Humor, AdventureSurvival, MediaCommunication]	
+ 
+umsprzef.txt	0 1 1 1 1 1 [MarketingSales]	[RealEstate, MarketingSales, Drama, CareersEmploymentHumanResources, CivilHumanRights, Erotica, GraphicsDesign, Humor, AdventureSurvival, Sexuality]	
+ 
+bad.txt	0 1 1 1 1 1 [MarketingSales]	[Economics, MarketingSales, Business, Development, ManagementLeadership, GraphicsDesign, FinanceInvesting, MediaCommunication, Humor, Erotica]	
+ 
+markint.txt	0 0 1 1 1 1 [MarketingSales]	[WWWInternet, Networking, MarketingSales, ComputerScience, MediaCommunication, Economics, Erotica, Humor, Development, ManagementLeadership]	
+ 
+mark.txt	0 1 1 1 1 1 [MarketingSales]	[Economics, MarketingSales, Business, ManagementLeadership, Development, GraphicsDesign, MediaCommunication, Humor, Erotica, Society]	
+ 
+sprzedbez.txt	1 1 1 1 1 1 [MarketingSales]	[MarketingSales, Economics, Development, Business, RealEstate, ManagementLeadership, GraphicsDesign, Erotica, Humor, AdventureSurvival]	
+ 
+------------------------------------------------
+
+analizamat.txt	1 1 1 1 1 1 [Mathematics]	[Mathematics, HistoryofScience, Erotica, Humor, AdventureSurvival, ComputerScience, Development, Sexuality, MediaCommunication, ManagementLeadership]	
+ 
+kokmb.txt	1 1 1 1 1 1 [Mathematics]	[Mathematics, HistoryofScience, Erotica, Humor, AdventureSurvival, Sexuality, Romance, MediaCommunication, Development, ManagementLeadership]	
+ 
+geom.txt	1 1 1 1 1 1 [Mathematics]	[Mathematics, HistoryofScience, Philosophy, Erotica, ComputerScience, Humor, AdventureSurvival, Development, ManagementLeadership, MediaCommunication]	
+ 
+logmat.txt	1 1 1 1 1 1 [Mathematics]	[Mathematics, HistoryofScience, Erotica, Humor, AdventureSurvival, ComputerScience, Sexuality, Romance, MediaCommunication, FairyTalesMythsFables]	
+ 
+algebra.txt	1 1 1 1 1 1 [Mathematics]	[Mathematics, HistoryofScience, Erotica, AdventureSurvival, Humor, Development, Sexuality, MediaCommunication, ManagementLeadership, FairyTalesMythsFables]	
+ 
+------------------------------------------------
+
+interakt.txt	1 1 1 1 1 1 [MediaCommunication]	[MediaCommunication, Networking, Humor, Erotica, AdventureSurvival, ComputerScience, Sexuality, Development, ManagementLeadership, Society]	
+ 
+media.txt	1 1 1 1 1 1 [MediaCommunication]	[MediaCommunication, Humor, Culture, Sexuality, Development, Society, AdventureSurvival, Erotica, Education, GeographyTravel]	
+ 
+mediacyfr.txt	0 0 0 1 1 1 [MediaCommunication]	[Erotica, Humor, AdventureSurvival, Romance, Sexuality, MediaCommunication, GraphicsDesign, Development, FairyTalesMythsFables, GeographyTravel]	
+ 
+tv.txt	1 1 1 1 1 1 [MediaCommunication]	[MediaCommunication, Humor, GeographyTravel, ArtArchitecturePhotography, AdventureSurvival, Erotica, Romance, Sexuality, GraphicsDesign, FairyTalesMythsFables]	
+ 
+prasa.txt	1 1 1 1 1 1 [MediaCommunication]	[MediaCommunication, Humor, ArtArchitecturePhotography, GeographyTravel, AdventureSurvival, Erotica, Sexuality, Development, FairyTalesMythsFables, Romance]	
+ 
+radio.txt	1 1 1 1 1 1 [MediaCommunication]	[MediaCommunication, Humor, ArtArchitecturePhotography, GeographyTravel, AdventureSurvival, Erotica, Romance, ComputerScience, FairyTalesMythsFables, Sexuality]	
+ 
+------------------------------------------------
+
+cyt.txt	0 0 0 0 0 0 [Medicine]	[Biology, Erotica, Humor, AdventureSurvival, Sexuality, Romance, MediaCommunication, GraphicsDesign, EnvironmentClimateMeteorology, Development]	
+ 
+medycyna.txt	1 1 1 1 1 1 [Medicine]	[Medicine, FamilyChildHealth, Education, AdventureSurvival, Erotica, Humor, Dentistry, MediaCommunication, GraphicsDesign, Sexuality]	
+ 
+resp.txt	0 0 0 1 1 1 [Medicine]	[AlternativeMedicineNaturalHealing, Erotica, Humor, AdventureSurvival, Medicine, MediaCommunication, Romance, Sexuality, Development, FairyTalesMythsFables]	
+ 
+lekarz.txt	0 1 1 1 1 1 [Medicine]	[FamilyChildHealth, Medicine, Education, Dentistry, AdventureSurvival, Erotica, Humor, GraphicsDesign, MediaCommunication, GeographyTravel]	
+ 
+hipokr.txt	0 1 1 1 1 1 [Medicine]	[AlternativeMedicineNaturalHealing, Medicine, Erotica, Humor, AdventureSurvival, HistoryofScience, Sexuality, Romance, MediaCommunication, Education]	
+ 
+rehab.txt	1 1 1 1 1 1 [Medicine]	[Medicine, FamilyChildHealth, Erotica, AdventureSurvival, Education, Humor, Sexuality, ManagementLeadership, GraphicsDesign, MediaCommunication]	
+ 
+------------------------------------------------
+
+izar.txt	1 1 1 1 1 1 [MiddleEasternHistory]	[MiddleEasternHistory, AfricanHistory, AdventureSurvival, Conflicts, Erotica, Humor, Romance, Sexuality, WorldPolitics, AustralianOceanianHistory]	
+ 
+podar.txt	1 1 1 1 1 1 [MiddleEasternHistory]	[MiddleEasternHistory, AsianHistory, AncientHistory, Erotica, AfricanHistory, Humor, Romance, AdventureSurvival, ImmigrationEmigration, WorldHistory]	
+ 
+bizancjum.txt	0 1 1 1 1 1 [MiddleEasternHistory]	[AncientHistory, MiddleEasternHistory, AsianHistory, EuropeanHistory, ImmigrationEmigration, AfricanHistory, Erotica, Humor, Romance, AdventureSurvival]	
+ 
+impos.txt	0 1 1 1 1 1 [MiddleEasternHistory]	[AsianHistory, MiddleEasternHistory, AfricanHistory, Erotica, EuropeanHistory, AncientHistory, Humor, Romance, AdventureSurvival, MediaCommunication]	
+ 
+bliskiwsch.txt	1 1 1 1 1 1 [MiddleEasternHistory]	[MiddleEasternHistory, Erotica, WorldHistory, AdventureSurvival, Humor, Sexuality, AfricanHistory, GeographyTravel, Development, MediaCommunication]	
+ 
+stabir.txt	0 1 1 1 1 1 [MiddleEasternHistory]	[ArmamentArmscontrol, MiddleEasternHistory, AustralianOceanianHistory, WorldPolitics, AdventureSurvival, AfricanHistory, Erotica, Humor, Sexuality, MediaCommunication]	
+ 
+------------------------------------------------
+
+kreg.txt	1 1 1 1 1 1 [Nature]	[Nature, EarthSciences, Erotica, Humor, AdventureSurvival, Sexuality, Romance, MediaCommunication, Development, GraphicsDesign]	
+ 
+natur.txt	0 0 0 0 0 0 [Nature]	[SpaceUniverse, Erotica, EnvironmentClimateMeteorology, Society, Sexuality, Culture, Humor, Development, AdventureSurvival, MediaCommunication]	
+ 
+staw.txt	1 1 1 1 1 1 [Nature]	[Nature, EarthSciences, Erotica, Humor, AdventureSurvival, Sexuality, Romance, MediaCommunication, Development, GraphicsDesign]	
+ 
+zwierz.txt	1 1 1 1 1 1 [Nature]	[Nature, Biology, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, Humor, Sexuality, MediaCommunication, Romance, Development]	
+ 
+roslin.txt	0 1 1 1 1 1 [Nature]	[Biology, Nature, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, Sexuality, Development, Humor, Medicine, MediaCommunication]	
+ 
+miner.txt	0 0 1 1 1 1 [Nature]	[EarthSciences, EnvironmentClimateMeteorology, Nature, Erotica, AdventureSurvival, Sexuality, Humor, MediaCommunication, Romance, Development]	
+ 
+------------------------------------------------
+
+miejska.txt	0 1 1 1 1 1 [Networking]	[WWWInternet, Networking, ComputerScience, MarketingSales, MediaCommunication, Erotica, AdventureSurvival, Humor, GraphicsDesign, GeographyTravel]	
+ 
+zarztelekom.txt	1 1 1 1 1 1 [Networking]	[Networking, ManagementLeadership, ComputerScience, WWWInternet, Development, Erotica, Education, MediaCommunication, AdventureSurvival, Humor]	
+ 
+telekom.txt	1 1 1 1 1 1 [Networking]	[Networking, WWWInternet, MediaCommunication, Erotica, ComputerScience, Humor, Society, AdventureSurvival, Development, Sexuality]	
+ 
+korp.txt	0 1 1 1 1 1 [Networking]	[WWWInternet, Networking, MarketingSales, ComputerScience, MediaCommunication, Erotica, Humor, AdventureSurvival, GraphicsDesign, Development]	
+ 
+strukspol.txt	0 0 0 0 0 0 [Networking]	[Society, Culture, Education, Development, ManagementLeadership, Sexuality, AdventureSurvival, MediaCommunication, Erotica, Economics]	
+ 
+komp.txt	0 1 1 1 1 1 [Networking]	[WWWInternet, Networking, ComputerScience, MediaCommunication, MarketingSales, Erotica, Humor, AdventureSurvival, SoftwareApplicationsEnterpriseSystems, Sexuality]	
+ 
+------------------------------------------------
+
+meksyk.txt	0 0 0 0 1 1 [NorthAmericanHistory]	[AfricanHistory, LatinAmericanHistory, Poetry, MiddleEasternHistory, EuropeanHistory, AsianHistory, Erotica, NorthAmericanHistory, Sexuality, Development]	
+ 
+niewolnictwo.txt	1 1 1 1 1 1 [NorthAmericanHistory]	[NorthAmericanHistory, AfricanHistory, AustralianOceanianHistory, Erotica, ImmigrationEmigration, Humor, AdventureSurvival, Sexuality, Development, MediaCommunication]	
+ 
+brytkolon.txt	1 1 1 1 1 1 [NorthAmericanHistory]	[NorthAmericanHistory, AfricanHistory, AustralianOceanianHistory, GeographyTravel, AdventureSurvival, Erotica, Humor, ImmigrationEmigration, Romance, Sexuality]	
+ 
+usa.txt	1 1 1 1 1 1 [NorthAmericanHistory]	[NorthAmericanHistory, AfricanHistory, AustralianOceanianHistory, Erotica, ImmigrationEmigration, AdventureSurvival, MiddleEasternHistory, Humor, Sexuality, Development]	
+ 
+indianie.txt	0 0 0 1 1 1 [NorthAmericanHistory]	[AustralianOceanianHistory, GeographyTravel, AfricanHistory, AdventureSurvival, NorthAmericanHistory, Erotica, EnvironmentClimateMeteorology, Humor, Sexuality, MediaCommunication]	
+ 
+wojnaoniepodl.txt	1 1 1 1 1 1 [NorthAmericanHistory]	[NorthAmericanHistory, Conflicts, AfricanHistory, AdventureSurvival, AustralianOceanianHistory, WorldPolitics, MiddleEasternHistory, Erotica, Humor, Romance]	
+ 
+------------------------------------------------
+
+android.txt	1 1 1 1 1 1 [OperatingSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, MediaCommunication, Erotica, ComputerScience, AdventureSurvival, Humor, Romance, Horror, DatabaseManagement]	
+ 
+next.txt	1 1 1 1 1 1 [OperatingSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, Erotica, Humor, MediaCommunication, AdventureSurvival, ComputerScience, Romance, Sexuality, GraphicsDesign]	
+ 
+czasrze.txt	0 0 0 0 0 0 [OperatingSystems]	[ManagementLeadership, Development, Education, Erotica, Sexuality, Humor, ComputerScience, MediaCommunication, SecurityDefence, AdventureSurvival]	
+ 
+mac.txt	1 1 1 1 1 1 [OperatingSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, Erotica, MediaCommunication, AdventureSurvival, Humor, Romance, Horror, Sexuality, Development]	
+ 
+wind.txt	1 1 1 1 1 1 [OperatingSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, Erotica, MediaCommunication, ComputerScience, Humor, AdventureSurvival, Romance, Horror, DatabaseManagement]	
+ 
+systop.txt	1 1 1 1 1 1 [OperatingSystems]	[OperatingSystems, ManagementLeadership, SoftwareApplicationsEnterpriseSystems, Development, ComputerScience, Education, Erotica, MediaCommunication, Sexuality, Humor]	
+ 
+------------------------------------------------
+
+materializm.txt	1 1 1 1 1 1 [Philosophy]	[Philosophy, PhilosophyofScience, HistoryofScience, Law, Culture, FairyTalesMythsFables, Economics, Sexuality, Humor, Erotica]	
+ 
+fenomeno.txt	0 1 1 1 1 1 [Philosophy]	[PhilosophyofScience, Philosophy, HistoryofScience, Erotica, Humor, FairyTalesMythsFables, Sexuality, Culture, Economics, AdventureSurvival]	
+ 
+kirk.txt	0 1 1 1 1 1 [Philosophy]	[Romance, Philosophy, FairyTalesMythsFables, Teensfiction, Erotica, Sexuality, Poetry, AdventureSurvival, Humor, Horror]	
+ 
+logikafil.txt	0 1 1 1 1 1 [Philosophy]	[Mathematics, Philosophy, HistoryofScience, PhilosophyofScience, Erotica, Humor, AdventureSurvival, FairyTalesMythsFables, MediaCommunication, Sexuality]	
+ 
+kart.txt	1 1 1 1 1 1 [Philosophy]	[Philosophy, Mathematics, HistoryofScience, PhilosophyofScience, Erotica, Humor, FairyTalesMythsFables, Romance, AdventureSurvival, Sexuality]	
+ 
+filoz.txt	1 1 1 1 1 1 [Philosophy]	[Philosophy, PhilosophyofScience, HistoryofScience, Sexuality, Culture, FairyTalesMythsFables, Erotica, Society, Religion, Humor]	
+ 
+------------------------------------------------
+
+mat.txt	0.5 0.5 1 1 1 1 [PhilosophyofScience, Mathematics]	[Philosophy, PhilosophyofScience, HistoryofScience, Mathematics, FairyTalesMythsFables, Erotica, Humor, Economics, Sexuality, AdventureSurvival]	
+ 
+filnauk.txt	0 0 0 1 1 1 [PhilosophyofScience]	[HistoryofScience, Erotica, Humor, PhilosophyofScience, AdventureSurvival, Sexuality, FairyTalesMythsFables, MediaCommunication, Philosophy, Romance]	
+ 
+hist.txt	0.5 0.5 0.5 0.5 0.5 0.5 [PhilosophyofScience, WorldHistory]	[WorldHistory, Development, ImmigrationEmigration, AfricanHistory, Erotica, MiddleEasternHistory, AdventureSurvival, Sexuality, Society, AustralianOceanianHistory]	
+ 
+prawa.txt	0 1 1 1 1 1 [PhilosophyofScience]	[Law, PhilosophyofScience, Philosophy, CivilHumanRights, Business, HistoryofScience, FairyTalesMythsFables, Humor, Sexuality, Erotica]	
+ 
+med.txt	0 1 1 1 1 1 [PhilosophyofScience]	[Sociology, PhilosophyofScience, GeographyTravel, Philosophy, HistoryofScience, InternationalRelations, GraphicsDesign, Erotica, Humor, Culture]	
+ 
+jezyk.txt	1 1 1 1 1 1 [PhilosophyofScience]	[PhilosophyofScience, Philosophy, HistoryofScience, MediaCommunication, Culture, Humor, FairyTalesMythsFables, Education, Erotica, ComputerScience]	
+ 
+------------------------------------------------
+
+ohm.txt	0 0 0 0 0 0 [Physics]	[Erotica, Humor, AdventureSurvival, Romance, MediaCommunication, GeographyTravel, Sexuality, GraphicsDesign, FairyTalesMythsFables, EnvironmentClimateMeteorology]	
+ 
+zasaddyn.txt	1 1 1 1 1 1 [Physics]	[Physics, EnvironmentClimateMeteorology, MediaCommunication, Erotica, Humor, HistoryofScience, AdventureSurvival, GraphicsDesign, Sexuality, Romance]	
+ 
+fizjadr.txt	1 1 1 1 1 1 [Physics]	[Physics, EnvironmentClimateMeteorology, MediaCommunication, Erotica, Humor, HistoryofScience, AdventureSurvival, Sexuality, GraphicsDesign, Romance]	
+ 
+fizatom.txt	1 1 1 1 1 1 [Physics]	[Physics, Erotica, Humor, EnvironmentClimateMeteorology, AdventureSurvival, MediaCommunication, Sexuality, Romance, HistoryofScience, GraphicsDesign]	
+ 
+fiz.txt	1 1 1 1 1 1 [Physics]	[Physics, HistoryofScience, EnvironmentClimateMeteorology, Erotica, MediaCommunication, Humor, AdventureSurvival, Sexuality, GraphicsDesign, Development]	
+ 
+dosw.txt	1 1 1 1 1 1 [Physics]	[Physics, EnvironmentClimateMeteorology, MediaCommunication, HistoryofScience, Erotica, EarthSciences, Humor, AdventureSurvival, Romance, Sexuality]	
+ 
+------------------------------------------------
+
+hheks.txt	1 1 1 1 1 1 [Poetry]	[Poetry, Erotica, Romance, Humor, AdventureSurvival, Sexuality, ManagementLeadership, MediaCommunication, GeographyTravel, Development]	
+ 
+wiersz.txt	1 1 1 1 1 1 [Poetry]	[Poetry, Romance, Erotica, Humor, Drama, AdventureSurvival, Sexuality, MediaCommunication, FairyTalesMythsFables, ManagementLeadership]	
+ 
+mick.txt	0 0 1 1 1 1 [Poetry]	[Romance, Drama, Poetry, Erotica, Humor, Culture, FairyTalesMythsFables, AdventureSurvival, Sexuality, MediaCommunication]	
+ 
+orf.txt	0 1 1 1 1 1 [Poetry]	[Erotica, Poetry, Humor, FairyTalesMythsFables, ArtArchitecturePhotography, Drama, GraphicsDesign, Romance, AdventureSurvival, Sexuality]	
+ 
+poezja.txt	0 1 1 1 1 1 [Poetry]	[Drama, Poetry, Romance, Humor, Erotica, FairyTalesMythsFables, Sexuality, HistoryofScience, MediaCommunication, AdventureSurvival]	
+ 
+horacy.txt	0 0 1 1 1 1 [Poetry]	[Romance, Drama, Poetry, Erotica, Humor, FairyTalesMythsFables, AdventureSurvival, Sexuality, GeographyTravel, MediaCommunication]	
+ 
+------------------------------------------------
+
+inzynieriaprog.txt	0 0 0 0 0 0 [Programming]	[ManagementLeadership, SecurityDefence, ComputerScience, Education, Development, Erotica, Sexuality, Humor, AdventureSurvival, DatabaseManagement]	
+ 
+java.txt	1 1 1 1 1 1 [Programming]	[Programming, ComputerScience, DatabaseManagement, SoftwareApplicationsEnterpriseSystems, Erotica, MediaCommunication, Humor, Sexuality, AdventureSurvival, Romance]	
+ 
+kodzrodl.txt	1 1 1 1 1 1 [Programming]	[Programming, ComputerScience, SoftwareApplicationsEnterpriseSystems, Erotica, DatabaseManagement, MediaCommunication, ManagementLeadership, Humor, AdventureSurvival, Sexuality]	
+ 
+jezyki.txt	1 1 1 1 1 1 [Programming, ComputerScience]	[Programming, ComputerScience, DatabaseManagement, Erotica, Humor, MediaCommunication, SoftwareApplicationsEnterpriseSystems, Sexuality, AdventureSurvival, Romance]	
+ 
+cplusplus.txt	1 1 1 1 1 1 [Programming]	[Programming, ComputerScience, DatabaseManagement, Erotica, SoftwareApplicationsEnterpriseSystems, Humor, MediaCommunication, AdventureSurvival, Sexuality, Romance]	
+ 
+programow.txt	1 1 1 1 1 1 [Programming]	[Programming, ComputerScience, SoftwareApplicationsEnterpriseSystems, SecurityDefence, Erotica, DatabaseManagement, MediaCommunication, Humor, AdventureSurvival, Sexuality]	
+ 
+------------------------------------------------
+
+behaw.txt	1 1 1 1 1 1 [Psychology]	[Psychology, Sexuality, Erotica, AdventureSurvival, Education, Humor, HistoryofScience, FairyTalesMythsFables, Development, MediaCommunication]	
+ 
+pscyhhhum.txt	1 1 1 1 1 1 [Psychology]	[Psychology, Sexuality, Culture, Society, Education, Erotica, Development, Humor, FairyTalesMythsFables, AdventureSurvival]	
+ 
+ttranspersona.txt	1 1 1 1 1 1 [Psychology]	[Psychology, Sexuality, Sociology, Erotica, Education, Culture, FairyTalesMythsFables, AdventureSurvival, Humor, Development]	
+ 
+psychoanal.txt	1 1 1 1 1 1 [Psychology]	[Psychology, Sexuality, Erotica, Education, FairyTalesMythsFables, HistoryofScience, Culture, AdventureSurvival, Humor, Sociology]	
+ 
+psychewo.txt	1 1 1 1 1 1 [Psychology]	[Psychology, Sexuality, Evolution, Erotica, Culture, Education, Development, Humor, AdventureSurvival, Society]	
+ 
+psych.txt	1 1 1 1 1 1 [Psychology]	[Psychology, HistoryofScience, Sexuality, Erotica, Education, AdventureSurvival, FairyTalesMythsFables, Humor, Sociology, MediaCommunication]	
+ 
+------------------------------------------------
+
+wspolwlasnosc.txt	1 1 1 1 1 1 [RealEstate]	[RealEstate, MarketingSales, Drama, CivilHumanRights, CareersEmploymentHumanResources, Erotica, Humor, GraphicsDesign, Business, AdventureSurvival]	
+ 
+lokal.txt	0 1 1 1 1 1 [RealEstate]	[AccountingBankingMoney, RealEstate, Erotica, Humor, MarketingSales, AdventureSurvival, Sexuality, MediaCommunication, Romance, GraphicsDesign]	
+ 
+rolna.txt	0 0 0 0 0 0 [RealEstate]	[Erotica, Humor, AdventureSurvival, Development, Sexuality, Romance, MediaCommunication, GraphicsDesign, ManagementLeadership, Economics]	
+ 
+pojecienieruch.txt	1 1 1 1 1 1 [RealEstate]	[RealEstate, AccountingBankingMoney, MarketingSales, Erotica, Humor, AdventureSurvival, Sexuality, MediaCommunication, GraphicsDesign, Development]	
+ 
+grunt.txt	1 1 1 1 1 1 [RealEstate]	[RealEstate, AccountingBankingMoney, Erotica, Humor, AdventureSurvival, MediaCommunication, Sexuality, Romance, Development, MarketingSales]	
+ 
+wieczyste.txt	1 1 1 1 1 1 [RealEstate]	[RealEstate, MarketingSales, Erotica, Humor, AdventureSurvival, GraphicsDesign, CivilHumanRights, Business, Sexuality, MediaCommunication]	
+ 
+------------------------------------------------
+
+Chrześcijaństwo.txt	0 1 1 1 1 1 [Religion]	[Sexuality, Religion, Erotica, Romance, Humor, FairyTalesMythsFables, AdventureSurvival, MediaCommunication, HistoryofScience, Development]	
+ 
+Buddyzm.txt	1 1 1 1 1 1 [Religion]	[Religion, Sexuality, Erotica, Humor, AdventureSurvival, Romance, FairyTalesMythsFables, MediaCommunication, Development, ManagementLeadership]	
+ 
+Rodzimowierstwosłowiańskie.txt	0 0 0 0 0 0 [Religion]	[Erotica, Sexuality, Romance, AdventureSurvival, Humor, Education, FairyTalesMythsFables, Society, Culture, Development]	
+ 
+Hinduizm.txt	1 1 1 1 1 1 [Religion]	[Religion, Sexuality, Erotica, Humor, Romance, AdventureSurvival, FairyTalesMythsFables, MediaCommunication, Development, HistoryofScience]	
+ 
+Islam.txt	0 1 1 1 1 1 [Religion]	[MiddleEasternHistory, Religion, AsianHistory, Sexuality, Erotica, FairyTalesMythsFables, Romance, AfricanHistory, Humor, AdventureSurvival]	
+ 
+Judaizm.txt	1 1 1 1 1 1 [Religion]	[Religion, Sexuality, Erotica, Romance, Humor, AdventureSurvival, MediaCommunication, FairyTalesMythsFables, Development, MiddleEasternHistory]	
+ 
+------------------------------------------------
+
+romans.txt	0 1 1 1 1 1 [Romance]	[Drama, Romance, Poetry, Humor, Erotica, FairyTalesMythsFables, AdventureSurvival, MediaCommunication, Sexuality, Horror]	
+ 
+melodr.txt	0 1 1 1 1 1 [Romance]	[Drama, Romance, Humor, Erotica, Poetry, AdventureSurvival, FairyTalesMythsFables, MediaCommunication, Sexuality, Horror]	
+ 
+casanova.txt	1 1 1 1 1 1 [Romance]	[Romance, Erotica, Poetry, Humor, Drama, FairyTalesMythsFables, AdventureSurvival, Sexuality, MediaCommunication, Culture]	
+ 
+angelika.txt	0 1 1 1 1 1 [Romance]	[Teensfiction, Romance, Erotica, ThrillerMysteryCrime, AdventureSurvival, FairyTalesMythsFables, Humor, Horror, Sexuality, MediaCommunication]	
+ 
+pamietnik.txt	1 1 1 1 1 1 [Romance]	[Romance, Horror, Erotica, AdventureSurvival, FairyTalesMythsFables, Teensfiction, Humor, Sexuality, ThrillerMysteryCrime, MediaCommunication]	
+ 
+steel.txt	1 1 1 1 1 1 [Romance]	[Romance, Erotica, Teensfiction, Humor, ThrillerMysteryCrime, AdventureSurvival, FairyTalesMythsFables, Horror, Sexuality, GeographyTravel]	
+ 
+------------------------------------------------
+
+StarTrek.txt	1 1 1 1 1 1 [ScienceFiction]	[ScienceFiction, ThrillerMysteryCrime, Horror, AdventureSurvival, Erotica, Romance, Humor, FairyTalesMythsFables, Sexuality, MediaCommunication]	
+ 
+StanisławLem.txt	0 1 1 1 1 1 [ScienceFiction]	[Horror, ScienceFiction, FairyTalesMythsFables, AdventureSurvival, Romance, Humor, ThrillerMysteryCrime, Erotica, Fantasy, GeographyTravel]	
+ 
+Gwiezdnewrota.txt	1 1 1 1 1 1 [ScienceFiction]	[ScienceFiction, ThrillerMysteryCrime, Horror, AdventureSurvival, Erotica, Romance, Humor, FairyTalesMythsFables, MediaCommunication, Sexuality]	
+ 
+Fantastykanaukowa.txt	1 1 1 1 1 1 [ScienceFiction]	[ScienceFiction, Horror, ThrillerMysteryCrime, AdventureSurvival, Erotica, Humor, FairyTalesMythsFables, Romance, HistoryofScience, Sexuality]	
+ 
+Matrix.txt	1 1 1 1 1 1 [ScienceFiction]	[ScienceFiction, ThrillerMysteryCrime, Horror, AdventureSurvival, Erotica, Romance, Humor, Sexuality, MediaCommunication, FairyTalesMythsFables]	
+ 
+PhilipKindredDick.txt	0 1 1 1 1 1 [ScienceFiction]	[Horror, ScienceFiction, FairyTalesMythsFables, Romance, AdventureSurvival, ThrillerMysteryCrime, Humor, Erotica, Fantasy, Teensfiction]	
+ 
+------------------------------------------------
+
+bezpiecz.txt	1 1 1 1 1 1 [SecurityDefence, CryptographySecurity]	[SecurityDefence, CryptographySecurity, ComputerScience, Humor, Erotica, ManagementLeadership, MediaCommunication, Sexuality, DatabaseManagement, AdventureSurvival]	
+ 
+bezpteleinf.txt	1 1 1 1 1 1 [SecurityDefence]	[SecurityDefence, CryptographySecurity, ComputerScience, Humor, Erotica, ManagementLeadership, MediaCommunication, Sexuality, DatabaseManagement, AdventureSurvival]	
+ 
+ochrludn.txt	0 1 1 1 1 1 [SecurityDefence]	[InternationalRelations, SecurityDefence, Erotica, Development, AustralianOceanianHistory, Humor, ManagementLeadership, AdventureSurvival, WorldPolitics, Sexuality]	
+ 
+obrona.txt	0 0 1 1 1 1 [SecurityDefence]	[EnvironmentClimateMeteorology, ArmamentArmscontrol, SecurityDefence, Erotica, AdventureSurvival, MediaCommunication, Humor, Sexuality, AfricanHistory, ManagementLeadership]	
+ 
+bezpnar.txt	0 1 1 1 1 1 [SecurityDefence]	[InternationalRelations, SecurityDefence, WorldPolitics, Erotica, Sexuality, Development, AdventureSurvival, Humor, MediaCommunication, GraphicsDesign]	
+ 
+ochrcyw.txt	0 0 1 1 1 1 [SecurityDefence]	[Erotica, AdventureSurvival, SecurityDefence, Humor, EnvironmentClimateMeteorology, GraphicsDesign, Development, Sexuality, MediaCommunication, Romance]	
+ 
+------------------------------------------------
+
+seksualnosc.txt	0 0 1 1 1 1 [Sexuality]	[Society, Culture, Sexuality, Education, Development, Erotica, ManagementLeadership, AdventureSurvival, MediaCommunication, Psychology]	
+ 
+potrzebaseks.txt	0 0 0 1 1 1 [Sexuality]	[Society, Culture, Education, Sexuality, Development, Erotica, Humor, ManagementLeadership, AdventureSurvival, MediaCommunication]	
+ 
+celibat.txt	1 1 1 1 1 1 [Sexuality]	[Sexuality, Religion, Erotica, Romance, Humor, AdventureSurvival, HistoryofScience, FairyTalesMythsFables, MediaCommunication, Development]	
+ 
+awersja.txt	0 1 1 1 1 1 [Sexuality]	[Erotica, Sexuality, Humor, AdventureSurvival, Romance, MediaCommunication, Dentistry, Development, GraphicsDesign, FairyTalesMythsFables]	
+ 
+antyseks.txt	1 1 1 1 1 1 [Sexuality]	[Sexuality, Erotica, Religion, AdventureSurvival, Humor, Romance, FairyTalesMythsFables, MediaCommunication, Development, ManagementLeadership]	
+ 
+rewolucja.txt	1 1 1 1 1 1 [Sexuality]	[Sexuality, Erotica, AfricanHistory, Development, Romance, Humor, Society, AdventureSurvival, WorldHistory, MediaCommunication]	
+ 
+------------------------------------------------
+
+prod.txt	1 1 1 1 1 1 [Society]	[Society, Culture, Development, Sexuality, Education, Erotica, AdventureSurvival, Humor, ManagementLeadership, MediaCommunication]	
+ 
+inf.txt	1 1 1 1 1 1 [Society]	[Society, Culture, Development, Education, Sexuality, ManagementLeadership, Economics, Erotica, GraphicsDesign, MediaCommunication]	
+ 
+spol.txt	1 1 1 1 1 1 [Society]	[Society, Culture, Education, Development, Sexuality, MediaCommunication, Erotica, FairyTalesMythsFables, AdventureSurvival, SecurityDefence]	
+ 
+przemysl.txt	1 1 1 1 1 1 [Society]	[Society, Culture, Development, Sexuality, Education, Erotica, AdventureSurvival, GraphicsDesign, Humor, MediaCommunication]	
+ 
+sieciowe.txt	1 1 1 1 1 1 [Society]	[Society, Development, Culture, Education, Sexuality, ManagementLeadership, AdventureSurvival, Erotica, MediaCommunication, Economics]	
+ 
+kap.txt	0 0 0 1 1 1 [Society]	[Education, CareersEmploymentHumanResources, Development, Society, ManagementLeadership, Economics, Sexuality, Culture, Erotica, AdventureSurvival]	
+ 
+------------------------------------------------
+
+socjo.txt	1 1 1 1 1 1 [Sociology]	[Sociology, GeographyTravel, Culture, InternationalRelations, HistoryofScience, Education, GraphicsDesign, ManagementLeadership, Sexuality, Society]	
+ 
+miasta.txt	1 1 1 1 1 1 [Sociology]	[Sociology, GraphicsDesign, GeographyTravel, ArtArchitecturePhotography, HistoryofScience, Culture, Erotica, InternationalRelations, Sexuality, Humor]	
+ 
+szacki.txt	1 1 1 1 1 1 [Sociology]	[Sociology, GeographyTravel, InternationalRelations, GraphicsDesign, HistoryofScience, Erotica, Culture, Romance, Humor, AdventureSurvival]	
+ 
+jakosciowa.txt	1 1 1 1 1 1 [Sociology]	[Sociology, GeographyTravel, InternationalRelations, GraphicsDesign, HistoryofScience, Culture, Erotica, Sexuality, MediaCommunication, Education]	
+ 
+znaniecki.txt	1 1 1 1 1 1 [Sociology]	[Sociology, GeographyTravel, Culture, InternationalRelations, HistoryofScience, GraphicsDesign, Education, Erotica, Romance, Sexuality]	
+ 
+wsiirol.txt	1 1 1 1 1 1 [Sociology]	[Sociology, GeographyTravel, Development, GraphicsDesign, Erotica, InternationalRelations, HistoryofScience, ManagementLeadership, Education, Sexuality]	
+ 
+------------------------------------------------
+
+biurowe.txt	0 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, Erotica, ComputerScience, MediaCommunication, Humor, AdventureSurvival, Development, Romance, ManagementLeadership]	
+ 
+blizzard.txt	1 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[SoftwareApplicationsEnterpriseSystems, AdventureSurvival, Horror, Fantasy, Erotica, Humor, Romance, MediaCommunication, GraphicsDesign, FairyTalesMythsFables]	
+ 
+starcr.txt	1 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[SoftwareApplicationsEnterpriseSystems, AdventureSurvival, Horror, Fantasy, Erotica, Humor, EnvironmentClimateMeteorology, SecurityDefence, Society, MediaCommunication]	
+ 
+adobe.txt	0 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, MediaCommunication, Erotica, Humor, ComputerScience, AdventureSurvival, Romance, Horror, Sexuality]	
+ 
+antywir.txt	0 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, ComputerScience, Erotica, MediaCommunication, Humor, AdventureSurvival, Sexuality, Development, Romance]	
+ 
+corel.txt	0 1 1 1 1 1 [SoftwareApplicationsEnterpriseSystems]	[OperatingSystems, SoftwareApplicationsEnterpriseSystems, Erotica, MediaCommunication, Humor, AdventureSurvival, Development, Romance, Economics, GraphicsDesign]	
+ 
+------------------------------------------------
+
+Wszechświat.txt	1 1 1 1 1 1 [SpaceUniverse]	[SpaceUniverse, EnvironmentClimateMeteorology, Erotica, Humor, HistoryofScience, Sexuality, MediaCommunication, AdventureSurvival, Romance, Development]	
+ 
+PowstanieSłonecznego.txt	1 1 1 1 1 1 [SpaceUniverse]	[SpaceUniverse, EnvironmentClimateMeteorology, Erotica, Humor, EarthSciences, Sexuality, Romance, AdventureSurvival, MediaCommunication, HistoryofScience]	
+ 
+Kosmicznytel.txt	1 1 1 1 1 1 [SpaceUniverse]	[SpaceUniverse, EnvironmentClimateMeteorology, Erotica, AdventureSurvival, Humor, MediaCommunication, SecurityDefence, Romance, Sexuality, ManagementLeadership]	
+ 
+HipotezarzadkiejZiemi.txt	1 1 1 1 1 1 [SpaceUniverse]	[SpaceUniverse, EnvironmentClimateMeteorology, EarthSciences, Erotica, Humor, Sexuality, AdventureSurvival, Romance, MediaCommunication, Development]	
+ 
+WielkaOrionie.txt	1 1 1 1 1 1 [SpaceUniverse]	[SpaceUniverse, EnvironmentClimateMeteorology, Erotica, Humor, AdventureSurvival, Romance, HistoryofScience, Sexuality, MediaCommunication, FairyTalesMythsFables]	
+ 
+WielkiWybuch.txt	1 1 1 1 1 1 [SpaceUniverse]	[SpaceUniverse, EnvironmentClimateMeteorology, HistoryofScience, Erotica, Humor, Sexuality, AdventureSurvival, Romance, MediaCommunication, FairyTalesMythsFables]	
+ 
+------------------------------------------------
+
+tomekw.txt	1 1 1 1 1 1 [Teensfiction]	[Teensfiction, Romance, Erotica, Humor, AdventureSurvival, ThrillerMysteryCrime, Poetry, Sexuality, FairyTalesMythsFables, Horror]	
+ 
+harry.txt	0 0 1 1 1 1 [Teensfiction]	[Fantasy, FairyTalesMythsFables, Teensfiction, Horror, Romance, Erotica, Humor, AdventureSurvival, MediaCommunication, Sexuality]	
+ 
+zmierzch.txt	0 1 1 1 1 1 [Teensfiction]	[Horror, Teensfiction, Romance, Erotica, FairyTalesMythsFables, AdventureSurvival, Humor, Sexuality, MediaCommunication, GraphicsDesign]	
+ 
+tomeks.txt	1 1 1 1 1 1 [Teensfiction]	[Teensfiction, Romance, ThrillerMysteryCrime, AdventureSurvival, FairyTalesMythsFables, Erotica, Horror, Humor, Fantasy, MediaCommunication]	
+ 
+seria.txt	1 1 1 1 1 1 [Teensfiction]	[Teensfiction, Romance, ThrillerMysteryCrime, CookingFoodWine, AdventureSurvival, Erotica, Humor, FairyTalesMythsFables, Sexuality, Horror]	
+ 
+lewis.txt	0 0 1 1 1 1 [Teensfiction]	[FairyTalesMythsFables, Romance, Teensfiction, Fantasy, Erotica, Horror, Humor, Sexuality, AdventureSurvival, GeographyTravel]	
+ 
+------------------------------------------------
+
+ETA.txt	1 1 1 1 1 1 [Terrorism]	[Terrorism, ManagementLeadership, AfricanHistory, Humor, AdventureSurvival, Erotica, MiddleEasternHistory, Romance, Sexuality, LatinAmericanHistory]	
+ 
+IrlandzkaArmiaRepublikańska.txt	1 1 1 1 1 1 [Terrorism]	[Terrorism, ManagementLeadership, AfricanHistory, AdventureSurvival, Humor, Erotica, MiddleEasternHistory, Sexuality, Romance, Conflicts]	
+ 
+Cyberterroryzm.txt	0 0 0 0 0 0 [Terrorism]	[SecurityDefence, ManagementLeadership, Development, Economics, InternationalRelations, Erotica, Humor, AdventureSurvival, GraphicsDesign, Sexuality]	
+ 
+Zamach11.txt	1 1 1 1 1 1 [Terrorism]	[Terrorism, ManagementLeadership, Humor, Erotica, AfricanHistory, Sexuality, AdventureSurvival, Romance, MediaCommunication, MiddleEasternHistory]	
+ 
+ZamachSarajewie.txt	1 1 1 1 1 1 [Terrorism]	[Terrorism, ManagementLeadership, Erotica, Humor, AdventureSurvival, Romance, Sexuality, AfricanHistory, MediaCommunication, AustralianOceanianHistory]	
+ 
+Terroryzm.txt	1 1 1 1 1 1 [Terrorism]	[Terrorism, ManagementLeadership, Erotica, Humor, Sexuality, AfricanHistory, AdventureSurvival, MiddleEasternHistory, MediaCommunication, Development]	
+ 
+------------------------------------------------
+
+csi.txt	0 1 1 1 1 1 [ThrillerMysteryCrime]	[ScienceFiction, ThrillerMysteryCrime, Horror, AdventureSurvival, Erotica, Romance, Humor, MediaCommunication, Sexuality, GraphicsDesign]	
+ 
+dreszcz.txt	1 1 1 1 1 1 [ThrillerMysteryCrime]	[ThrillerMysteryCrime, Horror, Erotica, AdventureSurvival, Humor, Romance, FairyTalesMythsFables, Sexuality, MediaCommunication, Development]	
+ 
+dexter.txt	0 1 1 1 1 1 [ThrillerMysteryCrime]	[ScienceFiction, ThrillerMysteryCrime, Horror, AdventureSurvival, Erotica, Romance, Humor, MediaCommunication, Sexuality, FairyTalesMythsFables]	
+ 
+agatha.txt	0 0 1 1 1 1 [ThrillerMysteryCrime]	[Teensfiction, Romance, ThrillerMysteryCrime, Erotica, AdventureSurvival, CookingFoodWine, Humor, FairyTalesMythsFables, Sexuality, MediaCommunication]	
+ 
+grisham.txt	0 1 1 1 1 1 [ThrillerMysteryCrime]	[Horror, ThrillerMysteryCrime, Romance, AdventureSurvival, FairyTalesMythsFables, Erotica, Humor, MediaCommunication, GeographyTravel, Sexuality]	
+ 
+alfred.txt	1 1 1 1 1 1 [ThrillerMysteryCrime]	[ThrillerMysteryCrime, Romance, Erotica, Horror, Humor, AdventureSurvival, FairyTalesMythsFables, Sexuality, MediaCommunication, Teensfiction]	
+ 
+------------------------------------------------
+
+Komunikatorinternetowy.txt	1 1 1 1 1 1 [WWWInternet]	[WWWInternet, Networking, ComputerScience, MarketingSales, MediaCommunication, Erotica, SoftwareApplicationsEnterpriseSystems, SecurityDefence, Humor, AdventureSurvival]	
+ 
+Pocztaelektroniczna.txt	1 1 1 1 1 1 [WWWInternet]	[WWWInternet, Networking, ComputerScience, MarketingSales, MediaCommunication, Erotica, Humor, AdventureSurvival, Sexuality, Romance]	
+ 
+Wikipedia.txt	1 1 1 1 1 1 [WWWInternet]	[WWWInternet, Networking, ComputerScience, MarketingSales, MediaCommunication, AdventureSurvival, Erotica, Humor, SoftwareApplicationsEnterpriseSystems, Sexuality]	
+ 
+Internet.txt	1 1 1 1 1 1 [WWWInternet]	[WWWInternet, Networking, ComputerScience, MarketingSales, MediaCommunication, Erotica, AdventureSurvival, Humor, GraphicsDesign, Romance]	
+ 
+WorldWideWeb.txt	1 1 1 1 1 1 [WWWInternet]	[WWWInternet, Networking, ComputerScience, MarketingSales, MediaCommunication, Erotica, AdventureSurvival, Humor, SecurityDefence, Sexuality]	
+ 
+Facebook.txt	0 1 1 1 1 1 [WWWInternet]	[Networking, WWWInternet, AdventureSurvival, Erotica, MediaCommunication, ComputerScience, SoftwareApplicationsEnterpriseSystems, Romance, Humor, FairyTalesMythsFables]	
+ 
+------------------------------------------------
+
+paleolit.txt	1 1 1 1 1 1 [WorldHistory]	[WorldHistory, Society, Culture, Development, Erotica, Sexuality, AdventureSurvival, MediaCommunication, Humor, Education]	
+ 
+renesans.txt	1 1 1 1 1 1 [WorldHistory]	[WorldHistory, HistoryofScience, Erotica, Humor, Romance, FairyTalesMythsFables, PhilosophyofScience, AdventureSurvival, MediaCommunication, Philosophy]	
+ 
+prehist.txt	1 1 1 1 1 1 [WorldHistory]	[WorldHistory, AncientHistory, Erotica, Humor, AdventureSurvival, MediaCommunication, HistoryofScience, Romance, Sexuality, MiddleEasternHistory]	
+ 
+rewneo.txt	1 1 1 1 1 1 [WorldHistory]	[WorldHistory, Development, ImmigrationEmigration, Erotica, Sexuality, AdventureSurvival, Humor, Society, EnvironmentClimateMeteorology, MediaCommunication]	
+ 
+rewprzem.txt	1 1 1 1 1 1 [WorldHistory]	[WorldHistory, Development, ImmigrationEmigration, Sexuality, Society, Erotica, Humor, AdventureSurvival, SecurityDefence, MediaCommunication]	
+ 
+------------------------------------------------
+
+uklwar.txt	0 0 0 1 1 1 [WorldPolitics]	[ArmamentArmscontrol, MiddleEasternHistory, AustralianOceanianHistory, WorldPolitics, Conflicts, AdventureSurvival, Erotica, SecurityDefence, AfricanHistory, EnvironmentClimateMeteorology]	
+ 
+uniaeurop.txt	0 1 1 1 1 1 [WorldPolitics]	[InternationalRelations, WorldPolitics, SecurityDefence, Erotica, GraphicsDesign, AfricanHistory, Humor, AdventureSurvival, Development, MediaCommunication]	
+ 
+g8.txt	1 1 1 1 1 1 [WorldPolitics]	[WorldPolitics, InternationalRelations, AdventureSurvival, Erotica, AfricanHistory, Humor, Development, Sexuality, MediaCommunication, SecurityDefence]	
+ 
+nato.txt	1 1 1 1 1 1 [WorldPolitics]	[WorldPolitics, AdventureSurvival, InternationalRelations, Erotica, Humor, AfricanHistory, SecurityDefence, MediaCommunication, Sexuality, Romance]	
+ 
+wto.txt	1 1 1 1 1 1 [WorldPolitics]	[WorldPolitics, InternationalRelations, Development, Economics, SecurityDefence, AdventureSurvival, Erotica, GraphicsDesign, Humor, WorldHistory]	
+ 
+szczytnato.txt	1 1 1 1 1 1 [WorldPolitics]	[WorldPolitics, AdventureSurvival, GeographyTravel, Humor, Erotica, AfricanHistory, MiddleEasternHistory, Romance, MediaCommunication, GraphicsDesign]	
+ 
+ Rewriting extended pipe from TrainingMoldel.mallet
+  Instance ID = 583c10bfdbd326ba:61ab8dfa:1356dcb3996:-7ffa
+used /home/kacper/dev/categorizer-lda/data/all

@@ -1,0 +1,177 @@
+categorizer-lda
+wrapper script on mallet and malletmodelcreator
+using dataset /home/kacper/dev/categorizer-lda/data/12
+trained for 80 topics 
+0: 0.9722222222222222	1: 0.9722222222222222	2: 0.9861111111111112	5: 1.0	7: 1.0	10: 1.0	2: 0.97222222222222225:0.9861111111111112
+
+banknot.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, AfricanHistory, AdventureSurvival, AsianHistory, AncientHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources]	
+ 
+pieniadz.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, AfricanHistory, AdventureSurvival, AsianHistory, CareersEmploymentHumanResources, ArtArchitecturePhotography, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory]	
+ 
+bankowelektr.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, ArmamentArmscontrol, CareersEmploymentHumanResources, AlternativeMedicineNaturalHealing, AncientHistory, AustralianOceanianHistory]	
+ 
+bank.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, AfricanHistory, Business, AdventureSurvival, AsianHistory, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, AncientHistory, CareersEmploymentHumanResources, ArmamentArmscontrol]	
+ 
+bankcentralny.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, AfricanHistory, AdventureSurvival, AsianHistory, AncientHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources]	
+ 
+pienelektr.txt	1 1 1 1 1 1 [AccountingBankingMoney]	[AccountingBankingMoney, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, ArmamentArmscontrol, AlternativeMedicineNaturalHealing, AncientHistory, CareersEmploymentHumanResources, Business]	
+ 
+------------------------------------------------
+
+sztukaprzetrw.txt	1 1 1 1 1 1 [AdventureSurvival]	[AdventureSurvival, AfricanHistory, ArtArchitecturePhotography, AsianHistory, AlternativeMedicineNaturalHealing, CareersEmploymentHumanResources, ArmamentArmscontrol, AncientHistory, AustralianOceanianHistory, Biology]	
+ 
+komandos.txt	1 1 1 1 1 1 [AdventureSurvival]	[AdventureSurvival, AfricanHistory, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, AsianHistory, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+grylls.txt	1 1 1 1 1 1 [AdventureSurvival]	[AdventureSurvival, AfricanHistory, AsianHistory, AncientHistory, ArtArchitecturePhotography, AustralianOceanianHistory, ArmamentArmscontrol, AlternativeMedicineNaturalHealing, CareersEmploymentHumanResources, Biology]	
+ 
+palkiewicz.txt	1 1 1 1 1 1 [AdventureSurvival]	[AdventureSurvival, AfricanHistory, AsianHistory, ArtArchitecturePhotography, AustralianOceanianHistory, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+harcer.txt	1 1 1 1 1 1 [AdventureSurvival]	[AdventureSurvival, AfricanHistory, AsianHistory, ArtArchitecturePhotography, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, AustralianOceanianHistory, Biology]	
+ 
+czlowiek.txt	1 1 1 1 1 1 [AdventureSurvival]	[AdventureSurvival, AfricanHistory, AustralianOceanianHistory, ArtArchitecturePhotography, AsianHistory, AncientHistory, ArmamentArmscontrol, AlternativeMedicineNaturalHealing, CareersEmploymentHumanResources, Biology]	
+ 
+------------------------------------------------
+
+histliberii.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, AsianHistory, AncientHistory, AdventureSurvival, AustralianOceanianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+apartheid.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, AsianHistory, AncientHistory, AdventureSurvival, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+rpa.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, AsianHistory, AdventureSurvival, AncientHistory, AustralianOceanianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+wojnawsomalii.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, ArmamentArmscontrol, AsianHistory, AncientHistory, AdventureSurvival, AustralianOceanianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, CareersEmploymentHumanResources, Biology]	
+ 
+powsaniemahdiego.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, AsianHistory, AncientHistory, AdventureSurvival, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+kolonizacja.txt	1 1 1 1 1 1 [AfricanHistory]	[AfricanHistory, AustralianOceanianHistory, AsianHistory, AncientHistory, AdventureSurvival, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+------------------------------------------------
+
+ziololecz.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, AdventureSurvival, AfricanHistory, ArtArchitecturePhotography, AncientHistory, AsianHistory, Biology, ArmamentArmscontrol, CareersEmploymentHumanResources, AustralianOceanianHistory]	
+ 
+akupre.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+roslecz.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, AdventureSurvival, AfricanHistory, ArtArchitecturePhotography, AsianHistory, AncientHistory, Biology, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources]	
+ 
+bio.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AsianHistory, AncientHistory, AustralianOceanianHistory, Biology, ArmamentArmscontrol, CareersEmploymentHumanResources]	
+ 
+homeopatia.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AsianHistory, AncientHistory, CareersEmploymentHumanResources, ArmamentArmscontrol, Biology, AustralianOceanianHistory]	
+ 
+akupunk.txt	1 1 1 1 1 1 [AlternativeMedicineNaturalHealing]	[AlternativeMedicineNaturalHealing, AsianHistory, AfricanHistory, AdventureSurvival, AncientHistory, ArtArchitecturePhotography, ArmamentArmscontrol, Biology, AustralianOceanianHistory, CareersEmploymentHumanResources]	
+ 
+------------------------------------------------
+
+iiwojnapunicka.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, AustralianOceanianHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+egipt.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, AsianHistory, AfricanHistory, AdventureSurvival, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+krpartow.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, AsianHistory, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+mezopotamia.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, AsianHistory, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+starozytnosc.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, AsianHistory, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+cesarstwozach.txt	1 1 1 1 1 1 [AncientHistory]	[AncientHistory, AfricanHistory, AsianHistory, AdventureSurvival, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+------------------------------------------------
+
+schron.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AdventureSurvival, AfricanHistory, AustralianOceanianHistory, ArtArchitecturePhotography, AsianHistory, AlternativeMedicineNaturalHealing, AncientHistory, CareersEmploymentHumanResources, Biology]	
+ 
+forty.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AsianHistory, AncientHistory, AlternativeMedicineNaturalHealing, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+uklppal.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AfricanHistory, AdventureSurvival, AsianHistory, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, AncientHistory, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+rosomak.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AncientHistory, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+okret.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AfricanHistory, AdventureSurvival, AustralianOceanianHistory, AsianHistory, AncientHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, CareersEmploymentHumanResources, Biology]	
+ 
+tarcza.txt	1 1 1 1 1 1 [ArmamentArmscontrol]	[ArmamentArmscontrol, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, AncientHistory, AlternativeMedicineNaturalHealing, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+------------------------------------------------
+
+fpowielacz.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, AfricanHistory, AdventureSurvival, AsianHistory, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+modernizm.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, AfricanHistory, AdventureSurvival, AsianHistory, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, AustralianOceanianHistory, Biology]	
+ 
+gaudi.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, AfricanHistory, AdventureSurvival, AsianHistory, AlternativeMedicineNaturalHealing, AncientHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, AustralianOceanianHistory, Biology]	
+ 
+sztuka.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, AfricanHistory, AdventureSurvival, AlternativeMedicineNaturalHealing, AncientHistory, AsianHistory, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+fotografia.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, AdventureSurvival, AfricanHistory, AsianHistory, AlternativeMedicineNaturalHealing, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources, Biology]	
+ 
+architekt.txt	1 1 1 1 1 1 [ArtArchitecturePhotography]	[ArtArchitecturePhotography, AdventureSurvival, AfricanHistory, AsianHistory, AncientHistory, AlternativeMedicineNaturalHealing, CareersEmploymentHumanResources, ArmamentArmscontrol, AustralianOceanianHistory, Biology]	
+ 
+------------------------------------------------
+
+HistoriaIraku.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, AfricanHistory, AncientHistory, AdventureSurvival, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+HistoriaAfganistanu.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, AfricanHistory, AncientHistory, AdventureSurvival, ArtArchitecturePhotography, AustralianOceanianHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+HistoriaIranu.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, AncientHistory, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+HistoriaChin.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, AfricanHistory, AncientHistory, AdventureSurvival, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+HistoriaTurcji.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, AfricanHistory, AncientHistory, AdventureSurvival, ArtArchitecturePhotography, AustralianOceanianHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+HistoriaJaponii.txt	1 1 1 1 1 1 [AsianHistory]	[AsianHistory, AfricanHistory, AncientHistory, AdventureSurvival, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+------------------------------------------------
+
+bomba.txt	0 0 0 1 1 1 [AustralianOceanianHistory]	[AfricanHistory, AdventureSurvival, ArmamentArmscontrol, AsianHistory, AlternativeMedicineNaturalHealing, AustralianOceanianHistory, AncientHistory, ArtArchitecturePhotography, CareersEmploymentHumanResources, Business]	
+ 
+prehaustr.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, AfricanHistory, AdventureSurvival, AncientHistory, AsianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, Biology, CareersEmploymentHumanResources]	
+ 
+atanwojennywaust.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, AfricanHistory, AsianHistory, AdventureSurvival, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, ArtArchitecturePhotography, CareersEmploymentHumanResources, Biology]	
+ 
+koralowawojna.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, ArmamentArmscontrol, AdventureSurvival, AfricanHistory, AncientHistory, AsianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, CareersEmploymentHumanResources, Biology]	
+ 
+australia.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, AfricanHistory, AdventureSurvival, AsianHistory, AncientHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+histkoleowaust.txt	1 1 1 1 1 1 [AustralianOceanianHistory]	[AustralianOceanianHistory, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, CareersEmploymentHumanResources, Biology]	
+ 
+------------------------------------------------
+
+biologia.txt	1 1 1 1 1 1 [Biology]	[Biology, AdventureSurvival, AlternativeMedicineNaturalHealing, AfricanHistory, ArtArchitecturePhotography, AsianHistory, AncientHistory, AustralianOceanianHistory, CareersEmploymentHumanResources, ArmamentArmscontrol]	
+ 
+biomech.txt	1 1 1 1 1 1 [Biology]	[Biology, AdventureSurvival, AfricanHistory, AlternativeMedicineNaturalHealing, AsianHistory, ArtArchitecturePhotography, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory, CareersEmploymentHumanResources]	
+ 
+bionf.txt	1 1 1 1 1 1 [Biology]	[Biology, AdventureSurvival, AfricanHistory, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, AsianHistory, ArmamentArmscontrol, AncientHistory, AustralianOceanianHistory, CareersEmploymentHumanResources]	
+ 
+genetyka.txt	1 1 1 1 1 1 [Biology]	[Biology, AfricanHistory, AlternativeMedicineNaturalHealing, AdventureSurvival, ArtArchitecturePhotography, AsianHistory, AncientHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, AustralianOceanianHistory]	
+ 
+botanika.txt	1 1 1 1 1 1 [Biology]	[Biology, AlternativeMedicineNaturalHealing, AdventureSurvival, AfricanHistory, ArtArchitecturePhotography, AsianHistory, AncientHistory, ArmamentArmscontrol, CareersEmploymentHumanResources, AustralianOceanianHistory]	
+ 
+cyto.txt	1 1 1 1 1 1 [Biology]	[Biology, AdventureSurvival, AfricanHistory, AlternativeMedicineNaturalHealing, AsianHistory, AncientHistory, ArtArchitecturePhotography, AustralianOceanianHistory, ArmamentArmscontrol, CareersEmploymentHumanResources]	
+ 
+------------------------------------------------
+
+dzialgosp.txt	1 1 1 1 1 1 [Business]	[Business, AdventureSurvival, AfricanHistory, CareersEmploymentHumanResources, AlternativeMedicineNaturalHealing, AsianHistory, ArtArchitecturePhotography, ArmamentArmscontrol, AncientHistory, AccountingBankingMoney]	
+ 
+spolkahandlowa.txt	1 1 1 1 1 1 [Business]	[Business, AfricanHistory, AdventureSurvival, AsianHistory, CareersEmploymentHumanResources, ArtArchitecturePhotography, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory]	
+ 
+orzed.txt	1 1 1 1 1 1 [Business]	[Business, CareersEmploymentHumanResources, AfricanHistory, AdventureSurvival, AlternativeMedicineNaturalHealing, AsianHistory, ArtArchitecturePhotography, AustralianOceanianHistory, ArmamentArmscontrol, AncientHistory]	
+ 
+biznes.txt	1 1 1 1 1 1 [Business]	[Business, AdventureSurvival, AfricanHistory, AsianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, CareersEmploymentHumanResources, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory]	
+ 
+osobfiz.txt	1 1 1 1 1 1 [Business]	[Business, CareersEmploymentHumanResources, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory]	
+ 
+przedsiebiorczosc.txt	1 1 1 1 1 1 [Business]	[Business, AdventureSurvival, AfricanHistory, CareersEmploymentHumanResources, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AsianHistory, AncientHistory, ArmamentArmscontrol, Biology]	
+ 
+------------------------------------------------
+
+wolont.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, AdventureSurvival, AfricanHistory, ArtArchitecturePhotography, AsianHistory, AlternativeMedicineNaturalHealing, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory, Business]	
+ 
+umowaopr.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AsianHistory, AlternativeMedicineNaturalHealing, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory, Biology]	
+ 
+kariera.txt	0 0 1 1 1 1 [CareersEmploymentHumanResources]	[AfricanHistory, AdventureSurvival, CareersEmploymentHumanResources, ArtArchitecturePhotography, AsianHistory, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory, Biology]	
+ 
+praca.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, Business, AfricanHistory, AdventureSurvival, ArtArchitecturePhotography, AsianHistory, AncientHistory, AlternativeMedicineNaturalHealing, ArmamentArmscontrol, AustralianOceanianHistory]	
+ 
+zwiazek.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, Business, AfricanHistory, AdventureSurvival, AlternativeMedicineNaturalHealing, ArtArchitecturePhotography, AsianHistory, ArmamentArmscontrol, AncientHistory, AustralianOceanianHistory]	
+ 
+zatrudnienie.txt	1 1 1 1 1 1 [CareersEmploymentHumanResources]	[CareersEmploymentHumanResources, AfricanHistory, AdventureSurvival, AsianHistory, ArtArchitecturePhotography, AlternativeMedicineNaturalHealing, AncientHistory, ArmamentArmscontrol, AustralianOceanianHistory, Biology]	
+ 
+------------------------------------------------
+
+ Rewriting extended pipe from TrainingMoldel.mallet
+  Instance ID = 583c10bfdbd326ba:-7b6d50aa:13568c5a5e3:-7ffa
+used /home/kacper/dev/categorizer-lda/data/12
