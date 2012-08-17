@@ -32,15 +32,16 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
 
     public WekaModelTrainer(String trainingCsvPath, int numCategories) {
         this.trainingCsvPath = trainingCsvPath;
-        classifier = null;
+        this.classifier = null;
         this.numCategories = numCategories;
-        instanceListToArff = new InstanceListToArff();
+        this.instanceListToArff = new InstanceListToArff();
     }
 
     public void  createArffTrainingFile() throws IOException {
         arrfTrainingFile = File.createTempFile(UUID.randomUUID().toString(), ".arff");
-        arrfTrainingFile.deleteOnExit();
-        //System.out.println("arf file : " + arrfTrainingFile.getAbsolutePath());
+        //arrfTrainingFile.deleteOnExit();
+        System.out.println("dupa");
+        System.out.println("arf file : " + arrfTrainingFile.getAbsolutePath());
         PrintWriter pw = new PrintWriter(arrfTrainingFile);
         instanceListToArff.convert2ARFF(trainingInstances, pw, "trainingFile");
         categoriesNames = instanceListToArff.getCategoriesNames();
