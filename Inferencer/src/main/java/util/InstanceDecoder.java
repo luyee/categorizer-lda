@@ -24,7 +24,13 @@ import static org.apache.commons.lang.StringUtils.*;
 */
 public class InstanceDecoder {
 
-    public String getMessage(Instance instance){
+    /**
+     * return array of features (which are int) as one long string
+     * format is [\int\" "]+
+     * @param instance
+     * @return
+     */
+    public String getTextAsFeatures(Instance instance){
         StringBuilder builder = new StringBuilder();
         FeatureSequence featureSequence =(FeatureSequence)instance.getData();
         int [] features = featureSequence.getFeatures();

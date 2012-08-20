@@ -1,9 +1,7 @@
 package util;
 
-import cc.mallet.types.Alphabet;
 import cc.mallet.types.FeatureSequence;
 import cc.mallet.types.Instance;
-import junit.framework.TestCase;
 import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
@@ -42,7 +40,7 @@ public class InstanceDecoderTest  {
         int [] data = {1,2,3,4};
         when(featureSequence.getFeatures()).thenReturn(data);
         when(mockInstance.getData()).thenReturn(featureSequence);
-        String ret = instanceDecoder.getMessage(mockInstance);
+        String ret = instanceDecoder.getTextAsFeatures(mockInstance);
         junit.framework.Assert.assertEquals("1 2 3 4",ret);
     }
 
