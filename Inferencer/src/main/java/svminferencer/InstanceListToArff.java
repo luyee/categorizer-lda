@@ -43,7 +43,7 @@ public class InstanceListToArff {
 
     public void convert2ARFF(InstanceList instances, PrintWriter pWriter, String description) {
 
-        Alphabet dataAlphabet = instances.getDataAlphabet();
+        Alphabet dataAlphabet   = instances.getDataAlphabet();
         Alphabet targetAlphabet = instances.getTargetAlphabet();
 
         pWriter.write("@Relation " + description + "\n\n");
