@@ -2,6 +2,8 @@ package svminferencer;
 
 import cc.mallet.types.InstanceList;
 import interfaces.AbstractInferencer;
+import org.apache.log4j.Logger;
+import util.MalletWekaAdapter;
 import util.MalletWriter;
 import weka.classifiers.Classifier;
 import weka.core.Instances;
@@ -25,6 +27,8 @@ public class WekaInferencer extends AbstractInferencer {
     private final InstanceList trainingInstanceList;
     private final Classifier classifier;
     private final int  numCategories;
+    private Set<String> categoriesNames;
+    private Logger logger = Logger.getLogger(WekaInferencer.class);
 
 
     public WekaInferencer(InstanceList trainingInstanceList,
@@ -33,7 +37,9 @@ public class WekaInferencer extends AbstractInferencer {
         this.trainingInstanceList = trainingInstanceList;
         this.classifier = classifier;
         this.numCategories = numCategories;
+        this.categoriesNames = new HashSet<String>(categoiresNames);
         instanceListToArff = new InstanceListToArff(categoiresNames,trainingInstanceList);
+
     }
     
 
@@ -53,20 +59,34 @@ public class WekaInferencer extends AbstractInferencer {
         toBeClassifiedInstanceList = MalletWriter.createInsatnceList(instance,trainingInstanceList);
         //System.out.println("2: "+trainingInstanceList.getDataAlphabet().size());
         createArffToBeClassifedFile();
-        //System.out.println("3: "+trainingInstanceList.getDataAlphabet().size());
-        // load unlabeled data
-        Instances unlabeled = new Instances(
-                new BufferedReader(
-                        new FileReader(arrfToBeClassifedFile)));
+
+        MalletWekaAdapter malletWekaAdapter = new MalletWekaAdapter();
+
+
+        Instances unlabeled = malletWekaAdapter.toInstances(categoriesNames,toBeClassifiedInstanceList);
+        unlabeled = malletWekaAdapter.tfidf(unlabeled);
+
+
 
         // set class attribute
+
         int numAtrs = unlabeled.numAttributes() - 1;
+        assert(numAtrs==1);
+
         unlabeled.setClassIndex(numAtrs);
 
         // create copy
         Instances labeled = new Instances(unlabeled);
 
-        // label instances
+
+
+        logger.debug("sample instance "+unlabeled.instance(0).toString());
+        // Get index of predicted class value.
+        double predicted = classifier.classifyInstance(labeled.instance(0));
+
+        // Output class value.
+        logger.debug("Message classified as : " +
+                labeled.classAttribute().value((int)predicted));
 
         Vector<String> ret = new Vector<String>();
         double [] distribution;
@@ -96,7 +116,8 @@ public class WekaInferencer extends AbstractInferencer {
 
 
         }
-        
+
+        logger.debug(Arrays.toString(ret.toArray()));
         return ret;
     }
 }

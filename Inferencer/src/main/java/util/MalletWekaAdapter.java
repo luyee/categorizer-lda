@@ -4,6 +4,10 @@ import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
 import weka.core.Attribute;
 import weka.core.Instances;
+import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.StringToWordVector;
+
+import java.util.Collection;
 
 import static util.MalletInstanceToWekaInstance.*;
 
@@ -16,22 +20,28 @@ import static util.MalletInstanceToWekaInstance.*;
  */
 public class MalletWekaAdapter {
 
+    private StringToWordVector filter;
 
+    public Instances toInstances(InstanceList instanceList){
+        CategoriesGetter categoriesGetter = new CategoriesGetter();
+        return toInstances(categoriesGetter.getCategories(instanceList),instanceList);
+    }
+
+    public StringToWordVector getFilter() {
+        return filter;
+    }
 
     /**
-     *TODO: NOT unit tested too much fucking with weka
+     *TODO: NOT unit tested; too much fucking with weka
      * @param instanceList
      */
-    public Instances toInstances(InstanceList instanceList){
+    public Instances toInstances(Collection<String> categories,InstanceList instanceList){
         String text = "Text";
         String nameOfDataset = "malletToWeka";
 
         MalletInstanceToWekaInstance instanceAdapter = new MalletInstanceToWekaInstance();
 
-        CategoriesGetter categoriesGetter = new CategoriesGetter();
-        Instances instances = instanceAdapter.createWekaInstances(
-                categoriesGetter.getCategories(instanceList), text, nameOfDataset);
-
+        Instances instances = instanceAdapter.createWekaInstances(categories,text, nameOfDataset);
 
         for (Instance malletInstance: instanceList){
             Attribute textAtt = instances.attribute(text);
@@ -40,6 +50,16 @@ public class MalletWekaAdapter {
         }
 
         return instances;
+
+    }
+
+    public Instances tfidf(Instances instances) throws Exception {
+        filter = new StringToWordVector();
+        // Initialize filter and tell it about the input format.
+         filter.setInputFormat(instances);
+
+        // Generate word counts from the training data.
+        return Filter.useFilter(instances, filter);
 
     }
 }

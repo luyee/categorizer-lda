@@ -5,14 +5,22 @@ import cc.mallet.pipe.iterator.CsvIterator;
 import cc.mallet.types.InstanceList;
 import interfaces.AbstractInferencer;
 import interfaces.AbstractModelTrainer;
+import org.apache.log4j.Logger;
+import util.MalletWekaAdapter;
 import weka.classifiers.Classifier;
+import weka.core.Attribute;
 import weka.core.Instances;
+import weka.filters.unsupervised.attribute.StringToWordVector;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 import java.util.regex.Pattern;
+
+import static junit.framework.Assert.assertNotNull;
+import static util.MalletInstanceToWekaInstance.CategoriesGetter;
 
 /**
  * Created by IntelliJ IDEA.
@@ -29,12 +37,28 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
     protected Set<String> categoriesNames;
     protected final int numCategories;
     protected String trainingCsvPath;
+    private Logger logger = Logger.getLogger(WekaModelTrainer.class);
+    private Instances wekaTrainingInstances;
+    private Instances helpInstances;
+    private StringToWordVector filter;
 
     public WekaModelTrainer(String trainingCsvPath, int numCategories) {
         this.trainingCsvPath = trainingCsvPath;
         this.classifier = null;
         this.numCategories = numCategories;
         this.instanceListToArff = new InstanceListToArff();
+    }
+
+    public Instances getWekaTrainingInstances() {
+        return helpInstances;
+    }
+
+    public Classifier getClassifier() {
+        return classifier;
+    }
+
+    public StringToWordVector getFilter() {
+        return filter;
     }
 
     public void  createArffTrainingFile() throws IOException {
@@ -64,7 +88,7 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
 
     protected abstract void createClassifier() throws Exception;
 
-    protected Instances loadData() throws IOException {
+    protected Instances loadData() throws Exception {
         //String trainingCsvPath ="/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/UTFtest/engfile";
         // Begin by importing documents from text to feature sequences
         ArrayList<Pipe> pipeList = new ArrayList<Pipe>();
@@ -80,16 +104,30 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
 
         Reader fileReader = new InputStreamReader(new FileInputStream(new File(trainingCsvPath)), "UTF-8");
         trainingInstances.addThruPipe(new CsvIterator(fileReader, Pattern.compile("^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$"),
-                3, 2, 1)); // data, label, name fields
+                3, 2, 1)); // wekaTrainingInstances, label, name fields
 
 
-        createArffTrainingFile();
-        BufferedReader reader = new BufferedReader(
-                new FileReader(arrfTrainingFile));
-        Instances data = new Instances(reader);
-        reader.close();
-        data.setClassIndex(data.numAttributes() - 1);
-        return data;
+        MalletWekaAdapter malletWekaAdapter = new MalletWekaAdapter();
+
+        wekaTrainingInstances = malletWekaAdapter.toInstances(trainingInstances);
+
+
+
+        helpInstances = wekaTrainingInstances;
+
+        wekaTrainingInstances = malletWekaAdapter.tfidf(wekaTrainingInstances);
+
+        filter = malletWekaAdapter.getFilter();
+
+        logger.debug("sample instance " + wekaTrainingInstances.instance(1).toString());
+
+        /**
+         * TODO czy to ma być tu ?
+         */
+        CategoriesGetter categoriesGetter = new CategoriesGetter();
+        this.categoriesNames = new HashSet<String>(categoriesGetter.getCategories(trainingInstances));
+
+        return wekaTrainingInstances;
     }
 
     @Override
