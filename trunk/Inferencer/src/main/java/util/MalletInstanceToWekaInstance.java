@@ -2,10 +2,12 @@ package util;
 
 import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
+import org.apache.log4j.Logger;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instances;
 
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -20,16 +22,17 @@ import java.util.Set;
 public class MalletInstanceToWekaInstance {
 
     InstanceDecoder decoder;
+    private Logger logger = Logger.getLogger(MalletInstanceToWekaInstance.class);
 
     /**
      * TODO not tested. look to test file
      */
-    static class CategoriesGetter{
+    public static class CategoriesGetter{
 
         InstanceDecoder decoder;
 
-        CategoriesGetter() {
-            this.decoder = decoder = new InstanceDecoder();
+        public CategoriesGetter() {
+            this.decoder = new InstanceDecoder();
         }
 
         public Collection<String> getCategories(InstanceList instanceList){
@@ -46,8 +49,6 @@ public class MalletInstanceToWekaInstance {
     }
 
     protected void insert(weka.core.Instance wekaInstance,Instances instances){
-        // Give instance access to attribute information from the dataset.
-
         // Add instance to training data.
         instances.add(wekaInstance);
     }
@@ -68,7 +69,11 @@ public class MalletInstanceToWekaInstance {
         wekaInstance.setDataset(instances);
 
         // Set class value for instance.
-        wekaInstance.setClassValue(classValue);
+        /**
+         * TODO this is bug
+         */
+        if (classValue!=null)
+            wekaInstance.setClassValue(classValue);
 
         return wekaInstance;
     }
@@ -83,11 +88,12 @@ public class MalletInstanceToWekaInstance {
         attributes.addElement(new Attribute(text, (FastVector)null));
 
         // Add class attribute.
-        FastVector classValues = new FastVector();
-        CategoriesGetter categoriesGetter = new CategoriesGetter();
+        FastVector classValues = new FastVector(0);
+
         for (String category: categories){
             classValues.addElement(category);
         }
+
         attributes.addElement(new Attribute("Class", classValues));
 
         // Create dataset with initial capacity of 100, and set index of class.
