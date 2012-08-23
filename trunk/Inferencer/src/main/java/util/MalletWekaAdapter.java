@@ -2,6 +2,8 @@ package util;
 
 import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
+import svminferencer.WekaModelTrainer;
+import weka.classifiers.Classifier;
 import weka.core.Attribute;
 import weka.core.Instances;
 import weka.filters.Filter;
@@ -9,6 +11,7 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 
 import java.util.Collection;
 
+import static junit.framework.Assert.assertNotNull;
 import static util.MalletInstanceToWekaInstance.*;
 
 /**
@@ -50,6 +53,46 @@ public class MalletWekaAdapter {
         }
 
         return instances;
+
+    }
+
+
+    public weka.core.Instance toInferenceInstances(Instance malletInstance , WekaModelTrainer modelTrainer) throws Exception {
+        Instances trainingInstances =modelTrainer.getWekaTrainingInstances();
+
+        Attribute messageAtt1 = trainingInstances.attribute("Text");
+        assertNotNull(messageAtt1);
+
+        Instances testset = trainingInstances.stringFreeStructure();
+
+        Classifier classifier = modelTrainer.getClassifier();
+
+        // Create instance of length two.
+        weka.core.Instance instance = new weka.core.Instance(2);
+
+        // Set value for message attribute
+        Attribute messageAtt = testset.attribute("Text");
+        InstanceDecoder instanceDecoder = new InstanceDecoder();
+        instance.setValue(messageAtt, messageAtt.addStringValue(instanceDecoder.getTextAsFeatures(malletInstance)));
+
+        // Give instance access to attribute information from the dataset.
+        instance.setDataset(testset);
+
+        StringToWordVector filter = modelTrainer.getFilter();
+
+
+        // Filter instance.
+        filter.input(instance);
+        weka.core.Instance filteredInstance = filter.output();
+
+        return filteredInstance;
+//
+//        // Get index of predicted class value.
+//        double predicted = classifier.classifyInstance(filteredInstance);
+//
+//        // Output class value.
+//        System.err.println("Message classified as : " +
+//                trainingInstances.classAttribute().value((int) predicted));
 
     }
 

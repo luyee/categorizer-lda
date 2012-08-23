@@ -135,7 +135,8 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
         return new WekaInferencer(trainingInstances,
                 classifier,
                 categoriesNames,
-                numCategories);
+                numCategories,
+                this);
     }
 
     @Override
