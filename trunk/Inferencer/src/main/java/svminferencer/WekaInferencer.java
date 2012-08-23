@@ -22,7 +22,7 @@ import java.util.*;
 public class WekaInferencer extends AbstractInferencer {
 
     
-    private final InstanceListToArff instanceListToArff;
+
     private File arrfToBeClassifedFile;
     private InstanceList toBeClassifiedInstanceList;
     private final InstanceList trainingInstanceList;
@@ -41,7 +41,6 @@ public class WekaInferencer extends AbstractInferencer {
         this.classifier = classifier;
         this.numCategories = numCategories;
         this.categoriesNames = new HashSet<String>(categoiresNames);
-        instanceListToArff = new InstanceListToArff(categoiresNames,trainingInstanceList);
         this.wekaModelTrainer = wekaModelTrainer;
 
     }

@@ -31,7 +31,7 @@ import static util.MalletInstanceToWekaInstance.CategoriesGetter;
  */
 public abstract class WekaModelTrainer extends AbstractModelTrainer {
 
-    protected final InstanceListToArff instanceListToArff;
+
     protected  InstanceList trainingInstances;
     protected Classifier classifier;
     protected Set<String> categoriesNames;
@@ -46,7 +46,7 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
         this.trainingCsvPath = trainingCsvPath;
         this.classifier = null;
         this.numCategories = numCategories;
-        this.instanceListToArff = new InstanceListToArff();
+
     }
 
     public Instances getWekaTrainingInstances() {
