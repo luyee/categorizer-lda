@@ -99,7 +99,7 @@ public class WekaInferencer extends AbstractInferencer {
             Collections.reverse(ret);
 
             while (ret.size() < numCategories)
-                ret.add(unlabeled.toString(unlabeled.numAttributes()-1));
+                ret.add(ret.get(ret.size()-1));
 
 
         }

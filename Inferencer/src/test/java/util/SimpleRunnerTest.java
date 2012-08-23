@@ -1,41 +1,38 @@
+package util;
+
 import evaluator.DataLoader;
 import evaluator.Evaluator;
-import evaluator.RaportWriterInterface;
-import evaluator.SmallRaportWriter;
 import interfaces.AbstractInferencer;
 import interfaces.AbstractModelTrainer;
-import ldainference.ModelTrainer;
-import org.apache.log4j.Logger;
+import org.junit.Test;
 import svminferencer.KnnModelTrainer;
 import svminferencer.WekaInferencer;
 
 import java.io.File;
-import java.util.Arrays;
 import java.util.UUID;
 import java.util.Vector;
 
+import static junit.framework.Assert.*;
+
 /**
- * Created by IntelliJ IDEA.
+ * Created with IntelliJ IDEA.
  * User: kacper
- * Date: 3/25/12
- * Time: 11:24 AM
+ * Date: 23/08/12
+ * Time: 12:34
  * To change this template use File | Settings | File Templates.
  */
-public class SimpleRunner {
 
-
-    private static Logger logger = Logger.getLogger(SimpleRunner.class);
-
-    public static void main(String[] args0) throws Exception {
-
+public class SimpleRunnerTest {
+    @Test
+    public void testMain() throws Exception {
 
         AbstractInferencer inferencer;
         AbstractModelTrainer modelTrainer;
         WekaInferencer svmInferencer;
-        
+
         String trainingFilePath = "/home/kacper/dev/lda/categorizer-lda/data/12/12Data.txt";
         String toInferencePath = "/home/kacper/dev/lda/categorizer-lda/data/12/12EvalData.txt";
-        String savePath = File.createTempFile(UUID.randomUUID().toString(),"").getAbsolutePath();
+        String savePath = File.createTempFile(UUID.randomUUID().toString(), "").getAbsolutePath();
         System.out.print(savePath);
 
 
@@ -51,10 +48,11 @@ public class SimpleRunner {
         Evaluator evaluator = new Evaluator(data,modelTrainer.getInferencer());
         evaluator.evaluate();
 
+        double [] correct = {0.17857142857142858, 0.25, 0.39285714285714285,
+                0.39285714285714285, 0.39285714285714285, 0.39285714285714285};
 
-        RaportWriterInterface raportWriter = new SmallRaportWriter();
-
-        raportWriter.writeRaport(evaluator, System.out);
-        //inference.close();
+        for (int i=0;i<correct.length;i++){
+            assertEquals(correct[i], evaluator.getCorrect()[i],0.00001);
+        }
     }
 }
