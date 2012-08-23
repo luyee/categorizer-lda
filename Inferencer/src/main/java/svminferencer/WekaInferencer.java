@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import util.MalletWekaAdapter;
 import util.MalletWriter;
 import weka.classifiers.Classifier;
+import weka.core.Instance;
 import weka.core.Instances;
 
 import java.io.*;
@@ -29,16 +30,19 @@ public class WekaInferencer extends AbstractInferencer {
     private final int  numCategories;
     private Set<String> categoriesNames;
     private Logger logger = Logger.getLogger(WekaInferencer.class);
+    private WekaModelTrainer wekaModelTrainer;
 
 
     public WekaInferencer(InstanceList trainingInstanceList,
                           Classifier classifier,
-                          Set<String> categoiresNames, int numCategories) {
+                          Set<String> categoiresNames, int numCategories,
+                          WekaModelTrainer wekaModelTrainer) {
         this.trainingInstanceList = trainingInstanceList;
         this.classifier = classifier;
         this.numCategories = numCategories;
         this.categoriesNames = new HashSet<String>(categoiresNames);
         instanceListToArff = new InstanceListToArff(categoiresNames,trainingInstanceList);
+        this.wekaModelTrainer = wekaModelTrainer;
 
     }
     
@@ -63,39 +67,22 @@ public class WekaInferencer extends AbstractInferencer {
         MalletWekaAdapter malletWekaAdapter = new MalletWekaAdapter();
 
 
-        Instances unlabeled = malletWekaAdapter.toInstances(categoriesNames,toBeClassifiedInstanceList);
-        unlabeled = malletWekaAdapter.tfidf(unlabeled);
+        Instance unlabeled = malletWekaAdapter.toInferenceInstances(
+                toBeClassifiedInstanceList.get(0), wekaModelTrainer);
 
 
 
-        // set class attribute
-
-        int numAtrs = unlabeled.numAttributes() - 1;
-        assert(numAtrs==1);
-
-        unlabeled.setClassIndex(numAtrs);
-
-        // create copy
-        Instances labeled = new Instances(unlabeled);
 
 
-
-        logger.debug("sample instance "+unlabeled.instance(0).toString());
-        // Get index of predicted class value.
-        double predicted = classifier.classifyInstance(labeled.instance(0));
-
-        // Output class value.
-        logger.debug("Message classified as : " +
-                labeled.classAttribute().value((int)predicted));
 
         Vector<String> ret = new Vector<String>();
         double [] distribution;
         Map<Double,Integer> map = new TreeMap<Double,Integer>();
-        for (int i = 0; i < unlabeled.numInstances(); i++) {
+        for (int i = 0; i < 1; i++) {
 
             //double clsLabel = classifier.classifyInstance(unlabeled.instance(i));
 
-            distribution = classifier.distributionForInstance(unlabeled.instance(i));
+            distribution = classifier.distributionForInstance(unlabeled);
             //labeled.instance(i).setClassValue(clsLabel);
 
             for( int j=0;j<distribution.length;j++ ){
@@ -112,7 +99,7 @@ public class WekaInferencer extends AbstractInferencer {
             Collections.reverse(ret);
 
             while (ret.size() < numCategories)
-                ret.add(labeled.instance(i).toString(numAtrs));
+                ret.add(unlabeled.toString(unlabeled.numAttributes()-1));
 
 
         }
