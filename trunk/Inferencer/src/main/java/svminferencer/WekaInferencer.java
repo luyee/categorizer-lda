@@ -47,13 +47,6 @@ public class WekaInferencer extends AbstractInferencer {
     }
     
 
-    public void  createArffToBeClassifedFile() throws IOException {
-        arrfToBeClassifedFile = File.createTempFile(UUID.randomUUID().toString(), ".arff");
-        arrfToBeClassifedFile.deleteOnExit();
-        //System.out.println("file to be inf :" + arrfToBeClassifedFile.getAbsolutePath());
-        PrintWriter pw = new PrintWriter(arrfToBeClassifedFile);
-        instanceListToArff.convert2ARFF(toBeClassifiedInstanceList, pw, "arrfToBeClassifedFile");
-    }
 
     public Vector<String> inferenceCategories(Vector<String> instance) throws Exception {
         /*
@@ -62,7 +55,7 @@ public class WekaInferencer extends AbstractInferencer {
         //System.out.println("1: "+trainingInstanceList.getDataAlphabet().size());
         toBeClassifiedInstanceList = MalletWriter.createInsatnceList(instance,trainingInstanceList);
         //System.out.println("2: "+trainingInstanceList.getDataAlphabet().size());
-        createArffToBeClassifedFile();
+
 
         MalletWekaAdapter malletWekaAdapter = new MalletWekaAdapter();
 
