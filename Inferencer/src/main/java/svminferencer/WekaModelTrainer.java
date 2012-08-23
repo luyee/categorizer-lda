@@ -30,7 +30,7 @@ import static util.MalletInstanceToWekaInstance.CategoriesGetter;
  * To change this template use File | Settings | File Templates.
  */
 public abstract class WekaModelTrainer extends AbstractModelTrainer {
-    protected File arrfTrainingFile;
+
     protected final InstanceListToArff instanceListToArff;
     protected  InstanceList trainingInstances;
     protected Classifier classifier;
