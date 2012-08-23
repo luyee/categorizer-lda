@@ -21,14 +21,11 @@ import java.util.*;
  */
 public class WekaInferencer extends AbstractInferencer {
 
-    
 
-    private File arrfToBeClassifedFile;
     private InstanceList toBeClassifiedInstanceList;
     private final InstanceList trainingInstanceList;
     private final Classifier classifier;
     private final int  numCategories;
-    private Set<String> categoriesNames;
     private Logger logger = Logger.getLogger(WekaInferencer.class);
     private WekaModelTrainer wekaModelTrainer;
 
@@ -40,7 +37,6 @@ public class WekaInferencer extends AbstractInferencer {
         this.trainingInstanceList = trainingInstanceList;
         this.classifier = classifier;
         this.numCategories = numCategories;
-        this.categoriesNames = new HashSet<String>(categoiresNames);
         this.wekaModelTrainer = wekaModelTrainer;
 
     }
@@ -48,24 +44,14 @@ public class WekaInferencer extends AbstractInferencer {
 
 
     public Vector<String> inferenceCategories(Vector<String> instance) throws Exception {
-        /*
-        Create Mallet instance List to be clasified
-         */
-        //System.out.println("1: "+trainingInstanceList.getDataAlphabet().size());
-        toBeClassifiedInstanceList = MalletWriter.createInsatnceList(instance,trainingInstanceList);
-        //System.out.println("2: "+trainingInstanceList.getDataAlphabet().size());
 
+        //Create Mallet instance List to be clasified
+        toBeClassifiedInstanceList = MalletWriter.createInsatnceList(instance,trainingInstanceList);
 
         MalletWekaAdapter malletWekaAdapter = new MalletWekaAdapter();
 
-
         Instance unlabeled = malletWekaAdapter.toInferenceInstances(
                 toBeClassifiedInstanceList.get(0), wekaModelTrainer);
-
-
-
-
-
 
         Vector<String> ret = new Vector<String>();
         double [] distribution;
@@ -92,8 +78,6 @@ public class WekaInferencer extends AbstractInferencer {
 
             while (ret.size() < numCategories)
                 ret.add(ret.get(ret.size()-1));
-
-
         }
 
         logger.debug(Arrays.toString(ret.toArray()));
