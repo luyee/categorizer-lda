@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4ced284a-913f-4e0b-bc93-4838997e7422" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/util/SimpleRunnerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SimpleRunner.java" afterPath="$PROJECT_DIR$/src/main/java/SimpleRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java" afterPath="$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/svminferencer/WekaModelTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/svminferencer/WekaModelTrainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/MalletWekaAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/util/MalletWekaAdapter.java" />
     </list>
     <ignored path="Inferencer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,17 +97,28 @@
       <file leaf-file-name="WekaInferencer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="70" selection-start="3554" selection-end="3554" vertical-scroll-proportion="0.0">
+            <state line="74" column="6" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleRunner.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SimpleRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SimpleRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="52" selection-start="913" selection-end="913" vertical-scroll-proportion="0.74903476">
+            <state line="30" column="0" selection-start="769" selection-end="1667" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleRunnerTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/SimpleRunnerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="9" selection-start="438" selection-end="438" vertical-scroll-proportion="0.21304348">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/InstanceListDecoder.java" />
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/util/InstanceDecoderTest.java" />
@@ -154,11 +164,12 @@
         <option value="$PROJECT_DIR$/src/test/java/util/MalletInstanceToWekaInstanceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/MalletWekaAdapterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/MalletInstanceToWekaInstance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SimpleRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/losdupos.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/MalletWekaAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/svminferencer/WekaModelTrainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SimpleRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/util/SimpleRunnerTest.java" />
       </list>
     </option>
   </component>
@@ -471,37 +482,15 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ldainference" />
       <recent name="DistClasificator" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleRunner">
-    <configuration default="false" name="MalletInstanceToWekaInstanceTest.testGetCategories" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Inferencer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.MalletInstanceToWekaInstanceTest" />
-      <option name="METHOD_NAME" value="testGetCategories" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SimpleRunnerTest.testMain">
     <configuration default="false" name="MalletInstanceToWekaInstanceTest.testCreateWekaInstance" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Inferencer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -586,6 +575,28 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Inferencer" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleRunnerTest.testMain" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Inferencer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="util" />
+      <option name="MAIN_CLASS_NAME" value="util.SimpleRunnerTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -825,11 +836,11 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.SimpleRunner" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MalletInstanceToWekaInstanceTest.testGetCategories" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MalletInstanceToWekaInstanceTest.testCreateWekaInstance" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MalletInstanceToWekaInstanceTest.testInsertInstance" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.MalletWekaAdapterTest.testToInstances" />
-      <item index="6" class="java.lang.String" itemvalue="Application.losdupos" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MalletInstanceToWekaInstanceTest.testCreateWekaInstance" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MalletInstanceToWekaInstanceTest.testInsertInstance" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MalletWekaAdapterTest.testToInstances" />
+      <item index="5" class="java.lang.String" itemvalue="Application.losdupos" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.SimpleRunnerTest.testMain" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -904,12 +915,16 @@
       <created>1345649566106</created>
       <updated>1345649566106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="its working with inmemory tdidf transformation">
+      <created>1345717952101</created>
+      <updated>1345717952101</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="669" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.013651877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -922,10 +937,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20590582" sideWeight="0.99423075" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20590582" sideWeight="0.72307694" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39984038" sideWeight="0.63269234" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26895452" sideWeight="0.5480769" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45192307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26895452" sideWeight="0.72307694" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2769231" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7192308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -970,7 +985,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="los dupos is analos" />
+    <option name="LAST_COMMIT_MESSAGE" value="its working with inmemory tdidf transformation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -990,6 +1005,7 @@
     <MESSAGE value="adapter to in memrory translate mallet to weka" />
     <MESSAGE value="actually commiting it" />
     <MESSAGE value="los dupos is analos" />
+    <MESSAGE value="its working with inmemory tdidf transformation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -999,11 +1015,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/MalletInstanceToWekaInstanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="65" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/MalletWekaAdapterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="38" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0" />
@@ -1067,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="70" selection-start="3554" selection-end="3554" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/WekaModelTrainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="138" column="20" selection-start="4803" selection-end="4803" vertical-scroll-proportion="0.0">
@@ -1088,10 +1092,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/svminferencer/WekaInferencer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="6" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SimpleRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="52" selection-start="913" selection-end="913" vertical-scroll-proportion="0.74903476">
+        <state line="30" column="0" selection-start="769" selection-end="1667" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/SimpleRunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="9" selection-start="438" selection-end="438" vertical-scroll-proportion="0.21304348">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
