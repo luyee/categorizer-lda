@@ -17,36 +17,35 @@ import java.util.Vector;
 public class Evaluator {
     private AbstractInferencer inferencer;
     private Vector<EvaluationInstance> evaluationInstances;
-    private double[] correct = new double[]{0, 0, 0, 0,0,0};
-    private int[] referenceValues = new int[]{0, 1, 2, 5,7,10};
-    private double static2=0;
-    private double static5=0;
+    private double[] correct = new double[]{0, 0, 0, 0, 0, 0};
+    private int[] referenceValues = new int[]{0, 1, 2, 5, 7, 10};
+    private double static2 = 0;
+    private double static5 = 0;
 
-    
-    public Evaluator( Vector<String> evalinsts, AbstractInferencer inference){
+
+    public Evaluator(Vector<String> evalinsts, AbstractInferencer inference) {
         Vector<EvaluationInstance> e2 = parseInputLis(evalinsts);
 
-        evaluationInstances= e2;
+        evaluationInstances = e2;
         this.inferencer = inference;
     }
 
     protected Vector<EvaluationInstance> parseInputLis(Vector<String> evalinsts) {
         evaluationInstances = new Vector<EvaluationInstance>();
-        for (String evalInst: evalinsts ){
+        for (String evalInst : evalinsts) {
             evaluationInstances.add(new EvaluationInstance(evalInst));
         }
-        Map<String,EvaluationInstance> instNames = new HashMap<String, EvaluationInstance>();
-        for (EvaluationInstance evaluationInstance: evaluationInstances){
+        Map<String, EvaluationInstance> instNames = new HashMap<String, EvaluationInstance>();
+        for (EvaluationInstance evaluationInstance : evaluationInstances) {
             instNames.put(evaluationInstance.getInstanceName(), evaluationInstance);
         }
         Vector<EvaluationInstance> e2 = new Vector<EvaluationInstance>();
-        for (String name: instNames.keySet()){
-            e2.add(new EvaluationInstance(evaluationInstances,name,
+        for (String name : instNames.keySet()) {
+            e2.add(new EvaluationInstance(evaluationInstances, name,
                     instNames.get(name).getData()));
         }
         return e2;
     }
-
 
 
     public Evaluator() {
@@ -90,15 +89,13 @@ public class Evaluator {
         return evaluationInstance.getCorrectPercentage(referenceValues[i]);
     }
 
-    protected double getCorrectPrecentageStatic(EvaluationInstance evaluationInstance, int i){
+    protected double getCorrectPrecentageStatic(EvaluationInstance evaluationInstance, int i) {
         return evaluationInstance.getCorrectPercentageStatic(i);
     }
 
     protected Vector<String> inference(EvaluationInstance evaluationInstance) throws Exception {
         return inferencer.inferenceCategories(evaluationInstance.getData());
     }
-
-
 
 
     public void evaluate() throws Exception {

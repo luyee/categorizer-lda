@@ -7,9 +7,7 @@ import util.MalletWekaAdapter;
 import util.MalletWriter;
 import weka.classifiers.Classifier;
 import weka.core.Instance;
-import weka.core.Instances;
 
-import java.io.*;
 import java.util.*;
 
 /**
@@ -25,7 +23,7 @@ public class WekaInferencer extends AbstractInferencer {
     private InstanceList toBeClassifiedInstanceList;
     private final InstanceList trainingInstanceList;
     private final Classifier classifier;
-    private final int  numCategories;
+    private final int numCategories;
     private Logger logger = Logger.getLogger(WekaInferencer.class);
     private WekaModelTrainer wekaModelTrainer;
 
@@ -40,45 +38,44 @@ public class WekaInferencer extends AbstractInferencer {
         this.wekaModelTrainer = wekaModelTrainer;
 
     }
-    
 
 
     public Vector<String> inferenceCategories(Vector<String> instance) throws Exception {
 
         //Create Mallet instance List to be clasified
-        toBeClassifiedInstanceList = MalletWriter.createInsatnceList(instance,trainingInstanceList);
+        toBeClassifiedInstanceList = MalletWriter.createInsatnceList(instance, trainingInstanceList);
 
         MalletWekaAdapter malletWekaAdapter = new MalletWekaAdapter();
 
-        Instance unlabeled = malletWekaAdapter.toInferenceInstances(
-                toBeClassifiedInstanceList.get(0), wekaModelTrainer);
+        Instance unlabeled = malletWekaAdapter.toInferenceInstance(
+                toBeClassifiedInstanceList.get(0), wekaModelTrainer.getWekaTrainingInstances(), wekaModelTrainer.getFilter());
 
         Vector<String> ret = new Vector<String>();
-        double [] distribution;
-        Map<Double,Integer> map = new TreeMap<Double,Integer>();
-        for (int i = 0; i < 1; i++) {
-
-            //double clsLabel = classifier.classifyInstance(unlabeled.instance(i));
-
-            distribution = classifier.distributionForInstance(unlabeled);
-            //labeled.instance(i).setClassValue(clsLabel);
-
-            for( int j=0;j<distribution.length;j++ ){
-
-                map.put(distribution[j],j);
-            }
+        double[] distribution;
+        Map<Double, Integer> map = new TreeMap<Double, Integer>();
 
 
-            for(Double d: map.keySet()){
+        //double clsLabel = classifier.classifyInstance(unlabeled.instance(i));
 
-                ret.add(unlabeled.classAttribute().value((int) map.get(d))) ;
+        distribution = classifier.distributionForInstance(unlabeled);
+        //labeled.instance(i).setClassValue(clsLabel);
 
-            }
-            Collections.reverse(ret);
+        for (int j = 0; j < distribution.length; j++) {
 
-            while (ret.size() < numCategories)
-                ret.add(ret.get(ret.size()-1));
+            map.put(distribution[j], j);
         }
+
+
+        for (Double d : map.keySet()) {
+
+            ret.add(unlabeled.classAttribute().value((int) map.get(d)));
+
+        }
+        Collections.reverse(ret);
+
+        while (ret.size() < numCategories)
+            ret.add(ret.get(ret.size() - 1));
+
 
         logger.debug(Arrays.toString(ret.toArray()));
         return ret;

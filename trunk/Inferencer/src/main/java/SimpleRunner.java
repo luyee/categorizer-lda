@@ -32,14 +32,14 @@ public class SimpleRunner {
         AbstractInferencer inferencer;
         AbstractModelTrainer modelTrainer;
         WekaInferencer svmInferencer;
-        
+
         String trainingFilePath = "/home/kacper/dev/lda/categorizer-lda/data/12/12Data.txt";
         String toInferencePath = "/home/kacper/dev/lda/categorizer-lda/data/12/12EvalData.txt";
-        String savePath = File.createTempFile(UUID.randomUUID().toString(),"").getAbsolutePath();
+        String savePath = File.createTempFile(UUID.randomUUID().toString(), "").getAbsolutePath();
         System.out.print(savePath);
 
 
-        modelTrainer = new KnnModelTrainer(trainingFilePath,50,12);
+        modelTrainer = new KnnModelTrainer(trainingFilePath, 50, 12);
         //modelTrainer.readModelFromFile(savePath);
 
         modelTrainer.trainModel();
@@ -48,7 +48,7 @@ public class SimpleRunner {
 
         DataLoader dataLoader = new DataLoader(toInferencePath);
         Vector<String> data = dataLoader.getEvaluationInsatnces();
-        Evaluator evaluator = new Evaluator(data,modelTrainer.getInferencer());
+        Evaluator evaluator = new Evaluator(data, modelTrainer.getInferencer());
         evaluator.evaluate();
 
 

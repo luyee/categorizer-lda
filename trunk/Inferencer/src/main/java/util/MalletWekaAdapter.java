@@ -2,8 +2,6 @@ package util;
 
 import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
-import svminferencer.WekaModelTrainer;
-import weka.classifiers.Classifier;
 import weka.core.Attribute;
 import weka.core.Instances;
 import weka.filters.Filter;
@@ -24,10 +22,12 @@ import static util.MalletInstanceToWekaInstance.*;
 public class MalletWekaAdapter {
 
     private StringToWordVector filter;
+    private static final String TEXT ="Text";
+    public static final String NAME_OF_DATASET = "malletToWeka";
 
-    public Instances toInstances(InstanceList instanceList){
+    public Instances toInstances(InstanceList instanceList) {
         CategoriesGetter categoriesGetter = new CategoriesGetter();
-        return toInstances(categoriesGetter.getCategories(instanceList),instanceList);
+        return toInstances(categoriesGetter.getCategories(instanceList), instanceList);
     }
 
     public StringToWordVector getFilter() {
@@ -35,21 +35,27 @@ public class MalletWekaAdapter {
     }
 
     /**
-     *TODO: NOT unit tested; too much fucking with weka
+     * TODO: NOT unit tested; too much fucking with weka
+     *
      * @param instanceList
      */
-    public Instances toInstances(Collection<String> categories,InstanceList instanceList){
-        String text = "Text";
-        String nameOfDataset = "malletToWeka";
+    public Instances toInstances(Collection<String> categories, InstanceList instanceList) {
 
         MalletInstanceToWekaInstance instanceAdapter = new MalletInstanceToWekaInstance();
 
-        Instances instances = instanceAdapter.createWekaInstances(categories,text, nameOfDataset);
+        Instances instances = instanceAdapter.createWekaInstances(categories, TEXT, NAME_OF_DATASET);
 
-        for (Instance malletInstance: instanceList){
-            Attribute textAtt = instances.attribute(text);
-            weka.core.Instance wekaInstance = instanceAdapter.create(textAtt, malletInstance,instances);
-            instanceAdapter.insert(wekaInstance,instances);
+        for (Instance malletInstance : instanceList) {
+            Attribute textAtt = instances.attribute(TEXT);
+            weka.core.Instance wekaInstance = new weka.core.Instance(2);
+
+            wekaInstance.setDataset(instances);
+
+            instanceAdapter.setText(textAtt, malletInstance, wekaInstance);
+
+            instanceAdapter.setClass(malletInstance, wekaInstance);
+
+            instanceAdapter.insert(wekaInstance, instances);
         }
 
         return instances;
@@ -57,49 +63,37 @@ public class MalletWekaAdapter {
     }
 
 
-    public weka.core.Instance toInferenceInstances(Instance malletInstance , WekaModelTrainer modelTrainer) throws Exception {
-        Instances trainingInstances =modelTrainer.getWekaTrainingInstances();
 
-        Attribute messageAtt1 = trainingInstances.attribute("Text");
-        assertNotNull(messageAtt1);
+    public weka.core.Instance toInferenceInstance(Instance malletInstance,
+                                                  Instances wekaTrainingInstances,
+                                                  StringToWordVector filter) throws Exception {
 
-        Instances testset = trainingInstances.stringFreeStructure();
-
-        Classifier classifier = modelTrainer.getClassifier();
+        Instances testset = wekaTrainingInstances.stringFreeStructure();
 
         // Create instance of length two.
         weka.core.Instance instance = new weka.core.Instance(2);
 
         // Set value for message attribute
-        Attribute messageAtt = testset.attribute("Text");
+        Attribute messageAtt = testset.attribute(TEXT);
         InstanceDecoder instanceDecoder = new InstanceDecoder();
-        instance.setValue(messageAtt, messageAtt.addStringValue(instanceDecoder.getTextAsFeatures(malletInstance)));
+        instance.setValue(messageAtt, messageAtt.addStringValue(
+                instanceDecoder.getTextAsFeatures(malletInstance)));
 
         // Give instance access to attribute information from the dataset.
         instance.setDataset(testset);
 
-        StringToWordVector filter = modelTrainer.getFilter();
-
-
         // Filter instance.
         filter.input(instance);
-        weka.core.Instance filteredInstance = filter.output();
 
-        return filteredInstance;
-//
-//        // Get index of predicted class value.
-//        double predicted = classifier.classifyInstance(filteredInstance);
-//
-//        // Output class value.
-//        System.err.println("Message classified as : " +
-//                trainingInstances.classAttribute().value((int) predicted));
+        return filter.output();
 
     }
 
     public Instances tfidf(Instances instances) throws Exception {
         filter = new StringToWordVector();
+        filter.setIDFTransform(true);
         // Initialize filter and tell it about the input format.
-         filter.setInputFormat(instances);
+        filter.setInputFormat(instances);
 
         // Generate word counts from the training data.
         return Filter.useFilter(instances, filter);

@@ -1,5 +1,6 @@
 package svminferencer;
 
+import util.CosineDistance;
 import weka.classifiers.Classifier;
 import weka.classifiers.lazy.IBk;
 
@@ -13,7 +14,7 @@ import java.io.ObjectInputStream;
  * Time: 9:22 PM
  * To change this template use File | Settings | File Templates.
  */
-public class KnnModelTrainer extends WekaModelTrainer{
+public class KnnModelTrainer extends WekaModelTrainer {
 
 
     private final int k;
@@ -27,14 +28,18 @@ public class KnnModelTrainer extends WekaModelTrainer{
         super(trainingCsvPath, numCategories);
         this.k = k;
     }
+
     @Override
     protected void createClassifier() throws Exception {
-        classifier = new IBk(k);
+        IBk ibk = new IBk(k);
+        //ibk.getNearestNeighbourSearchAlgorithm().setDistanceFunction(new CosineDistance());
+        classifier = ibk;
+
 
     }
 
     @Override
-    protected Classifier   castToProprerClassifier(ObjectInputStream ois) throws IOException, ClassNotFoundException {
+    protected Classifier castToProprerClassifier(ObjectInputStream ois) throws IOException, ClassNotFoundException {
         return (IBk) ois.readObject();
     }
 

@@ -27,7 +27,7 @@ public class MalletInstanceToWekaInstance {
     /**
      * TODO not tested. look to test file
      */
-    public static class CategoriesGetter{
+    public static class CategoriesGetter {
 
         InstanceDecoder decoder;
 
@@ -35,9 +35,9 @@ public class MalletInstanceToWekaInstance {
             this.decoder = new InstanceDecoder();
         }
 
-        public Collection<String> getCategories(InstanceList instanceList){
+        public Collection<String> getCategories(InstanceList instanceList) {
             Set<String> categories = new HashSet<String>();
-            for(Instance instance : instanceList){
+            for (Instance instance : instanceList) {
                 categories.add(decoder.getCategory(instance));
             }
             return categories;
@@ -48,36 +48,24 @@ public class MalletInstanceToWekaInstance {
         decoder = new InstanceDecoder();
     }
 
-    protected void insert(weka.core.Instance wekaInstance,Instances instances){
+    protected void insert(weka.core.Instance wekaInstance, Instances instances) {
         // Add instance to training data.
         instances.add(wekaInstance);
     }
 
-    protected weka.core.Instance create(Attribute textAtt,
-                                        Instance malletInstance, Instances instances) {
 
-        String instanceText = decoder.getTextAsFeatures(malletInstance);
+    void setClass(Instance malletInstance, weka.core.Instance wekaInstance) {
+        String classValue = decoder.getCategory(malletInstance);
 
-        // Create instance of length two.  T
-        weka.core.Instance wekaInstance = new weka.core.Instance(2);
-
-        // Set value for text attribute
-        wekaInstance.setValue(textAtt, textAtt.addStringValue(instanceText));
-
-        String classValue =decoder.getCategory(malletInstance);
-
-        wekaInstance.setDataset(instances);
-
-        // Set class value for instance.
-        /**
-         * TODO this is bug
-         */
-        if (classValue!=null)
-            wekaInstance.setClassValue(classValue);
-
-        return wekaInstance;
+        wekaInstance.setClassValue(classValue);
     }
 
+    protected void setText(Attribute textAtt, Instance malletInstance, weka.core.Instance wekaInstance) {
+        String instanceText = decoder.getTextAsFeatures(malletInstance);
+        // Set value for text attribute
+        int value = textAtt.addStringValue(instanceText);
+        wekaInstance.setValue(textAtt, value);
+    }
 
 
     protected Instances createWekaInstances(Collection<String> categories, String text, String nameOfDataset) {
@@ -85,12 +73,12 @@ public class MalletInstanceToWekaInstance {
         FastVector attributes = new FastVector(2);
 
         // Add attribute for holding text.
-        attributes.addElement(new Attribute(text, (FastVector)null));
+        attributes.addElement(new Attribute(text, (FastVector) null));
 
         // Add class attribute.
         FastVector classValues = new FastVector(0);
 
-        for (String category: categories){
+        for (String category : categories) {
             classValues.addElement(category);
         }
 
@@ -100,7 +88,7 @@ public class MalletInstanceToWekaInstance {
         Instances instances = new Instances(nameOfDataset, attributes, 100);
 
         //remains of old code
-        assert(instances.numAttributes()==2);
+        assert (instances.numAttributes() == 2);
         instances.setClassIndex(1);
         return instances;
     }

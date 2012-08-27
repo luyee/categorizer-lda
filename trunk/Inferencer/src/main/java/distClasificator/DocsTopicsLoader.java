@@ -13,15 +13,14 @@ import java.util.TreeMap;
  * To change this template use File | Settings | File Templates.
  */
 public class DocsTopicsLoader {
-    
-    private String docsTopicsPath=null;
+
+    private String docsTopicsPath = null;
     private BufferedReader bufferedReader;
     private DataInputStream inputStream;
 
 
-
     public DocsTopicsLoader(String path) throws FileNotFoundException {
-        docsTopicsPath=path;
+        docsTopicsPath = path;
         FileInputStream fstream = new FileInputStream(docsTopicsPath);
         inputStream = new DataInputStream(fstream);
         bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -32,7 +31,7 @@ public class DocsTopicsLoader {
     }
 
     public DocsTopicsLoader(InputStream resourceAsStream) {
-        inputStream =new DataInputStream(resourceAsStream);
+        inputStream = new DataInputStream(resourceAsStream);
         bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
     }
 
@@ -42,30 +41,30 @@ public class DocsTopicsLoader {
 
     protected String getNext() throws IOException {
         String strLine;
-        if ((strLine = bufferedReader.readLine()) != null){
+        if ((strLine = bufferedReader.readLine()) != null) {
             return strLine;
         }
         return null;
 
     }
-    
-    public Map<String,Map<Integer,Double>> getItMaped() throws IOException {
-        Map<String,Map<Integer,Double>> map = new HashMap<String,Map<Integer,Double>>();
 
-        boolean jump=true;
+    public Map<String, Map<Integer, Double>> getItMaped() throws IOException {
+        Map<String, Map<Integer, Double>> map = new HashMap<String, Map<Integer, Double>>();
+
+        boolean jump = true;
         String strLine = getNext();
 
-        while ( (strLine=getNext()) != null )   {
+        while ((strLine = getNext()) != null) {
 
             String[] arr = strLine.split("\\s+");
             String cat = arr[1];
 
-            Map<Integer,Double> mp= new TreeMap<Integer,Double>();
-            for (int i=2;i<arr.length;i=i+2){
-                mp.put(new Integer(arr[i]),new Double(arr[i+1]));
+            Map<Integer, Double> mp = new TreeMap<Integer, Double>();
+            for (int i = 2; i < arr.length; i = i + 2) {
+                mp.put(new Integer(arr[i]), new Double(arr[i + 1]));
             }
 
-            map.put(cat,mp);
+            map.put(cat, mp);
 
 
         }

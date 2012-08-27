@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import weka.core.Attribute;
+import weka.core.EuclideanDistance;
 import weka.core.Instances;
 
 import java.util.*;
@@ -59,6 +60,7 @@ public class MalletInstanceToWekaInstanceTest {
 
     /**
      * No better way to test this  due to weka
+     * TODO refactor;
      */
     @Test
     public void testCreateWekaInstance(){
@@ -72,18 +74,52 @@ public class MalletInstanceToWekaInstanceTest {
         malletInstance = mock(Instance.class);
         when(decoder.getCategory(malletInstance)).thenReturn("a");
         when(decoder.getTextAsFeatures(malletInstance)).thenReturn("1 2 3 4");
-
-        weka.core.Instance wekaInstance =instanceAdapter.create(attribute, malletInstance, instances);
+        weka.core.Instance wekaInstance = new weka.core.Instance(2);
+        wekaInstance.setDataset(instances);
+        instanceAdapter.setText(attribute, malletInstance, wekaInstance);
+        instanceAdapter.setClass(malletInstance, wekaInstance);
         String message = wekaInstance.toString();
         logger.debug(message);
         junit.framework.Assert.assertEquals(message,"'1 2 3 4',a");
     }
 
+
+    @Test
     public void testInsertInstance(){
         Instances instances = mock(Instances.class);
         weka.core.Instance wekaInstance = mock(weka.core.Instance.class);
         instanceAdapter.insert(wekaInstance,instances);
-        verify(wekaInstance).setDataset(instances);
         verify(instances).add(wekaInstance);
+        EuclideanDistance euclideanDistance;
     }
+
+    /**
+     * mallet sucks
+     */
+//    @Test
+//    public void testSetClass(){
+//        Instance instance = mock(Instance.class);
+//        weka.core.Instance wekaInstance = mock(weka.core.Instance.class);
+//        InstanceDecoder decoder = mock(InstanceDecoder.class);
+//        instanceAdapter.decoder = decoder;
+//        when(decoder.getCategory(instance)).thenReturn("cat");
+//        doNothing().when(wekaInstance).setClassValue(any(String.class));
+//        instanceAdapter.setClass(instance,wekaInstance);
+//        verify(wekaInstance).setClassValue("cat");
+//    }
+
+
+//    @Test TODO not testable due to weka
+//    public void testSetText(){
+//        Instance instance = mock(Instance.class);
+//        weka.core.Instance wekaInstance = mock(weka.core.Instance.class);
+//        InstanceDecoder decoder = mock(InstanceDecoder.class);
+//        instanceAdapter.decoder = decoder;
+//        String s = "1 2 3 4";
+//        when(decoder.getTextAsFeatures(instance)).thenReturn(s);
+//        Attribute attribute = mock(Attribute.class);
+//        when(attribute.addStringValue(any(String.class))).thenReturn(145);
+//        instanceAdapter.setText(attribute, instance, wekaInstance);
+//        verify(wekaInstance).setValue(any(Attribute.class), eq(145));
+//    }
 }

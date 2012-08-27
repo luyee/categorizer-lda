@@ -17,8 +17,6 @@ import java.util.regex.Pattern;
  * To change this template use File | Settings | File Templates.
  */
 public class MalletWriter {
-   
-
 
 
     public static File addToCvs(Vector<String> words) throws IOException {
@@ -32,9 +30,10 @@ public class MalletWriter {
         out.write("\t");
         out.write("-");
         out.write("\t");
-        for (String token : words){
-            out.write(token+" ");
-        };
+        for (String token : words) {
+            out.write(token + " ");
+        }
+        ;
         out.write(".\n");
         out.close();
         return csvFile;
@@ -62,10 +61,18 @@ public class MalletWriter {
 
     }
 
+    /**
+     * TODO cahne this to single instance
+     *
+     * @param words
+     * @param trainingInstanceList
+     * @return
+     * @throws IOException
+     */
     public static InstanceList createInsatnceList(
             Vector<String> words,
             InstanceList trainingInstanceList) throws IOException {
-        return  MalletWriter.createInstances(
+        return MalletWriter.createInstances(
                 MalletWriter.addToCvs(words),
                 trainingInstanceList);
     }

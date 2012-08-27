@@ -24,11 +24,12 @@ public class Inferencer extends AbstractInferencer {
     /**
      * This constructor should mot be used unless you know what you are doing.
      * Much safer way is to call @see interfaces.AbstractModelTrainer#getInferencer()
-     * @param docPerTopic file describing KNN like model
-     * @param inferencer  inferencer from ModelTrainer
+     *
+     * @param docPerTopic          file describing KNN like model
+     * @param inferencer           inferencer from ModelTrainer
      * @param trainingInstanceList list of training instances
      */
-    public Inferencer( File docPerTopic, TopicInferencer inferencer, InstanceList trainingInstanceList) {
+    public Inferencer(File docPerTopic, TopicInferencer inferencer, InstanceList trainingInstanceList) {
 
         this.docPerTopic = docPerTopic;
         this.inferencer = inferencer;
@@ -37,8 +38,8 @@ public class Inferencer extends AbstractInferencer {
 
     @Override
     public Vector<String> inferenceCategories(Vector<String> instance) throws Exception {
-        
-        InstanceList instances = MalletWriter.createInsatnceList(instance,trainingInstanceList);
+
+        InstanceList instances = MalletWriter.createInsatnceList(instance, trainingInstanceList);
         Category cats = infCategories(instances).get(0);
         DistanceClassifier distanceClassifier = new DistanceClassifier();
 
@@ -50,8 +51,9 @@ public class Inferencer extends AbstractInferencer {
 
     /**
      * inferencing abstract categories by LDA
+     *
      * @param instanceList representation of input document as instance List
-     * @return  vector of abstract topics as Strings
+     * @return vector of abstract topics as Strings
      * @throws Exception
      */
     private Vector<Category> infCategories(InstanceList instanceList) throws Exception {
@@ -76,12 +78,11 @@ public class Inferencer extends AbstractInferencer {
     }
 
     /**
-     * @deprecated
-     * for creating instances form file. Solely for testing and optimization purposes
      * @param fileToBeInferenced
      * @return
      * @throws IOException
      * @throws UnsupportedEncodingException
+     * @deprecated for creating instances form file. Solely for testing and optimization purposes
      */
     public InstanceList createInstances(File fileToBeInferenced) throws IOException, UnsupportedEncodingException {
 

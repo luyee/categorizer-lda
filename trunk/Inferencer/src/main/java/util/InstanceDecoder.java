@@ -16,25 +16,26 @@ import static org.apache.commons.lang.ArrayUtils.*;
 import static org.apache.commons.lang.StringUtils.*;
 
 /**
-* Created with IntelliJ IDEA.
-* User: kacper
-* Date: 20/08/12
-* Time: 14:56
-* To change this template use File | Settings | File Templates.
-*/
+ * Created with IntelliJ IDEA.
+ * User: kacper
+ * Date: 20/08/12
+ * Time: 14:56
+ * To change this template use File | Settings | File Templates.
+ */
 public class InstanceDecoder {
 
     /**
      * return array of features (which are int) as one long string
      * format is [\int\" "]+
+     *
      * @param instance
      * @return
      */
-    public String getTextAsFeatures(Instance instance){
+    public String getTextAsFeatures(Instance instance) {
         StringBuilder builder = new StringBuilder();
-        FeatureSequence featureSequence =(FeatureSequence)instance.getData();
-        int [] features = featureSequence.getFeatures();
-        return join(toObject(features),' ');
+        FeatureSequence featureSequence = (FeatureSequence) instance.getData();
+        int[] features = featureSequence.getFeatures();
+        return join(toObject(features), ' ');
     }
 
 
