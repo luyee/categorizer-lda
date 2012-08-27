@@ -32,7 +32,7 @@ import static util.MalletInstanceToWekaInstance.CategoriesGetter;
 public abstract class WekaModelTrainer extends AbstractModelTrainer {
 
 
-    protected  InstanceList trainingInstances;
+    protected InstanceList trainingInstances;
     protected Classifier classifier;
     protected Set<String> categoriesNames;
     protected final int numCategories;
@@ -66,7 +66,7 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
     public void trainModel() throws Exception {
         Instances data = loadData();
 
-        if (!modelFromFile){
+        if (!modelFromFile) {
             System.out.println("building");
             createClassifier();
             classifier.buildClassifier(data);
@@ -101,7 +101,6 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
         wekaTrainingInstances = malletWekaAdapter.toInstances(trainingInstances);
 
 
-
         helpInstances = wekaTrainingInstances;
 
         wekaTrainingInstances = malletWekaAdapter.tfidf(wekaTrainingInstances);
@@ -129,7 +128,7 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
     }
 
     @Override
-    public void readModelFromFile(String modelPath) throws Exception{
+    public void readModelFromFile(String modelPath) throws Exception {
         String pathname = modelPath + getSaveSuffix();
         try {
 
@@ -137,11 +136,11 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
                     new FileInputStream(pathname));
             classifier = castToProprerClassifier(ois);
             ois.close();
-            this.modelFromFile=true;
+            this.modelFromFile = true;
 
         } catch (Exception e) {
             System.err.println("Unable to restore saved svn model " +
-                    pathname     + ": " + e);
+                    pathname + ": " + e);
 
         }
     }
@@ -155,13 +154,13 @@ public abstract class WekaModelTrainer extends AbstractModelTrainer {
         try {
 
             ObjectOutputStream oos =
-                    new ObjectOutputStream (new FileOutputStream (pathname));
-            oos.writeObject (classifier);
+                    new ObjectOutputStream(new FileOutputStream(pathname));
+            oos.writeObject(classifier);
             oos.close();
 
         } catch (Exception e) {
             e.printStackTrace();
-            throw new IllegalArgumentException ("Couldn't write svm model to filename "+pathname);
+            throw new IllegalArgumentException("Couldn't write svm model to filename " + pathname);
         }
     }
 

@@ -18,17 +18,17 @@ public class Categories {
 
     private Vector<Category> categories;
 
-    public Categories(Map< String, Map<Integer,Double> > map){
-          categories = merge(mapToVector(map));
+    public Categories(Map<String, Map<Integer, Double>> map) {
+        categories = merge(mapToVector(map));
     }
 
     public Categories() {
         //To change body of created methods use File | Settings | File Templates.
     }
 
-    protected Vector<Category> mapToVector(Map< String, Map<Integer,Double> > map){
-        Vector<Category> cats= new Vector<Category>();
-        for(String catNames: map.keySet()){
+    protected Vector<Category> mapToVector(Map<String, Map<Integer, Double>> map) {
+        Vector<Category> cats = new Vector<Category>();
+        for (String catNames : map.keySet()) {
             cats.add(newSingleCategorie(map, catNames));
         }
         return cats;
@@ -38,27 +38,27 @@ public class Categories {
         return new Category(map.get(catNames), catNames);
     }
 
-    protected Vector<Category> merge(Vector<Category> cats){
+    protected Vector<Category> merge(Vector<Category> cats) {
         Set<String> names = new HashSet<String>();
-        for (Category cat: cats){
+        for (Category cat : cats) {
             names.add(cat.getCategoryName());
         }
         Vector<Category> ret = new Vector<Category>();
-        for (String name: names){
-           ret.add(createMergedCategoties(cats, name));
+        for (String name : names) {
+            ret.add(createMergedCategoties(cats, name));
         }
-        
+
         return ret;
     }
 
     protected Category createMergedCategoties(Vector<Category> cats, String name) {
-        return new Category(cats,name);
+        return new Category(cats, name);
     }
 
-    protected Collection<Category> assignCategories(double [] weigths){
-        TreeMap<Double, Category>  treeMap=
+    protected Collection<Category> assignCategories(double[] weigths) {
+        TreeMap<Double, Category> treeMap =
                 new TreeMap<Double, Category>();
-        for (Category catetegory: getCategories()){
+        for (Category catetegory : getCategories()) {
             treeMap.put(countDist(weigths, catetegory),
                     catetegory);
         }

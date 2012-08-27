@@ -13,6 +13,7 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
@@ -79,4 +80,43 @@ public class MalletWekaAdapterTest {
         assertEquals(instances.instance(1).toString(0),file);
 
     }
+    @Test
+    public void testToInstances2() throws Exception {
+        //String trainingCsvPath ="/home/kacper/IdeaProjects/LDAModelCreator/src/test/testsDir/UTFtest/engfile";
+        // Begin by importing documents from text to feature sequences
+        ArrayList<Pipe> pipeList = new ArrayList<Pipe>();
+
+        // Pipes: lowercase, tokenize, remove stopwords, map to features
+        pipeList.add(new CharSequenceLowercase());
+
+        pipeList.add(new CharSequence2TokenSequence(Pattern.compile("[\\p{L}\\p{M}]+")));
+        //pipeList.add( new TokenSequenceRemoveStopwords(new File("stoplists/en.txt"), "UTF-8", false, false, false) );
+        pipeList.add(new TokenSequence2FeatureSequence());
+
+        InstanceList trainingInstances = new InstanceList(new SerialPipes(pipeList));
+
+        String trainingCsvPath = "/home/kacper/dev/lda/categorizer-lda/data/12/12Data.txt";
+        Reader fileReader = new InputStreamReader(new FileInputStream(new File(trainingCsvPath)), "UTF-8");
+        trainingInstances.addThruPipe(new CsvIterator(fileReader, Pattern.compile("^(\\S*)[\\s,]*(\\S*)[\\s,]*(.*)$"),
+                3, 2, 1)); // data, label, name fields
+
+        MalletWekaAdapter malletWekaAdapter = new MalletWekaAdapter();
+        Instances instances = malletWekaAdapter.toInstances(trainingInstances);
+        instances = malletWekaAdapter.tfidf(instances);
+
+        assertEquals(instances.numInstances(),12*6);
+
+        for (int i=0;i<instances.numInstances();i++){
+            Instance instance = instances.instance(i);
+            logger.debug(instance.numAttributes());
+            logger.debug(Arrays.toString(instance.toDoubleArray()));
+        }
+
+
+    }
+
 }
+
+
+
+

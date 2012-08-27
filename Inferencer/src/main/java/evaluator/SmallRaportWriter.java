@@ -14,15 +14,15 @@ import java.text.DecimalFormat;
 public class SmallRaportWriter extends RaportWriterInterface {
 
     @Override
-    public void writeRaport(Evaluator evaluator, OutputStream outputStream){
+    public void writeRaport(Evaluator evaluator, OutputStream outputStream) {
         DecimalFormat df = new DecimalFormat("#.####");
         PrintStream out = new PrintStream(outputStream);
         int[] referenceValues = evaluator.getReferenceValues();
-        for (int i=0;i< referenceValues.length;i++){
-            out.print(referenceValues[i] +": "+ evaluator.getCorrect()[i] +"\t" );
+        for (int i = 0; i < referenceValues.length; i++) {
+            out.print(referenceValues[i] + ": " + evaluator.getCorrect()[i] + "\t");
         }
-        out.print("2: "+evaluator.getStatic2());
-        out.println("5:"+evaluator.getStatic5() +"\n");
+        out.print("2: " + evaluator.getStatic2());
+        out.println("5:" + evaluator.getStatic5() + "\n");
     }
 
 }

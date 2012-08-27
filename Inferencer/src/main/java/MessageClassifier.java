@@ -11,6 +11,7 @@ import weka.classifiers.Classifier;
 import weka.classifiers.trees.J48;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
+
 import java.io.*;
 
 public class MessageClassifier implements Serializable {
@@ -38,7 +39,7 @@ public class MessageClassifier implements Serializable {
         FastVector attributes = new FastVector(2);
 
         // Add attribute for holding messages.
-        attributes.addElement(new Attribute("Message", (FastVector)null));
+        attributes.addElement(new Attribute("Message", (FastVector) null));
 
         // Add class attribute.
         FastVector classValues = new FastVector(2);
@@ -84,7 +85,7 @@ public class MessageClassifier implements Serializable {
             m_Filter.setInputFormat(m_Data);
 
             // Generate word counts from the training data.
-            Instances filteredData  = Filter.useFilter(m_Data, m_Filter);
+            Instances filteredData = Filter.useFilter(m_Data, m_Filter);
 
             // Rebuild classifier.
             m_Classifier.buildClassifier(filteredData);
@@ -107,7 +108,7 @@ public class MessageClassifier implements Serializable {
 
         // Output class value.
         System.err.println("Message classified as : " +
-                m_Data.classAttribute().value((int)predicted));
+                m_Data.classAttribute().value((int) predicted));
     }
 
     /**
@@ -140,9 +141,10 @@ public class MessageClassifier implements Serializable {
                 throw new Exception("Must provide name of message file.");
             }
             FileReader m = new FileReader(messageName);
-            StringBuffer message = new StringBuffer(); int l;
+            StringBuffer message = new StringBuffer();
+            int l;
             while ((l = m.read()) != -1) {
-                message.append((char)l);
+                message.append((char) l);
             }
             m.close();
 

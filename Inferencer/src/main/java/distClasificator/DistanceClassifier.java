@@ -14,13 +14,13 @@ import java.util.Vector;
 public class DistanceClassifier {
     private Categories categories;
 
-    public DistanceClassifier(){
+    public DistanceClassifier() {
 
     }
 
     public void readDocTopicasStream(InputStream resourceAsStream) throws IOException {
         DocsTopicsLoader docsTopicsLoader = new DocsTopicsLoader(resourceAsStream);
-        Map<String,Map<Integer,Double>> itMaped = docsTopicsLoader.getItMaped();
+        Map<String, Map<Integer, Double>> itMaped = docsTopicsLoader.getItMaped();
         categories = new Categories(itMaped);
 
     }
@@ -36,14 +36,14 @@ public class DistanceClassifier {
     }
 
     public Vector<Category> classify(Category cat) {
-       return new Vector<Category>(categories.assignCategories(cat.getWeights()));
-        
+        return new Vector<Category>(categories.assignCategories(cat.getWeights()));
+
     }
-    
-    public Vector<String> classifyStr(Category cat){
+
+    public Vector<String> classifyStr(Category cat) {
         Vector<Category> categories1 = classify(cat);
         Vector<String> str = new Vector<String>();
-        for (Category cats : categories1){
+        for (Category cats : categories1) {
             str.add(cats.getCategoryName());
         }
         return str;

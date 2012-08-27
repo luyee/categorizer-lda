@@ -39,13 +39,13 @@ public class losdupos {
         System.out.print(savePath);
 
 
-        modelTrainer = new KnnModelTrainer(trainingFilePath,50,12);
+        modelTrainer = new KnnModelTrainer(trainingFilePath, 50, 12);
         //modelTrainer.readModelFromFile(savePath);
 
         modelTrainer.trainModel();
 //        modelTrainer.saveModel(savePath);
 
-        Instances trainingInstances =modelTrainer.getWekaTrainingInstances();
+        Instances trainingInstances = modelTrainer.getWekaTrainingInstances();
 
         Attribute messageAtt1 = trainingInstances.attribute("Text");
         assertNotNull(messageAtt1);

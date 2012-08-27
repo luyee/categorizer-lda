@@ -17,46 +17,46 @@ import java.util.Vector;
  */
 public class Category {
     private String categoryName;
-    private  double[] weights;
+    private double[] weights;
 
     public Category() {
         //To change body of created methods use File | Settings | File Templates.
     }
 
     protected Category(String name) {
-        categoryName=name;
+        categoryName = name;
     }
 
     public Category(double[] in) {
-        weights=in;
+        weights = in;
     }
 
     public double[] getWeights() {
         return weights;
     }
 
-    public Category(Map<Integer, Double> map, String categoryName_Id){
+    public Category(Map<Integer, Double> map, String categoryName_Id) {
         this.weights = sortWeigths(map);
         this.categoryName = categoryName_Id.split("_")[1];
 
     }
 
-    public Category(Vector<Category> categories, String name){
+    public Category(Vector<Category> categories, String name) {
         ArrayRealVector fst = calcMean(categories, name);
         this.categoryName = name;
         this.weights = fst.getData();
-        
+
     }
 
     public ArrayRealVector calcMean(Vector<Category> categories, String name) {
-        ArrayRealVector fst= new ArrayRealVector(categories.get(0).getWeights().length,0.0);
-        int count=0;
+        ArrayRealVector fst = new ArrayRealVector(categories.get(0).getWeights().length, 0.0);
+        int count = 0;
 
-        for (Category category: categories){
-            if(category.getCategoryName().equals(name)){
+        for (Category category : categories) {
+            if (category.getCategoryName().equals(name)) {
                 count++;
                 ArrayRealVector v = new ArrayRealVector(category.getWeights());
-                fst=fst.add(v);
+                fst = fst.add(v);
 
             }
 
@@ -65,11 +65,11 @@ public class Category {
         return fst;
     }
 
-    public double [] sortWeigths(Map<Integer, Double> map) {
-        TreeMap<Integer,Double> treeMap = new TreeMap<Integer,Double>(map);
-        Collection<Double> collection= treeMap.values();
+    public double[] sortWeigths(Map<Integer, Double> map) {
+        TreeMap<Integer, Double> treeMap = new TreeMap<Integer, Double>(map);
+        Collection<Double> collection = treeMap.values();
         Double[] array =
-                (Double[])map.values().toArray(new Double[collection.size()]);
+                (Double[]) map.values().toArray(new Double[collection.size()]);
         return ArrayUtils.toPrimitive(array);
     }
 

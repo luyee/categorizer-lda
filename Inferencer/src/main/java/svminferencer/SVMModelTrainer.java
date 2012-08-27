@@ -16,9 +16,9 @@ import java.io.ObjectInputStream;
 public class SVMModelTrainer extends WekaModelTrainer {
 
 
-    public SVMModelTrainer(String trainingCsvPath, int numCategories){
+    public SVMModelTrainer(String trainingCsvPath, int numCategories) {
         super(trainingCsvPath, numCategories);
-        this.modelFromFile=false;
+        this.modelFromFile = false;
     }
 
 

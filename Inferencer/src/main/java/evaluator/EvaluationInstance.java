@@ -14,7 +14,7 @@ import java.util.Vector;
  */
 public class EvaluationInstance {
 
-    protected Vector<String> categoryNames ;
+    protected Vector<String> categoryNames;
     protected String instanceName;
     protected Vector<String> data;
     protected Vector<String> inferencedCategories;
@@ -24,7 +24,7 @@ public class EvaluationInstance {
    line format:
    id_categoryName_instanceName categoryName subj subj subj ...
     */
-    public EvaluationInstance(String line){
+    public EvaluationInstance(String line) {
         String[] arg = line.split("\\s+");
         String[] ids = arg[0].split("_");
         categoryNames = new Vector<String>();
@@ -37,21 +37,21 @@ public class EvaluationInstance {
     public EvaluationInstance(
             Vector<EvaluationInstance> evaluationInstances,
             String instanceName,
-            Vector<String> data){
+            Vector<String> data) {
 
         Vector<String> categories = extractCategories(evaluationInstances, instanceName);
-        
+
         this.categoryNames = categories;
-        this.data =data;
+        this.data = data;
         this.instanceName = instanceName;
-        
+
     }
 
     protected Vector<String> extractCategories(Vector<EvaluationInstance> evaluationInstances, String instanceName) {
         Vector<String> categories = new Vector<String>();
 
-        for (EvaluationInstance evaluationInstance: evaluationInstances){
-            if (evaluationInstance.getInstanceName().equals(instanceName)){
+        for (EvaluationInstance evaluationInstance : evaluationInstances) {
+            if (evaluationInstance.getInstanceName().equals(instanceName)) {
                 categories.addAll(evaluationInstance.getCategoryNames());
             }
         }
@@ -86,7 +86,7 @@ public class EvaluationInstance {
     }
 
     public double getCorrectPercentage(int referenceValue) {
-        double ret =getCorrectPercentageStatic(
+        double ret = getCorrectPercentageStatic(
                 referenceValue + getCategoryNames().size());
         this.ref.add(new Double(ret));
         return ret;
@@ -94,20 +94,19 @@ public class EvaluationInstance {
 
 
     public double getCorrectPercentageStatic(int howMany) {
-        howMany = Math.min(howMany,inferencedCategories.size());
-        int denominator = Math.min(howMany,categoryNames.size());
+        howMany = Math.min(howMany, inferencedCategories.size());
+        int denominator = Math.min(howMany, categoryNames.size());
         Set<String> actualCategories =
                 new HashSet<String>(this.categoryNames);
 
         Set<String> inferencedCategories =
                 new HashSet<String>(
-                        this.inferencedCategories.subList(0,howMany));
+                        this.inferencedCategories.subList(0, howMany));
 
         inferencedCategories.retainAll(actualCategories);
 
 
-        
-        return (float)inferencedCategories.size()/(float)denominator;
+        return (float) inferencedCategories.size() / (float) denominator;
     }
 
     public Vector<Double> getRef() {

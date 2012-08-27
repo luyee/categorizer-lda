@@ -15,19 +15,19 @@ import java.util.Vector;
  */
 public class SvmInterfaceInt {
 
-    public static  void main(String[] args) throws Exception {
-    String trainingFilePath = "/home/kacper/dev/categorizer-lda/data/small/smallData.txt";
-    String toInferencePath = "/home/kacper/dev/categorizer-lda/data/small/smallEvalData.txt";
+    public static void main(String[] args) throws Exception {
+        String trainingFilePath = "/home/kacper/dev/categorizer-lda/data/small/smallData.txt";
+        String toInferencePath = "/home/kacper/dev/categorizer-lda/data/small/smallEvalData.txt";
 
 
-    SVMModelTrainer svmModelTrainer = new SVMModelTrainer(trainingFilePath,12);
-    svmModelTrainer.trainModel();
+        SVMModelTrainer svmModelTrainer = new SVMModelTrainer(trainingFilePath, 12);
+        svmModelTrainer.trainModel();
 
-        AbstractInferencer inf= svmModelTrainer.getInferencer();
+        AbstractInferencer inf = svmModelTrainer.getInferencer();
 
         String topic0 =
                 "dupa darwin ewolucja teoria gatunek dobór cecha człowiek praca populacja proces to mechanizm badanie czas rok temat";
-        String topic1=
+        String topic1 =
                 "architektura sztuka modernizm budynek architekt dzieło rok forma gaudí to fotografia rozwój definicja materiał projekt idea czas dom";
 
 
