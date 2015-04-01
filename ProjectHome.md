@@ -1,0 +1,1 @@
+categorizer for 80 categories
